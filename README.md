@@ -1,12 +1,9 @@
 # La Couronne Des Alpes (LCDA)
+>## A historical and small scale map mod for Crusader Kings 2 
 
 ![alt tag](http://i789.photobucket.com/albums/yy174/ArKoG/LCDA/logo_LCDA_forum_zpsibzblb7n.png)
 
-> A historical and small scale map mod for Crusader Kings 2 
-
-# Mod presentation
-
-### the MOD
+## the MOD
 
 blabla
 
@@ -14,7 +11,7 @@ blabla
 
 blabla
 
-### Main features
+## Main features
 
 THE SETTING
 - a small scale map focused around the Alps
