@@ -1,0 +1,141 @@
+#;;x;;;;;;;;;;;;x
+#;;MODIFIEURS;;;;;;;;;;;;x
+great_pass;;Col Majeur;;;;;;;;;;;;x
+great_pass_desc;;Ce col est un des passages clé à travers les Alpes. S'en assurer le contrôle représente un avantage financier et stratégique non négligeable.;;;;;;;;;;;;;x
+minor_pass;;Col Mineur;;;;;;;;;;;;x
+minor_pass_desc;;Ce col, bien que d'importance moindre procure néanmoins quelques avantages non sans intérêts.;;;;;;;;;;;;x
+pont_fluvial;;Pont;;;;;;;;;;;;x
+pont_fluvial_desc;;Le pont qui enjambe cet important cours d'eau est un passsage obligé pour de nombreux marchands qui peut être mis à profit pour générer des revenus comfortables par une politique de prélèvement de droits de péages.;;;;;;;;;;;;x
+route_fluviale01;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale01_desc;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale02;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale02_desc;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale03;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale03_desc;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale04;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale04_desc;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale05;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale05_desc;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale06;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale06_desc;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale07;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale07_desc;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale08;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale08_desc;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale09;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale09_desc;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale10;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+route_fluviale10_desc;;Voie Commerciale Fluviale;;;;;;;;;;;;x
+province_cotiere;;Province côtière;;;;;;;;;;;;x
+province_cotiere_desc;;Cette province bénéficie d'une ouverture maritime propice au commerce et à la pêche.;;;;;;;;;;;;x
+route_terrestre01;;Route Commerciale Vienne-Aoste;;;;;;;;;;;;x
+route_terrestre01_desc;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre02;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre02_desc;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre03;;Route Commerciale Lyon-Aoste;;;;;;;;;;;;x
+route_terrestre03_desc;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre04;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre04_desc;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre05;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre05_desc;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre06;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre06_desc;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre07;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre07_desc;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre08;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre08_desc;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre09;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre09_desc;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre10;;Route Commerciale;;;;;;;;;;;;x
+route_terrestre10_desc;;Route Commerciale;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+achat_indulgence;;Indulgences perçues;;;;;;;;;;;;x
+#achat_indulgence_refuse;;Indulgences refusées;;;;;;;;;;;;x
+rachat_excommunion;;Repentance tarifée;;;;;;;;;;;;x
+rachat_excommunion_desc;;Le Pape a levé une excommunication contre versement d'une somme d'argent... pas très catholique tout ça !;;;;;;;;;;;;x
+pregnant_death;giving birth;en couches;;;;;;;;;;;;x
+mort_ne_death;;mort-né;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+#;;MINOTR TITLE;;;;;;;;;;;;x
+title_court_poet_christian;;Poète de la Cour;;;;;;;;;;;;x
+title_court_poet_christian_desc;;Le Poète aime à déclamer vers et prose pour votre bon plaisir et celui des Dames de la cour. De plus, avoir votre Poète attitré ne peut qu'augmenter le rayonnement et la renommée de finesse de votre cour.;;;;;;;;;;;;x
+title_court_troubadour;;Troubadour de la Cour;;;;;;;;;;x
+title_court_troubadour_desc;;Les Troubadours sont des personnages estimés dans la tradition occitane. Accueillir à votre cour un Troubadour de renom augmentera d'autant le rayonnement culturel de votre cour.;;;;;;;;;;x
+title_vassal_desavoue;;Vassal désavoué;;;;;;;;;;x
+title_vassal_desavoue_desc;;Vous méprisez tellement cet individu que vous le désavouez publiquement. A n'en point douter, cette humiliation n'aura pour égal que la détestation que celui-ci nourrira pour votre personne.;;;;;;;;;;x
+title_trainee_du_royaume;;Courtisane désavouée;;;;;;;;;;x
+title_trainee_du_royaume_desc;;Votre déplaisir à l'endroit de cette femme est tel que vous décidez la désavouer aux yeux de tous. A n'en point douter, cette humiliation n'aura pour égal que la détestation que celle-ci nourrira pour votre personne.;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+#;;BOOKMARKS;;;;;;;;;;;;x
+BM_1032;The End of the Rodolphians;Le Roi est mort ! Vive l'Indépendance !;;;;;;;;;;;;x
+BM_1032_DESC;;Mort sans descendance, le dernier Roi de Bourgogne, Rodolphe III, dit le Pieux, lègue les droits sur son royaume à l'Empereur Konrad II. Après avoir affronté quelques velléités soulevées par cette succession, l'Empereur récupère le pouvoir. Pouvoir très relatif et plutôt lâche sur la région, qui permet à chacun une relative indépendance de fait. \nVoilà une situation fort favorable à l'émergence de nouvelles puissances telles que les comtes de Savoie, les comtes d'Albon-Viennois, ou tout simplement VOUS Monseigneur ! \n \n A vous de jouer.;;;;;;;;;;;;x
+BM_1066;;1066 test dummy;;;;;;;;;;;;x
+BM_1032_DESC;;1066 test dummy;;;;;;;;;;;;x
+BM_GENEVA;;La République de Genève;;;;;;;;;;;;x
+BM_GENEVA_desc;;Acquisition des droits et d'autonomie des citoyens de la cité genevoise.;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+#;;DIVERS;;;;;;;;;;;;x
+TITULAR_TITLE;§YTitular Title§! (no de jure vassals);§YTitre non terrien§! (pas de vassaux de jure);§YNomineller Title§! (keine de jure-Vasallen);;§Ytítulo titular§! (sin vasallos de iure);;;;;;;;;x
+DUCAL;Ducal;Les;Herzöglich;;Ducal;;;;;;;;;x
+COUNTY;County;Les;Grafschaft;;Condado;;;;;;;;;x
+ROYAL;Royal;Les;Königlich;;Real;;;;;;;;;x
+REPUBLICAN;Republican;Les;Republikanisch;;Republicano;;;;;;;;;x
+IMPERIAL;Imperial;Les;Kaiserlich;;Imperial;;;;;;;;;x
+DEJURE_LAW;Crown Laws in §Y$TITLE$ :§! ;Lois de la Couronne en §Y$TITLE$ :§! ;§Y$TITLE_ADJ$ Krongesetze:§! ;;Leyes de la Corona §Y$TITLE_ADJ$:§!;;;;;;;;;x
+LAWS;Laws;Lois;Gesetze;;Leyes;;;;;;;;;x
+LAW_MENU;Laws;Codex des Lois;Gesetze;;Leyes;;;;;;;;;x
+CURRENT_LAWS;Laws;Lois du Domaine;Gesetze;;Leyes;;;;;;;;;x
+TERRAIN_IS;;Le type de terrain est ;;;;;;;;;;;;x
+CANT_BUILD_TRADEPOST_COASTAL;Is Coastal;Est sur une province à potentiel commercial;An der Küste gelegen;;Es Costero;;;;;;;;;x
+CB_NAME_COASTAL_COUNTY_REPUBLIC;Seize [Title.GetBaseName];S’emparer de [Title.GetName];Erobert [Title.GetBaseName];;Arrasar [Title.GetBaseName];;;;;;;;;x
+WAR_NAME_COASTAL_COUNTY_REPUBLIC;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ War for the Coast of $OTHER_TITLE$;$ORDER$Guerre entre $FIRST$ et $SECOND$ pour $OTHER_TITLE$;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Krieg um die Küste von $OTHER_TITLE$;;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Se enfrentan por la costa de $OTHER_TITLE$;;;;;;;;;x
+IS_MERCHANT_REPUBLIC;Is Merchant Republic;Est une république;Ist eine Handelsrepublik;;Es República Mercante;;;;;;;;;x
+ISNT_MERCHANT_REPUBLIC;Is NOT Merchant Republic;N'est PAS une république;Ist KEINE Handelsrepublik;;NO es República Mercante;;;;;;;;;x
+thieves_guild_desc;Due to the low Stewardship of the count, the amount of thieves preying upon the people of the county is enormous.;À cause de la mauvaise intendance du seigneur local, le nombre de voleurs qui s’en prennent aux habitants de la province a explosé.;Aufgrund der mangelnden Verwaltungsfähigkeit des Grafen gibt es enorm viel Diebe, die es auf das Hab und Gut der Leute abgesehen haben.;;Debido a la baja Administración del conde, la cantidad de ladrones que roban a la gente del condado es enorme.;;;;;;;;;x
+smugglers_ring_desc;Due to the low Diplomatic skill of the count, smugglers infest the area.;À cause des piètres compétences diplomatiques du seigneur local, les contrebandiers infestent la région.;Aufgrund der geringen Diplomatiefähigkeit des Grafen suchen Schmuggler die Region heim.;;Debido a la baja Diplomacia del conde, los contrabandistas infestan el área.;;;;;;;;;x
+DYN1_DESC;;---;;;;;;;;;;;;x
+DYN2_DESC;;---;;;;;;;;;;;;x
+DYN3_DESC;;---;;;;;;;;;;;;x
+DYN4_DESC;;---;;;;;;;;;;;;x
+DYN5_DESC;;---;;;;;;;;;;;;x
+DYN6_DESC;;---;;;;;;;;;;;;x
+DYN7_DESC;;---;;;;;;;;;;;;x
+DYN8_DESC;;---;;;;;;;;;;;;x
+DYN9_DESC;;---;;;;;;;;;;;;x
+DYN10_DESC;;---;;;;;;;;;;;;x
+DYN11_DESC;;---;;;;;;;;;;;;x
+DYN12_DESC;;---;;;;;;;;;;;;x
+DYN13_DESC;;---;;;;;;;;;;;;x
+DYN14_DESC;;---;;;;;;;;;;;;x
+DYN15_DESC;;---;;;;;;;;;;;;x
+THE;the; ;der;;el;;;;;;;;;x
+CAP_THE;The; ;Der;;;;;;;;;;;x
+ARMY;Army;Armée sans commandant;Armee;;Ejército;;;;;;;;;x
+FLEET;Fleet;Flotte sans commandant;Flotte;;Flota;;;;;;;;;x
+ARMY_NAME;Army of $NAME$; Armée de $NAME$;Armee von $NAME$;;Ejército de $NAME$;;;;;;;;;x
+FLEET_NAME;$NAME$ Fleet; Flotte de $NAME$;$NAME$ Flotte;;Flota de $NAME$;;;;;;;;;x
+CONFIRM_DISBAND_NO_RET;\nNo Retinues will be disbanded.;\n;\nEs wird kein Gefolge aufgelöst.;;\nNo se disolverá ningún séquito.;;;;;;;;;;;x
+CONFIRM_DISBAND_RET;\nAll Retinue troops will stand down.;\n;\nAlle Gefolge-Truppen werden ihre Waffen niederlegen.;;\nTodas las tropas de los séquitos se retirarán.;;;;;;;;;;;x
+THE_REPUBLIC;The Republic;Grand Conseil;Die Republik;;La República;;;;;;;;;x
+COURT_MENU;Council;Conseillers;Rat;;Consejo;;;;;;;;;x
+COUNCIL_VIEW;Council;Conseillers;Rat;;Consejo;;;;;;;;;x
+DONT_HAVE_THE_PROVINCE_MODIFIER;Don't have the province modifier ;La province ne possède PAS ;Hat nicht den Provinzmodifikator;;No tiene el modificador de provincia ;Non ha il modificatore di provincia ;;;;;;;;x
+HAVE_THE_PROVINCE_MODIFIER;Have the province modifier ;La province possède ;Hat den Provinzmodifikator;;Tiene el modificador de provincia ;Ha il modificatore di provincia ;;;;;;;;x
+TECH_DEM_INC_EMPERORS;§G+$AMOUNT$§! Demesne size for Emperors;Taille du domaine royal §G+$AMOUNT$§!;§G+$AMOUNT$§! Herrschaftsgiebtsgröße für Kaiser;;§G+$AMOUNT$§! Tamaño de dominio para Emperadores;;;;;;;;;x
+TECH_DEM_INC_KINGS;§G+$AMOUNT$§! Demesne size for Kings;Taille du domaine ducal §G+$AMOUNT$§!;§G+$AMOUNT$§! Herrschaftsgebietsgröße für Könige;;§G+$AMOUNT$§! Tamaño de dominio para Reyes;;;;;;;;;x
+TECH_DEM_INC_DUKES;§G+$AMOUNT$§! Demesne size for Dukes;Taille du domaine comtal §G+$AMOUNT$§!;§G+$AMOUNT$§! Herrschaftsgebietsgröße für Herzöge;;§G+$AMOUNT$§! Tamaño de dominio para Duques;;;;;;;;;x
+TECH_DEM_INC_COUNTS;§G+$AMOUNT$§! Demesne size for Counts;Taille du domaine seigneurial §G+$AMOUNT$§!;§G+$AMOUNT$§! Herrschaftsgebietsgröße für Grafen;;§G+$AMOUNT$§! Tamaño de dominio para Condes;;;;;;;;;x
+TECH_DEM_INC_BARONS;§G+$AMOUNT$§! Demesne size for Barons;Taille du domaine des châtelains §G+$AMOUNT$§!;§G+$AMOUNT$§! Herrschaftsgebietsgröße für Barone;;§G+$AMOUNT$§! Tamaño de dominio para Barones;;;;;;;;;x
+DE_JURE_DUCHY_DESC;The §Y$PROVINCE$§W is traditionally considered a part of the §Y$DUCHY$§W. ;La province de §Y$PROVINCE$§W fait traditionnellement partie de : §Y$DUCHY$§W. ;Die §Y$PROVINCE$§W wird traditionell als Teil des §Y$DUCHY$§W angesehen. ;;La provincia de §Y$PROVINCE$§W se considera, por tradición, parte del ducado de §Y$DUCHY$§W.;;;;;;;;;x
+DE_JURE_DUCHY_DESC_NO_HOLDER;Currently, this duchy is held by no one.;Actuellement, ce titre n’est détenu par personne.;Momentan ist dieses Herzogtum in niemandes Besitz.;;Este ducado no tiene propietario en estos momentos.;;;;;;;;;x
+DE_JURE_KINGDOM_DESC;The §Y$PROVINCE$§W is traditionally considered a part of the §Y$KINGDOM$§W. ;La province de §Y$PROVINCE$§W fait traditionnellement partie de : §Y$KINGDOM$§W. ;§Y$PROVINCE$§W wird traditionell als Teil des §Y$KINGDOM$§W angesehen. ;;La provincia de §Y$PROVINCE$§W se considera, por tradición, parte del reino de §Y$KINGDOM$§W.;;;;;;;;;x
+DE_JURE_KINGDOM_DESC_NO_HOLDER;There is no current king.;Actuellement, ce titre n’est détenu par personne.;Derzeit gibt es keinen König;;No hay ningún rey actualmente.;;;;;;;;;x
+DE_JURE_DUCHY_DESC_HOLDER_1;§Y$DUKE$§W is the current duke, and also de facto controller of §Y$PROVINCE$§W.;§Y$DUKE$§W est le détenteur actuel de ce titre et contrôle, de facto, la province de §Y$PROVINCE$§W.;§Y$DUKE$§W ist der derzeitige Herzog und kontrolliert auch de facto §Y$PROVINCE$§W.;;§Y$DUKE$§W es el duque actual y dirigente de facto de §Y$PROVINCE$§W.;;;;;;;;;x
+DE_JURE_DUCHY_DESC_HOLDER_2;§Y$DUKE$§W is the current duke, who will strive to regain actual control of §Y$PROVINCE$§W.;§Y$DUKE$§W est le détenteur actuel de ce titre et se battra pour reprendre le contrôle de la province de §Y$PROVINCE$§W.;§Y$DUKE$§W ist der derzeitige Herzog, der sich bemüht, die Kontrolle über §Y$PROVINCE$§W wiederzuerlangen.;;§Y$DUKE$§W es el duque actual, que intentará retomar el control de §Y$PROVINCE$§W.;;;;;;;;;x
+DE_JURE_KINGDOM_DESC_HOLDER_1;§Y$KING$§W is the current king, and also de facto controller of §Y$PROVINCE$§W.;§Y$KING$§W est le détenteur actuel de ce titre et contrôle, de facto, la province de §Y$PROVINCE$§W.;§Y$KING$§W ist der derzeitige König und kontrolliert auch de facto §Y$PROVINCE$§W.;;§Y$KING$§W es el rey actual y dirigente de facto de §Y$PROVINCE$§W.;;;;;;;;;x
+DE_JURE_KINGDOM_DESC_HOLDER_2;§Y$KING$§W is the current king, and, while not in de facto control of §Y$PROVINCE$§W, still has the authority to pass Royal Laws that affect it.;§Y$KING$§W est le le détenteur actuel de ce titre et, sans contrôler de facto la province de §Y$PROVINCE$§W, peut y faire voter des lois de la couronne.;§Y$KING$§W ist der derzeitige König, und obwohl er de facto §Y$PROVINCE$§W nicht kontrolliert, so hat er doch die Autorität, königliche Gesetze zu erlassen, die sie beeinflussen.;;§Y$KING$§W es el rey actual y, aunque no es soberano de facto de la provincia de §Y$PROVINCE$§W, tiene autoridad para aplicar leyes reales en ella.;;;;;;;;;x
+#BUILD_NEW_SETTLEMENT;Build a new Holding;Détacher un nouveau fief;Neues Besitztum bauen;;Construir una nueva propiedad;;;;;;;;;x
+obj_become_king_title;Become King of [This.Capital.Kingdom.GetName];Devenir duc de [This.Capital.Kingdom.GetName];Werdet König von [This.Capital.Kingdom.GetName];;Convertirse en Rey de [This.Capital.Kingdom.GetName];;;;;;;;;x
+obj_become_king_desc;[This.GetTitledFirstName] wants to become King of [This.Capital.Kingdom.GetName]. If pagan, it allows [This.GetObjectPronoun] the unlimited use of the Subjugation Casus Belli within the kingdom.;[This.GetTitledFirstName] désire devenir duc de [This.Capital.Kingdom.GetName]. ;[This.GetTitledFirstName] möchte König von [This.Capital.Kingdom.GetName] werden. Bei heidnischer Herrschaft erlaubt dies [This.GetObjectPronoun] die unbegrenzte Verwendung des Kriegsgrunds Unterwerfung in diesem Königreich.;; [This.GetTitledFirstName] quiere convertirse en Rey de [This.Capital.Kingdom.GetName]. Si es pagano, permite a [This.GetObjectPronoun] el uso ilimitado de la Casus Belli Subyugación dentro del reino.;;;;;;;;;x
+RULER_HAS_BECOME_KING_AMBITION;With the ambition to become king of §Y[PrimaryTitle.GetName]§!, §Y[GetTitovledFirstName]§! is not allowed to move the capital outside the de jure kingdom.;Avec l'ambition de devenir duc de §Y[PrimaryTitle.GetName]§!, §Y[GetTitledFirstName]§! n'est pas autorisé à déplacer la capitale à l'extérieur du royaume de jure.;Mit der Ambition, König von §Y[PrimaryTitle.GetName]§! zu werden, darf §Y[GetTitledFirstName]§! die Hauptstadt nicht außerhalb des de jure Königreichs verlegen..;;Con la ambición de convertirse en Rey de §Y[PrimaryTitle.GetName]§!, a §Y[GetTitledFirstName]§! no se le permite mover su capital fuera del Reino de jure.;;;;;;;;;x

@@ -1,0 +1,18 @@
+LCDA.0001;;Attribution des cols majeurs;;;;;;;;;;;;x
+DESCLCDA.0001;;Notre domaine d'influence comprend un col d'importance majeure en la province de [From.Location.GetName]. \n Profitons de l'avantage que cela nous procure.;;;;;;;;;;;;x
+LCDA.0001A;;Bien, bien...;;;;;;;;;;;;x
+LCDA.0002;;Attribution des cols mineurs;;;;;;;;;;;;x
+DESCLCDA.0002;;La province de [From.Location.GetName] nous assure le contrôle d'un col mineur. \n Tâchons de mettre cela à notre avantage.;;;;;;;;;;;;x
+LCDA.0002A;;Excellent !;;;;;;;;;;;;x
+LCDA.0007;;route Vienne - Aoste;;;;;;;;;;;;x
+DESCLCDA.0007;;Le tracé du principal chemin reliant les cités de Vienne et Aoste arpente nos terres en la province de [From.Location.GetName]. Ceci nous permet de prélever quelques péages et peut-être davantage si nous investissons dans le développement de cette voie commerciale.;;;;;;;;;;;;x
+LCDA.0007A;;Merci pour la leçon de géographie !;;;;;;;;;;;;x
+LCDA.0008;;route Lyon - Aoste;;;;;;;;;;;;x
+DESCLCDA.0008;;Le principal chemin reliant les cités de Lyon et Aoste traverse nos terres en la province de [From.Location.GetName]. Ceci nous permet de prélever quelques péages et peut-être davantage si nous investissons dans ce domaine en bonne intelligence.;;;;;;;;;;;;x
+LCDA.0008A;;Merci pour la leçon d'économie !;;;;;;;;;;;;x
+LCDA.0003;;;;;;;;;;;;;;x
+DESCLCDA.0003;;banalité niveau 0;;;;;;;;;;;;x
+LCDA.0004;;;;;;;;;;;;;;x
+DESCLCDA.0004;;banalité niveau 1;;;;;;;;;;;;x
+LCDA.0005;;;;;;;;;;;;;;x
+DESCLCDA.0005;;banalité niveau 2;;;;;;;;;;;;x

@@ -1,0 +1,192 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+obj_become_exalted_fem_title;Become Exalted among Women;Devenir la plus glorieuse parmi des femmes;Vorbild für die Menschheit werden;;Ser glorificada entre los mujeres;;;;;;;;;x
+opinion_exalted;Exalted among Men;Personnage marquant de l'Histoire;Unter den Sterblichen verherrlicht;;Augusto entre los hombres;;;;;;;;;x
+obj_become_exalted_fem_desc;[This.GetTitledFirstName] wants [This.GetHerHis] name to live forever in the annals of history.;[This.GetTitledFirstName] veut que son nom s'inscrive à jamais sur le glorieux marbre blanc de l'Histoire.;[This.GetTitledFirstName] will, dass [This.GetHerHis] Name für immer in die Annalen der Geschichte eingeht.;;[This.GetTitledFirstName] quiere que [This.GetHerHis] nombre viva para siempre en los anales de la historia.;;;;;;;;;xnick_the_young;the Young;le Jeune;der Junge;;El Joven;;;;;;;;;x
+obj_become_paragon_of_virtue_fem_title;Become Paragon of Virtue;Devenir un modèle de vertu;Tugendbold werden;;Ser un modelo de virtud;;;;;;;;;x
+obj_become_paragon_of_virtue_fem_desc;[This.GetTitledFirstName] strives to become a beacon of chivalry and honor - a paragon of virtue.;[This.GetTitledFirstName] use de courtoisie et d’honneur pour devenir un modèle de vertu.;[This.GetTitledFirstName] strebt nach Ritterlichkeit und Ehre - ein Tugendbold.;;[This.GetTitledFirstName] quiere convertirse en un ejemplo de caballerosidad y honor, modelo de virtud.;;;;;;;;;x
+nick_the_old;the Old;l'Ancien;der Alte;;El Anciano;;;;;;;;;x
+nick_the_conqueror;the Conqueror;le Conquérant;der Eroberer;;El Conquistador;;;;;;;;;x
+nick_the_lawgiver;the Lawgiver;le Législateur;der Gesetzesgeber;;El Legislador;;;;;;;;;x
+nick_the_usurper;the Usurper;l’Usurpateur;der Thronräuber;;El Usurpador;;;;;;;;;x
+nick_the_hammer;the Hammer;le Martel;der Hammer;;El Martillo;;;;;;;;;x
+nick_the_victorious;the Victorious;le Victorieux;der Siegreiche;;El Victorioso;;;;;;;;;x
+nick_the_crusader;the Crusader;le Croisé;der Kreuzfahrer;;El Paladín;;;;;;;;;x
+nick_the_holy;the Holy;le Saint;der Heilige;;El Santo;;;;;;;;;x
+nick_the_avenger;the Avenger;le Vengeur;der Rächer;;El Vengador;;;;;;;;;x
+nick_the_brave;the Brave;le Brave;der Tapfere;;El Valiente;;;;;;;;;x
+nick_the_fearless;the Fearless;Sans Peur;der Furchtlose;;El Temerario;;;;;;;;;x
+nick_the_martyr;the Martyr;le Martyr;der Märtyrer;;El Mártir;;;;;;;;;x
+nick_the_unlucky;the Unlucky;le Malchanceux;der Glücklose;;El Desafortunado;;;;;;;;;x
+nick_the_lucky;the Lucky;le Fortuné;der Glückliche;;El Afortunado;;;;;;;;;x
+nick_the_restorer;the Restorer;le Restaurateur;der Wiederhersteller;;El Restaurador;;;;;;;;;x
+nick_the_accursed;the Accursed;le Maudit;der Verfluchte;;El Condenado;;;;;;;;;x
+nick_the_wicked;the Wicked;le Mauvais;der Böse;;El Malvado;;;;;;;;;x
+nick_the_bewitched;the Bewitched;l’Enchanteur;der Verhexte;;El Embrujado;;;;;;;;;x
+nick_priest_hater;Priest-Hater;l’Anti-clérical;der Priesterhasser;;Repudiacuras;;;;;;;;;x
+nick_the_pious;the Pious;le Pieux;der Fromme;;El Piadoso;;;;;;;;;x
+nick_the_apostle;the Apostle;l’Apôtre;der Apostel;;El Apóstol;;;;;;;;;x
+nick_the_blessed;the Blessed;le Béni;der Gesegnete;;El Bendito;;;;;;;;;x
+nick_the_confessor;the Confessor;le Confesseur;der Bekenner;;El Confesor;;;;;;;;;x
+nick_the_monk;the Monk;le Moine;der Mönch;;El Monje;;;;;;;;;x
+nick_the_chaste;the Chaste;le Chaste;der Keusche;;El Casto;;;;;;;;;x
+nick_the_hunter;the Hunter;le Chasseur;der Jäger;;El Cazador;;;;;;;;;x
+nick_the_fowler;the Fowler;le Traqueur;der Vogeljäger;;El Cazaperdices;;;;;;;;;x
+nick_the_just;the Just;le Juste;der Gerechte;;El Justo;;;;;;;;;x
+nick_the_lame;the Lame;le Boiteux;der Lahme;;El Lisiado;;;;;;;;;x
+nick_the_handsome;the Handsome;le Beau;der Schöne;;El Guapo;;;;;;;;;x
+nick_the_fair;the Fair;le Bel;der Hübsche;;El Honrado;;;;;;;;;x
+nick_the_mad;the Mad;le Fou;der Verrückte;;El Loco;;;;;;;;;x
+nick_the_fat;the Fat;le Gros;der Fette;;El Gordo;;;;;;;;;x
+nick_the_drunkard;the Drunkard;l'Ivrogne;der Säufer;;El Borracho;;;;;;;;;x
+nick_the_cruel;the Cruel;le Cruel;der Grausame;;El Cruel;;;;;;;;;x
+nick_the_wise;the Wise;le Sage;der Weise;;El Sabio;;;;;;;;;x
+nick_the_bastard;the Bastard;le Bâtard;der Bastard;;El Bastardo;;;;;;;;;x
+nick_the_blind;the Blind;l’Aveugle;der Blinde;;El Ciego;;;;;;;;;x
+nick_half_hand;Half-Hand;Demi-main;Halbhand;;Mediamano;;;;;;;;;x
+nick_the_gouty;the Gouty;le Goutteux;der Gichtige;;El Gotoso;;;;;;;;;x
+nick_the_ironside;the Ironside;l'Intrépide;der Eiserne;;El Intrépido;;;;;;;;;x
+nick_the_lion;the Lion;le Lion;der Löwe;;El León;;;;;;;;;x
+nick_the_lionheart;the Lionheart;Cœur de Lion;Löwenherz;;El Corazón de León;;;;;;;;;x
+nick_the_bold;the Bold;le Téméraire;der Kühne;;El Audaz;;;;;;;;;x
+nick_the_unready;the Unready;le Novice;der Unfertige;;El Novato;;;;;;;;;x
+nick_the_ill_ruler;the Ill-Ruler;le Malavisé;der schlechte Herrscher;;El Malsoberano;;;;;;;;;x
+nick_the_terrible;the Terrible;le Terrible;der Schreckliche;;El Terrible;;;;;;;;;x
+nick_the_magnificent;the Magnificent;le Magnifique;der Wunderbare;;El Magnífico;;;;;;;;;x
+nick_the_quarreller;the Quarreller;le Querelleur;der Zänkische;;El Peleón;;;;;;;;;x
+nick_the_builder;the Builder;le Bâtisseur;der Erbauer;;El Constructor;;;;;;;;;x
+nick_the_devil;the Devil;le Maléfique;der Teufel;;El Demonio;;;;;;;;;x
+nick_the_dragon;the Dragon;le Dragon;der Drache;;El Dragón;;;;;;;;;x
+nick_the_careless;the Careless;l’Imprudent;der Sorglose;;El Imprudente;;;;;;;;;x
+nick_the_peaceable;the Peaceable;le Pacifique;der Friedliebende;;El Pacífico;;;;;;;;;x
+nick_the_prudent;the Prudent;le Prudent;der Kluge;;El Prudente;;;;;;;;;x
+nick_the_unwilling;the Unwilling;le Couard;der Unwillige;;El Flojo;;;;;;;;;x
+nick_the_lackland;Lackland;Sans-Terre;Ohneland;;Sin Tierra;;;;;;;;;x
+nick_the_able;the Able;L'Habile;der Fähige;;El Habilidoso;;;;;;;;;x
+nick_the_kind;the Kind;le Débonnaire;der Gütige;;El Amable;;;;;;;;;x
+nick_the_good;the Good;le Bon;der Gute;;El Bueno;;;;;;;;;x
+nick_the_troubadour;the Troubadour;le Troubadour;der Troubadour;;El Trovador;;;;;;;;;x
+nick_the_strong;the Strong;le Fort;der Starke;;El Fuerte;;;;;;;;;x
+nick_the_magnanimous;the Magnanimous;le Magnanime;der Großmütige;;El Magnánimo;;;;;;;;;x
+nick_the_simple;the Simple;le Simple;der Simple;;El Simple;;;;;;;;;x
+nick_the_merry;the Merry;le Joyeux;der Fröhliche;;El Jovial;;;;;;;;;x
+nick_the_noble;the Noble;le Noble;der Edle;;El Noble;;;;;;;;;x
+nick_the_gentle;the Gentle;le Doux;der Sanfte;;El Gentil;;;;;;;;;x
+nick_the_proud;the Proud;le Fier;der Stolze;;El Orgulloso;;;;;;;;;x
+nick_the_silent;the Silent;le Taciturne;der Stille;;El Silencioso;;;;;;;;;x
+nick_the_warlike;the Warlike;le Belliqueux;der Kriegstreiber;;El Belicoso;;;;;;;;;x
+nick_the_great;the Great;le Grand;der Große;;El Grande;;;;;;;;;x
+nick_the_effeminate;the Effeminate;l’Efféminé;der Weibische;;El Afeminado;;;;;;;;;x
+nick_the_clueless;the Clueless;l’Idiot;der Dusselige;;El Despistado;;;;;;;;;x
+nick_the_ill_tempered;the Ill-tempered;le Coléreux;der Cholerische;;Mal Genio;;;;;;;;;x
+nick_the_affable;the Affable;l’Affable;der Umgängliche;;El Afable;;;;;;;;;x
+nick_the_heathen;the Heathen;le Païen;der Heide;;El Pagano;;;;;;;;;x
+nick_the_liberator;the Liberator;le Libérateur;der Befreier;;El Libertador;;;;;;;;;x
+nick_the_lisp_and_lame;the Lisp and Lame;le Bègue boiteux;die Lispelnden und die Lahmen;;el Tartamudo y Cojo;;;;;;;;;x
+nick_haardraade;Hårdråde;Hårdråde;Hårdråde;;Hårdråde;;;;;;;;;x
+#;NICKNAMES FEMININS POUR MINI-MOD;;;;;;;;;;;;;x
+nick_the_young_female;the Young;la Jeune;der Junge;;El Joven;;;;;;;;;x
+nick_the_old_female;the Old;l'Ancienne;der Alte;;El Anciano;;;;;;;;;x
+nick_the_conqueror_female;the Conqueror;la Conquérante;der Eroberer;;El Conquistador;;;;;;;;;x
+nick_the_lawgiver_female;the Lawgiver;la Législatrice;der Gesetzesgeber;;El Legislador;;;;;;;;;x
+nick_the_usurper_female;the Usurper;l’Usurpatrice;der Thronräuber;;El Usurpador;;;;;;;;;x
+nick_the_hammer_female;the Hammer;la Martel;der Hammer;;El Martillo;;;;;;;;;x
+nick_the_victorious_female;the Victorious;la Victorieuse;der Siegreiche;;El Victorioso;;;;;;;;;x
+nick_the_crusader_female;the Crusader;la Croisée;der Kreuzfahrer;;El Paladín;;;;;;;;;x
+nick_the_holy_female;the Holy;la Sainte;der Heilige;;El Santo;;;;;;;;;x
+nick_the_avenger_female;the Avenger;la Vengeresse;der Rächer;;El Vengador;;;;;;;;;x
+nick_the_brave_female;the Brave;la Brave;der Tapfere;;El Valiente;;;;;;;;;x
+nick_the_fearless_female;the Fearless;Sans Peur;der Furchtlose;;El Temerario;;;;;;;;;x
+nick_the_martyr_female;the Martyr;la Martyre;der Märtyrer;;El Mártir;;;;;;;;;x
+nick_the_unlucky_female;the Unlucky;la Malchanceuse;der Glücklose;;El Desafortunado;;;;;;;;;x
+nick_the_lucky_female;the Lucky;la Fortunée;der Glückliche;;El Afortunado;;;;;;;;;x
+nick_the_restorer_female;the Restorer;la Restauratrice;der Wiederhersteller;;El Restaurador;;;;;;;;;x
+nick_the_accursed_female;the Accursed;la Maudite;der Verfluchte;;El Condenado;;;;;;;;;x
+nick_the_wicked_female;the Wicked;la Mauvaise;der Böse;;El Malvado;;;;;;;;;x
+nick_the_bewitched_female;the Bewitched;l’Enchanteuse;der Verhexte;;El Embrujado;;;;;;;;;x
+nick_priest_hater_female;Priest-Hater;l’Anti-cléricale;der Priesterhasser;;Repudiacuras;;;;;;;;;x
+nick_the_pious_female;the Pious;la Pieuse;der Fromme;;El Piadoso;;;;;;;;;x
+nick_the_apostle_female;the Apostle;l’Apôtre;der Apostel;;El Apóstol;;;;;;;;;x
+nick_the_blessed_female;the Blessed;la Bénie;der Gesegnete;;El Bendito;;;;;;;;;x
+nick_the_confessor_female;the Confessor;la Confesseur;der Bekenner;;El Confesor;;;;;;;;;x
+nick_the_monk_female;the Monk;l'Abbesse;der Mönch;;El Monje;;;;;;;;;x
+nick_the_chaste_female;the Chaste;la Chaste;der Keusche;;El Casto;;;;;;;;;x
+nick_the_hunter_female;the Hunter;la Chasseresse;der Jäger;;El Cazador;;;;;;;;;x
+nick_the_fowler_female;the Fowler;la Traqueuse;der Vogeljäger;;El Cazaperdices;;;;;;;;;x
+nick_the_just_female;the Just;la Juste;der Gerechte;;El Justo;;;;;;;;;x
+nick_the_lame_female;the Lame;la Boiteuse;der Lahme;;El Lisiado;;;;;;;;;x
+nick_the_handsome_female;the Handsome;la Belle;der Schöne;;El Guapo;;;;;;;;;x
+nick_the_fair_female;the Fair;l’Équitable;der Hübsche;;El Honrado;;;;;;;;;x
+nick_the_mad_female;the Mad;la Folle;der Verrückte;;El Loco;;;;;;;;;x
+nick_the_fat_female;the Fat;la Grosse;der Fette;;El Gordo;;;;;;;;;x
+nick_the_drunkard_female;the Drunkard;l'Ivrogne;der Säufer;;El Borracho;;;;;;;;;x
+nick_the_cruel_female;the Cruel;la Cruelle;der Grausame;;El Cruel;;;;;;;;;x
+nick_the_wise_female;the Wise;la Sage;der Weise;;El Sabio;;;;;;;;;x
+nick_the_bastard_female;the Bastard;la Bâtarde;der Bastard;;El Bastardo;;;;;;;;;x
+nick_the_blind_female;the Blind;l’Aveugle;der Blinde;;El Ciego;;;;;;;;;x
+nick_half_hand_female;Half-Hand;Demi-main;Halbhand;;Mediamano;;;;;;;;;x
+nick_the_gouty_female;the Gouty;la Goutteuse;der Gichtige;;El Gotoso;;;;;;;;;x
+nick_the_ironside_female;the Ironside;l'Intrépide;der Eiserne;;El Intrépido;;;;;;;;;x
+nick_the_lion_female;the Lion;la Lionne;der Löwe;;El León;;;;;;;;;x
+nick_the_lionheart_female;the Lionheart;Cœur de Lion;Löwenherz;;El Corazón de León;;;;;;;;;x
+nick_the_bold_female;the Bold;la Téméraire;der Kühne;;El Audaz;;;;;;;;;x
+nick_the_unready_female;the Unready;la Novice;der Unfertige;;El Novato;;;;;;;;;x
+nick_the_ill_ruler_female;the Ill-Ruler;la Malavisée;der schlechte Herrscher;;El Malsoberano;;;;;;;;;x
+nick_the_terrible_female;the Terrible;la Terrible;der Schreckliche;;El Terrible;;;;;;;;;x
+nick_the_magnificent_female;the Magnificent;la Magnifique;der Wunderbare;;El Magnífico;;;;;;;;;x
+nick_the_quarreller_female;the Quarreller;la Querelleuse;der Zänkische;;El Peleón;;;;;;;;;x
+nick_the_builder_female;the Builder;la Bâtisseuse;der Erbauer;;El Constructor;;;;;;;;;x
+nick_the_devil_female;the Devil;la Maléfique;der Teufel;;El Demonio;;;;;;;;;x
+nick_the_dragon_female;the Dragon;le Dragon;der Drache;;El Dragón;;;;;;;;;x
+nick_the_careless_female;the Careless;l’Imprudente;der Sorglose;;El Imprudente;;;;;;;;;x
+nick_the_peaceable_female;the Peaceable;la Pacifique;der Friedliebende;;El Pacífico;;;;;;;;;x
+nick_the_prudent_female;the Prudent;la Prudente;der Kluge;;El Prudente;;;;;;;;;x
+nick_the_unwilling_female;the Unwilling;la Couarde;der Unwillige;;El Flojo;;;;;;;;;x
+nick_the_lackland_female;Lackland;Sans-Terre;Ohneland;;Sin Tierra;;;;;;;;;x
+nick_the_able_female;the Able;l'Habile;der Fähige;;El Habilidoso;;;;;;;;;x
+nick_the_kind_female;the Kind;la Débonnaire;der Gütige;;El Amable;;;;;;;;;x
+nick_the_good_female;the Good;la Bienfaitrice;der Gute;;El Bueno;;;;;;;;;x
+nick_the_troubadour_female;the Troubadour;la Trobairitz;der Troubadour;;El Trovador;;;;;;;;;x
+nick_the_strong_female;the Strong;la Forte;der Starke;;El Fuerte;;;;;;;;;x
+nick_the_magnanimous_female;the Magnanimous;la Magnanime;der Großmütige;;El Magnánimo;;;;;;;;;x
+nick_the_simple_female;the Simple;la Simple;der Simple;;El Simple;;;;;;;;;x
+nick_the_merry_female;the Merry;la Joyeuse;der Fröhliche;;El Jovial;;;;;;;;;x
+nick_the_noble_female;the Noble;la Noble;der Edle;;El Noble;;;;;;;;;x
+nick_the_gentle_female;the Gentle;la Douce;der Sanfte;;El Gentil;;;;;;;;;x
+nick_the_proud_female;the Proud;la Fière;der Stolze;;El Orgulloso;;;;;;;;;x
+nick_the_silent_female;the Silent;la Taciturne;der Stille;;El Silencioso;;;;;;;;;x
+nick_the_warlike_female;the Warlike;la Belliqueuse;der Kriegstreiber;;El Belicoso;;;;;;;;;x
+nick_the_great_female;the Great;la Grande;der Große;;El Grande;;;;;;;;;x
+nick_the_effeminate_female;the Effeminate;la Masculine;der Weibische;;El Afeminado;;;;;;;;;x
+nick_the_clueless_female;the Clueless;l’Idiote;der Dusselige;;El Despistado;;;;;;;;;x
+nick_the_ill_tempered_female;the Ill-tempered;la Coléreuse;der Cholerische;;Mal Genio;;;;;;;;;x
+nick_the_affable_female;the Affable;l’Affable;der Umgängliche;;El Afable;;;;;;;;;x
+nick_the_heathen_female;the Heathen;la Païenne;der Heide;;El Pagano;;;;;;;;;x
+nick_the_liberator_female;the Liberator;la Libératrice;der Befreier;;El Libertador;;;;;;;;;x
+nick_the_lisp_and_lame_female;the Lisp and Lame;la Bègue Boiteuse;die Lispelnden und die Lahmen;;el Tartamudo y Cojo;;;;;;;;;x
+nick_haardraade_female;Hårdråde;Hårdråde;Hårdråde;;Hårdråde;;;;;;;;;x
+nick_the_leper_female;;la Lépreuse;;;;;;;;;;;;x
+#;NICKNAMES OUBLIES;;;;;;;;;;;;;x
+nick_the_one_eyed;the One-Eyed;le Borgne;the One-Eyed;;the One-Eyed;;;;;;;;;x
+nick_the_trembling;the Trembling;le Tremblant;the Trembling;;the Trembling;;;;;;;;;x
+nick_the_black;the Black;le Noir;the Black;;the Black;;;;;;;;;x
+nick_the_battler;the Battler;le Batailleur;the Battler;;the Battler;;;;;;;;;x
+nick_the_leper;the Leper;le Lépreux;the Leper;;the Leper;;;;;;;;;x
+nick_the_deacon;the Deacon;le Diacre;the Deacon;;the Deacon;;;;;;;;;x
+nick_the_bad;the Bad;le Mauvais;the Bad;;the Bad;;;;;;;;;x
+nick_the_catholic;the Catholic;le Catholique;the Catholic;;the Catholic;;;;;;;;;x
+nick_the_kid;the Kid;l'Enfant;the Kid;;the Kid;;;;;;;;;x
+nick_the_hairy;the Hairy;le Chevelu;the Hairy;;the Hairy;;;;;;;;;x
+nick_the_peaceable;the Peaceable;le Pacifique;the Peaceable;;the Peaceable;;;;;;;;;x
+nick_the_saint;the Saint;le Bienheureux;the Saint;;the Saint;;;;;;;;;x
+nick_the_hunchback;the Hunchback;le Bossu;the Hunchback;;the Hunchback;;;;;;;;;x
+nick_the_fratricide;the Fratricide;le Fratricide;the Fratricide;;the Fratricide;;;;;;;;;x
+nick_the_lackland;Lackland;Sans Terre;Lackland;;Lackland;;;;;;;;;x
+nick_the_green;the Green;le Galant;the Green;;the Green;;;;;;;;;x
+nick_the_brown;the Brown;Nerra;the Brown;;the Brown;;;;;;;;;x
+nick_the_white;the White;le Blanc;the White;;the White;;;;;;;;;x
+nick_the_bearded;the Bearded;le Barbu;the Bearded;;the Bearded;;;;;;;;;x
+nick_the_red;the Red;le Roux;the Red;;the Red;;;;;;;;;x
+nick_the_pilgrim;the Pilgrim;le Pélerin;the Pilgrim;;the Pilgrim;;;;;;;;;x
+nick_the_singer;the Troubadour;le Troubadour;the Troubadour;;the Troubadour;;;;;;;;;x
+nick_the_butcher;the Butcher;le Boucher;the Butcher;;the Butcher;;;;;;;;;x
+nick_the_bald;the Bald;le Chauve;the Bald;;the Bald;;;;;;;;;x

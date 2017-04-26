@@ -1,0 +1,18 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+#;;GRANDES MAISONS;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+gm_savoie;;Maison de Savoie;;;;;;;;;;;;x
+gm_savoie_desc;;Ce personnage appartient à la Noble Maison de Savoie, descendant d'Humbert. F.E.R.T est leur devise. Bien entendu, les membres de cette maison sont plus proches les uns des autres mais nourrissent également une inimitée commune pour ces autres maisons rivales :\n -La maison d'Albon \n -La maison de Provence;;;;;;;;;;;;x
+gm_dauphine;;Maison d'Albon;;;;;;;;;;;;x
+gm_dauphine_desc;;Ce personnage appartient à la Noble Maison d'Albon. Bien entendu, les membres de cette maison sont plus proches les uns des autres mais nourrissent également une inimitée commune pour ces autres maisons rivales :\n -La maison de Savoie \n -La maison de Provence;;;;;;;;;;;;x
+gm_provence;;Maison de Provence;;;;;;;;;;;;x
+gm_provence_desc;;Ce personnage appartient à la Noble Maison de Provence, descendants de Boson. Bien entendu, les membres de cette maison sont plus proches les uns des autres mais nourrissent également une inimitée commune pour ces autres maisons rivales :\n -La maison de Savoie \n -La maison d'Albon;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+#;;AUTRES;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+voeu_de_celibat_H;;Voeu de Célibat;;;;;;;;;;;;x
+voeu_de_celibat_H_desc;;Ce personnage vit à présent reclus dans un monastère et a fait voeu (ou a y été contraint) de célibat et de renoncement à toute possession matérielle. Il ne pourra dès lors ni se marier, ni hériter.;;;;;;;;;;;;x
+voeu_de_celibat_F;;Voeu de Célibat;;;;;;;;;;;;x
+voeu_de_celibat_F_desc;;Cette femme vit recluse dans un monastère et a fait voeu (ou a été forcée par ses parents) de célibat et de renoncement à toute possession matérielle. Elle ne peut en conséquence ni prétendre se marier, ni hériter.;;;;;;;;;;;;x

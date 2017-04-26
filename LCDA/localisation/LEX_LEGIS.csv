@@ -1,0 +1,87 @@
+#;;x;;;;;;;;;;;;x
+feudal_demesne;;Lois Féodales;;;;;;;;;;;;x
+#feudal_demesne_desc;;Les lois féodales déterminent le pourcentage de troupes que les vassaux doivent fournir à leur suzerain ainsi que la taxation éventuelle de ceux-ci.;;;;;;;;;;;;x
+#feudal_demesne_0_option;;Levées ++;;;;;;;;;;;;x
+#feudal_demesne_1_option;;Levées +;;;;;;;;;;;;x
+#feudal_demesne_2_option;;Mixte;;;;;;;;;;;;x
+#feudal_demesne_3_option;;Taxes +;;;;;;;;;;;;x
+#feudal_demesne_4_option;;Taxes ++;;;;;;;;;;;;x
+#feudal_demesne_0;;Troupes féodales - Totales;;;;;;;;;;;;x
+#feudal_demesne_1;;Troupes féodales - Importantes;;;;;;;;;;;;x
+#feudal_demesne_2;;Régime féodal - Mixte;;;;;;;;;;;;x
+#feudal_demesne_3;;Taxation féodale - Importante;;;;;;;;;;;;x
+#feudal_demesne_4;;Taxation féodale - Lourde;;;;;;;;;;;;x
+#feudal_demesne_0_desc;;Les seigneurs féodaux sont tenus de mettre à disposition toutes leurs troupes mais sont exonérés de toute taxation.;;;;;;;;;;;;x
+#feudal_demesne_1_desc;;Les seigneurs féodaux conservent de petites suites mobiles, en plus de leurs garnisons mais doivent s'acquitter d'une taxe minime.;;;;;;;;;;;;x
+#feudal_demesne_2_desc;;Les seigneurs féodaux sont tenus au paiement d'une taxe modérée mais disposent de plus de troupes réservées à leur usage personnel;;;;;;;;;;;;x
+#feudal_demesne_3_desc;;Les seigneurs féodaux peuvent conserver un nombre important de troupes pour leur compte mais sont tenus de verser une importante contribution pour le bien du Royaume, ce qu’ils n’apprécient guère. ;;;;;;;;;;;;x
+#feudal_demesne_4_desc;;Les seigneurs féodaux doivent mettre à votre disposition une force minimale leurs troupes, mais sont taxés lourdement.;;;;;;;;;;;;x
+#HAS_LAW;Has the Law ;Loi en vigueur : ;Hat das Gesetz;;Tiene la Ley;;;;;;;;;x
+#TECH_ADMINISTRATION;Administrative Efficiency;Efficacité Administrative;;;;;;;;;;;;x
+#TECH_ADMINISTRATION_DESC;Administrative Efficiency;Démontre la capacité d'un seigneur à administrer ses terres. Capacité qui se répercute sur l'efficacité de collecte des impôts auprès des vassaux, du clergé, et des villes.;;;;;;;;;;;;x
+coutumes;;Tradition;;;;;;;;;;;;x
+coutumes_desc;;Les coutumes représentent les classes occupant traditionnellement une place plus importante sur nos terres. Bien sûr il nous appartient d'en jouer pour satisfaire à notre vision pour l'avenir.;;;;;;;;;;;;x
+coutumes_neutres_option;;NEUTRE;;;;;;;;;;;;x
+coutumes_neutres;;Traditions peu marquées;;;;;;;;;;;;x
+coutumes_neutres_desc;;Aucune tradition n'est vraiment prépondérante, à vous d'agir !;;;;;;;;;;;;x
+coutumes_populaires_option;;Populaire;;;;;;;;;;;;x
+coutumes_populaires;;Tradition populaire;;;;;;;;;;;;x
+coutumes_populaires_desc;;Les coutumes de la §YBourgeoisie§! sont les mieux respectées et encouragées, ce qui n'est pas du goût de tous bien évidemment.;;;;;;;;;;;;x
+coutumes_religieuses_option;;Cléricale;;;;;;;;;;;;x
+coutumes_religieuses;;Tradition cléricale;;;;;;;;;;;;x
+coutumes_religieuses_desc;;Les coutumes du §YClergé§! sont les mieux respectées et encouragées, ce qui n'est pas du goût de tous bien évidemment.;;;;;;;;;;;;x
+coutumes_nobles_option;;Noble;;;;;;;;;;;;x
+coutumes_nobles;;Tradition noble;;;;;;;;;;;;x
+coutumes_nobles_desc;;Les coutumes de la §YNoblesse§! sont les mieux respectées et encouragées, ce qui n'est pas du goût de tous bien évidemment.;;;;;;;;;;;;x
+privileges;;Privilèges pour les : ;;;;;;;;;;;;x
+privileges_desc;;Les privilèges accordés à une classe en particulier, cela démontre tout simplement votre mépris pour les autres classes. Néanmoins, selon le vieil adage, "On récolte ce que l'on sème...";;;;;;;;;;;;x
+privileges_neutres_option;;AUCUN;;;;;;;;;;;;x
+privileges_neutres;;Aucun privilège;;;;;;;;;;;;x
+privileges_neutres_desc;;Votre règne est juste et impartial... vraiment ?;;;;;;;;;;;;x
+privileges_bourgeois_option;;Villes;;;;;;;;;;;;x
+privileges_bourgeois;;Privilèges accordés à la Bourgeoisie;;;;;;;;;;;;x
+privileges_bourgeois_desc;;La bourgeoisie urbaines vous est extrêmement reconnaissante pour vos faveurs, mais tout le monde ne partage pas cet avis à l'évidence.;;;;;;;;;;;;x
+privileges_religieux_option;;Religieux;;;;;;;;;;;;x
+privileges_religieux;;Privilèges accordés au Clergé;;;;;;;;;;;;x
+privileges_religieux_desc;;Le Clergé vous a à la bonne depuis la prononciation de votre chartre de privilèges à leur avantage... et ce au détriment des autres classes.;;;;;;;;;;;;x
+privileges_nobles_option;;Nobles;;;;;;;;;;;;x
+privileges_nobles;;Privilèges accordés à la Noblesse;;;;;;;;;;;;x
+privileges_nobles_desc;;Seuls les sangs nobles trouvent grâce à vos yeux et vous le faîtes bien savoir... ce qui n'est pas pour plaire à certains.;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+#;;BANALITES;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+banalite1;;Banalités simples;;;;;;;;;;;;x
+banalite1_desc;;Le prélèvement de redevances banales est possible sur ces terres. Ceci à condition d'édifier et d'entretenir les bâtiments permettant une telle taxation.;;;;;;;;;;;;x
+banalite2;;Banalités étendues;;;;;;;;;;;;x
+banalite2_desc;;Le prélèvement de redevances banales est possible sur ces terres. Ceci à condition d'édifier et d'entretenir les bâtiments permettant une telle taxation.;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+loi_banale;;Droit Banal;;;;;;;;;;;;x
+loi_banale_desc;;L'usage des banalités par les seigneurs consiste en la mise à disposition et l'entretien de certains services tel un four ou un moulin. Ceux-ci étant payants et obligatoires, cela constitue donc une forme d'impôt, chose dont la paysannerie, bizarrement, rechigne toujours à s'acquitter.;;;;;;;;;;;;x
+banale_0;;Droit commun;;;;;;;;;;;;x
+banale_0_option;;SANS;;;;;;;;;;;;x
+banale_0_desc;;Les banalités ne sont pas en usage sur ces terres et donc le seigneur n'en tire aucun avantage, si ce n'est une cause de mécontement de moins pour les paysans.;;;;;;;;;;;;x
+banale_1;;Droit banal simple;;;;;;;;;;;;x
+banale_1_option;;Simple;;;;;;;;;;;;x
+banale_1_desc;;Le prélèvement de redevances banales est possible sur ces terres. Ceci à condition d'édifier et d'entretenir les bâtiments permettant une telle taxation. Les possiblités sont limitées, à moins d'opter pour des banalités étendues également à d'autres domaines. \nLes banalités disponibles sont : \n -le four banal\n -le moulin banal\n -le pressoir banal.;;;;;;;;;;;;x
+banale_2;;Droit banal étendu;;;;;;;;;;;;x
+banale_2_option;;Etendu;;;;;;;;;;;;x
+banale_2_desc;;Le prélèvement de redevances banales est possible sur ces terres. Ceci à condition d'édifier et d'entretenir les bâtiments permettant une telle taxation. Plus de bâtiments et services sont accessibles pour servir d'assiette d'imposition. \nLes banalités étendues disponibles sont : \n -le taureau banal\n -le four banal agrandi\n -le moulin banal agrandi\n -le pressoir banal agrandi.;;;;;;;;;;;;x#;;x;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+#;;TYPE REPUBLIQUE;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+republique_etatique;;x;;;;;;;;;;;;x
+republique_etatique;;x;;;;;;;;;;;;x
+republique_marchande;;x;;;;;;;;;;;;x
+republique_marchande;;x;;;;;;;;;;;;x
+#;;x;;;;;;;;;;;;x
+posture_rep;;Notre République;;;;;;;;;;;;x
+posture_rep_desc;;Permet de déterminer si une république sera purement commerciale ou si elle s'avèrera davantage porter sur le pouvoir.;;;;;;;;;;;;x
+posture_rep_0;;République sans statut particulier;;;;;;;;;;;;x
+posture_rep_0_option;;NEUTRE;;;;;;;;;;;;x
+posture_rep_0_desc;;Aucun statut n'est déterminé pour cette république.;;;;;;;;;;;;x
+posture_rep_1;;Ligue de villes;;;;;;;;;;;;x
+posture_rep_1_option;;Étatique;;;;;;;;;;;;x
+posture_rep_1_desc;;Cette république rassemble plusieurs villes alliées à la fois pour organiser leur défense mais aussi pour former un état à part entière qui compte bien se faire sa place et se confronter à ses voisins.;;;;;;;;;;;;x
+posture_rep_2;;République marchande;;;;;;;;;;;;x
+posture_rep_2_option;;Marchande;;;;;;;;;;;;x
+posture_rep_2_desc;;Le focus de cette république c'est le commerce et... le commerce. Cela limite ses possiblités d'expansion territoriales.;;;;;;;;;;;;x

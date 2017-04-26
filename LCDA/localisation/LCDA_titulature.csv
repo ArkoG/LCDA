@@ -1,0 +1,82 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#TITRES;;;;;;;;;;;;;;x
+emperor;King;Roi;;;;;;;;;;;;x
+emperor_female;Queen;Reine;;;;;;;;;;;;x
+king;Duke;Duc;;;;;;;;;;;;x
+king_female;Duchess;Duchesse;;;;;;;;;;;;x
+duke;Count;Comte;;;;;;;;;;;;x
+duke_female;Countess;Comtesse;;;;;;;;;;;;x
+duke_alemanique;Graf;Graf;;;;;;;;;;;;x
+duke_female_alemanique;Gräfin;Gräfin;;;;;;;;;;;;x
+count;Lord;Seigneur;;;;;;;;;;;;x
+count_female;Lady;Dame;;;;;;;;;;;;x
+baron;Baron;Châtelain;;;;;;;;;;;;x
+baron_female;Baroness;Châtelaine;;;;;;;;;;;;x
+temple_emperor_catholic;King-Bishop;Roi très Chrétien;;;;;;;;;;;;x
+temple_king_catholic;Prince-Archbishop;Prince-Archevêque;;;;;;;;;;;;x
+temple_duke_catholic;Prince-Bishop;Prince-Évêque;;;;;;;;;;;;x
+temple_count_catholic;Bishop;Abbé;;;;;;;;;;;;x
+temple_baron_christian;Abbot;Prieur;;;;;;;;;;;;x
+city_emperor;Grand Prince;Grand Prince;;;;;;;;;;;;x
+city_king;Gouvernor;Gouverneur;;;;;;;;;;;;x
+city_duke;Doge;Bourgmestre;;;;;;;;;;;;x
+city_count;Lord Mayor;Maire;;;;;;;;;;;;x
+city_baron;Mayor;Syndic;;;;;;;;;;;;x
+#FOA;;;;;;;;;;;;;;x
+emperor_foa;Your Majesty;Votre Majesté;;;;;;;;;;;;x
+king_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
+duke_foa;My Lord;Monseigneur;;;;;;;;;;;;x
+count_foa;My Lord;Monseigneur;;;;;;;;;;;;x
+baron_foa;My Lord;Mon Seigneur;;;;;;;;;;;;x
+count_foa_female;My Lady;Madame;;;;;;;;;;;;x
+baron_foa_female;My Lady;Ma Dame;;;;;;;;;;;;x
+city_emperor_foa;Your Highness;Votre Altesse;;;;;;;;;;;;x
+city_king_foa;Your Serene Grace;Votre Altesse Sérénissime;;;;;;;;;;;;x
+city_duke_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
+city_count_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
+city_baron_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
+temple_king_foa;Your Holiness;Votre Sainteté;;;;;;;;;;;;x
+temple_duke_foa;Your Eminence;Votre Éminence;;;;;;;;;;;;x
+temple_count_foa;Your Excellency;Votre Excellence;;;;;;;;;;;;x
+temple_baron_foa;Your Excellency;Votre Excellence;;;;;;;;;;;;x
+#ENTITES_DE;;;;;;;;;;;;;;x
+empire_of;Kingdom of;Royaume de;;;;;;;;;;;;x
+kingdom_of;Duchy of;Duché de;;;;;;;;;;;;x
+duchy_of;County of;Comté de;;;;;;;;;;;;x
+county_of;Lordship_of;Seigneurie de;;;;;;;;;;;;x
+barony_of;Barony of;Châtellenie de;;;;;;;;;;;;x
+city_empire_of;Principality of;Principauté de;;;;;;;;;;;;x
+city_kingdom_of;Republic of;République de;;;;;;;;;;;;x
+city_duchy_of;City-State of;Cité-État de;;;;;;;;;;;;x
+city_county_of;City of;Cité de;;;;;;;;;;;;x
+city_barony_of;Municipality of;Commune de;;;;;;;;;;;;x
+temple_kingdom_of_catholic;Prince-Archbishopric of;Archevêché Princier de;;;;;;;;;;;;x
+temple_duchy_of_christian;Prince-Bishopric of;Évêché Princier de;;;;;;;;;;;;x
+temple_county_of_christian;Bishopric of;Terres Ecclésiales de;;;;;;;;;;;;x
+temple_barony_of_christian;Abbey of;Terre Ecclésiale de;;;;;;;;;;;;x
+#PLURIELS_ENTITES_DE;;;;;;;;;;;;;;x
+empires;Kingdoms;Royaumes;;;;;;;;;;;;x
+kingdoms;Duchies;Duchés;;;;;;;;;;;;x
+duchies;Counties;Comtés;;;;;;;;;;;;x
+counties;Lordships;Seigneuries;;;;;;;;;;;;x
+baronies;Baronies;Châtellenies;;;;;;;;;;;;x
+#FOA;;;;;;;;;;;;;;x
+PORTIER;;Portier;;;;;;;;;;;;x
+PORTIER_OF;;Col de;;;;;;;;;;;;x
+PORTIER_FOA;;Monseigneur;;;;;;;;;;;;x
+PORTIER_female;;Portier;;;;;;;;;;;;x
+PORTIER_title_ruler_consort;;Portier;;;;;;;;;;;x
+PORTIER_title_ruler_consort_female;;Portier;;;;;;;;;;;;x
+SECULAR_ARCHBISHOP;;Archevêque;;;;;;;;;;;;x
+#SECULAR_ARCHBISHOP_OF;;Archidiocèse de;;;;;;;;;;;;x
+SECULAR_ARCHBISHOP_FOA;;Votre Éminence;;;;;;;;;;;;x
+SECULAR_BISHOP;;Evêque;;;;;;;;;;;;x
+#SECULAR_BISHOP_OF;Diocèse de;Diocèse de;Diocèse de;;;;;;;;;;;x
+SECULAR_BISHOP_FOA;;Votre Éminence;;;;;;;;;;;;x
+ABBE_TERRITORIAL;;Abbé;;;;;;;;;;;;x
+ABBE_TERRITORIAL_OF;;Abbaye Territoriale de;;;;;;;;;;;;x
+ABBE_TERRITORIAL_FOA;;Mon Père;;;;;;;;;;;;x
+VICOMTE;;Vicomte;;;;;;;;;;;;x
+VICOMTE_female;;Vicomtesse;;;;;;;;;;;;x
+VICOMTE_FOA;;Votre seigneurie;;;;;;;;;;;;x
+VICOMTE_OF;;Vicomté de;;;;;;;;;;;;x
