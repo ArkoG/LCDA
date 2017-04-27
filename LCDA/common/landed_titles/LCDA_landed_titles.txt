@@ -1,450 +1,633 @@
-k_savoie = {
-		color={ 172 4 10 }
-		color2={ 255 255 255 }
-		
-		capital = 16 #Montmélian			
-		
-	d_equestres = {
-		color={ 250 188 0 }
-		color2={ 172 4 10 }
-		
-		capital = 1 #Nyon	
-		
-		c_nyon = { #1
+e_alps = {
+	k_savoie = {
 			color={ 172 4 10 }
 			color2={ 255 255 255 }
-		
-			b_nyon1 = {}
-			b_nyon2 = {}
-			b_nyon3 = {}
-			b_nyon4 = {}
-			b_nyon5 = {}
-			b_nyon6 = {}
-			b_cluny = {}	#temp pour event		
-		}
-		c_gex = { #2
+			
+			capital = 16 #Montmélian			
+			
+		d_equestres = {
 			color={ 250 188 0 }
-			color2={ 0 86 148 }
-		
-			b_gex1 = {}
-			b_gex2 = {}
-			b_gex3 = {}
-			b_gex4 = {}
-			b_gex5 = {}
-			b_gex6 = {}
-		}
-		c_geneve = { #3
-			color={ 172 4 10 }
-			color2={ 250 188 0 }
-		
-			dignity = 9
+			color2={ 172 4 10 }
 			
-			holy_site = catholic
+			capital = 1 #Nyon	
 			
-			b_geneve1 = {}
-			b_geneve2 = { }
-			b_geneve3 = {}
-			b_geneve4 = {}
-			b_geneve5 = {}
-			b_geneve6 = {}
-		}
-		#allow = {	is_feudal = yes	}			
-	}
-	d_chablais = {
-		color={ 255 255 255 }
-		color2={ 0 0 0 }
-		
-		capital = 4 #Thonon	
-		
-		c_saintmaurice = { #27
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
+			c_nyon = { #1
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
 			
-			holy_site = catholic
-			
-			b_saintmaurice1 = {}
-			b_saintmaurice2 = {  }
-			b_saintmaurice3 = {}
-			b_saintmaurice4 = {}
-			b_saintmaurice5 = {}
-			b_saintmaurice6 = {}
-		}
-		c_thonon = { #4
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
-			
-			b_thonon1 = {}
-			b_thonon2 = {}
-			b_thonon3 = {}
-			b_thonon4 = {}
-			#b_thonon5 = {}
-			b_thonon6 = {}
-		}
-		c_abondance = { #5
-			color={ 250 188 0 }
-			color2={ 0 86 148 }
-			
-			b_abondance1 = {}
-			b_abondance2 = {}
-			b_abondance3 = {}
-			b_abondance4 = {}
-			b_abondance5 = {}
-			b_abondance6 = {}
-		}
-		c_aigle = { #6
-			color={ 172 4 10 }
-			color2={ 250 188 0 }
-		
-			b_aigle1 = {}
-			b_aigle2 = {}
-			b_aigle3 = {}
-			b_aigle4 = {}
-			#b_aigle5 = {}
-			b_aigle6 = {}
-		}
-		#allow = {	is_feudal = yes	}	
-	}
-	d_faucigny = {
-		color={ 172 4 10 }
-		color2={ 250 188 0 }
-		
-		capital = 7 #Faucigny
-		
-		c_faucigny = { #7
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
-		
-			dignity = 5
-
-			b_faucigny1 = { #dignity = 5
+				b_nyon1 = {}
+				b_nyon2 = {}
+				b_nyon3 = {}
+				b_nyon4 = {}
+				b_nyon5 = {}
+				b_nyon6 = {}
+				b_cluny = {}	#temp pour event		
 			}
-			b_faucigny2 = {}
-			b_faucigny3 = {}
-			b_faucigny4 = {}
-			b_faucigny5 = {}
-			b_faucigny6 = {}
+			c_gex = { #2
+				color={ 250 188 0 }
+				color2={ 0 86 148 }
+			
+				b_gex1 = {}
+				b_gex2 = {}
+				b_gex3 = {}
+				b_gex4 = {}
+				b_gex5 = {}
+				b_gex6 = {}
+			}
+			c_geneve = { #3
+				color={ 172 4 10 }
+				color2={ 250 188 0 }
+			
+				dignity = 9
+				
+				holy_site = catholic
+				
+				b_geneve1 = {}
+				b_geneve2 = { }
+				b_geneve3 = {}
+				b_geneve4 = {}
+				b_geneve5 = {}
+				b_geneve6 = {}
+			}
+			#allow = {	is_feudal = yes	}			
 		}
-		c_giffre = { #8
+		d_chablais = {
+			color={ 255 255 255 }
+			color2={ 0 0 0 }
+			
+			capital = 4 #Thonon	
+			
+			c_saintmaurice = { #27
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+				
+				holy_site = catholic
+				
+				b_saintmaurice1 = {}
+				b_saintmaurice2 = {  }
+				b_saintmaurice3 = {}
+				b_saintmaurice4 = {}
+				b_saintmaurice5 = {}
+				b_saintmaurice6 = {}
+			}
+			c_thonon = { #4
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+				
+				b_thonon1 = {}
+				b_thonon2 = {}
+				b_thonon3 = {}
+				b_thonon4 = {}
+				#b_thonon5 = {}
+				b_thonon6 = {}
+			}
+			c_abondance = { #5
+				color={ 250 188 0 }
+				color2={ 0 86 148 }
+				
+				b_abondance1 = {}
+				b_abondance2 = {}
+				b_abondance3 = {}
+				b_abondance4 = {}
+				b_abondance5 = {}
+				b_abondance6 = {}
+			}
+			c_aigle = { #6
+				color={ 172 4 10 }
+				color2={ 250 188 0 }
+			
+				b_aigle1 = {}
+				b_aigle2 = {}
+				b_aigle3 = {}
+				b_aigle4 = {}
+				#b_aigle5 = {}
+				b_aigle6 = {}
+			}
+			#allow = {	is_feudal = yes	}	
+		}
+		d_faucigny = {
+			color={ 172 4 10 }
+			color2={ 250 188 0 }
+			
+			capital = 7 #Faucigny
+			
+			c_faucigny = { #7
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+			
+				dignity = 5
+
+				b_faucigny1 = { #dignity = 5
+				}
+				b_faucigny2 = {}
+				b_faucigny3 = {}
+				b_faucigny4 = {}
+				b_faucigny5 = {}
+				b_faucigny6 = {}
+			}
+			c_giffre = { #8
+				color={ 250 188 0 }
+				color2={ 0 86 148 }
+			
+				b_giffre1 = {}
+				b_giffre2 = {}
+				b_giffre3 = {}
+				b_giffre4 = {}
+				b_giffre5 = {}
+				b_giffre6 = {}
+			}
+			c_trient = { #9
+				color={ 172 4 10 }
+				color2={ 250 188 0 }
+				
+				culture = arpitan			
+					title = "PORTIER"
+					foa = "PORTIER_FOA"
+					title_prefix = "PORTIER_OF"	
+						
+				b_trient1 = {}
+				b_trient2 = {}
+				b_trient3 = {}
+				#b_trient4 = {}
+				b_trient5 = {}
+				b_trient6 = {}
+			}
+			c_montjoie = { #10
+				color={ 172 4 10 }
+				color2={ 250 188 0 }
+
+				b_montjoie1 = {}
+				b_montjoie2 = {}
+				b_montjoie3 = {}
+				b_montjoie4 = {}
+				b_montjoie5 = {}
+				b_montjoie6 = {}
+			}
+		}
+		d_genevois = {
+			color={ 0 86 148 }
+			color2={ 250 188 0 }
+			
+			capital = 11 #Annecy	
+			
+			c_annecy = { #11
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+			
+				b_annecy1 = {}
+				b_annecy2 = {}
+				b_annecy3 = {}
+				b_annecy4 = {}
+				b_annecy5 = {}
+				b_annecy6 = {}
+			}
+			c_seyssel = { #12
+				color={ 0 86 148 }
+				color2={ 250 188 0 }
+			
+				b_seyssel1 = {}
+				b_seyssel2 = {}
+				b_seyssel3 = {}
+				b_seyssel4 = {}
+				b_seyssel5 = {}
+				b_seyssel6 = {}
+			}
+			c_albens = { #13
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+			
+				b_albens1 = {}
+				b_albens2 = {}
+				b_albens3 = {}
+				b_albens4 = {}
+				#b_albens5 = {}
+				#b_albens6 = {}
+			}
+		}
+		d_savoie_propre = {
 			color={ 250 188 0 }
-			color2={ 0 86 148 }
-		
-			b_giffre1 = {}
-			b_giffre2 = {}
-			b_giffre3 = {}
-			b_giffre4 = {}
-			b_giffre5 = {}
-			b_giffre6 = {}
-		}
-		c_trient = { #9
-			color={ 172 4 10 }
-			color2={ 250 188 0 }
+			color2={ 0 0 0 }
 			
-			culture = arpitan			
-				title = "PORTIER"
-				foa = "PORTIER_FOA"
-				title_prefix = "PORTIER_OF"	
+			capital = 16 #Montmélian	
+			
+			c_novalaise = { #14
+				color={ 0 86 148 }
+				color2={ 255 255 255 }
+				
+				culture = arpitan			
+					title = "VICOMTE"
+					foa = "VICOMTE_FOA"
+					title_prefix = "VICOMTE_OF"
+			
+				b_novalaise1 = {}
+				b_novalaise2 = {}
+				b_novalaise3 = {}
+				b_novalaise4 = {}
+				b_novalaise5 = {}
+				b_novalaise6 = {}
+			}
+			c_bourget = { #15
+				color={ 0 86 148 }
+				color2={ 250 188 0 }
+			
+				b_bourget1 = {}
+				b_bourget2 = {}
+				b_bourget3 = {}
+				b_bourget4 = {}
+				b_bourget5 = {}
+				#b_bourget6 = {}
+			}
+			c_montmelian = { #16
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+
+				dignity = 10
+
+				b_montmelian1 = {}
+				b_montmelian2 = {}
+				b_montmelian3 = {}
+				b_montmelian4 = {}
+				b_montmelian5 = {}
+				b_montmelian6 = {}
+			}
+			c_conflans = { #17
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+			
+				b_conflans1 = {}
+				b_conflans2 = {}
+				b_conflans3 = {}
+				b_conflans4 = {}
+				b_conflans5 = {}
+				b_conflans6 = {}
+			}
+			c_beaufort = { #18
+				color={ 0 90 150 }
+				color2={ 255 255 255 }
+			
+				b_beaufort1 = {}
+				b_beaufort2 = {}
+				b_beaufort3 = {}
+				b_beaufort4 = {}
+				b_beaufort5 = {}
+				b_beaufort6 = {}
+			}
+		}
+		d_maurienne = {
+			color={ 0 86 148 }
+			color2={ 172 4 10 }
+			
+			capital = 19 #Saint Jean de Maurienne	
 					
-			b_trient1 = {}
-			b_trient2 = {}
-			b_trient3 = {}
-			#b_trient4 = {}
-			b_trient5 = {}
-			b_trient6 = {}
+			c_maurienne = { #19
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+				
+				dignity = 5
+				
+				holy_site = catholic
+				
+				b_maurienne1 = {}
+				b_maurienne2 = {  }
+				b_maurienne3 = {}
+				b_maurienne4 = {}
+				b_maurienne5 = {}
+				b_maurienne6 = {}
+			}
+			c_modane = { #20
+				color={ 0 86 148 }
+				color2={ 250 188 0 }
+			
+				b_modane1 = {}
+				b_modane2 = {}
+				b_modane3 = {}
+				b_modane4 = {}
+				b_modane5 = {}
+				b_modane6 = {}
+			}
+			c_montcenis = { #21
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+				
+				culture = arpitan			
+					title = "PORTIER"
+					foa = "PORTIER_FOA"
+					title_prefix = "PORTIER_OF"	
+						
+				b_montcenis1 = {}
+				b_montcenis2 = {}
+				b_montcenis3 = {}
+				b_montcenis4 = {}
+				b_montcenis5 = {}
+				b_montcenis6 = {}
+			}
+			#allow = {	is_feudal = yes		}
 		}
-		c_montjoie = { #10
-			color={ 172 4 10 }
-			color2={ 250 188 0 }
-
-			b_montjoie1 = {}
-			b_montjoie2 = {}
-			b_montjoie3 = {}
-			b_montjoie4 = {}
-			b_montjoie5 = {}
-			b_montjoie6 = {}
-		}
-	}
-	d_genevois = {
-		color={ 0 86 148 }
-		color2={ 250 188 0 }
-		
-		capital = 11 #Annecy	
-		
-		c_annecy = { #11
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
-		
-			b_annecy1 = {}
-			b_annecy2 = {}
-			b_annecy3 = {}
-			b_annecy4 = {}
-			b_annecy5 = {}
-			b_annecy6 = {}
-		}
-		c_seyssel = { #12
-			color={ 0 86 148 }
-			color2={ 250 188 0 }
-		
-			b_seyssel1 = {}
-			b_seyssel2 = {}
-			b_seyssel3 = {}
-			b_seyssel4 = {}
-			b_seyssel5 = {}
-			b_seyssel6 = {}
-		}
-		c_albens = { #13
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
-		
-			b_albens1 = {}
-			b_albens2 = {}
-			b_albens3 = {}
-			b_albens4 = {}
-			#b_albens5 = {}
-			#b_albens6 = {}
-		}
-	}
-	d_savoie_propre = {
-		color={ 250 188 0 }
-		color2={ 0 0 0 }
-		
-		capital = 16 #Montmélian	
-		
-		c_novalaise = { #14
-			color={ 0 86 148 }
+		d_tarentaise = {
+			color={ 172	4 10 }
 			color2={ 255 255 255 }
 			
-			culture = arpitan			
-				title = "VICOMTE"
-				foa = "VICOMTE_FOA"
-				title_prefix = "VICOMTE_OF"
-		
-			b_novalaise1 = {}
-			b_novalaise2 = {}
-			b_novalaise3 = {}
-			b_novalaise4 = {}
-			b_novalaise5 = {}
-			b_novalaise6 = {}
-		}
-		c_bourget = { #15
-			color={ 0 86 148 }
-			color2={ 250 188 0 }
-		
-			b_bourget1 = {}
-			b_bourget2 = {}
-			b_bourget3 = {}
-			b_bourget4 = {}
-			b_bourget5 = {}
-			#b_bourget6 = {}
-		}
-		c_montmelian = { #16
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
+			capital = 22 #Moutiers	
+			
+			c_moutiers = { #22
+				color={ 0 86 148 }
+				color2={ 250 188 0 }
 
-			dignity = 10
-
-			b_montmelian1 = {}
-			b_montmelian2 = {}
-			b_montmelian3 = {}
-			b_montmelian4 = {}
-			b_montmelian5 = {}
-			b_montmelian6 = {}
+				dignity = 5
+				
+				b_moutiers1 = {}
+				b_moutiers2 = {}
+				b_moutiers3 = {}
+				b_moutiers4 = {}
+				b_moutiers5 = {}
+				b_moutiers6 = {}
+			}
+			c_bourgsaintmaurice = { #23
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+			
+				b_bourgsaintmaurice1 = {}
+				b_bourgsaintmaurice2 = {}
+				b_bourgsaintmaurice3 = {}
+				b_bourgsaintmaurice4 = {}
+				b_bourgsaintmaurice5 = {}
+				b_bourgsaintmaurice6 = {}
+			}
+			#allow = {	is_feudal = yes	}
 		}
-		c_conflans = { #17
-			color={ 172 4 10 }
+		d_basvalais = {
+			color={ 22 111 22 }
 			color2={ 255 255 255 }
-		
-			b_conflans1 = {}
-			b_conflans2 = {}
-			b_conflans3 = {}
-			b_conflans4 = {}
-			b_conflans5 = {}
-			b_conflans6 = {}
+			
+			capital = 28 #Martigny	
+			
+			c_martigny = { #28
+				color={ 0 86 148 }
+				color2={ 250 188 0 }
+			
+				b_martigny1 = {}
+				b_martigny2 = {}
+				b_martigny3 = {}
+				b_martigny4 = {}
+				b_martigny5 = {}
+				b_martigny6 = {}
+			}
+			c_montjoux = { #29
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+				
+				culture = arpitan
+					title = "PORTIER"
+					foa = "PORTIER_FOA"
+					title_prefix = "PORTIER_OF"	
+						
+				b_montjoux1 = {}
+				b_montjoux2 = {}
+				b_montjoux3 = {}
+				b_montjoux4 = {}
+				b_montjoux5 = {}
+				b_montjoux6 = {}
+			}
+			c_conthey = { #30
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+			
+				b_conthey1 = {}
+				b_conthey2 = {}
+				b_conthey3 = {}
+				b_conthey4 = {}
+				b_conthey5 = {}
+				b_conthey6 = {}
+			}
 		}
-		c_beaufort = { #18
+	#}
+		d_aoste = {
+			color={ 255 255 255 }
+			color2={ 0 0 0}
+			
+			capital = 25 #Aoste	
+			
+			c_courmayeur = { #24
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+			
+				b_courmayeur1 = {}
+				b_courmayeur2 = {}
+				b_courmayeur3 = {}
+				b_courmayeur4 = {}
+				b_courmayeur5 = {}
+				b_courmayeur6 = {}
+			}
+			c_aoste = { #25
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+
+				culture = arpitan			
+					title = "VICOMTE"
+					foa = "VICOMTE_FOA"
+					title_prefix = "VICOMTE_OF"
+			
+				dignity = 5
+				
+				b_aoste1 = {}
+				b_aoste2 = {}
+				b_aoste3 = {}
+				b_aoste4 = {}
+				b_aoste5 = {}
+				b_aoste6 = {}
+			}
+			c_chatillon = { #26
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+			
+				b_chatillon1 = {}
+				b_chatillon2 = {}
+				b_chatillon3 = {}
+				b_chatillon4 = {}
+				b_chatillon5 = {}
+				b_chatillon6 = {}
+			}
+		}
+	}
+	k_vienne = {
 			color={ 0 90 150 }
 			color2={ 255 255 255 }
+			
+			capital = 31 #voirons TEMP for validator
+			#capital = 35 #Albon			
+			
+		d_salmorenc = {
+			color={ 110 20 110 }
+			color2={ 172 4 10 }
+			
+			capital = 31 #voirons	
+			
+			c_voirons = { #31
+				color={ 130 0 130 }
+				color2={ 255 255 255 }
+			
+				b_voirons1 = {}
+				b_voirons2 = {}
+				b_voirons3 = {}
+				b_voirons4 = {}
+				b_voirons5 = {}
+				b_voirons6 = {}
 		
-			b_beaufort1 = {}
-			b_beaufort2 = {}
-			b_beaufort3 = {}
-			b_beaufort4 = {}
-			b_beaufort5 = {}
-			b_beaufort6 = {}
+			}
+			c_moirans = { #32
+				color={ 90 40 90 }
+				color2={ 0 86 148 }
+			
+				b_moirans1 = {}
+				b_moirans2 = {}
+				b_moirans3 = {}
+				b_moirans4 = {}
+				b_moirans5 = {}
+				b_moirans6 = {}
+			}
 		}
-	}
-	d_maurienne = {
-		color={ 0 86 148 }
-		color2={ 172 4 10 }
-		
-		capital = 19 #Saint Jean de Maurienne	
+		d_viennois = {
+			color={ 0 188 250 }
+			color2={ 172 4 10 }
+			
+			capital = 35 #albon
+			
+			c_albon = { #35
+				color={ 0 188 250 }
+				color2={ 250 188 0 }
+			
+				dignity = 9
 				
-		c_maurienne = { #19
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
+				b_albon1 = {}
+				b_albon2 = {}
+				b_albon3 = {}
+				b_albon4 = {}
+				b_albon5 = {}
+				b_albon6 = {}
+			}
+			c_romans = { #36
+				color={ 20 188 230 }
+				color2={ 250 188 0 }
+				
+				b_romans1 = {}
+				b_romans2 = {}
+				b_romans3 = {}
+				b_romans4 = {}
+				b_romans5 = {}
+				b_romans6 = {}
+			}
+			c_royans = { #37
+				color={ 40 188 210 }
+				color2={ 250 188 0 }
 			
-			dignity = 5
-			
-			holy_site = catholic
-			
-			b_maurienne1 = {}
-			b_maurienne2 = {  }
-			b_maurienne3 = {}
-			b_maurienne4 = {}
-			b_maurienne5 = {}
-			b_maurienne6 = {}
-		}
-		c_modane = { #20
-			color={ 0 86 148 }
-			color2={ 250 188 0 }
-		
-			b_modane1 = {}
-			b_modane2 = {}
-			b_modane3 = {}
-			b_modane4 = {}
-			b_modane5 = {}
-			b_modane6 = {}
-		}
-		c_montcenis = { #21
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
-			
-			culture = arpitan			
-				title = "PORTIER"
-				foa = "PORTIER_FOA"
-				title_prefix = "PORTIER_OF"	
-					
-			b_montcenis1 = {}
-			b_montcenis2 = {}
-			b_montcenis3 = {}
-			b_montcenis4 = {}
-			b_montcenis5 = {}
-			b_montcenis6 = {}
-		}
-		#allow = {	is_feudal = yes		}
-	}
-	d_tarentaise = {
-		color={ 172	4 10 }
-		color2={ 255 255 255 }
-		
-		capital = 22 #Moutiers	
-		
-		c_moutiers = { #22
-			color={ 0 86 148 }
-			color2={ 250 188 0 }
+				b_royans1 = {}
+				b_royans2 = {}
+				b_royans3 = {}
+				b_royans4 = {}
+				b_royans5 = {}
+				b_royans6 = {}
+			}
+			c_vienne = { #34
+				color={ 60 188 190 }
+				color2={ 250 188 0 }
 
-			dignity = 5
+				dignity = 9
+				
+				holy_site = catholic
+							
+				b_vienne1 = {}
+				b_vienne2 = {}
+				b_vienne3 = {}
+				b_vienne4 = {}
+				b_vienne5 = {}
+				b_vienne6 = {}
+			}
+			c_tourdupin = { #33
+				color={ 40 168 210 }
+				color2={ 250 188 0 }
+				
+				b_tourdupin1 = {}
+				b_tourdupin2 = {}
+				b_tourdupin3 = {}
+				b_tourdupin4 = {}
+				b_tourdupin5 = {}
+				b_tourdupin6 = {}
+			}		
+		}
+		d_graisivaudan = {
+			color={ 190 250 0 }
+			color2={ 0 0 0 }
 			
-			b_moutiers1 = {}
-			b_moutiers2 = {}
-			b_moutiers3 = {}
-			b_moutiers4 = {}
-			b_moutiers5 = {}
-			b_moutiers6 = {}
-		}
-		c_bourgsaintmaurice = { #23
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
-		
-			b_bourgsaintmaurice1 = {}
-			b_bourgsaintmaurice2 = {}
-			b_bourgsaintmaurice3 = {}
-			b_bourgsaintmaurice4 = {}
-			b_bourgsaintmaurice5 = {}
-			b_bourgsaintmaurice6 = {}
-		}
-		#allow = {	is_feudal = yes	}
-	}
-	d_basvalais = {
-		color={ 22 111 22 }
-		color2={ 255 255 255 }
-		
-		capital = 28 #Martigny	
-		
-		c_martigny = { #28
-			color={ 0 86 148 }
-			color2={ 250 188 0 }
-		
-			b_martigny1 = {}
-			b_martigny2 = {}
-			b_martigny3 = {}
-			b_martigny4 = {}
-			b_martigny5 = {}
-			b_martigny6 = {}
-		}
-		c_montjoux = { #29
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
+			capital = 39 #Grenoble	
 			
-			culture = arpitan
-				title = "PORTIER"
-				foa = "PORTIER_FOA"
-				title_prefix = "PORTIER_OF"	
-					
-			b_montjoux1 = {}
-			b_montjoux2 = {}
-			b_montjoux3 = {}
-			b_montjoux4 = {}
-			b_montjoux5 = {}
-			b_montjoux6 = {}
-		}
-		c_conthey = { #30
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
-		
-			b_conthey1 = {}
-			b_conthey2 = {}
-			b_conthey3 = {}
-			b_conthey4 = {}
-			b_conthey5 = {}
-			b_conthey6 = {}
-		}
-	}
-#}
-	d_aoste = {
-		color={ 255 255 255 }
-		color2={ 0 0 0}
-		
-		capital = 25 #Aoste	
-		
-		c_courmayeur = { #24
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
-		
-			b_courmayeur1 = {}
-			b_courmayeur2 = {}
-			b_courmayeur3 = {}
-			b_courmayeur4 = {}
-			b_courmayeur5 = {}
-			b_courmayeur6 = {}
-		}
-		c_aoste = { #25
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
-
-			culture = arpitan			
-				title = "VICOMTE"
-				foa = "VICOMTE_FOA"
-				title_prefix = "VICOMTE_OF"
-		
-			dignity = 5
+			c_grenoble = { #39
+				color={ 180 240 0 }
+				color2={ 255 255 255 }
 			
-			b_aoste1 = {}
-			b_aoste2 = {}
-			b_aoste3 = {}
-			b_aoste4 = {}
-			b_aoste5 = {}
-			b_aoste6 = {}
-		}
-		c_chatillon = { #26
-			color={ 172 4 10 }
-			color2={ 255 255 255 }
-		
-			b_chatillon1 = {}
-			b_chatillon2 = {}
-			b_chatillon3 = {}
-			b_chatillon4 = {}
-			b_chatillon5 = {}
-			b_chatillon6 = {}
+				holy_site = catholic
+				
+				b_grenoble1 = {}
+				b_grenoble2 = {}
+				b_grenoble3 = {}
+				b_grenoble4 = {}
+				b_grenoble5 = {}
+				b_grenoble6 = {}
+			}
+			c_graisivaudan = { #38
+				color={ 200 220 0 }
+				color2={ 255 255 255 }
+			
+				b_graisivaudan1 = {}
+				b_graisivaudan2 = {}
+				b_graisivaudan3 = {}
+				b_graisivaudan4 = {}
+				b_graisivaudan5 = {}
+				b_graisivaudan6 = {}
+			}
+			c_oisans = { #40
+				color={ 180 220 20 }
+				color2={ 0 86 148 }
+			
+				b_oisans1 = {}
+				b_oisans2 = {}
+				b_oisans3 = {}
+				b_oisans4 = {}
+				b_oisans5 = {}
+				b_oisans6 = {}
+			}
+			c_vercors = { #41
+				color={ 160 240 20 }
+				color2={ 250 188 0 }
+			
+				b_vercors1 = {}
+				b_vercors2 = {}
+				b_vercors3 = {}
+				b_vercors4 = {}
+				b_vercors5 = {}
+				b_vercors6 = {}
+			}
+			c_trieves = { #42
+				color={ 180 220 0 }
+				color2={ 0 86 148 }
+			
+				b_trieves1 = {}
+				b_trieves2 = {}
+				b_trieves3 = {}
+				b_trieves4 = {}
+				b_trieves5 = {}
+				b_trieves6 = {}
+			}
+			c_valmontheys = { #43
+				color={ 160 240 20 }
+				color2={ 250 188 0 }
+			
+				b_valmontheys1 = {}
+				b_valmontheys2 = {}
+				b_valmontheys3 = {}
+				b_valmontheys4 = {}
+				b_valmontheys5 = {}
+				b_valmontheys6 = {}
+			}
 		}
 	}
 }
