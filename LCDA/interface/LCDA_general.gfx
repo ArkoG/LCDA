@@ -1,0 +1,162 @@
+spriteTypes = 
+{
+	### Trade Posts
+	
+	spriteType = {
+		name = "GFX_settlement_trade_post"
+		texturefile = "gfx\\interface\\trade_post_large_frame.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_trade_post_muslimgfx"
+		texturefile = "gfx\\interface\\trade_post_desert_large_frame.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_trade_post_indiangfx"
+		texturefile = "gfx\\interface\\trade_post_desert_large_frame.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_trade_post_southindiangfx"
+		texturefile = "gfx\\interface\\trade_post_desert_large_frame.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_trade_post_mongolgfx"
+		texturefile = "gfx\\interface\\trade_post_large_frame.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_trade_post_westafricangfx"
+		texturefile = "gfx\\interface\\trade_post_desert_large_frame.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_trade_post_africangfx"
+		texturefile = "gfx\\interface\\trade_post_desert_large_frame.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_trade_post_turkishgfx"
+		texturefile = "gfx\\interface\\trade_post_large_frame.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_trade_post_cumangfx"
+		texturefile = "gfx\\interface\\trade_post_large_frame.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_trade_post_persiangfx"
+		texturefile = "gfx\\interface\\trade_post_desert_large_frame.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_trade_post_andalusiangfx"
+		texturefile = "gfx\\interface\\trade_post_desert_large_frame.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	### Trade Posts
+	
+	spriteType = {
+		name = "GFX_trade_post"
+		texturefile = "gfx\\interface\\trade_post_LCDA.dds"
+		noOfFrames = 3
+		clicksound = generic_click_02
+	}
+	
+	spriteType = {
+		name = "GFX_trade_post_muslimgfx"
+		texturefile = "gfx\\interface\\trade_post_LCDA_desert.dds"
+		noOfFrames = 3
+		clicksound = generic_click_02
+	}
+	
+	spriteType = {
+		name = "GFX_trade_post_indiangfx"
+		texturefile = "gfx\\interface\\trade_post_LCDA_desert.dds"
+		noOfFrames = 3
+		clicksound = generic_click_02
+	}
+	
+	spriteType = {
+		name = "GFX_trade_post_southindiangfx"
+		texturefile = "gfx\\interface\\trade_post_LCDA_desert.dds"
+		noOfFrames = 3
+		clicksound = generic_click_02
+	}
+	
+	spriteType = {
+		name = "GFX_trade_post_mongolgfx"
+		texturefile = "gfx\\interface\\trade_post_LCDA.dds"
+		noOfFrames = 3
+		clicksound = generic_click_02
+	}
+	
+	spriteType = {
+		name = "GFX_trade_post_westafricangfx"
+		texturefile = "gfx\\interface\\trade_post_LCDA_desert.dds"
+		noOfFrames = 3
+		clicksound = generic_click_02
+	}
+	
+	spriteType = {
+		name = "GFX_trade_post_africangfx"
+		texturefile = "gfx\\interface\\trade_post_LCDA_desert.dds"
+		noOfFrames = 3
+		clicksound = generic_click_02
+	}
+	
+	spriteType = {
+		name = "GFX_trade_post_turkishgfx"
+		texturefile = "gfx\\interface\\trade_post_LCDA.dds"
+		noOfFrames = 3
+		clicksound = generic_click_02
+	}
+	
+	spriteType = {
+		name = "GFX_trade_post_cumangfx"
+		texturefile = "gfx\\interface\\trade_post_LCDA.dds"
+		noOfFrames = 3
+		clicksound = generic_click_02
+	}
+	
+	spriteType = {
+		name = "GFX_trade_post_persiangfx"
+		texturefile = "gfx\\interface\\trade_post_LCDA_desert.dds"
+		noOfFrames = 3
+		clicksound = generic_click_02
+	}
+	
+	spriteType = {
+		name = "GFX_trade_post_andalusiangfx"
+		texturefile = "gfx\\interface\\trade_post_LCDA_desert.dds"
+		noOfFrames = 3
+		clicksound = generic_click_02
+	}
+}
+
+
