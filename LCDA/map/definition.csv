@@ -1,31 +1,31 @@
 province;red;green;blue;x;x
-1;42;3;128;Nyon;x #Equestres
+1;42;3;128;Nyon;x
 2;84;6;1;Gex;x
 3;126;9;129;Genève;x
-4;168;12;2;Thonon;x #Chablais
+4;168;12;2;Thonon;x
 5;0;15;130;Abondance;x
 6;168;45;177;Aigle;x
-7;84;21;131;Faucigny;x #Faucigny
+7;84;21;131;Faucigny;x
 8;126;24;4;Giffre;x
 9;168;27;132;Trient;x
 10;0;30;5;Montjoie;x
-11;42;33;133;Annecy;x #Genevois
+11;42;33;133;Annecy;x
 12;84;36;6;Seyssel;x
 13;126;39;134;Albens;x
-14;168;42;7;Novalaise;x #Savoie propre
+14;168;42;7;Novalaise;x
 15;0;45;135;Bourget;x
 16;42;48;8;Montmélian;x
 17;84;51;136;Conflans;x
 18;126;54;9;Beaufort;x
-19;168;57;137;Maurienne;x #Maurienne
+19;168;57;137;Maurienne;x
 20;0;60;10;Modane;x
 21;42;63;138;Mont-Cenis;x
-22;84;66;11;Moutiers;x #Tarentaise
+22;84;66;11;Moutiers;x
 23;126;69;139;Bourg-St-Maurice;x
-24;168;72;12;Courmayeur;x #Aoste
+24;168;72;12;Courmayeur;x
 25;0;75;140;Aoste;x
 26;42;78;13;Châtillon;x
-27;126;84;14;Saint-Maurice;x #Valais
+27;126;84;14;Saint-Maurice;x
 28;84;81;141;Martigny;x
 29;168;87;142;Mont-Joux;x
 30;0;90;15;Conthey;x
