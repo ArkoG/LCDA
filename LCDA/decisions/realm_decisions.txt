@@ -928,6 +928,8 @@ decisions = {
 #	convert_to_republic_indep  = {
 #}
 
+}
+
 targetted_decisions = {
 	embrace_mutazila = {
 		only_playable = yes
