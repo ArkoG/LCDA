@@ -1,0 +1,7 @@
+#EVEQUES
+
+#100100	=	{name=	"de Plainpalais"	culture=	arpitan	}
+#100101	=	{name=	"de Saconnex"		culture=	arpitan	}
+#100102	=	{name=	"d'Aygues-Vives"	culture=	arpitan	}
+#100103	=	{name=	"de Sécheron"		culture=	arpitan	}
+#100104	=	{name=	"de Champel"		culture=	arpitan	}

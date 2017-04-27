@@ -1,0 +1,6 @@
+#CITE DE GENEVE circa 1309
+400100	=	{name=	"de Plainpalais"	culture=	arpitan	}
+400101	=	{name=	"de Saconnex"		culture=	arpitan	}
+400102	=	{name=	"d'Aygues-Vives"	culture=	arpitan	}
+400103	=	{name=	"de Sécheron"		culture=	arpitan	}
+400104	=	{name=	"de Champel"		culture=	arpitan	}
