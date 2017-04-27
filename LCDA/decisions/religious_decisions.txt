@@ -1,0 +1,25 @@
+###########################################
+#
+# Religious Decisions for Sons of Abraham
+#
+###########################################
+# Written by Henrik Fåhraeus
+###########################################
+
+decisions = {
+	
+#	create_fraticelli_papacy = {
+#silly hardcode prov ID dec	
+#	}
+	
+#	create_iconoclast_patriarchy = {
+#silly hardcode prov ID dec	
+#	}
+	
+#	restore_pope_in_rome = {
+#silly hardcode prov ID dec	
+#	}
+	
+#	restore_ecumenical_patriarchate = {
+#silly hardcode prov ID dec	
+#}
