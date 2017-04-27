@@ -1,0 +1,8 @@
+#seigneurs de Lucinges
+
+1032.1.1={ liege="c_faucigny" }
+#1199.1.1={ holding_dynasty = 300109 }
+1200.1.1={ holder=100052 } #Rodolphe 1er
+1236.1.1={ holder=100054 } #Guillaume 1er
+1270.1.1={ holder=100056 } #Humbert 1er
+1300.1.1={ holder=0 } #to be continued

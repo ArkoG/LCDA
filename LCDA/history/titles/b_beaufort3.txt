@@ -1,0 +1,6 @@
+#Château des Outards
+
+#famille de Beaufort
+1246.1.1 = { liege=c_beaufort }
+1246.1.1 = { holder =0 } #Pierre de Beaufort
+

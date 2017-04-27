@@ -1,0 +1,44 @@
+100018={
+name = "Oddon" #de Compey, sire de Thorens
+dynasty = 300115
+dna = "pobjpfamkbb"
+culture = arpitan
+religion = catholic
+martial = 4
+diplomacy = 5
+stewardship = 1
+intrigue = 2
+learning = 5
+add_trait = "skilled_tactician"
+add_trait = "paranoid"
+add_trait = "cruel"
+add_trait = "arbitrary"
+1030.11.28={birth=yes}
+1083.1.1={death=yes}
+}
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										
+#pape
+100200 = {
+	name="Theophylactus"
+	dynasty=0 #ex 100349
+	martial=6
+	diplomacy=7
+	intrigue=8
+	stewardship=8
+	religion="catholic"
+	culture="padan"
+	add_trait="diligent"
+	add_trait="patient"
+	add_trait="zealous"
+	add_trait="charismatic_negotiator"
+	1012.1.1 = {
+		birth="1012.1.1"
+	}
+	1032.1.1 = {
+	name="Benedictus"
+	# AKA: Theophylactus
+	}
+	1056.1.1 = {
+		death="1056.1.1"
+	}
+}

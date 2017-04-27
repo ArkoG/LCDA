@@ -1,0 +1,26 @@
+# 30 - Conthey
+
+# County Title
+title = c_conthey
+
+# Settlements
+max_settlements = 6
+
+
+b_conthey1 = castle #famille de la Tour en 1257
+b_conthey2 = temple #Bramois, dépend de saint maurice puis Sion en 1100. savoie en 1268 sous conthey. 1476 >> sion
+b_conthey3 = city #Hérémence, puis en majorie avec nendaz. puis d'un dizain d'H : chef lieu à Vex
+
+#b_conthey4 = castle
+#b_conthey5 = temple
+#b_conthey6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_conthey = ca_tpinit_1	}
+

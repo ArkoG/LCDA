@@ -1,0 +1,5 @@
+#de Plainpalais
+999.1.1={	holding_dynasty = 400102	} 
+1285.1.1={		holder=200003	}
+999.1.1={		liege="d_geneve_cite"	}
+

@@ -1,0 +1,6 @@
+#Commune d'Evian
+
+999.1.1	= { liege=c_abondance }
+1032.1.1 = {liege=c_montmelian}
+
+#même sort que Féternes

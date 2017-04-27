@@ -1,0 +1,28 @@
+# 12 - Seyssel
+
+# County Title
+title = c_seyssel
+
+# Settlements
+max_settlements = 6
+
+
+b_seyssel1 = castle
+b_seyssel2 = temple
+b_seyssel3 = city
+
+#b_seyssel4 = castle
+#b_seyssel5 = temple
+#b_seyssel6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_seyssel = ca_tpinit_1	}
+
+#Avec Humbert de Seyssel, seigneur d'Aix et de Bourdeau, vicomte de Novalaise, connu par des actes de 1236 à 1274.
+

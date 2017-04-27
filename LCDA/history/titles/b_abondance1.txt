@@ -1,0 +1,10 @@
+#Seigneurie de Féternes
+
+999.1.1	= { liege=c_abondance }
+1032.1.1 = {liege=c_montmelian}
+#1032 >> possession de la Savoie
+1080.1.1 = {liege="d_savoie_propre"}
+#>>1080 seigneur de Féterne = Louis (de Féterne ?)
+#1080 seigneur de Féterne = Louis (de Féterne ?)
+#2 mai 1108 seigneur à Féternes (Wido), vassal du comte de Savoie. possédé en propre par le comte avant ? http://www.digi-archives.org/fonds/acs/index.php?session=public&action=show&ref=CH%20AASM%20CHA%20055%20001%20001~03
+#Compey (branche cadette de Féternes), blason De gueules à cinq étoiles d'or, 3 et 2, au chef d'argent au lion issant de sable

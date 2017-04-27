@@ -1,0 +1,10 @@
+ 999.1.1= { liege=c_beaufort } #fictif pour suzerainté de mêm niveau
+1020.1.1= 	{ holder=100000 } #Aymerard
+1055.1.1= 	{ holder=100001 } #Louis Ier
+1080.1.1= 	{ holder=100003 } #Vuillielme Ier
+1124.1.1= 	{ holder=100007 } #Rodolphe Ier
+1132.1.1= 	{ holder=100012 } #Aymon Ier
+1135.1.1= 	{ holder = 0 } #passe à la famille de Beaufort
+
+
+

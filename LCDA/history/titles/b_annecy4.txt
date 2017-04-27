@@ -1,0 +1,6 @@
+#seigneurs de Thorens
+
+1032.1.1={ liege="c_annecy" }
+
+1050.1.1={ holder=100018 } #Oddon 1er de Compey
+1083.1.1={ holder=0 } #to be continued

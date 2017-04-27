@@ -1,0 +1,318 @@
+#de Beaufort, ID 300123
+
+#génération 1
+100100={
+name = "Bernard"
+dynasty = 300123
+dna = "cbkkmbnmode"
+culture = arpitan
+religion = catholic
+martial = 3
+diplomacy = 5
+stewardship = 2
+intrigue = 4
+learning = 5
+add_trait = "detached_priest"
+add_trait = "chaste"
+add_trait = "slothful"
+900.9.9={birth=yes}
+920.4.4 = {add_spouse=100101}
+944.9.9={death=yes}
+}
+#+
+100101={
+name = "Ottilie"
+female = yes
+#dynasty = 300124
+dna = "gomfakdjilg"
+culture = arpitan
+religion = catholic
+martial = 4
+diplomacy = 4
+stewardship = 4
+intrigue = 1
+learning = 6
+add_trait = "flamboyant_schemer"
+add_trait = "just"
+add_trait = "deceitful"
+add_trait = "humble"
+add_trait = "wounded"
+901.9.17={birth=yes}
+920.4.4 = {add_spouse=100100}
+971.1.9={death=yes}
+}
+
+#enfats G1
+100102={
+name = "Aymon"
+dynasty = 300123
+dna = "cokfofnmide"
+culture = arpitan
+religion = catholic
+martial = 7
+diplomacy = 5
+stewardship = 0
+intrigue = 4
+learning = 6
+add_trait = "grey_eminence"
+add_trait = "slothful"
+add_trait = "brave"
+add_trait = "cruel"
+father = 100100
+mother = 100101
+923.2.20={birth=yes}
+941.7.17 = {add_spouse=100106}
+970.7.21={death=yes}
+}
+
+100103={
+name = "Pierre"
+dynasty = 300123
+dna = "gbkfaknjiee"
+culture = arpitan
+religion = catholic
+martial = 7
+diplomacy = 0
+stewardship = 5
+intrigue = 4
+learning = 2
+add_trait = "midas_touched"
+add_trait = "brave"
+add_trait = "slothful"
+add_trait = "wroth"
+father = 100100
+mother = 100101
+920.12.8={birth=yes}
+973.9.22={death=yes}
+}
+
+100104={
+name = "Guillaume"
+dynasty = 300123
+dna = "gbkfminjidc"
+culture = arpitan
+religion = catholic
+martial = 5
+diplomacy = 3
+stewardship = 1
+intrigue = 2
+learning = 1
+add_trait = "misguided_warrior"
+add_trait = "proud"
+father = 100100
+mother = 100101
+921.6.25={birth=yes}
+970.7.23={death=yes}
+}
+
+100105={
+name = "Ottilie"
+female = yes
+dynasty = 300123
+dna = "gbmjmknjilg"
+culture = arpitan
+religion = catholic
+martial = 6
+diplomacy = 6
+stewardship = 6
+intrigue = 4
+learning = 6
+add_trait = "brilliant_strategist"
+add_trait = "proud"
+father = 100100
+mother = 100101
+920.7.26={birth=yes}
+975.10.17={death=yes}
+}
+
+100106={
+name = "Ermengarde"
+female = yes
+#dynasty = 300123
+dna = "haghmnoagog"
+culture = arpitan
+religion = catholic
+martial = 3
+diplomacy = 2
+stewardship = 7
+intrigue = 5
+learning = 2
+add_trait = "skilled_tactician"
+920.3.29={birth=yes}
+941.7.17 = {add_spouse=100102}
+996.3.29={death=yes}
+}
+
+#G2
+100108={
+name = "Béatrix"
+female = yes
+dynasty = 300123
+dna = "hagijnoagog"
+culture = arpitan
+religion = catholic
+martial = 2
+diplomacy = 5
+stewardship = 1
+intrigue = 7
+learning = 7
+add_trait = "midas_touched"
+add_trait = "diligent"
+add_trait = "envious"
+add_trait = "deceitful"
+father = 100102
+mother = 100106
+942.5.9={birth=yes}
+1028.1.13={death=yes}
+}
+
+100109={
+name = "Bernard"
+dynasty = 300123
+dna = "nggijloifje"
+culture = arpitan
+religion = catholic
+martial = 0
+diplomacy = 5
+stewardship = 6
+intrigue = 2
+learning = 3
+add_trait = "intricate_webweaver"
+add_trait = "envious"
+add_trait = "just"
+add_trait = "brave"
+father = 100102
+mother = 100106
+944.12.9={birth=yes}
+965.8.21 = {add_spouse=100110}
+1021.2.7={death=yes}
+}
+
+100110={
+name = "Béatrix"
+female = yes
+#dynasty = 300123
+dna = "hlcgmlmfeoo"
+culture = arpitan
+religion = catholic
+martial = 0
+diplomacy = 3
+stewardship = 2
+intrigue = 7
+learning = 6
+add_trait = "grey_eminence"
+944.6.18={birth=yes}
+965.8.21 = {add_spouse=100109}
+1018.6.18={death=yes}
+}
+
+#G3
+100112={
+name = "Bernard"
+dynasty = 300123
+dna = "jclgmlaheho"
+culture = arpitan
+religion = catholic
+martial = 5
+diplomacy = 3
+stewardship = 2
+intrigue = 3
+learning = 6
+add_trait = "midas_touched"
+add_trait = "patient"
+add_trait = "gregarious"
+add_trait = "lustful"
+add_trait = "diligent"
+father = 100109
+mother = 100110
+967.2.21={birth=yes}
+1040.2.1={death=yes}
+}
+
+100113={
+name = "Pierre"
+dynasty = 300123
+dna = "hlcgmacfeoo"
+culture = arpitan
+religion = catholic
+martial = 5
+diplomacy = 7
+stewardship = 5
+intrigue = 4
+learning = 3
+add_trait = "elusive_shadow"
+add_trait = "gregarious"
+add_trait = "just"
+father = 100109
+mother = 100110
+968.8.28={birth=yes}
+989.3.22 = {add_spouse=100114}
+1054.9.22={death=yes}
+}
+#+
+100114={
+name = "Ermengarde"
+female = yes
+#dynasty = 300124
+dna = "epdfncpegph"
+culture = arpitan
+religion = catholic
+martial = 4
+diplomacy = 4
+stewardship = 4
+intrigue = 2
+learning = 4
+add_trait = "fortune_builder"
+add_trait = "scholar"
+add_trait = "cynical"
+974.2.3={birth=yes}
+989.3.22 = {add_spouse=100113}
+1015.7.6={death=yes}
+}
+
+#G4
+100115={
+name = "Adalmode"
+female = yes
+dynasty = 300123
+dna = "ffdpoempppb"
+culture = arpitan
+religion = catholic
+martial = 4
+diplomacy = 4
+stewardship = 3
+intrigue = 3
+learning = 4
+add_trait = "midas_touched"
+add_trait = "hedonist"
+add_trait = "honest"
+add_trait = "kind"
+add_trait = "zealous"
+add_trait = "ill"
+father = 100113
+mother = 100114
+990.2.20={birth=yes}
+1040.11.16={death=yes}
+}
+
+100116={
+name = "Aymon"
+dynasty = 300123
+dna = "fadpndmehpm"
+culture = arpitan
+religion = catholic
+martial = 2
+diplomacy = 5
+stewardship = 6
+intrigue = 5
+learning = 6
+add_trait = "charismatic_negotiator"
+add_trait = "scholar"
+add_trait = "gregarious"
+add_trait = "humble"
+father = 100113
+mother = 100114
+991.1.15={birth=yes}
+1074.1.16={death=yes}
+}
+

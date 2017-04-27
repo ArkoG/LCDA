@@ -1,0 +1,27 @@
+# 39 - Grenoble
+
+# County Title
+title = c_grenoble
+
+# Settlements
+max_settlements = 6
+
+
+b_grenoble1 = castle #Grenoble
+b_grenoble2 = city #Grenoble
+b_grenoble3 = temple #Grenoble
+
+#b_grenoble4 = castle #
+#b_grenoble5 = temple #prieuré Saint-Pierre
+#b_grenoble6 = city #
+
+
+# Misc
+culture = arpitan
+religion = catholic
+terrain = mountain
+
+# History
+
+#999.9.9 = {	b_montjoux3 = RELAISALPIN	}
+

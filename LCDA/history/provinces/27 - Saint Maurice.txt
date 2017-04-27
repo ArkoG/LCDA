@@ -1,0 +1,27 @@
+# 27 - Saint Maurice
+
+# County Title
+title = c_saintmaurice
+
+# Settlements
+max_settlements = 6
+
+
+b_saintmaurice2 = temple
+b_saintmaurice1 = castle
+b_saintmaurice3 = city
+
+b_saintmaurice4 = castle
+#b_saintmaurice5 = temple #meillerie : prieurs connus à partir de 1127
+#b_saintmaurice6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_saintmaurice1 = FORT	}
+#999.9.9 = {	b_saintmaurice2 = CITEEPISCOPALE	}
+#999.9.9 = {	b_saintmaurice4 = FORT	}

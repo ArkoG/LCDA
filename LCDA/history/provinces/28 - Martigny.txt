@@ -1,0 +1,26 @@
+# 28 - Martigny
+
+# County Title
+title = c_martigny
+
+# Settlements
+max_settlements = 6
+
+
+b_martigny1 = castle #tour de la Batiaz. vassal de l'évêque de Sion. 1351>>Savoie 1475>>Ht Valais mais attaché à St maurice
+b_martigny2 = temple #>>1163 siège de l'évêché de Sion. puis don au prieuré de mont-joux
+b_martigny3 = city #Martigny
+
+#b_martigny4 = castle #commune : bagnes savoie puis st maurice en 1150
+#b_martigny5 = temple
+#b_martigny6 = city #beauvoisin (alpage, col de fenêtre++) >> valdôtains
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_martigny = ca_tpinit_1	}
+

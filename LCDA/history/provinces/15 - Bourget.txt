@@ -1,0 +1,30 @@
+# 15 - Bourget
+
+# County Title
+title = c_bourget
+
+# Settlements
+max_settlements = 5
+
+
+b_bourget1 = castle #à caler Grésy ?
+b_bourget2 = temple
+b_bourget3 = city
+
+#b_bourget4 = castle
+b_bourget5 = temple
+#b_bourget6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_bourget = ca_tpinit_1	}
+
+
+#Avec Humbert de Seyssel, seigneur d'Aix et de Bourdeau, vicomte de Novalaise, connu par des actes de 1236 à 1274.
+#Humbert de Seyssel (un autre); abbé du monastère de abbaye d'Hautecombe en 1349.
+

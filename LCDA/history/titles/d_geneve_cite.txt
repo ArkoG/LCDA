@@ -1,0 +1,12 @@
+999.1.1 = {	holder=0	} 
+
+#1285.10.1 = {	liege=0	} #le 1er octobre, le comte Amédée V de Savoie leur accorde des lettres patentes garantissant la sécurité des marchands se rendant aux foires
+#confirmation par un traité conclu à Asti (Italie) en 1290
+#En 1309, l'évêque Aymon de Quart est contraint de reconnaître l'existence légale de la commune à condition qu'elle n'empiète pas sur la juridiction épiscopale
+
+1309.1.1 = {	liege=0	}
+1309.1.1 = {	holder=200001	} 
+
+
+
+

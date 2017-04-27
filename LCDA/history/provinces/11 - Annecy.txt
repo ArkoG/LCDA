@@ -1,0 +1,29 @@
+# 11 - Annecy
+
+# County Title
+title = c_annecy
+
+# Settlements
+max_settlements = 5
+
+
+b_annecy1 = castle
+b_annecy2 = temple
+b_annecy3 = city
+
+#b_annecy4 = castle #Thorens
+b_annecy5 = city
+#b_annecy6 = city
+#b_annecy7 = castle #Gye 1400?
+
+# Misc
+culture = arpitan
+religion = catholic
+terrain = hills
+
+# History
+
+#999.9.9 = {	b_annecy1 = CITADELLE	}
+#999.9.9 = {	b_annecy4 = FORT	}
+#999.9.9 = { trigger = {	terrain = mountain } }
+1050.1.1 = {	b_annecy4 = castle	}

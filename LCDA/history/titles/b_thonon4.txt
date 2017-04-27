@@ -1,0 +1,15 @@
+#Château d'Allinges le vieux, seigneurs d'Allinges
+1020.1.1= {
+law = succ_primogeniture
+liege=c_faucigny
+law = cognatic_succession
+}
+1020.1.1= 	{ holder=100000 } #Aymerard
+1055.1.1= 	{ holder=100001 } #Louis Ier
+1080.1.1= 	{ holder=100003 } #Vuillielme Ier
+1124.1.1= 	{ holder=100007 } #Rodolphe Ier
+1132.1.1= 	{ holder=100012 } #Aymon Ier
+1178.1.1= 	{ holder=100019 } #Henri Ier
+1197.11.14=	{ holder=100040 } #Guillaume II
+1202.9.19= 	{ holder=100041 } #Aymon II
+1253.9.30= 	{ holder =0 }

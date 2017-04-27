@@ -1,0 +1,38 @@
+# 36 - Romans
+
+# County Title
+title = c_romans
+
+# Settlements
+max_settlements = 3
+
+
+b_romans2 = temple # abbaye bénédictine, Romans
+#b_romans1 = castle #Peyrins, chateau et mandement attesté en 1074 vassal d'Albon, date à déterminer
+#b_romans3 = city #Romans incendié en 1134 par le comte d'Albon
+
+#b_romans4 = castle #Clérieux
+#b_romans5 = temple #Saint-Barnard
+#b_romans6 = city #saint marcellin 1083 attesté village #privilèges en 1333 (implantation de juifs et lombards + péages #ou 1343
+
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+ 838.1.1 = {	b_romans2 = temple	} #fondation par Barnard de Romans// d'Izernore blason du village écartelé d'argent (1 & 3) et d'azur, à reprendre éventuellement, sinon pour les sires d'izernore
+ 944.1.1 = {	remove_settlement = b_romans2	}
+ 944.1.1 = {	b_romans5 = temple	} #renommée en Saint-Barnard pour sa canonisation (fictif)
+ 944.1.1 = {	capital = b_romans5	} 
+1000.1.1 = {	b_romans3 = city	}
+#1050.1.1 (courant XIéme s) devient une collégiale dirigée par des chanoines
+#1049 pont vieux
+1040.1.1 = {	b_romans1 = castle	}
+1040.1.1 = {	max_settlements = 4	}
+1083.1.1 = {	b_romans6 = city	}
+1083.1.1 = {	max_settlements = 5	}
+1280.6.1 = {	capital = b_romans3	} #1280 insurrection romanaise, les chanoines renoncent à la gouvernance de la cité
+1342.6.1 = {	capital = b_romans1	} #annexion de la cité par le dauphin en 1342 #à voir si conserver en capitale ou non

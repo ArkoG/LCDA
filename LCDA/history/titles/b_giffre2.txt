@@ -1,0 +1,6 @@
+#Abbé de Sixt
+
+1144.6.1={ liege="c_faucigny" }
+
+1144.6.1 = { holder=100017 } #Ponce de Faucigny, fondateur
+1178.11.26 = { holder=0 } #aucun autre abbé connu

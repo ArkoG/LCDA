@@ -1,0 +1,6 @@
+1000.1.1 ={	
+		holder=0
+		#law = succ_feudal_elective
+		#law = agnatic_succession
+	}
+1025.1.1 ={	holder=106	} #Aymon III

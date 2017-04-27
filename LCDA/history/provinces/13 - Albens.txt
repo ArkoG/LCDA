@@ -1,0 +1,26 @@
+# 13 - Albens
+
+# County Title
+title = c_albens
+
+# Settlements
+max_settlements = 4
+
+
+b_albens1 = castle
+b_albens2 = temple
+b_albens3 = city
+
+#b_albens4 = castle
+#b_albens5 = temple
+#b_albens6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_albens = ca_tpinit_1	}
+

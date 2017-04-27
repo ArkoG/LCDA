@@ -1,0 +1,30 @@
+# 22 - Moutiers
+
+# County Title
+title = c_moutiers
+
+# Settlements
+max_settlements = 6
+
+
+b_moutiers2 = temple
+b_moutiers1 = castle #Feissons 1082
+b_moutiers3 = city
+
+#b_moutiers4 = castle
+#b_moutiers5 = temple
+#b_moutiers6 = city
+
+#évéché >> 794
+#archevêché >> 996
+#archevêques-comtes >> 1772
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_moutiers2 = CITEEPISCOPALE	}
+

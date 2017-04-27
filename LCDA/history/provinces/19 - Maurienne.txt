@@ -1,0 +1,31 @@
+# 19 - Maurienne
+
+# County Title
+title = c_maurienne
+
+# Settlements
+max_settlements = 6
+
+
+b_maurienne2 = temple #Saint-Jean
+b_maurienne1 = castle #Charbonnières
+b_maurienne3 = city #Aiguebelle
+
+#b_maurienne4 = castle #Hermillon
+#b_maurienne5 = temple 
+#b_maurienne6 = city 
+
+
+#châteaux Charbonnières, première mention en 1023 au dessus du bourg d'aiguebelle. possessions de vicomtes dde miolans début Xiéme puis passe aux savoies fin XIéme.
+# et Hermillon aux Savoie
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_maurienne2 = CITEEPISCOPALE	}
+
+
+

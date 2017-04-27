@@ -1,0 +1,32 @@
+# 4 - Thonon
+
+# County Title
+title = c_thonon
+
+# Settlements
+max_settlements = 5
+
+
+b_thonon1 = castle #Allinges puis Ripaille pour se rapprocher de Thonon. passé aux Savoies en 1203
+b_thonon2 = temple #Filly AKA Sciez. possède également le prieuré augustin de st-Georges, en Nyon
+b_thonon3 = city
+
+b_thonon4 = castle #Allinges chateau-vieux propiété des Allinges
+#b_thonon5 = temple
+#b_thonon6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+terrain = hills
+
+# History
+
+#999.9.9 = {	b_thonon = ca_tpinit_1	}
+
+
+# 2 mai 1108 : Giraldus, seigneur d'Allinges ; Boso, fils de Giraldus seigneur d'Allinges
+
+#maison d'Allinges : http://fr.wikipedia.org/wiki/Famille_d%27Allinges
+#Hermence port des Faucigny

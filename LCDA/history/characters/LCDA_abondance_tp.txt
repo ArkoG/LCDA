@@ -1,0 +1,281 @@
+1000	=	 {	name=	"Herluin"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1032.1.1	=	{ birth=	"	1032.1.1	"	}	
+1115.1.1	=	{ death=	"	1115.1.1	"	}
+martial = 7
+diplomacy = 2
+stewardship = 5
+intrigue = 2
+learning = 1
+add_trait = "flamboyant_schemer"
+add_trait = "cynical"
+add_trait = "shy"
+add_trait = "brave"
+add_trait = "honest"
+}
+1001	=	 {	name=	"Robert"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1032.1.1	=	{ birth=	"	1032.1.1	"	}	
+1121.1.1	=	{ death=	"	1121.1.1	"	}
+martial = 1
+diplomacy = 7
+stewardship = 4
+intrigue = 7
+learning = 3
+add_trait = "grey_eminence"
+add_trait = "envious"
+}
+1002	=	 {	name=	"Rodolphe"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1070.1.1	=	{ birth=	"	1070.1.1	"	}	
+1124.1.1	=	{ death=	"	1124.1.1	"	}
+martial = 5
+diplomacy = 1
+stewardship = 6
+intrigue = 3
+learning = 4
+add_trait = "flamboyant_schemer"	
+}
+1003	=	 {	name=	"Aymerard"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1080.1.1	=	{ birth=	"	1080.1.1	"	}	
+1144.1.1	=	{ death=	"	1144.1.1	"	}
+martial = 1
+diplomacy = 3
+stewardship = 6
+intrigue = 5
+learning = 8
+add_trait = "grey_eminence"
+add_trait = "mystic"
+add_trait = "honest"
+}
+1004	=	 {	name=	"Rodolphe"	dynasty=	300116	religion=	"catholic"	culture=	"arpitan"	
+1100.1.1	=	{ birth=	"	1100.1.1	"	}	
+1168.1.1	=	{ death=	"	1168.1.1	"	}
+martial = 1
+diplomacy = 4
+stewardship = 6
+intrigue = 5
+learning = 4
+add_trait = "underhanded_rogue"
+add_trait = "paranoid"
+add_trait = "envious"
+add_trait = "cruel"	
+}
+1005	=	 {	name=	"Burchard"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1110.1.1	=	{ birth=	"	1110.1.1	"	}	
+1171.1.1	=	{ death=	"	1171.1.1	"	}	
+martial = 2
+diplomacy = 4
+stewardship = 1
+intrigue = 2
+learning = 1
+add_trait = "thrifty_clerk"
+add_trait = "slothful"
+add_trait = "patient"
+add_trait = "kind"
+}
+1006	=	 {	name=	"Pierre"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1120.1.1	=	{ birth=	"	1120.1.1	"	}	
+1180.1.1	=	{ death=	"	1180.1.1	"	}	
+martial = 0
+diplomacy = 5
+stewardship = 7
+intrigue = 7
+learning = 2
+add_trait = "brilliant_strategist"
+add_trait = "humble"
+add_trait = "content"
+add_trait = "wroth"
+}
+1007	=	 {	name=	"Gérold"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1120.1.1	=	{ birth=	"	1120.1.1	"	}	
+1187.1.1	=	{ death=	"	1187.1.1	"	}
+martial = 5
+diplomacy = 8
+stewardship = 6
+intrigue = 5
+learning = 6
+add_trait = "detached_priest"
+add_trait = "patient"
+add_trait = "trusting"	
+}
+1008	=	 {	name=	"Guillaume"	dynasty=	300117	religion=	"catholic"	culture=	"arpitan"	
+1150.1.1	=	{ birth=	"	1150.1.1	"	}	
+1208.1.1	=	{ death=	"	1208.1.1	"	}	
+martial = 3
+diplomacy = 6
+stewardship = 1
+intrigue = 8
+learning = 7
+add_trait = "grey_eminence"
+add_trait = "brave"
+add_trait = "cruel"
+}
+1009	=	 {	name=	"Albert"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1170.1.1	=	{ birth=	"	1170.1.1	"	}	
+1232.1.1	=	{ death=	"	1232.1.1	"	}
+martial = 1
+diplomacy = 3
+stewardship = 8
+intrigue = 5
+learning = 1
+add_trait = "elusive_shadow"
+add_trait = "arbitrary"
+add_trait = "wounded"	
+}
+1010	=	 {	name=	"Pierre"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1190.1.1	=	{ birth=	"	1190.1.1	"	}	
+1260.1.1	=	{ death=	"	1260.1.1	"	}
+martial = 5
+diplomacy = 5
+stewardship = 1
+intrigue = 2
+learning = 3
+add_trait = "skilled_tactician"
+add_trait = "craven"
+add_trait = "gregarious"	
+}
+1011	=	 {	name=	"Jean"		dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1190.1.1	=	{ birth=	"	1190.1.1	"	}	
+1250.1.1	=	{ death=	"	1250.1.1	"	}	
+martial = 3
+diplomacy = 1
+stewardship = 1
+intrigue = 2
+learning = 0
+add_trait = "charismatic_negotiator"
+add_trait = "greedy"
+add_trait = "patient"
+}
+1012	=	 {	name=	"Pierre"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1190.1.1	=	{ birth=	"	1190.1.1	"	}	
+1264.1.1	=	{ death=	"	1264.1.1	"	}	
+martial = 4
+diplomacy = 2
+stewardship = 4
+intrigue = 0
+learning = 6
+add_trait = "underhanded_rogue"
+add_trait = "lustful"
+add_trait = "diligent"
+}
+1013	=	 {	name=	"Viffred"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1200.1.1	=	{ birth=	"	1200.1.1	"	}	
+1270.1.1	=	{ death=	"	1270.1.1	"	}	
+martial = 3
+diplomacy = 2
+stewardship = 3
+intrigue = 5
+learning = 5
+add_trait = "underhanded_rogue"
+add_trait = "impaler"
+add_trait = "craven"
+}
+1014	=	 {	name=	"Raymond Bondaci"	dynasty=0	religion=	"catholic"	culture=	"arpitan"	
+1220.1.1	=	{ birth=	"	1220.1.1	"	}	
+1296.1.1	=	{ death=	"	1296.1.1	"	}	
+martial = 4
+diplomacy = 2
+stewardship = 2
+intrigue = 6
+learning = 5
+add_trait = "underhanded_rogue"
+add_trait = "just"
+}
+1015	=	 {	name=	"Jean"		dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1220.1.1	=	{ birth=	"	1220.1.1	"	}	
+1300.1.1	=	{ death=	"	1300.1.1	"	}	
+martial = 6
+diplomacy = 0
+stewardship = 4
+intrigue = 6
+learning = 4
+add_trait = "underhanded_rogue"
+add_trait = "shy"
+add_trait = "drunkard"
+}
+1016	=	 {	name=	"Gérold"	dynasty=	300118	religion=	"catholic"	culture=	"arpitan"	
+1250.1.1	=	{ birth=	"	1250.1.1	"	}	
+1331.1.1	=	{ death=	"	1331.1.1	"	}	
+martial = 5
+diplomacy = 6
+stewardship = 4
+intrigue = 6
+learning = 5
+add_trait = "naive_appeaser"
+add_trait = "temperate"
+add_trait = "gregarious"
+add_trait = "cruel"
+}
+1017	=	 {	name=	"Jean"		dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
+1295.1.1	=	{ birth=	"	1295.1.1	"	}	
+1354.1.1	=	{ death=	"	1354.1.1	"	}	
+martial = 0
+diplomacy = 5
+stewardship = 0
+intrigue = 6
+learning = 5
+add_trait = "skilled_tactician"
+add_trait = "impaler"
+add_trait = "brave"
+add_trait = "diligent"
+}
+1018	=	 {	name=	"Pierre"	dynasty=	300119	religion=	"catholic"	culture=	"arpitan"	
+1300.1.1	=	{ birth=	"	1300.1.1	"	}	
+1379.1.1	=	{ death=	"	1379.1.1	"	}	
+martial = 7
+diplomacy = 3
+stewardship = 6
+intrigue = 5
+learning = 4
+add_trait = "underhanded_rogue"
+add_trait = "arbitrary"
+add_trait = "cynical"
+add_trait = "gregarious"
+add_trait = "wounded"
+}
+1019	=	 {	name=	"Jean"		dynasty=	300120	religion=	"catholic"	culture=	"arpitan"	
+1330.1.1	=	{ birth=	"	1330.1.1	"	}	
+1404.1.1	=	{ death=	"	1404.1.1	"	}
+martial = 5
+diplomacy = 4
+stewardship = 3
+intrigue = 6
+learning = 7
+add_trait = "fortune_builder"
+add_trait = "cruel"
+}
+1020	=	 {	name=	"Girard"	dynasty=	300121	religion=	"catholic"	culture=	"arpitan"	
+1330.1.1	=	{ birth=	"	1330.1.1	"	}	
+1408.1.1	=	{ death=	"	1408.1.1	"	}
+martial = 6
+diplomacy = 4
+stewardship = 6
+intrigue = 3
+learning = 5
+add_trait = "charismatic_negotiator"
+add_trait = "kind"
+add_trait = "ambitious"
+add_trait = "shy"	
+}
+1021	=	 {	name=	"Thomas"	dynasty=	300122	religion=	"catholic"	culture=	"arpitan"	
+1350.1.1	=	{ birth=	"	1350.1.1	"	}	
+1411.11.2	=	{ death=	"	1411.11.2	"	}
+martial = 4
+diplomacy = 5
+stewardship = 4
+intrigue = 3
+learning = 8
+add_trait = "indulgent_wastrel"
+add_trait = "arbitrary"
+add_trait = "lustful"
+}
+1022	=	 {	name=	"Guillaume"	dynasty=	300118	religion=	"catholic"	culture=	"arpitan"	
+1380.1.1	=	{ birth=	"	1380.1.1	"	}	
+1432.1.1	=	{ death=	"	1432.1.1	"	}
+martial = 3
+diplomacy = 6
+stewardship = 5
+intrigue = 0
+learning = 1
+add_trait = "thrifty_clerk"
+add_trait = "deceitful"
+add_trait = "brave"	
+}

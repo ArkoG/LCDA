@@ -1,0 +1,14 @@
+#Château de Beaufort Vanches
+
+ 999.1.1 = { liege=c_faucigny }
+#famille de Beaufort
+ 920.4.4  = { holder = 100100 } #923 mention de Bernard de Beaufort
+ 944.9.9  = { holder = 100103 } #Pierre, son fils
+973.9.22  = { holder = 100109 } #Bernard, son fils
+1021.2.7  = { holder = 100112 } #Bernard, son fils
+1040.2.1  = { holder = 100113 } #Pierre, son frère
+1054.9.22 = { holder = 100116 } #Aymon, son fils
+1074.1.16 = { holder = 0 } #
+1135.1.1 = { holder = 0 } #destruction et recontruction beaufort1 pour avoir le nom Beaufort
+#1246.1.1 = { holder =0 } #Guillaume de Beaufort qui succède à son père Guillaume de Beaufort, fondation des Outards pour son frère
+

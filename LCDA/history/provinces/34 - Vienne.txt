@@ -1,0 +1,27 @@
+# 34 - Vienne
+
+# County Title
+title = c_vienne
+
+# Settlements
+max_settlements = 6
+
+b_vienne2 = temple #
+b_vienne1 = castle #
+
+b_vienne3 = city #
+
+#b_vienne4 = castle # 
+#b_vienne5 = temple #
+#b_vienne6 = city #
+
+
+# Misc
+culture = arpitan
+religion = catholic
+terrain = mountain
+
+# History
+
+#999.9.9 = {	b_courmayeur = ca_tpinit_1	}
+

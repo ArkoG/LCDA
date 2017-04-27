@@ -1,0 +1,26 @@
+# 32 - Moirans
+
+# County Title
+title = c_moirans
+
+# Settlements
+max_settlements = 6
+
+
+b_moirans1 = castle #
+b_moirans2 = temple #
+b_moirans3 = city #
+
+#b_moirans4 = castle
+#b_moirans5 = temple
+#b_moirans6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_conthey = ca_tpinit_1	}
+

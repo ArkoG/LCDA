@@ -1,0 +1,26 @@
+# 1 - Nyon
+
+# County Title
+title = c_nyon
+
+# Settlements
+max_settlements = 6
+
+
+b_nyon1 = castle #Nyon, fief des de Prangins
+b_nyon2 = temple
+b_nyon3 = city #Aubonne château puis ville
+
+#b_nyon4 = castle #Mont-la-Grand AKA Mont-sur-Rolles http://fr.wikipedia.org/wiki/Famille_des_Monts D'or, à la croix de sable, la branche cadette portait les mêmes avec un lambel en chef à trois pendants1. seigneurs de Mont
+#b_nyon5 = temple #Oujon, charteuse fondée av 1177
+#b_nyon6 = city #st cergues : col fortifié
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_nyon = ca_tpinit_1	}
+

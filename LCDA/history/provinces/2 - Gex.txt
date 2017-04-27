@@ -1,0 +1,31 @@
+# 2 - Gex
+
+# County Title
+title = c_gex
+
+# Settlements
+max_settlements = 3
+
+
+b_gex1 = castle
+b_gex2 = temple
+b_gex3 = city
+
+#b_gex4 = castle #Coppet, fief des Thoire Villars.
+#b_gex5 = temple
+#b_gex6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+terrain = forest
+
+# History
+
+#petty lords, puis comtes bénéficiaires (de Genève) puis fief de la famille de Genève (branche de gex : qui devient vite joinville)
+
+#999.9.9 = {	b_gex = ca_tpinit_1	}
+
+1035.1.1 = { max_settlements = 4 }
+1040.1.1 = { max_settlements = 6 }

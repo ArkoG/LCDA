@@ -1,0 +1,26 @@
+# 23 - Bourg Saint Maurice
+
+# County Title
+title = c_bourgsaintmaurice
+
+# Settlements
+max_settlements = 6
+
+
+b_bourgsaintmaurice2 = temple
+b_bourgsaintmaurice1 = castle
+b_bourgsaintmaurice3 = city
+
+#b_bourgsaintmaurice4 = castle
+#b_bourgsaintmaurice5 = temple
+#b_bourgsaintmaurice6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_bourgsaintmaurice2 = MONASTERE	}
+

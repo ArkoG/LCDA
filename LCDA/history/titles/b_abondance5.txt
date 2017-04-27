@@ -1,0 +1,34 @@
+#Prieurs d'Abondance
+
+1032.1.1	= { liege="c_abondance" }
+
+#>>1080 possession de Saint Mautrice d'agaune.
+
+#prieurs
+1080.1.1	= { holder=1000 } #Herluin
+1115.1.1	= { holder=1001 } #Robert
+1121.1.1	= { holder=1002 } #Rodolphe
+1124.1.1	= { holder=1003 } #Aymerard
+#abbés conventuels
+1144.1.1	= { holder=1004 } #Rodolphe de Voserier
+1153.1.1	= { holder=1005 } #Burchard
+1171.1.1	= {	holder = 100017	} #Ponce de Faucigny
+1175.1.1	= { holder=1006 } #Pierre Ier
+1180.1.1	= { holder=1007 } #Gérold
+1187.1.1	= { holder=1008 } #Guillaume de Viu
+1208.1.1	= { holder=1009 } #Albert
+1232.1.1	= { holder=1010 } #Pierre II
+1233.1.1	= { holder=1011 } #Jean Ier
+1250.1.1	= { holder=1012 } #Pierre III
+1264.1.1	= { holder=1013 } #Viffred
+1270.1.1	= { holder=1014 } #Raymond Bondaci
+1296.1.1	= { holder=1015 } #Jean III
+1300.1.1	= { holder=1016 } #Gérold de Lugrin
+1331.1.1	= { holder=1017 } #Jean IV
+1354.1.1	= { holder=1018 } #Pierre de Lullier
+1379.1.1	= { holder=1019 } #Jean de Fillinges
+1404.1.1	= { holder=1020 } #Girard du Pas
+1408.1.1	= { holder=1021 } #Thomas Gersat
+1411.11.2	= { holder=1022 } #Guillaume de Lugrin
+#abbés commenditaires
+1432.1.1	= { holder=0 } #François du Crest/Ducrest (abbé de Filly depuis 1430) #to be continued

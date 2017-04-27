@@ -1,0 +1,43 @@
+# 18 - Beaufort
+
+# County Title
+title = c_beaufort
+
+# Settlements
+max_settlements = 3
+
+b_beaufort1 = castle #Beaufort
+b_beaufort2 = castle #Beaufort Vanches (chateau vieux)
+#b_beaufort3 = castle #Beaufort les Outards (maison forte) 1246
+
+#b_beaufort4 = castle
+#b_beaufort5 = temple
+#b_beaufort6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+terrain = mountain
+
+# History
+
+
+ 999.9.9 = {	b_beaufort1 = castle	}
+ 999.9.9 = { 	capital = b_beaufort1	}
+ 999.9.9 = {	b_beaufort2 = castle	}
+1135.1.1 = {	remove_settlement = beaufort1 }
+1135.1.1 = {	remove_settlement = beaufort2 }
+1135.1.1 = {	b_beaufort1 = castle	}
+1135.1.1 = { 	capital = b_beaufort1	}
+1246.1.1 = {	b_beaufort2 = castle	}
+1246.1.1 = {	max_settlements = 4	}
+
+
+
+#chateau cédé (avec ses droits ?) à Béatrix de Faucigny en 1271 qui l'érige en baronnie en 1277
+#vassaux de tarentaire puis du faucigny ?
+#ou vassaux de Faucigny jusqu'à la fin ? voir http://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Beaufort_%28Savoie%29
+
+#famille de beaufort porte de gueule au lion d'argent (armé et lampassé d'azur)
+#1212 instauration d'un marché

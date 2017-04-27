@@ -1,0 +1,40 @@
+# 40 - Oisans/Visan
+
+# County Title
+title = c_oisans
+
+# Settlements
+max_settlements = 3
+
+b_oisans3 = city #Parocchia de Lento (Mont-de-Lans), mentionné en 1073 mais présence antique attestée
+#b_oisans2 = temple #Saint-Laurent, créé avant 1036 mais après 1012 par l'evêque de Grenoble, Humbert
+#b_oisans1 = castle #La Paute (lieu dit de Bourg d'Oisans), maison forte et châteaux, mentionné en 1339 dans l'inventaire.
+
+
+#b_oisans4 = city #Le Bourg
+#b_oisans5 = temple #néant
+#b_oisans6 = city #Vénosc
+
+#foire saint jean-baptiste, le 24 juin à bourg d'oisans à partir de 1315
+#Le bourg est le seul lieu de marché de l'Oisans pdt tout le moyen age
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+ 999.1.1 = {	b_oisans3 = city	}
+1015.1.1 = {	b_oisans2 = temple	} #fondation approximative
+1070.1.1 = {	remove_settlement = b_oisans2	} #prise d'importance "capitale de l'Oisans"
+1070.1.1 = {	b_oisans2 = city	} #
+1070.1.1 = {	capital = b_oisans2	} #prise d'importance "capitale de l'Oisans"
+#1191.1.1	#éboulement et inondation, déplacement de l'activité au village voisin de La Garde
+#1219.9.14	#disparition du lac
+1200.1.1 = {	remove_settlement = b_oisans2	} #ravagé à cause du lac
+1200.1.1 = {	b_oisans4 = city	} #Le Bourg
+1200.1.1 = {	b_oisans1 = castle	} #tombe sous la suzeraineté du dauphin (voir date) et fondation du château
+1200.1.1 = {	capital = b_oisans1	} #tombe sous la suzeraineté du dauphin (voir date)
+1200.1.1 = {	max_settlements = 4	}
+

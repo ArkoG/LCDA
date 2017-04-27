@@ -1,0 +1,51 @@
+# 5 - Abondance
+
+# County Title
+title = c_abondance
+
+# Settlements
+max_settlements = 4
+
+
+b_abondance4 = temple #fictif pour modéliser la possession par St Maurice (capitale détenue) 
+b_abondance1 = castle #Féternes, ou Gavot ?
+#b_abondance2 = temple #Aulps érigée en 1090, présence de saint Guérin en 1120 (construction de 1150 à 1212)
+b_abondance3 = city #Evian
+
+#b_abondance5 = temple #Abondance fondée en 1144 (date 1er abbé). fondation prieuré 1043 ? (dhs) (devenue abbaye  1130-1140)
+#b_abondance6 = city #Chairavaux AKA Montriond
+
+
+# Misc
+culture = arpitan
+religion = catholic
+#terrain = forest
+
+# History
+
+# 999.9.9  = { b_abondance1 = BOURGFEODAL	}
+# 999.9.9  = { b_abondance4 = MONASTERE	}
+
+1080.1.1 = { remove_settlement = b_abondance4 }
+1080.1.1 = {	b_abondance5 = temple		}
+#1080.1.1 = { b_abondance5 = MONASTERE	}
+1080.1.1 = { capital = b_abondance5		}
+
+1097.1.1 = { max_settlements = 5	}
+1097.1.1 = {	b_abondance2 = temple		}
+#1097.1.1 = { b_abondance2 = MONASTERE	}
+
+1181.1.1 = {	b_abondance6 = city }
+#1181.1.1 = { b_abondance6 = CITE_L1 }
+#1181.1.1 = { b_abondance6 = VOC_INDUSTRIELLE }
+
+# don de la province par le roi en 1017 à la Savoie de l'Abbaye de St Maurice (+ Gavot + val d'Abondance) . passage à Humbert en 1032 (Gavot en tout cas)
+#1032 Humbert devient comte de chablais et de saint maurice (pas encore comte de savoie)
+#Amédée III : (1103-1148)
+#2 mai 1108 seigneur à Féternes (Wido), vassal du comte de Savoie. possédé en propre par le comte avant ? http://www.digi-archives.org/fonds/acs/index.php?session=public&action=show&ref=CH%20AASM%20CHA%20055%20001%20001~03
+#Compey (branche cadette de Féternes), blason De gueules à cinq étoiles d'or, 3 et 2, au chef d'argent au lion issant de sable
+#1080 seigneur de Féterne = Louis (de Féterne ?)
+
+#abbaye d'Aulps : http://fr.wikipedia.org/wiki/Abbaye_d%27Aulps
+# Guy et Guérin de Mousson sont de ceux-ci.  // Guy puis Guérin, les deux premiers abbés, liste ci dessous
+# http://fr.wikipedia.org/wiki/Abbaye_d%27Aulps#Liste_des_abb.C3.A9s

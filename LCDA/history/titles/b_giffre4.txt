@@ -1,0 +1,11 @@
+#seigneurs de Châtillon, fascé d'azur et argent à la cotice de gueule brochant. landed : d'azur à la tour d'argent 
+
+1135.1.1={ liege="c_faucigny" }
+
+#famille de Châtillon 
+#1135-1185 Alémard de Châtillon 
+#1185-1205 Turumbert de Châtillon 
+#1205-1210 Gérard de Châtillon? vicomte de Châtillon
+#1215 Aymon II de Faucigny
+
+

@@ -1,0 +1,4 @@
+999.9.9 = {
+	holder=0
+}
+1236.11.15 = {} #premier détenteur Édouard de Savoie (le Libéral). date d'un acte donc peut être antérieur.

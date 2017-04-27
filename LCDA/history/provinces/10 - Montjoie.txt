@@ -1,0 +1,37 @@
+# 10 - Valmonjoie
+
+# County Title
+title = c_montjoie
+
+# Settlements
+max_settlements = 3
+
+
+b_montjoie1 = castle #Montjoie
+
+#b_montjoie2 = temple #Chamonix entra dans l'histoire en 1091 quand le comte Aymon Ier de Genève fit dotation de la vallée à l'abbaye bénédictine de Saint-Michel de la Cluse, en Piémont. Des moines s'installèrent sur la rive droite de l'Arve. Ils construisirent un moulin aux Praz et une ferme au Mollard50. Au XIIe siècle, une communauté de moines s'installa sur la commune et y fonda le prieuré de Chamonix.
+
+#b_montjoie3 = city #Sallanches #franchises en 1310
+
+#b_montjoie4 = castle #flumet fortifié au 12eme/13eme
+#b_montjoie5 = temple #libre
+#b_montjoie6 = city #libre
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+ #999.1.1 = {	b_montjoie1 = BOURGFEODAL }
+ 999.1.1 = { 	max_settlements = 3 }
+
+1050.1.1 = { b_montjoie3 = city }
+1090.1.1 = { b_montjoie2 = temple } # don à Saint-Michel de la Cluse, en Piémont
+#1090.1.1 = {	b_montjoie2 = MONASTERE }
+1090.1.1 = { 	max_settlements = 4 }
+
+1120.1.1 = { b_montjoie4 = castle }
+#1120.1.1 = {	b_montjoie4 = FORT }
+1120.1.1 = { 	max_settlements = 5 }

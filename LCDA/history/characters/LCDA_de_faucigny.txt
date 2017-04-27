@@ -1,0 +1,51 @@
+100000	=	 {	name=	"Aymerard"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"												990.1.1		=	{ birth=	"	990.1.1	"		}												1055.1.1	=	{ death=	"	1055.1.1	"	}	}
+100001	=	 {	name=	"Louis"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100000					1030.1.1	=	{ birth=	"	1030.1.1	"	}	1053.1.1	=	{ add_spouse=	100002	}	1080.1.1	=	{ death=	"	1080.1.1	"	}	}
+100002	=	 {	name=	"Thetburga"			dynasty=	300103	religion=	"catholic"	culture=	"arpitan"	female=yes									1032.1.1	=	{ birth=	"	1032.1.1	"	}												1094.1.1	=	{ death=	"	1094.1.1	"	}	}
+100003	=	 {	name=	"Vuillielme"		dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100001	mother=	100002	1053.1.1	=	{ birth=	"	1053.1.1	"	}	1069.1.1	=	{ add_spouse=	100006	}	1124.1.1	=	{ death=	"	1124.1.1	"	}	}
+100004	=	 {	name=	"Gui"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100001	mother=	100002	1055.1.1	=	{ birth=	"	1055.1.1	"	}												1120.1.31	=	{ death=	"	1120.1.31	"	}	}
+100005	=	 {	name=	"Amédée"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100001	mother=	100002	1057.1.1	=	{ birth=	"	1057.1.1	"	}												1107.1.1	=	{ death=	"	1107.1.1	"	}	}
+100006	=	 {	name=	"Ottilie"			dynasty=	0		religion=	"catholic"	culture=	"arpitan"	female=yes									1070.1.1	=	{ birth=	"	1070.1.1	"	}												1118.1.1	=	{ death=	"	1118.1.1	"	}	}
+100007	=	 {	name=	"Rodolphe"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100003	mother=	100006	1069.10.1	=	{ birth=	"	1069.10.1	"	}												1132.1.1	=	{ death=	"	1132.1.1	"	}	}
+100008	=	 {	name=	"Louis"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100003	mother=	100006	1071.1.1	=	{ birth=	"	1071.1.1	"	}												1131.1.1	=	{ death=	"	1131.1.1	"	}	}
+100009	=	 {	name=	"Raymond"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100003	mother=	100006	1071.1.2	=	{ birth=	"	1071.1.2	"	}												1131.1.2	=	{ death=	"	1131.1.2	"	}	}
+100010	=	 {	name=	"Gérold"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100003	mother=	100006	1073.1.1	=	{ birth=	"	1073.1.1	"	}												1129.7.1	=	{ death=	"	1129.7.1	"	}	}
+100011	=	 {	name=	"Amédée"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100003	mother=	100006	1080.1.1	=	{ birth=	"	1080.1.1	"	}												1128.1.1	=	{ death=	"	1128.1.1	"	}	}
+100012	=	 {	name=	"Aymon"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100007					1125.1.1	=	{ birth=	"	1125.1.1	"	}												1192.1.1	=	{ death=	"	1192.1.1	"	}	1147.1.1	=	{ add_trait=crusader	}}
+100013	=	 {	name=	"Arducius"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100007					1115.1.1	=	{ birth=	"	1115.1.1	"	}												1185.7.25	=	{ death=	"	1185.7.25	"	}	}
+100014	=	 {	name=	"Gui"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100007					1113.1.1	=	{ birth=	"	1113.1.1	"	}												1180.1.1	=	{ death=	"	1180.1.1	"	}	}
+100015	=	 {	name=	"Rodolphe"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100007					1115.1.1	=	{ birth=	"	1115.1.1	"	}	1140.1.1	=	{ add_spouse=	100025	}	1178.1.1	=	{ death=	"	1178.1.1	"	}	}
+100016	=	 {	name=	"Raymond"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100007					1116.1.1	=	{ birth=	"	1116.1.1	"	}												1180.1.1	=	{ death=	"	1180.1.1	"	}	}
+100017	=	 {	name=	"Ponce"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100007					1100.1.1	=	{ birth=	"	1100.1.1	"	}												1178.11.26	=	{ death=	"	1178.11.26	"	}	}
+100019	=	 {	name=	"Henri"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100012					1155.1.1	=	{ birth=	"	1155.1.1	"	}	1175.1.1	=	{ add_spouse=	100039	}	1197.11.14	=	{ death=	"	1197.11.14	"	}	}
+100020	=	 {	name=	"Guillaume"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100012					1133.1.1	=	{ birth=	"	1133.1.1	"	}												1193.1.1	=	{ death=	"	1193.1.1	"	}	}
+100021	=	 {	name=	"Aymon"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100012					1138.1.1	=	{ birth=	"	1138.1.1	"	}												1197.1.1	=	{ death=	"	1197.1.1	"	}	}
+100022	=	 {	name=	"Marchand"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100012					1145.1.1	=	{ birth=	"	1145.1.1	"	}												1204.1.1	=	{ death=	"	1204.1.1	"	}	}
+100023	=	 {	name=	"Béatrix"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"	female=yes	father=	100012					1150.1.1	=	{ birth=	"	1150.1.1	"	}												1209.1.1	=	{ death=	"	1209.1.1	"	}	}
+100024	=	 {	name=	"Aleyde"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"	female=yes	father=	100012					1100.1.1	=	{ birth=	"	1100.1.1	"	}												1178.1.1	=	{ death=	"	1178.1.1	"	}	}
+100025	=	 {	name=	"Emma Eléanore"		dynasty=	300105	religion=	"catholic"	culture=	"arpitan"	female=yes									1110.1.1	=	{ birth=	"	1110.1.1	"	}												1165.1.1	=	{ death=	"	1165.1.1	"	}	}
+100026	=	 {	name=	"Rodolphe"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100015	mother=	100025	1145.1.1	=	{ birth=	"	1145.1.1	"	}	1165.1.1	=	{ add_spouse=	100028	}	1233.1.1	=	{ death=	"	1233.1.1	"	}	1200.1.1	=	{ add_spouse=	100029	}}
+100027	=	 {	name=	"Guigues"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100015	mother=	100025	1142.1.1	=	{ birth=	"	1142.1.1	"	}	1160.1.1	=	{ add_spouse=	100030	}	1193.1.1	=	{ death=	"	1193.1.1	"	}	}
+100028	=	 {	name=	"Kéberge"			dynasty=	300109	religion=	"catholic"	culture=	"arpitan"	female=yes									1150.1.1	=	{ birth=	"	1150.1.1	"	}												1200.1.1	=	{ death=	"	1200.1.1	"	}	}
+100029	=	 {	name=	"Alisia"			dynasty=	300101	religion=	"catholic"	culture=	"arpitan"	female=yes									1180.1.1	=	{ birth=	"	1180.1.1	"	}												1235.1.1	=	{ death=	"	1235.1.1	"	}	}
+100030	=	 {	name=	"Bonne"				dynasty=	300106	religion=	"catholic"	culture=	"arpitan"	female=yes									1150.1.1	=	{ birth=	"	1150.1.1	"	}												1193.1.1	=	{ death=	"	1193.1.1	"	}	}
+100031	=	 {	name=	"Odon"				dynasty=	300107	religion=	"catholic"	culture=	"arpitan"				father=	100027	mother=	100030	1160.1.1	=	{ birth=	"	1160.1.1	"	}												1241.1.1	=	{ death=	"	1241.1.1	"	}	}
+100032	=	 {	name=	"Jean"				dynasty=	300107	religion=	"catholic"	culture=	"arpitan"				father=	100027	mother=	100030	1166.1.1	=	{ birth=	"	1166.1.1	"	}												1245.1.1	=	{ death=	"	1245.1.1	"	}	}
+100033	=	 {	name=	"Marguerite"		dynasty=	300108	religion=	"catholic"	culture=	"arpitan"	female=yes									1170.1.1	=	{ birth=	"	1170.1.1	"	}												1245.1.1	=	{ death=	"	1245.1.1	"	}	}
+100039	=	 {	name=	"Comtesson"			dynasty=	300101	religion=	"catholic"	culture=	"arpitan"	female=yes									1160.1.1	=	{ birth=	"	1160.1.1	"	}												1210.1.1	=	{ death=	"	1210.1.1	"	}	}
+100040	=	 {	name=	"Guillaume"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100019	mother=	100039	1178.1.1	=	{ birth=	"	1178.1.1	"	}												1202.9.19	=	{ death=	"	1202.9.19	"	}	}
+100041	=	 {	name=	"Aymon"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100019	mother=	100039	1180.1.1	=	{ birth=	"	1180.1.1	"	}	1215.1.1	=	{ add_spouse=	100043	}	1253.9.30	=	{ death=	"	1253.9.30	"	}	}
+100042	=	 {	name=	"Béatrix Marguerite"dynasty=	300102	religion=	"catholic"	culture=	"arpitan"	female=yes	father=	100019	mother=	100039	1179.1.1	=	{ birth=	"	1179.1.1	"	}												1257.4.8	=	{ death=	"	1257.4.8	"	}	}
+100043	=	 {	name=	"Béatrix"			dynasty=	300110	religion=	"catholic"	culture=	"arpitan"	female=yes									1195.1.1	=	{ birth=	"	1195.1.1	"	}												1261.3.20	=	{ death=	"	1261.3.20	"	}	}
+100044	=	 {	name=	"Flotte"			dynasty=	300111	religion=	"catholic"	culture=	"arpitan"	female=yes									1205.1.1	=	{ birth=	"	1205.1.1	"	}												1248.1.1	=	{ death=	"	1248.1.1	"	}	}
+100045	=	 {	name=	"Béatrix"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"	female=yes	father=	100041	mother=	100043	1210.1.1	=	{ birth=	"	1210.1.1	"	}												1276.3.8	=	{ death=	"	1276.3.8	"	}	}
+100046	=	 {	name=	"Agnès"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"	female=yes	father=	100041	mother=	100043	1215.1.1	=	{ birth=	"	1215.1.1	"	}												1268.8.11	=	{ death=	"	1268.8.11	"	}	}
+100047	=	 {	name=	"Aymon"				dynasty=	0		religion=	"catholic"	culture=	"arpitan"				father=	100041					1225.1.1	=	{ birth=	"	1225.1.1	"	}												1262.1.1	=	{ death=	"	1262.1.1	"	}	add_trait= bastard }
+100050	=	 {	name=	"Pierre"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"												1281.1.1	=	{ birth=	"	1281.1.1	"	}												1342.3.28	=	{ death=	"	1342.3.28	"	}	}
+100051	=	 {	name=	"Anguisio"			dynasty=	300109	religion=	"catholic"	culture=	"arpitan"				father=	100026	mother=	100028	1166.1.1	=	{ birth=	"	1166.1.1	"	}												1235.1.1	=	{ death=	"	1235.1.1	"	}	}
+100052	=	 {	name=	"Rodolphe"			dynasty=	300109	religion=	"catholic"	culture=	"arpitan"				father=	100026	mother=	100028	1168.1.1	=	{ birth=	"	1168.1.1	"	}	1188.1.1	=	{ add_spouse=	100033	}	1236.1.1	=	{ death=	"	1236.1.1	"	}	}
+100053	=	 {	name=	"Guillaume"			dynasty=	300109	religion=	"catholic"	culture=	"arpitan"				father=	100026	mother=	100028	1170.1.1	=	{ birth=	"	1170.1.1	"	}												1237.1.1	=	{ death=	"	1237.1.1	"	}	}
+100054	=	 {	name=	"Guillaume"			dynasty=	300109	religion=	"catholic"	culture=	"arpitan"				father=	100052	mother=	100033	1189.1.1	=	{ birth=	"	1189.1.1	"	}	1205.1.1	=	{ add_spouse=	100055	}	1270.1.1	=	{ death=	"	1270.1.1	"	}	}
+100055	=	 {	name=	"Eléonore"			dynasty=	0		religion=	"catholic"	culture=	"arpitan"	female=yes									1185.1.1	=	{ birth=	"	1185.1.1	"	}												1250.1.1	=	{ death=	"	1250.1.1	"	}	}
+100056	=	 {	name=	"Humbert"			dynasty=	300109	religion=	"catholic"	culture=	"arpitan"				father=	100054	mother=	100055	1206.1.1	=	{ birth=	"	1206.1.1	"	}												1300.1.1	=	{ death=	"	1300.1.1	"	}	}
+100057	=	 {	name=	"Aymon"				dynasty=	300109	religion=	"catholic"	culture=	"arpitan"				father=	100054	mother=	100055	1209.1.1	=	{ birth=	"	1209.1.1	"	}												1300.1.1	=	{ death=	"	1300.1.1	"	}	}
+100058	=	 {	name=	"François"			dynasty=	300109	religion=	"catholic"	culture=	"arpitan"				father=	100054	mother=	100055	1210.1.1	=	{ birth=	"	1210.1.1	"	}												1239.1.1	=	{ death=	"	1239.1.1	"	}	}

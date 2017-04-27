@@ -1,0 +1,26 @@
+# 20 - Modane
+
+# County Title
+title = c_modane
+
+# Settlements
+max_settlements = 6
+
+
+b_modane2 = temple
+b_modane1 = castle
+b_modane3 = city
+
+#b_modane4 = castle
+#b_modane5 = temple
+#b_modane6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_modane2 = MONASTERE	}
+

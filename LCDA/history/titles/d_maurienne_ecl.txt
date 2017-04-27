@@ -1,0 +1,10 @@
+#1000.1.1 = {	liege=k_tarentaise_ecl	}
+1000.1.1 ={	
+		holder=0
+		#law = succ_feudal_elective
+		#law = agnatic_succession
+	}
+1030.1.1 ={	holder=107	} #Theobaldus
+1060.1.1 ={	holder=0	}
+1112.1.1 ={	holder=100011	} #Amédée de Faucigny
+1128.1.1 ={	holder=0	}

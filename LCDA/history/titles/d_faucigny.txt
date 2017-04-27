@@ -1,0 +1,10 @@
+#d_faucigny
+
+ 999.1.1=	{ holder=0 }
+1135.1.1= { liege=0 }
+1135.1.1= { law = succ_primogeniture }
+1135.1.1= 	{ holder=100012 } #Aymon Ier
+1178.1.1= 	{ holder=100019 } #Henri Ier
+1197.11.14=	{ holder=100040 } #Guillaume II
+1202.9.19= 	{ holder=100041 } #Aymon II
+1253.9.30= 	{ holder=0 } #Agnès puis Guigues VII

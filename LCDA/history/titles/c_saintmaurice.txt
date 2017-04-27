@@ -1,0 +1,5 @@
+1032.1.1=
+{
+holder=101
+liege=d_stmaurice_ecl
+}

@@ -1,0 +1,7 @@
+#Terre de Sallaz
+999.1.1 = {	holder=0	} 
+1135.1.1 = {	liege=d_geneve_ecl	} 
+1135.1.1 = {	holder=100013	} #Arducius (de Faucigny)
+1185.7.25 = {	holder=0	} 
+1311.1.1 = {	holder=100050	} #Pierre de Faucigny
+1342.1.1 = {	holder=0	} 

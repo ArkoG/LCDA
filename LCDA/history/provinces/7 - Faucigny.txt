@@ -1,0 +1,44 @@
+# 7 - Faucigny
+
+# County Title
+title = c_faucigny
+
+# Settlements
+max_settlements = 4
+
+
+b_faucigny1 = castle #Faucigny
+#b_faucigny2 = temple #Contamines prieuré bénédictin fondé en 1083
+#b_faucigny3 = city #Bonneville contruction vers 1250 d'une fortification franchise en 1262
+
+b_faucigny4 = castle #Lucinges/Arenthon
+#b_faucigny5 = temple #Le Reposoir/Béol
+b_faucigny6 = castle #Boëge château ?
+
+
+# Misc
+culture = arpitan
+religion = catholic
+terrain = forest
+
+# History
+
+# 999.9.9 = { b_faucigny4 = FORT	} 
+# 999.9.9 = { b_faucigny6 = BOURGFEODAL	} 
+
+1082.1.1 = { max_settlements = 5	}
+1082.1.1 = {	b_faucigny2 = temple	} #Fondation du prieuré de Contamines sur Arve
+#1082.1.1 = {	b_faucigny2 = MONASTERE	} 
+
+
+1151.1.22 = { max_settlements = 6	}
+1151.1.22 = {	b_faucigny5 = temple	} #fondation du Reposoir
+#1151.1.22 = { b_faucigny5 = MONASTERE	}
+
+1250.1.1 = {	b_faucigny3 = city	} #fondation de Bonneville // fortification puis franchise
+#1250.1.1 = { b_faucigny3 = CITE_L1	}
+#1250.1.1 = { b_faucigny3 = VOC_INDUSTRIELLE	}
+
+#à faire : mettre Faucigny en citadelle puis rétrograder quand la capitale passe à Châtillon.
+
+

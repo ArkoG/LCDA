@@ -1,0 +1,4 @@
+1032.1.1=
+{
+liege=d_stmaurice_ecl
+}

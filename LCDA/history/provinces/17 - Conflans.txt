@@ -1,0 +1,49 @@
+# 17 - Conflans
+
+# County Title
+title = c_conflans
+
+# Settlements
+max_settlements = 4
+
+
+b_conflans1 = castle #Conflans cité en 1014 comme mandement
+b_conflans2 = temple #Tamié 1132, règle de saint benoit
+b_conflans3 = city #Ugine (4 châteaux)
+
+#b_conflans4 = castle #Chevron
+#b_conflans5 = temple #Saint-Sigismond
+#b_conflans6 = city #villefranche (l'hôpital)
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+ 999.9.9 = {	b_conflans1 = castle	} #Conflans
+ 999.9.9 = {	b_conflans4 = castle	} #Chevron
+ 999.9.9 = {	b_conflans3 = city	} #Ugine
+ 999.9.9 = { 	max_settlements = 4	}
+1132.1.1 = {	b_conflans2 = temple	} #abbaye de Tamié, règle de Saint-Benoît
+#1132.1.1 = {	b_conflans2 = MONASTERE	}
+#1132.1.1 = {	b_conflans2 = REGLE_DE_1}
+1132.1.1 = { 	max_settlements = 5	}
+1190.1.1 = {	b_conflans5 = temple	} #fondation d'une commanderie hospitalière
+#1190.1.1 = {	b_conflans5 = MONASTERE	}
+#1190.1.1 = {	b_conflans5 = COMMANDERIE}
+#1190.1.1 = {	b_conflans5 = REGLE_DE_2}
+#1190.1.1 = {	b_conflans5 = ORDRE_MILIT_2	} #ordre de Saint-Jean
+1190.1.1 = { 	max_settlements = 6	}
+1250.1.1 = {	b_conflans6 = city	} #suite à la fondation d'une commanderie hospitalière
+
+
+
+
+
+
+
+
+
+

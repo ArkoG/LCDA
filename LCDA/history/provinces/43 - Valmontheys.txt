@@ -1,0 +1,27 @@
+# 43 - Valmontheys
+
+# County Title
+title = c_valmontheys
+
+# Settlements
+max_settlements = 6
+
+
+b_valmontheys1 = castle #La Mure ?
+b_valmontheys2 = temple #La Mure (bénédictins)
+b_valmontheys3 = city # La Mure ? (citée fortifiée)
+
+#b_valmontheys4 = castle # Corps ?
+#b_valmontheys5 = temple #ND La salette ?
+#b_valmontheys6 = city #Valbonnais
+
+
+# Misc
+culture = arpitan
+religion = catholic
+terrain = mountain
+
+# History
+
+#999.9.9 = {	b_courmayeur = ca_tpinit_1	}
+

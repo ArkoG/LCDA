@@ -1,0 +1,5 @@
+#Village Montriond (Chairavaux) + Morzine. droits achetés par Aulps à aimon 2 de Faucigny.
+
+#999.1.1 = { liege="c_faucigny" }
+1181.1.1 = { liege="c_faucigny" } #fondation
+1253.1.1 = { liege="c_abondance" }

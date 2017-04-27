@@ -1,0 +1,10 @@
+ 999.1.1= { liege=d_genevois }
+1020.1.1= 	{ holder=100000 } #Aymerard
+1055.1.1= 	{ holder=100001 } #Louis Ier
+1080.1.1= 	{ holder=100003 } #Vuillielme Ier
+1124.1.1= 	{ holder=100007 } #Rodolphe Ier
+1132.1.1= 	{ holder=100012 } #Aymon Ier
+1135.1.1= { liege=d_faucigny }
+
+
+

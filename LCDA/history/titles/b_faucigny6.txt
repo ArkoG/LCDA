@@ -1,0 +1,4 @@
+#seigneurs de Boëge, écartelé d'or et azur
+
+1032.1.1={ liege="c_faucigny" }
+

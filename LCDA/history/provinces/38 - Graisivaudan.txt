@@ -1,0 +1,28 @@
+# 38 - Graisivaudan
+
+# County Title
+title = c_graisivaudan
+
+# Settlements
+max_settlements = 6
+
+
+b_graisivaudan1 = castle #La buissières
+b_graisivaudan3 = city #La buissières charte au 14éme
+b_graisivaudan2 = temple #Grande Chartreuse
+
+#b_graisivaudan4 = castle #Domène
+#b_graisivaudan5 = castle #theys
+#b_graisivaudan6 = city #Allevard, charte en 1315
+
+
+# Misc
+culture = arpitan
+religion = catholic
+terrain = mountain
+
+# History
+
+
+#999.9.9 = {	b_montjoux3 = RELAISALPIN	}
+

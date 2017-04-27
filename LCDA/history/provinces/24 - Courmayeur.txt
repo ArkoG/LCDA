@@ -1,0 +1,27 @@
+# 24 - Courmayeur
+
+# County Title
+title = c_courmayeur
+
+# Settlements
+max_settlements = 6
+
+
+b_courmayeur1 = castle
+b_courmayeur2 = temple
+b_courmayeur3 = city
+
+#b_courmayeur4 = castle
+#b_courmayeur5 = temple
+#b_courmayeur6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+terrain = mountain
+
+# History
+
+#999.9.9 = {	b_courmayeur = ca_tpinit_1	}
+

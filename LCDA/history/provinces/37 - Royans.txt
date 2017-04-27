@@ -1,0 +1,29 @@
+# 37 - Royans
+
+# County Title
+title = c_royans
+
+# Settlements
+max_settlements = 6
+
+
+b_royans1 = castle #Beauvoir en Royans
+b_royans2 = temple #Bouvante (Chartreux) source histoire du massif du Vercors
+b_royans3 = city #
+
+#b_royans4 = castle
+#b_royans5 = temple #Léoncel (Cisterciens)
+#b_royans6 = city
+
+
+#autres lieux Ecouges (chartreux) ; Valcroissant (cistérciens)
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_conthey = ca_tpinit_1	}
+

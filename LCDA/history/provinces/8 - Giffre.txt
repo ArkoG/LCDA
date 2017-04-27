@@ -1,0 +1,49 @@
+# 8 - Giffre
+
+# County Title
+title = c_giffre
+
+# Settlements
+max_settlements = 3
+
+
+b_giffre1 = castle #Thiez
+#b_giffre2 = temple #Sixt fondée en 1144 par Aymon de Faucigny
+b_giffre3 = city #Taninges
+
+#b_giffre4 = castle #Châtillon première mention en 1178
+#b_giffre5 = temple #Mélan fondée en 1292 par Béatrice de Faucigny
+#b_giffre6 = castle #Terre de Sallaz
+
+#Samoëns, première mention du nom en 1167, franchise en 1435 par Amédée VIII
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+
+# 999.9.9 = { b_giffre3 = CITE_L1	} #Taninges à voir date
+# 999.9.9 = { b_giffre3 = VOC_INDUSTRIELLE	} #Taninges à voir date
+# 999.9.9 = {	b_giffre1 = BOURGFEODAL	} #Thiez, possession des Faucigny
+
+1135.1.1 = { max_settlements = 4	}
+
+1135.1.1 = { 	b_giffre4 = castle	} #Châtillon
+#1135.1.1 = { b_giffre4 = FORT		}
+1135.1.1 = { capital = b_giffre4	}
+
+1135.1.1 = { remove_settlement = b_giffre1 } #Destruction de Thiez, passe à Arducius, Evêque de Genève
+1135.1.1 = {	b_giffre6 = castle	} #Fondation de la terre de Sallaz
+#1135.1.1 = {	b_giffre6 = BOURGFEODAL	}
+
+1144.6.1 = { max_settlements = 5	}
+1144.6.1 = { 	b_giffre2 = temple	} #Sixt
+#1144.6.1 = { b_giffre2 = MONASTERE	}
+
+1292.1.1 = { max_settlements = 6	}
+1292.1.1 = { 	b_giffre5 = temple	} #Mélan
+#1292.1.1 = { b_giffre5 = MONASTERE	}
+

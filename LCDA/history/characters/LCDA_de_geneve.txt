@@ -1,0 +1,5 @@
+100034	=	 {	name=	"Gérold"	dynasty=	300101	religion=	"catholic"	culture=	"arpitan"												 990.1.1	=	{ birth=	"	 990.1.1	"	}	1010.1.1	=	{ add_spouse=	100035	}	1023.1.1	=	{ death=	"	1023.1.1	"	}	}
+100035	=	 {	name=	"Berthe"	dynasty=	0		religion=	"catholic"	culture=	"franc"		female=yes									 985.1.1	=	{ birth=	"	 985.1.1	"	}												1053.1.1	=	{ death=	"	1053.1.1	"	}	}
+100036	=	 {	name=	"Géraud"	dynasty=	300101	religion=	"catholic"	culture=	"arpitan"				father=	100034	mother=	100035	1012.1.1	=	{ birth=	"	1012.1.1	"	}	1026.1.1	=	{ add_spouse=	100038	}	1080.1.1	=	{ death=	"	1080.1.1	"	}	}
+100037	=	 {	name=	"Conon"		dynasty=	300101	religion=	"catholic"	culture=	"arpitan"				father=	100034	mother=	100035	1016.1.1	=	{ birth=	"	1016.1.1	"	}												1107.1.1	=	{ death=	"	1107.1.1	"	}	}
+100038	=	 {	name=	"Gisela"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	female=yes									1010.1.1	=	{ birth=	"	1010.1.1	"	}												1060.1.1	=	{ death=	"	1060.1.1	"	}	}

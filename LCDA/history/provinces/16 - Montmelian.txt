@@ -1,0 +1,27 @@
+# 16 - Montmélian
+
+# County Title
+title = c_montmelian
+
+# Settlements
+max_settlements = 6
+
+
+b_montmelian1 = castle #Montmélian
+b_montmelian2 = temple #Chartreuse Saint-Hugon à la Rochette, fondation 1183
+b_montmelian3 = city
+
+#b_montmelian4 = castle #Miolans
+#b_montmelian5 = temple #Saint Jeoire 1110 chartreux
+#b_montmelian6 = temple #Pontcharra ?
+#b_montmelian7 = castle #Montmayeur 1173
+#b_montmelian8 = castle #Chignin
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_montmelian = ca_tpinit_1	}
+

@@ -1,0 +1,26 @@
+# 6 - Aigle
+
+# County Title
+title = c_aigle
+
+# Settlements
+max_settlements = 5
+
+
+b_aigle1 = castle
+b_aigle2 = temple
+b_aigle3 = city
+
+#b_aigle4 = castle
+#b_aigle5 = temple
+#b_aigle6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+
+#999.9.9 = {	b_aigle = ca_tpinit_1	}
+

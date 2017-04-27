@@ -1,0 +1,30 @@
+#WESTERN EUROPE
+
+technology = {
+	titles = {
+		d_equestres
+		d_chablais
+		d_faucigny
+		d_genevois
+		d_savoie_propre
+		d_maurienne
+		d_tarentaise
+		d_basvalais
+		d_aoste
+		d_salmorenc
+		d_viennois
+		d_graisivaudan
+	}
+
+	769 = {
+		military = 0.5
+		economy = 1.0
+		culture = 1.0
+	}
+		
+	1337 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

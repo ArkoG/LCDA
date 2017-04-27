@@ -1,0 +1,27 @@
+# 33 - La Tour du Pin
+
+# County Title
+title = c_tourdupin
+
+# Settlements
+max_settlements = 6
+
+
+b_tourdupin1 = castle #
+b_tourdupin2 = temple #
+b_tourdupin3 = city #
+
+#b_tourdupin4 = castle # 
+#b_tourdupin5 = temple #
+#b_tourdupin6 = city #
+
+
+# Misc
+culture = arpitan
+religion = catholic
+terrain = mountain
+
+# History
+
+#999.9.9 = {	b_courmayeur = ca_tpinit_1	}
+

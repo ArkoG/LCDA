@@ -1,0 +1,28 @@
+# 29 - Mont Joux
+
+# County Title
+title = c_montjoux
+
+# Settlements
+max_settlements = 6
+
+
+b_montjoux3 = city
+b_montjoux1 = castle
+b_montjoux2 = temple
+
+#b_montjoux4 = castle
+#b_montjoux5 = temple
+#b_montjoux6 = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+terrain = mountain
+
+# History
+
+
+#999.9.9 = {	b_montjoux3 = RELAISALPIN	}
+

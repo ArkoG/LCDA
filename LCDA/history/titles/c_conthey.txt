@@ -1,0 +1,6 @@
+1032.1.1=
+{
+liege=d_stmaurice_ecl
+}
+#1260 invasion par la savoie
+#1268 adjonction du val d'Hérémence à la châtellenie de Conthey
