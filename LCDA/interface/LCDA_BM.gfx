@@ -1,0 +1,13 @@
+spriteTypes = 
+{
+	spriteType = {
+		name = "GFX_pick_era_monts_alpage"
+		texturefile = "gfx/interface/pick_era_monts_alpage.dds"
+	}
+	spriteType = {
+		name = "GFX_pick_era_monts_neige"
+		texturefile = "gfx/interface/pick_era_monts_neige.dds"
+	}
+}
+
+
