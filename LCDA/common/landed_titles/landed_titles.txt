@@ -1280,7 +1280,7 @@ e_germany = {
 				color={ 141 141 141 }
 				color2={ 255 255 255 }
 
-				holy_site = catholic
+				####ex holy site
 				
 				norse = Köln
 				swedish = Köln
@@ -5955,7 +5955,7 @@ e_italy = {
 				
 				christian = 5000 # Crusade target weight
 
-				holy_site = catholic
+				####ex holy site
 				holy_site = aztec
 				holy_site = aztec_reformed
 				holy_site = hellenic_pagan
@@ -18533,16 +18533,7 @@ e_france = {
 				}
 				b_macon = {
 				}
-				b_cluny = {
-					coat_of_arms=
-					{
-						data=
-						{
-						0 4 12 45 2 2 2 0 0 19 2 1 3 0 0 19 2 1 3 0 0 19 2 1 3
-						}
-						religion="catholic"
-					}
-				}
+				#b_cluny = {}
 				b_davaye = {
 				}
 				b_beaujeu = {
@@ -19554,7 +19545,7 @@ e_france = {
 				b_chateaudoex = {
 				}
 			}
-			c_geneve = {
+			c_geneve_vanilla = {
 				color={ 113 21 47 }
 				color2={ 255 255 255 }
 				
@@ -20703,7 +20694,7 @@ e_spain = {
 				color = { 243 158 51}
 				color2={ 255 255 255 }
 				
-				holy_site = catholic
+				####ex holy site
 				
 				b_santiago = {
 				}
@@ -22999,7 +22990,7 @@ e_arabia = {
 				christian = 250 # Crusade target weight
 				muslim = 250 # Crusade target weight
 
-				holy_site = catholic
+				####ex holy site
 				holy_site = orthodox
 				holy_site = sunni
 				holy_site = shiite
@@ -26205,7 +26196,7 @@ e_britannia = {
 				color={ 241 115 65 }
 				color2={ 255 255 255 }
 				
-				holy_site = catholic
+				####ex holy site
 				
 				b_rochester = {
 				}
