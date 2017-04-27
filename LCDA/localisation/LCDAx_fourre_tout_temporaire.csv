@@ -68,12 +68,10 @@ title_trainee_du_royaume;;Courtisane désavouée;;;;;;;;;;x
 title_trainee_du_royaume_desc;;Votre déplaisir à l'endroit de cette femme est tel que vous décidez la désavouer aux yeux de tous. A n'en point douter, cette humiliation n'aura pour égal que la détestation que celle-ci nourrira pour votre personne.;;;;;;;;;;x
 #;;x;;;;;;;;;;;;x
 #;;BOOKMARKS;;;;;;;;;;;;x
-BM_1032;The End of the Rodolphians;Le Roi est mort ! Vive l'Indépendance !;;;;;;;;;;;;x
-BM_1032_DESC;;Mort sans descendance, le dernier Roi de Bourgogne, Rodolphe III, dit le Pieux, lègue les droits sur son royaume à l'Empereur Konrad II. Après avoir affronté quelques velléités soulevées par cette succession, l'Empereur récupère le pouvoir. Pouvoir très relatif et plutôt lâche sur la région, qui permet à chacun une relative indépendance de fait. \nVoilà une situation fort favorable à l'émergence de nouvelles puissances telles que les comtes de Savoie, les comtes d'Albon-Viennois, ou tout simplement VOUS Monseigneur ! \n \n A vous de jouer.;;;;;;;;;;;;x
-BM_1066;;1066 test dummy;;;;;;;;;;;;x
-BM_1032_DESC;;1066 test dummy;;;;;;;;;;;;x
-BM_GENEVA;;La République de Genève;;;;;;;;;;;;x
-BM_GENEVA_desc;;Acquisition des droits et d'autonomie des citoyens de la cité genevoise.;;;;;;;;;;;;x
+BM_1032_ERA;The End of the Rodolphians;Le Roi est mort ! Vive l'Indépendance !;;;;;;;;;;;;x
+BM_1032_ERA_INFO;;Mort sans descendance, le dernier Roi de Bourgogne, Rodolphe III, dit le Pieux, lègue les droits sur son royaume à l'Empereur Konrad II. Après avoir affronté quelques velléités soulevées par cette succession, l'Empereur récupère le pouvoir. Pouvoir très relatif et plutôt lâche sur la région, qui permet à chacun une relative indépendance de fait. \nVoilà une situation fort favorable à l'émergence de nouvelles puissances telles que les comtes de Savoie, les comtes d'Albon-Viennois, ou tout simplement VOUS Monseigneur ! \n \n A vous de jouer.;;;;;;;;;;;;x
+BM_1309_ERA;;La République de Genève;;;;;;;;;;;;x
+BM_1309_ERA_INFO;;Acquisition des droits et d'autonomie des citoyens de la cité genevoise.;;;;;;;;;;;;x
 #;;x;;;;;;;;;;;;x
 #;;DIVERS;;;;;;;;;;;;x
 TITULAR_TITLE;§YTitular Title§! (no de jure vassals);§YTitre non terrien§! (pas de vassaux de jure);§YNomineller Title§! (keine de jure-Vasallen);;§Ytítulo titular§! (sin vasallos de iure);;;;;;;;;x

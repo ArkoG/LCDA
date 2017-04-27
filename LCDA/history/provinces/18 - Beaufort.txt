@@ -26,11 +26,11 @@ terrain = mountain
  999.9.9 = {	b_beaufort1 = castle	}
  999.9.9 = { 	capital = b_beaufort1	}
  999.9.9 = {	b_beaufort2 = castle	}
-1135.1.1 = {	remove_settlement = beaufort1 }
-1135.1.1 = {	remove_settlement = beaufort2 }
-1135.1.1 = {	b_beaufort1 = castle	}
-1135.1.1 = { 	capital = b_beaufort1	}
-1246.1.1 = {	b_beaufort2 = castle	}
+#1135.1.1 = {	remove_settlement = b_beaufort1 }
+#1135.1.1 = {	remove_settlement = b_beaufort2 }
+#1135.1.1 = {	b_beaufort1 = castle	}
+#1135.1.1 = { 	capital = b_beaufort1	}
+1246.1.1 = {	b_beaufort3 = castle	}
 1246.1.1 = {	max_settlements = 4	}
 
 
