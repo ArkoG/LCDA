@@ -1,7 +1,7 @@
 province;red;green;blue;x;x
 1;42;3;128;Nyon;x
 2;84;6;1;Gex;x
-3;126;9;129;Genève;x
+3;126;9;129;Geneve;x
 4;168;12;2;Thonon;x
 5;0;15;130;Abondance;x
 6;168;45;177;Aigle;x
@@ -14,20 +14,20 @@ province;red;green;blue;x;x
 13;126;39;134;Albens;x
 14;168;42;7;Novalaise;x
 15;0;45;135;Bourget;x
-16;42;48;8;Montmélian;x
+16;42;48;8;Montmelian;x
 17;84;51;136;Conflans;x
 18;126;54;9;Beaufort;x
 19;168;57;137;Maurienne;x
 20;0;60;10;Modane;x
-21;42;63;138;Mont-Cenis;x
+21;42;63;138;Mont Cenis;x
 22;84;66;11;Moutiers;x
-23;126;69;139;Bourg-St-Maurice;x
+23;126;69;139;Bourg St Maurice;x
 24;168;72;12;Courmayeur;x
 25;0;75;140;Aoste;x
-26;42;78;13;Châtillon;x
-27;126;84;14;Saint-Maurice;x
+26;42;78;13;Chatillon;x
+27;126;84;14;Saint Maurice;x
 28;84;81;141;Martigny;x
-29;168;87;142;Mont-Joux;x
+29;168;87;142;Mont Joux;x
 30;0;90;15;Conthey;x
 31;42;93;143;Voiron;x
 32;84;96;16;Moirans;x
@@ -40,7 +40,7 @@ province;red;green;blue;x;x
 39;168;117;147;Grenoble;x
 40;0;120;20;Oisans;x
 41;42;123;148;Sassenage;x
-42;84;126;21;Trièves;x
+42;84;126;21;Trieves;x
 43;126;129;149;Valmontheys;x
 44;0;135;150;Embrun;x
 45;42;138;23;Queyras;x
@@ -50,9 +50,9 @@ province;red;green;blue;x;x
 49;0;150;25;Gap;x
 50;42;153;153;Bochaine;x
 51;84;156;26;Champsaur;x
-52;126;159;154;Briançon;x
+52;126;159;154;Briancon;x
 53;168;162;27;Oulx;x
-54;0;165;155;Montgenèvre;x
+54;0;165;155;Montgenevre;x
 55;168;132;22;Chartreuse;x
 56;42;168;28;;x
 57;84;171;156;;x
