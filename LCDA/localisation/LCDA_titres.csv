@@ -12,8 +12,10 @@ b_;;x;;;;;;;;;;;;x
 b_;;x;;;;;;;;;;;;x
 b_;;x;;;;;;;;;;;;x
 b_;;x;;;;;;;;;;;;x
-world_alps;;;;;;;;;;;;;;x
+world_alps;The Alps;Les Alpes;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;x
+e_alps;Alpine crown;La Couronne des Alpes;;;;;;;;;;;;x
+e_alps_adj;alpine;alpine;;;;;;;;;;;;x
 #;;DUCHE DE SAVOIE;;;;;;;;;;;;x
 k_savoie;;Savoie;;;;;;;;;;;;x
 k_savoie_adj;; ;;;;;;;;;;;;x
@@ -49,6 +51,7 @@ b_geneve5;;Laconnex;;;;;;;;;;;;x
 b_geneve6;;Versoix;;;;;;;;;;;;x
 #;;COMTE DE CHABLAIS;;;;;;;;;;;;x
 d_chablais;;Chablais;;;;;;;;;;;;x
+d_chablais_adj;;Chablais;;;;;;;;;;;;x
 #;;seigneurie de SAINT-MAURICE;;;;;;;;;;;;x		
 c_saintmaurice;;Saint-Maurice;;;;;;;;;;;;x
 c_saintmaurice_adj;; ;;;;;;;;;;;;x
@@ -87,6 +90,7 @@ b_aigle5;;NONE;;;;;;;;;;;;x
 b_aigle6;;Bex;;;;;;;;;;;;x
 #;;COMTE DE FAUCIGNY;;;;;;;;;;;;x
 d_faucigny;;Faucigny;;;;;;;;;;;;x
+d_faucigny_adj;;Faucigny;;;;;;;;;;;;x
 #;;seigneurie de FAUCIGNY;;;;;;;;;;;;x
 c_faucigny;;Faucigny;;;;;;;;;;;;x
 c_faucigny_adj;; ;;;;;;;;;;;;x
@@ -155,6 +159,7 @@ b_albens5;;NONE;;;;;;;;;;;;x
 b_albens6;;NONE;;;;;;;;;;;;x
 #;;COMTE DE SAVOIE;;;;;;;;;;;;x
 d_savoie_propre;;Savoie;;;;;;;;;;;;x
+d_savoie_propre_adj;;savoisienne;;;;;;;;;;;;x
 #;;seigneurie de NOVALAISE;;;;;;;;;;;;x
 c_novalaise;;L'Épine;;;;;;;;;;;;x
 c_novalaise_adj;; ;;;;;;;;;;;;x
@@ -284,6 +289,7 @@ b_conthey5;;;;;;;;;;;;;;x
 b_conthey6;;Riddes;;;;;;;;;;;;x
 #;;COMTE D'AOSTE;;;;;;;;;;;;x
 d_aoste;;Aoste;;;;;;;;;;;;x
+d_aoste_adj;;valdotaine;;;;;;;;;;;;x
 #;;seigneurie de COURMAYEUR;;;;;;;;;;;;x
 c_courmayeur;;Courmayeur;;;;;;;;;;;;x
 c_courmayeur_adj;; ;;;;;;;;;;;;x
@@ -337,7 +343,7 @@ b_moirans5;;;;;;;;;;;;;;x
 b_moirans6;;;;;;;;;;;;;;x
 #;;COMTE DE VIENNOIS;;;;;;;;;;;;x	
 d_viennois;;Viennois;;;;;;;;;;;;x
-d_viennois_adj;; ;;;;;;;;;;;;x
+d_viennois_adj;;viennoise;;;;;;;;;;;;x
 #;;seigneurie D'ALBON;;;;;;;;;;;;x	
 c_albon;;Albon;;;;;;;;;;;;x
 c_albon_adj;; ;;;;;;;;;;;;x
@@ -385,7 +391,7 @@ b_tourdupin5;;;;;;;;;;;;;;x
 b_tourdupin6;;;;;;;;;;;;;;x
 #;;COMTE DE GRAISIVAUDAN;;;;;;;;;;;;x		
 d_graisivaudan;;Graisivaudan;;;;;;;;;;;;x
-d_graisivaudan_adj;;;;;;;;;;;;;;x
+d_graisivaudan_adj;; ;;;;;;;;;;;;x
 #;;seigneurie DE GRENOBLE;;;;;;;;;;;;x	
 c_grenoble;;Grenoble;;;;;;;;;;;;x
 c_grenoble_adj;; ;;;;;;;;;;;;x
