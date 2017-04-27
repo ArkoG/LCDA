@@ -306,7 +306,7 @@ character_event = {
 			is_female = no
 			age = 20
 		}
-		NOT = {	at_location = 719 }  #no dange when near mecca already :)
+#LCDA		NOT = {	at_location = 719 }  #no dange when near mecca already :)
 		NOT = { has_character_flag = hajj_company }
 	}
 	
@@ -443,26 +443,15 @@ character_event = {
 			character_event = { id = 86300 days = 30 }
 		}
 		hidden_tooltip = {
-			if = {
-				limit = {
-					location = {
-						distance = {
-							where = 719	#Mecca
-							value = 400	#kind of far..
-						}
-					}
-				}
-				random_list = {
+#LCDA removed Mecca distance test
+			random_list = {
 					10 = {  character_event = { id = 86101 days = 2 random = 8 } }
 					10 = {  character_event = { id = 86105 days = 2 random = 8 } }
 					10 = {  character_event = { id = 86110 days = 2 random = 8 } }
 					10 = {  character_event = { id = 86810 days = 2 random = 8 } }
 					10 = {  character_event = { id = 86815 days = 2 random = 8 } }
 					10 = {  character_event = { id = 86820 days = 2 random = 8 } }
-				}
-			}
-	
-			random_list = {
+
 				10 = {  character_event = { id = 86150 days = 10 random = 10 } }
 				10 = {  character_event = { id = 86160 days = 10 random = 10 } }
 				10 = {  character_event = { id = 86170 days = 10 random = 10 } }
@@ -1522,7 +1511,7 @@ character_event = {
 	hide_window = yes
 	
 	is_triggered_only = yes
-	
+#LCDA removed distance to Mecca test	
 	immediate = {
 		random_list = {
 			10 = {  character_event = { id = 86600  days = 1} }
@@ -1531,29 +1520,9 @@ character_event = {
 			10 = {  character_event = { id = 86630  days = 1 } }
 		
 		}
-		if = {
-			limit = {
-				location = {
-					distance = {
-						where = 719	#Mecca
-						value = 400	#kind of far..
-					}
-				}
-			}
-			character_event = { id = 86800  days = 30 random = 25 }
-		}
-		if = {
-			limit = {
-				location = {
-					NOT = {
-						distance = {
-							where = 719	#Mecca
-							value = 400	#kind of far..
-						}
-					}
-				}
-			}
-			character_event = { id = 86800  days = 10 random = 25 }
+		random_list = {
+			10 = { character_event = { id = 86800  days = 30 random = 25 }}
+			10 = { character_event = { id = 86800  days = 10 random = 25 }}
 		}
 	}
 }

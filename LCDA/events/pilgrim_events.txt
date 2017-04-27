@@ -27,29 +27,29 @@ character_event = {
 		set_character_flag = preparing_pilgrimage
 		clr_character_flag = activated_pilgrimage
 		hidden_tooltip = {
-			if = {
-				limit = {
-					OR = {
-						religion = orthodox  # Jeru, Const, Antio
-						religion = iconoclast
-						religion = monothelite
-						religion = nestorian
-						religion = bogomilist
-						religion = messalian
-						religion = paulician
-					}
-				}
-				character_event = { id = SoA.5011 }
-			}
-			if = {
-				limit = {
-					OR = {
-						religion = miaphysite # Jeru, Antio, Axum
-						religion = monophysite
-					}
-				}
-				character_event = { id = SoA.5011 }
-			}
+#LCDA			if = {
+#				limit = {
+#					OR = {
+#						religion = orthodox  # Jeru, Const, Antio
+#						religion = iconoclast
+#						religion = monothelite
+#						religion = nestorian
+#						religion = bogomilist
+#						religion = messalian
+#						religion = paulician
+#					}
+#				}
+#				character_event = { id = SoA.5011 }
+#LCDA			}
+#LCDA			if = {
+#				limit = {
+#					OR = {
+#						religion = miaphysite # Jeru, Antio, Axum
+#						religion = monophysite
+#					}
+#				}
+#				character_event = { id = SoA.5011 }
+#LCDA			}
 			if = {
 				limit = {
 					OR = {
@@ -75,39 +75,39 @@ character_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		hidden_tooltip = {
-			if = {
-				limit = {
-					OR = {
-						capital_scope = { province_id = 73 }
-						capital_scope = { province_id = 119 }
-						capital_scope = { province_id = 333 }
-						capital_scope = { province_id = 157 }
-					}
-				}
-				character_event = { id = SoA.5016 days = 4 } # Go to Jerusalem
-			}
-			if = {
-				limit = {
-					capital_scope = { province_id = 774 }
-				}
-				character_event = { id = SoA.5017 days = 4 } # Go to Rome
-			}
-			if = {
-				limit = { 
-					NOT = {
-						OR = {
-							capital_scope = { province_id = 73 }
-							capital_scope = { province_id = 774 }
-							capital_scope = { province_id = 119 }
-							capital_scope = { province_id = 333 }
-							capital_scope = { province_id = 157 }
-						}
-					}
-				}
+#		hidden_tooltip = {
+#LCDA			if = {
+#				limit = {
+#					OR = {
+#						capital_scope = { province_id = 73 } #kent
+#						capital_scope = { province_id = 119 } #koln
+#						capital_scope = { province_id = 333 } #rome
+#						capital_scope = { province_id = 157 } #santiago
+#					}
+#				}
+#				character_event = { id = SoA.5016 days = 4 } # Go to Jerusalem
+#			}
+#			if = {
+#				limit = {
+#					capital_scope = { province_id = 774 } #jerusalem
+#				}
+#				character_event = { id = SoA.5017 days = 4 } # Go to Rome
+#			}
+#			if = {
+#				limit = { 
+#					NOT = {
+#						OR = {
+#							capital_scope = { province_id = 73 }
+#							capital_scope = { province_id = 774 }
+#							capital_scope = { province_id = 119 }
+#							capital_scope = { province_id = 333 }
+#							capital_scope = { province_id = 157 }
+#						}
+#					}
+#				}
 				character_event = { id = SoA.5018 days = 4 } # May choose destination
-			}
-		}
+#			}
+#		}
 	}
 }
 
@@ -120,90 +120,10 @@ character_event = {
 ###########################################
 
 # Choose destination as Eastern Christian
-character_event = {
-	id = SoA.5011
-	desc = EVTDESC_SoA_5011
-	picture = GFX_evt_icon
-	border = GFX_event_normal_frame_religion
-	
-	is_triggered_only = yes
-
-	option = {
-		name = EVTOPTA_SoA_5011
-		trigger = {
-			NOT = { capital_scope = { province_id = 774 } }
-		}
-		set_character_flag = pilgrimage_to_jerusalem
-		hidden_tooltip = {
-			character_event = { id = SoA.5022 days = 15 }
-		}
-		if = {
-			limit = { ai = no }
-			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_JERUSALEM
-				picture = GFX_evt_pilgrims_epic_journey
-			}
-		}
-	}
-
-	option = {
-		name = EVTOPTB_SoA_5011
-		trigger = {
-			NOT = { capital_scope = { province_id = 496 } }
-			NOT = { religion = miaphysite }
-			NOT = { religion = monophysite }
-		}
-		set_character_flag = pilgrimage_to_constantinople
-		hidden_tooltip = {
-			character_event = { id = SoA.5094 days = 15 }
-		}
-		if = {
-			limit = { ai = no }
-			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_CONSTANTINOPLE
-				picture = GFX_evt_pilgrims_epic_journey
-			}
-		}
-	}
-	option = {
-		name = EVTOPTC_SoA_5011
-		trigger = {
-			NOT = { capital_scope = { province_id = 764 } }
-		}
-		set_character_flag = pilgrimage_to_antioch
-		hidden_tooltip = {
-			character_event = { id = SoA.5096 days = 15 }
-		}
-		if = {
-			limit = { ai = no }
-			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_ANTIOCH
-				picture = GFX_evt_pilgrims_epic_journey
-			}
-		}
-	}
-	option = {
-		name = EVTOPTD_SoA_5011
-		trigger = {
-			OR = {
-				religion = miaphysite
-				religion = monophysite
-			}
-		NOT = { capital_scope = { province_id = 875 } }
-		}
-		set_character_flag = pilgrimage_to_axum
-		hidden_tooltip = {
-			character_event = { id = SoA.5095 days = 15 }
-		}
-		if = {
-			limit = { ai = no }
-			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_AXUM
-				picture = GFX_evt_pilgrims_epic_journey
-			}
-		}
-	}
-}
+#not called in LCDA
+#character_event = {
+#	id = SoA.5011
+#LCDA
 
 # Catholic - Always go to Jerusalem if already living at one of the other sites
 character_event = {
@@ -404,25 +324,14 @@ character_event = {
 			narrative_event = { id = SoA.5097 days = 30 }
 		}
 		hidden_tooltip = {
-			if = {
-				limit = {
-					location = {
-						distance = {
-							where = 496	# Constantinople
-							value = 400	# Longer journey
-						}
-					}
-				}
+			
 				random_list = {
 					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
 					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
 					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
-				}
-			}
-	
-			random_list = {
+
 				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
 				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
 				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
@@ -465,25 +374,13 @@ character_event = {
 			narrative_event = { id = SoA.5098 days = 30 }
 		}
 		hidden_tooltip = {
-			if = {
-				limit = {
-					location = {
-						distance = {
-							where = 875	# Axum
-							value = 400	# Longer journey
-						}
-					}
-				}
 				random_list = {
 					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
 					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
 					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
-				}
-			}
-	
-			random_list = {
+
 				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
 				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
 				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
@@ -526,25 +423,13 @@ character_event = {
 			narrative_event = { id = SoA.5099 days = 30 }
 		}
 		hidden_tooltip = {
-			if = {
-				limit = {
-					location = {
-						distance = {
-							where = 764	# Antioch
-							value = 400	# Longer journey
-						}
-					}
-				}
 				random_list = {
 					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
 					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
 					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
-				}
-			}
-	
-			random_list = {
+
 				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
 				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
 				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
@@ -593,25 +478,14 @@ character_event = {
 			narrative_event = { id = SoA.5050 days = 30 }
 		}
 		hidden_tooltip = {
-			if = {
-				limit = {
-					location = {
-						distance = {
-							where = 73	# Canterbury
-							value = 400	# Longer journey
-						}
-					}
-				}
+
 				random_list = {
 					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
 					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
 					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
-				}
-			}
-	
-			random_list = {
+
 				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
 				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
 				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
@@ -657,25 +531,13 @@ character_event = {
 			narrative_event = { id = SoA.5051 days = 30 }
 		}
 		hidden_tooltip = {
-			if = {
-				limit = {
-					location = {
-						distance = {
-							where = 774	# Jerusalem
-							value = 400	# Longer journey
-						}
-					}
-				}
 				random_list = {
 					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
 					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
 					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
-				}
-			}
-	
-			random_list = {
+
 				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
 				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
 				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
@@ -723,25 +585,14 @@ character_event = {
 			narrative_event = { id = SoA.5052 days = 30 }
 		}
 		hidden_tooltip = {
-			if = {
-				limit = {
-					location = {
-						distance = {
-							where = 119	# Cologne
-							value = 400	# Longer journey
-						}
-					}
-				}
+
 				random_list = {
 					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
 					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
 					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
-				}
-			}
-	
-			random_list = {
+
 				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
 				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
 				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
@@ -789,25 +640,12 @@ character_event = {
 			narrative_event = { id = SoA.5053 days = 30 }
 		}
 		hidden_tooltip = {
-			if = {
-				limit = {
-					location = {
-						distance = {
-							where = 333	# Rome
-							value = 400	# Longer journey
-						}
-					}
-				}
 				random_list = {
 					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
 					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
 					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
-				}
-			}
-	
-			random_list = {
 				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
 				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
 				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }
@@ -854,25 +692,14 @@ character_event = {
 			narrative_event = { id = SoA.5054 days = 30 }
 		}
 		hidden_tooltip = {
-			if = {
-				limit = {
-					location = {
-						distance = {
-							where = 157	# Santiago
-							value = 400	# Longer journey
-						}
-					}
-				}
+
 				random_list = {
 					10 = {  character_event = { id = SoA.5026 days = 5 random = 9 } } # List for longer journeys only
 					10 = {  character_event = { id = SoA.5027 days = 5 random = 9 } }
 					10 = {  narrative_event = { id = SoA.5028 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5029 days = 5 random = 9 } }
 					10 = {  character_event = { id = SoA.5030 days = 5 random = 9 } }
-				}
-			}
-	
-			random_list = {
+
 				10 = {  character_event = { id = SoA.5031 days = 15 random = 7 } } # List that is always checked
 				10 = {  character_event = { id = SoA.5032 days = 15 random = 7 } }
 				10 = {  narrative_event = { id = SoA.5033 days = 15 random = 7 } }

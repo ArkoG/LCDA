@@ -1299,94 +1299,8 @@ character_event = {
 					character_event = { id = RIP.11052 }
 				}
 			}
-			5 = { # Chinese Doctor (Mystic)
-				modifier = {
-					factor = 0
-					AND = {
-						has_character_flag = got_physician_chinese_doctor
-						NOT = { had_character_flag = { flag = got_physician_chinese_doctor days = 3650 } }
-					}
-				}
-				modifier = {
-					factor = 0
-					NOT = {
-						any_realm_province = {
-							trade_route = silk_road
-						}
-					}
-				}
-				any_realm_province = {
-					limit = {
-						trade_route = silk_road
-					}
-				save_event_target_as = chinese_silk_road_target
-				}
-				create_character = {
-					religion = buddhist
-					culture = khitan
-					dynasty = none
-					age = 50
-					random_traits = yes
-					female = no
-					attributes = {
-						diplomacy = 2
-						learning = 8
-					}
-					health = 7
-					trait = charismatic_negotiator 
-					trait = mystic
-					trait = poet
-					trait = mahayana_buddhist
-					flag = is_court_physician
-					flag = physician_chinese_doctor
-					flag = ai_flag_refuse_conversion
-				}
-				new_character = {
-					remove_trait = scholar
-					remove_trait = falconer
-					remove_trait = vajrayana_buddhist
-					remove_trait = theravada_buddhist
-					remove_trait = socializer
-					remove_trait = gamer
-					remove_trait = hedonist
-					remove_trait = duelist
-					remove_trait = hunter
-					remove_trait = strategist
-					remove_trait = administrator
-					remove_trait = architect
-					remove_trait = gardener
-					remove_trait = schemer
-					remove_trait = impaler
-					remove_trait = seducer
-					remove_trait = seductress
-					remove_trait = theologian
-					random_list = { # Random chance to add Physician
-						50 = {
-							add_trait = physician
-						}
-						50 = {
-							
-						}
-					}
-					random_list = { # Random chance to be Nestorian
-						50 = {
-							religion = nestorian
-						}
-						50 = {
-							
-						}
-					}
-					random_list = { # Is the Physician a Quack?
-						90 = {
-						}
-						10 = {
-							set_character_flag = physician_is_quack
-						}
-					}
-					save_event_target_as = recruited_physician_target
-					character_event = { id = RIP.11052 }
-				}
-			}
+#LCDA			5 = { # Chinese Doctor (Mystic)
+#LCDA
 			5 = { # Travelling Arab Scholar (Scholar or Mystic)
 				modifier = {
 					factor = 0
@@ -3338,70 +3252,8 @@ character_event = {
 				}
 			}
 			
-			4 = { # Manichean Merchant
-				modifier = {
-					factor = 0
-					AND = {
-						has_character_flag = got_physician_manichean_merchant
-						NOT = { had_character_flag = { flag = got_physician_manichean_merchant days = 3650 } }
-					}
-				}
-				modifier = {
-					factor = 0
-					NOT = {
-						any_realm_province = {
-							trade_route = silk_road
-						}
-					}
-				}
-				modifier = {
-					factor = 0
-					religion_group = zoroastrian_group
-				}
-				create_character = {
-					culture = khitan
-					religion = manichean
-					dynasty = none
-					age = 38
-					random_traits = yes
-					female = no
-					attributes = {
-						learning = 6
-					}
-					health = 6
-					trait = thrifty_clerk 
-					flag = is_court_physician
-					flag = physician_manichean_merchant
-					flag = ai_flag_refuse_conversion
-				}
-				new_character = {
-					remove_trait = scholar
-					remove_trait = socializer
-					remove_trait = gamer
-					remove_trait = hedonist
-					remove_trait = duelist
-					remove_trait = hunter
-					remove_trait = strategist
-					remove_trait = administrator
-					remove_trait = architect
-					remove_trait = gardener
-					remove_trait = schemer
-					remove_trait = impaler
-					remove_trait = seducer
-					remove_trait = seductress
-					remove_trait = mystic
-					remove_trait = theologian
-					random_list = { # Is the Physician a Quack?
-						90 = {
-						}
-						10 = {
-							set_character_flag = physician_is_quack
-						}
-					}
-					save_event_target_as = recruited_physician_target
-					character_event = { id = RIP.11052 }
-				}
-			}
+#LCDA			4 = { # Manichean Merchant
+#LCDA
 		}
 	}
 }

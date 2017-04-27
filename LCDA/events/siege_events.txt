@@ -898,15 +898,15 @@ character_event = {
 		siege = {
 			is_attacker = yes
 		}
-		location = {
-			NOT = {
-				OR = {
-					province_id = 323
-					province_id = 328
-					province_id = 330
-				}
-			}
-		}
+#LCDA	location = {
+#			NOT = {
+#				OR = {
+#					province_id = 323
+#					province_id = 328
+#					province_id = 330
+#				}
+#			}
+#		}
 	}
 
 	weight_multiplier = {
@@ -990,6 +990,7 @@ character_event = { # Other side gets event
 	}
 }
 
+#LCDA not called anymore
 character_event = {
 	id = 62010
 	desc = EVTDESC62010
@@ -1003,13 +1004,13 @@ character_event = {
 		siege = {
 			is_attacker = yes
 		}
-		location = {
-			OR = {
-				province_id = 323
-				province_id = 328
-				province_id = 330
-			}
-		}
+		#location = {
+		#	OR = {
+		#		province_id = 323
+		#		province_id = 328
+		#		province_id = 330
+		#	}
+		#}
 	}
 
 	weight_multiplier = {
@@ -1670,12 +1671,12 @@ character_event = {
 			NOT = { has_landed_title = e_rebels }
 			rebel = no
 			NOT = { # Handled by SSI.61
-				OR = {
-					has_landed_title = e_mexikha
-					any_liege = {
-						has_landed_title = e_mexikha
-					}
-				}
+#				OR = {
+#					has_landed_title = e_mexikha
+#					any_liege = {
+#						has_landed_title = e_mexikha
+#					}
+#LCDA			}
 			}
 		}
 		

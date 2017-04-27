@@ -2518,7 +2518,7 @@ character_event = {
 						using_cb = pagan_holy_war
 						using_cb = buddhist_holy_war
 						using_cb = muslim_invasion
-						using_cb = manifest_destiny_invasion
+						#using_cb = manifest_destiny_invasion #CB does not exists in LCDA
 					}
 				}
 			}
@@ -2687,7 +2687,7 @@ character_event = {
 					using_cb = pagan_holy_war
 					using_cb = buddhist_holy_war
 					using_cb = muslim_invasion
-					using_cb = manifest_destiny_invasion
+					#using_cb = manifest_destiny_invasion #CB does not exists in LCDA
 				}
 			}
 		}

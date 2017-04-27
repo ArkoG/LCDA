@@ -1772,19 +1772,19 @@ letter_event = {
 	    		limit = { 
 	    			is_within_diplo_range = ROOT
 	    			NOT = { same_realm = ROOT }
-	    			any_realm_title = {
-	    				tier = DUCHY
-	    				OR = {
-	    					title = d_alexandria
-	    					title = d_damietta
-	    					title = d_cairo
-	    					title = d_aswan
-	    					title = d_nobatia
-	    					region = world_middle_east_jerusalem
-							region = world_europe_south_east
-							region = world_asia_minor
-	    				}
-	    			}
+#LCDA    			any_realm_title = {
+#	    				tier = DUCHY
+#	    				OR = {
+#	    					title = d_alexandria
+#	    					title = d_damietta
+#	    					title = d_cairo
+#	    					title = d_aswan
+#	    					title = d_nobatia
+#	    					region = world_middle_east_jerusalem
+#							region = world_europe_south_east
+#							region = world_asia_minor
+#	    				}
+#LCDA	   			}
 	    		}
 	    		random_realm_province = {
 	    			save_event_target_as = ruin_site

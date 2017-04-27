@@ -1555,21 +1555,7 @@ narrative_event = {
 		OR = {
 			year = 1228	# Historical
 			
-			693 = { # Baghdad
-				NOT = { owner = { religion_group = muslim } }
-			}
-			728 = { # Damascus
-				NOT = { owner = { religion_group = muslim } }
-			}
-			796 = { # Cairo
-				NOT = { owner = { religion_group = muslim } }
-			}
-			774 = { # Jerusalem
-				NOT = { owner = { religion_group = muslim } }
-			}
-			719 = { # Mecca
-				NOT = { owner = { religion_group = muslim } }
-			}
+#LCDA
 		}
 	}
 	
@@ -4135,63 +4121,7 @@ narrative_event = {
 	religion_group = christian
 	
 	trigger = {
-		OR = {
-			AND = {
-				764 = { # Antioch is Orthodox
-					holder_scope = { religion = orthodox }
-					religion = orthodox 
-				}
-				774 = { # Jerusalem is Orthodox
-					holder_scope = { religion = orthodox }
-					religion = orthodox 
-				}
-				religion = orthodox
-			}
-			AND = {
-				764 = { # Antioch is bogomilist
-					holder_scope = { religion = bogomilist }
-					religion = bogomilist 
-				}
-				774 = { # Jerusalem is bogomilist
-					holder_scope = { religion = bogomilist }
-					religion = bogomilist 
-				}
-				religion = bogomilist
-			}
-			AND = {
-				764 = { # Antioch is monothelite
-					holder_scope = { religion = monothelite }
-					religion = monothelite 
-				}
-				774 = { # Jerusalem is monothelite
-					holder_scope = { religion = monothelite }
-					religion = monothelite 
-				}
-				religion = monothelite
-			}
-			AND = {
-				764 = { # Antioch is iconoclast
-					holder_scope = { religion = iconoclast }
-					religion = iconoclast 
-				}
-				774 = { # Jerusalem is iconoclast
-					holder_scope = { religion = iconoclast }
-					religion = iconoclast 
-				}
-				religion = iconoclast
-			}
-			AND = {
-				764 = { # Antioch is paulician
-					holder_scope = { religion = paulician }
-					religion = paulician 
-				}
-				774 = { # Jerusalem is paulician
-					holder_scope = { religion = paulician }
-					religion = paulician 
-				}
-				religion = paulician
-			}
-		}
+#LCDA
 		is_heretic = no
 			
 		NOT = {
@@ -11716,25 +11646,11 @@ narrative_event = {
 		OR = {
 			AND = {
 				religion = nestorian
-				693 = { # Baghdad is Nestorian
-					holder_scope = { religion = nestorian }
-					religion = nestorian 
-				}
-				774 = { # Jerusalem is Nestorian
-					holder_scope = { religion = nestorian }
-					religion = nestorian 
-				}
+#LCDA
 			}
 			AND = {
 				religion = messalian
-				693 = { # Baghdad is Messalian
-					holder_scope = { religion = messalian }
-					religion = messalian 
-				}
-				774 = { # Jerusalem is Messalian
-					holder_scope = { religion = messalian }
-					religion = messalian 
-				}
+#LCDA
 			}
 		}
 	}

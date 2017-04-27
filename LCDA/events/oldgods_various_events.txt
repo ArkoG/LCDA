@@ -1144,92 +1144,10 @@ character_event = {
 }
 
 # Son stays in Greece with wife (Son)
-character_event = {
-	id = TOG.3111
-	hide_window = yes
-	
-	is_triggered_only = yes
-	
-	ai = yes
-	min_age = 16
-	only_men = yes
-	capable_only = yes
-	prisoner = no
-	culture_group = north_germanic
-	has_character_flag = serving_varangian
-	has_dlc = "The Old Gods"
-	is_married = no
-	
-	trigger = {
-		had_character_flag = { flag = serving_varangian months = 75 }
-		NOT = {
-			OR = {
-				father = {
-					primary_title = {
-						current_heir = { character = ROOT }
-					}
-				}
-				mother = {
-					primary_title = {
-						current_heir = { character = ROOT }
-					}
-				}
-			}
-		}
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 1.75
-			trait = lustful
-		}
-		modifier = {
-			factor = 1.75
-			trait = content
-		}
-		modifier = {
-			factor = 1.75
-			trait = slothful
-		}
-	}
-	
-	immediate = {
-		father = { character_event = { id = TOG.3112 } }
-		e_byzantium = {
-			holder_scope = {
-				character_event = { id = TOG.3113 }
-			}
-		}
-		clr_character_flag = serving_varangian
-	}
-}
+#LCDA
 
 # Son stays in Greece with wife (Norse father)
-character_event = {
-	id = TOG.3112
-	desc = EVTDESC_TOG_3112
-	picture = GFX_evt_viking_throneroom_oldgods
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_TOG_3112
-		tooltip = {
-			e_byzantium = {
-				holder_scope = {
-					FROM = {
-						move_character = PREV
-						religion = PREV
-					}
-				}
-			}
-		}
-		FROM = { add_trait = varangian }
-	}
-}
+#LCDA
 
 # Son stays in Greece with wife (Byzantine Emperor)
 character_event = {
@@ -1619,46 +1537,7 @@ character_event = {
 }
 
 # Son returns home with Greek wife (Son)
-character_event = {
-	id = TOG.3124
-	hide_window = yes
-	
-	is_triggered_only = yes
-	
-	ai = yes
-	min_age = 16
-	only_men = yes
-	capable_only = yes
-	prisoner = no
-	culture_group = north_germanic
-	has_character_flag = serving_varangian
-	has_dlc = "The Old Gods"
-	is_married = no
-	
-	trigger = {
-		had_character_flag = { flag = serving_varangian months = 75 }
-		e_byzantium = {
-			holder_scope = {
-				culture = greek
-				religion = orthodox
-			}
-		}
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 1.75
-			trait = lustful
-		}
-	}
-	
-	immediate = {
-		father = { character_event = { id = TOG.3125 } }
-		clr_character_flag = serving_varangian
-	}
-}
+#LCDA
 
 # Son returns home with Greek wife
 character_event = {
@@ -1690,56 +1569,7 @@ character_event = {
 }
 
 # Son returns home as a Christian zealot (Son)
-character_event = {
-	id = TOG.3126
-	hide_window = yes
-	
-	is_triggered_only = yes
-	
-	ai = yes
-	min_age = 16
-	only_men = yes
-	capable_only = yes
-	prisoner = no
-	culture_group = north_germanic
-	religion_group = pagan_group
-	has_character_flag = serving_varangian
-	
-	trigger = {
-		has_dlc = "The Old Gods"
-		had_character_flag = { flag = serving_varangian months = 75 }
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-		}
-		father = {
-			OR = {
-				religion = norse_pagan
-				religion = norse_pagan_reformed
-			}
-		}
-		NOT = { trait = zealous }
-		e_byzantium = {
-			holder_scope = {
-				religion = orthodox
-			}
-		}
-	}
-	
-	weight_multiplier = {
-		days = 1
-		
-		modifier = {
-			factor = 0.20
-			trait = cynical
-		}
-	}
-	
-	immediate = {
-		father = { character_event = { id = TOG.3127 } }
-		clr_character_flag = serving_varangian
-	}
-}
+#LCDA
 
 # Son returns home as a Christian zealot
 character_event = {

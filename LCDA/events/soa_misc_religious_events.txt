@@ -2137,121 +2137,10 @@ character_event = {
 ###########################################
 
 # Cluny priests are very influential
-character_event = {
-	id = SoA.5340
-
-	hide_window = yes
-
-	only_rulers = yes
-	min_age = 16
-	ai = yes
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
-
-	trigger = {
-		is_priest = yes
-		year = 950
-		OR = {
-			religion = catholic
-			religion = cathar
-			religion = fraticelli
-			religion = waldensian
-			religion = lollard
-		}
-		has_landed_title = b_cluny
-		
-		has_dlc = "Sons of Abraham"
-	}
-	
-	mean_time_to_happen = {
-		months = 36
-	}
-	
-	immediate = {
-		piety = 50
-		prestige = 25
-	}
-}
+#LCDA
 
 # Donate to Cluny Abbey
-narrative_event = {
-	id = SoA.5341
-	title = EVTNAME_SoA_5341
-	desc = EVTDESC_SoA_5341
-	picture = GFX_evt_monastery_monks
-	border = GFX_event_narrative_frame_religion
-
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
-
-	trigger = {
-		wealth = 200
-		has_dlc = "Sons of Abraham"
-		year = 950
-		OR = {
-			religion = catholic
-			religion = cathar
-			religion = fraticelli
-			religion = waldensian
-			religion = lollard
-		}
-		b_cluny = {
-			holder_scope = {
-				is_priest = yes
-				religion = ROOT
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 2000
-		modifier = {
-			factor = 0.3
-			has_focus = focus_theology
-		}
-	}
-	
-	option = {
-		name = EVTOPTA_SoA_5341
-		ai_chance = {
-			factor = 20
-		}
-		if = {
-			limit = { NOT = { wealth = 600 } }
-			wealth = -100
-			prestige = 50
-			piety = 50
-			b_cluny = {
-				holder_scope = {
-					wealth = 100
-				}
-			}
-		}
-		if = {
-			limit = {
-				wealth = 600
-			}
-			wealth = -300
-			prestige = 100
-			piety = 100
-			b_cluny = {
-				holder_scope = {
-					wealth = 300
-				}
-			}
-		}
-	}
-	option = {
-		name = EVTOPTB_SoA_5341
-		ai_chance = {
-			factor = 80
-		}
-	}
-}
+#LCDA
 
 # Visit Cluny?
 narrative_event = {
@@ -2272,12 +2161,12 @@ narrative_event = {
 		year = 950
 		in_command = no
 		NOT = { trait = blinded }
-		b_cluny = {
-			holder_scope = {
-				is_priest = yes
-				religion = ROOT
-			}
-		}
+#		b_cluny = {
+#			holder_scope = {
+#				is_priest = yes
+#				religion = ROOT
+#			}
+#		}
 		OR = {
 			religion = catholic
 			religion = fraticelli
@@ -2285,16 +2174,16 @@ narrative_event = {
 			religion = lollard
 			religion = cathar
 		}
-		distance = {
-			where = 225	# Cluny
-			value = 300	# Not too far away
-		}
+#		distance = {
+#			where = 225	# Cluny
+#			value = 300	# Not too far away
+#		}
 		NOT = { has_character_flag = do_not_disturb }
 		NOT = { is_inaccessible_trigger = yes }
 	}
 	
 	mean_time_to_happen = {
-		months = 2000
+		months = 4000 #LCDA
 		modifier = {
 			factor = 0.5
 			has_focus = focus_theology
@@ -2386,109 +2275,10 @@ narrative_event = {
 ###########################################
 
 # Priests at Mount Athos are very influential
-character_event = {
-	id = SoA.5344
-
-	hide_window = yes
-
-	only_rulers = yes
-	ai = yes
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
-
-	trigger = {
-		has_dlc = "Sons of Abraham"
-		year = 885
-		is_priest = yes
-		has_landed_title = b_mntathos
-		OR = {
-			religion = orthodox
-			religion = bogomilist
-			religion = nestorian
-			religion = monothelite
-			religion = iconoclast
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 36
-	}
-	
-	immediate = {
-		piety = 50
-		prestige = 25
-	}
-}
+#LCDA
 
 # Donate to Mount Athos monasteries
-narrative_event = {
-	id = SoA.5345
-	title = EVTNAME_SoA_5345
-	desc = EVTDESC_SoA_5345
-	picture = GFX_evt_monastery_monks
-	border = GFX_event_narrative_frame_religion
-
-	only_playable = yes
-	min_age = 16
-	only_capable = yes
-	prisoner = no
-	religion_group = christian
-
-	trigger = {
-		wealth = 200
-		has_dlc = "Sons of Abraham"
-		year = 885
-		b_mntathos = {
-			holder_scope = {
-				is_priest = yes
-				religion = ROOT
-			}
-		}
-		OR = {
-			religion = orthodox
-			religion = bogomilist
-			religion = nestorian
-			religion = monothelite
-			religion = iconoclast
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 2000
-		modifier = {
-			factor = 0.3
-			has_focus = focus_theology
-		}
-	}
-	
-	option = {
-		name = EVTOPTA_SoA_5345
-		ai_chance = {
-			factor = 20
-		}
-		if = {
-			limit = { NOT = { wealth = 600 } }
-			wealth = -100
-			prestige = 50
-			piety = 50
-		}
-		if = {
-			limit = {
-				wealth = 600
-			}
-			wealth = -300
-			prestige = 100
-			piety = 100
-		}
-	}
-	option = {
-		name = EVTOPTB_SoA_5345
-		ai_chance = {
-			factor = 80
-		}
-	}
-}
+#LCDA
 
 # Visit Mount Athos?
 narrative_event = {
@@ -2512,12 +2302,12 @@ narrative_event = {
 		NOT = { trait = blinded }
 		NOT = { has_character_flag = do_not_disturb }
 		NOT = { is_inaccessible_trigger = yes }
-		b_mntathos = {
-			holder_scope = {
-				is_priest = yes
-				religion = ROOT
-			}
-		}
+#		b_mntathos = {
+#			holder_scope = {
+#				is_priest = yes
+#				religion = ROOT
+#			}
+#		}
 		OR = {
 			religion = orthodox
 			religion = bogomilist
@@ -2525,14 +2315,14 @@ narrative_event = {
 			religion = monothelite
 			religion = iconoclast
 		}
-		distance = {
-			where = 491	# Mount Athos
-			value = 300	# Not too far away
-		}
+#		distance = {
+#			where = 491	# Mount Athos
+#			value = 300	# Not too far away
+#		}
 	}
 	
 	mean_time_to_happen = {
-		months = 2000
+		months = 4000 #LCDA doubled
 		modifier = {
 			factor = 0.5
 			has_focus = focus_theology
@@ -3313,7 +3103,7 @@ narrative_event = {
 				NOT = { has_nickname = nick_darc }
 			}
 			prestige = 200
-			dynasty = 849 # New dynasty
+			dynasty = random # New dynasty #LCDA
 			hidden_tooltip = { character_event = { id = SoA.5396 days = 1460 } }
 		}
 		any_courtier = {
@@ -3323,7 +3113,7 @@ narrative_event = {
 			}
 			prestige = 100
 			give_nickname = nick_the_maid
-			dynasty = 848 # d'Arc
+			dynasty = random # d'Arc #LCDA
 			hidden_tooltip = { character_event = { id = SoA.5396 days = 1460 } }
 		}
 	}

@@ -61,14 +61,14 @@ province_event = {
 			factor = 2.0
 			religion_authority = 0.9
 		}
-		modifier = {
-			factor = 3.0
-			OR = {
-				province_id = 333 # Rome
-				province_id = 497 # Thrace
-				province_id = 719 # Mecca
-			}
-		}
+#LCDA		modifier = {
+#			factor = 3.0
+#			OR = {
+#				province_id = 333 # Rome
+#				province_id = 497 # Thrace
+#				province_id = 719 # Mecca
+#			}
+#LCDA		}
 		modifier = {
 			factor = 0.5
 			NOT = { religion_authority = 0.2 }

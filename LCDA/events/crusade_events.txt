@@ -586,158 +586,17 @@ letter_event = {
 # Finds the Spear of Destiny / Holy Lance
 # on_siege_won_leader
 # FROM = barony won
-character_event = {
-	id = 8340
-	desc = "EVTDESC8340"
-	picture = "GFX_evt_siege"
-	border = GFX_event_normal_frame_war
-	
-	religion = catholic
-	
-	is_triggered_only = yes
-		
-	trigger = {
-		FROM = { title = b_jerusalem }
-		OR = {
-			any_war = {
-				using_cb = crusade
-			}
-			any_liege = {
-				any_war = {
-					using_cb = crusade
-				}
-			}
-		}
-		NOT = { has_global_flag = found_the_holy_lance }
-	}
-	
-	immediate = {
-		hidden_tooltip = {
-			set_global_flag = found_the_holy_lance
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA8340"
-		prestige = 100
-		if = {
-			limit = { has_dlc = Mystics }
-			add_artifact = spear_of_destiny
-			new_artifact = {
-                set_creation_date = 1.1.1
-            }
-		}
-	}
-}
-
+#LCDA
 
 # Finds the Holy Grail
 # on_siege_won_leader
 # FROM = barony won
-character_event = {
-	id = 8342
-	desc = "EVTDESC8342"
-	picture = "GFX_evt_siege"
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-	religion = catholic
-	
-	trigger = {
-		FROM = { title = b_syrcaesarea }
-		OR = {
-			any_war = {
-				using_cb = crusade
-			}
-			any_liege = {
-				any_war = {
-					using_cb = crusade
-				}
-			}
-		}
-		NOT = { has_global_flag = found_the_holy_grail }
-	}
-	
-	immediate = {
-		hidden_tooltip = {
-			set_global_flag = found_the_holy_grail
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA8342"
-		prestige = 200
-		if = {
-			limit = { has_dlc = Mystics }
-			
-			if = { 
-				limit = {
-					OR = {
-						has_game_rule = {
-							name = supernatural_events
-							value = on
-						}
-						has_game_rule = {
-							name = supernatural_events
-							value = unrestricted
-						}
-					}
-				}
-				add_artifact = holy_grail
-				new_artifact = {
-					set_creation_date = 1.1.1
-				}
-			}
-			if = {
-				limit = {
-					has_game_rule = {
-						name = supernatural_events
-						value = off
-					}
-				}
-				add_artifact = holy_chalice
-				new_artifact = {
-					set_creation_date = 1.1.1
-				}
-			}
-		}
-	}
-}
-
+#LCDA
 
 # Sack of Jerusalem
 # on_siege_won_leader
 # FROM = barony won
-character_event = {
-	id = 8345
-	desc = "EVTDESC8345"
-	picture = "GFX_evt_siege"
-	border = GFX_event_normal_frame_war
-	
-	religion = catholic
-	
-	is_triggered_only = yes
-		
-	trigger = {
-		FROM = { title = b_jerusalem }
-		OR = {
-			any_war = {
-				using_cb = crusade
-			}
-			any_liege = {
-				any_war = {
-					using_cb = crusade
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA8345"
-		prestige = 50
-	}
-}
-
+#LCDA
 
 # Loses the crusade target's capital
 # on_siege_lost_leader

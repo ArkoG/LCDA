@@ -24,9 +24,9 @@ province_event = {
 	trigger = {
 		is_heretic = no
 		has_heresies = yes
-		NOT = { province_id = 333 } # Rome
-		NOT = { province_id = 497 } # Thrace
-		NOT = { province_id = 719 } # Mecca
+		#NOT = { province_id = 333 } # Rome
+		#NOT = { province_id = 497 } # Thrace
+		#NOT = { province_id = 719 } # Mecca
 	}
 	
 	mean_time_to_happen = {
@@ -602,9 +602,9 @@ province_event = {
 		is_heretic = no
 		has_heresies = yes
 		owner = { is_heretic = no }
-		NOT = { province_id = 333 } # Rome
-		NOT = { province_id = 497 } # Thrace
-		NOT = { province_id = 719 } # Mecca
+		#NOT = { province_id = 333 } # Rome
+		#NOT = { province_id = 497 } # Thrace
+		#NOT = { province_id = 719 } # Mecca
 		
 		any_neighbor_province = {
 			has_owner = yes
@@ -1060,44 +1060,8 @@ narrative_event = {
 		
 		OR = {
 			year = 1113	# Historical
-			221 = { # Provence
-				NOT = { owner = { religion_group = christian } }
 			}
-			214 = { # Toulouse
-				NOT = { owner = { religion_group = christian } }
-			}
-			112 = { # Paris
-				NOT = { owner = { religion_group = christian } }
-			}
-			119 = { # Cologne
-				NOT = { owner = { religion_group = christian } }
-			}
-			257 = { # Braunschweig
-				NOT = { owner = { religion_group = christian } }
-			}
-			e_byzantium = {
-				holder_scope = {
-					NOT = { religion_group = christian }
-				}
-			}
-			496 = { # Constantinople
-				NOT = { owner = { religion_group = christian } }
-			}
-			753 = { # Ancyra
-				NOT = { owner = { religion_group = christian } }
-			}
-			333 = { # Rome
-				NOT = { owner = { religion_group = christian } }
-			}
-			AND = {
-				482 = { # Athens
-					NOT = { owner = { religion_group = christian } }
-				}
-				481 = { # Corinth
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
-		}
+#LCDA
 	}
 	
 	mean_time_to_happen = {
@@ -1177,28 +1141,7 @@ narrative_event = {
 		OR = {
 			year = 1118	# Historical
 			
-			e_byzantium = {
-				holder_scope = {
-					NOT = { religion_group = christian }
-				}
-			}
-			496 = { # Constantinople
-				NOT = { owner = { religion_group = christian } }
-			}
-			753 = { # Ancyra
-				NOT = { owner = { religion_group = christian } }
-			}
-			333 = { # Rome
-				NOT = { owner = { religion_group = christian } }
-			}
-			AND = {
-				482 = { # Athens
-					NOT = { owner = { religion_group = christian } }
-				}
-				481 = { # Corinth
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
+#LCDA
 		}
 	}
 	
@@ -5362,9 +5305,9 @@ narrative_event = {
 		controls_religion = yes
 		year = 1090
 		
-		774 = { # Jerusalem
-			NOT = { owner = { religion_group = christian } }
-		}
+#		774 = { # Jerusalem
+#			NOT = { owner = { religion_group = christian } }
+#		}
 		
 		NOT = { has_global_flag = christian_crusades_unlocked }
 	}
@@ -5415,27 +5358,7 @@ narrative_event = {
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
 		
-		OR = {
-			e_byzantium = {
-				holder_scope = {
-					NOT = { religion_group = christian }
-				}
-			}
-			496 = { # Constantinople
-				NOT = { owner = { religion_group = christian } }
-			}
-			753 = { # Ancyra
-				NOT = { owner = { religion_group = christian } }
-			}
-			AND = {
-				482 = { # Athens
-					NOT = { owner = { religion_group = christian } }
-				}
-				481 = { # Corinth
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
-		}
+#LCDA	
 	}
 	
 	mean_time_to_happen = {
@@ -5484,14 +5407,14 @@ narrative_event = {
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
 		
-		333 = { # Rome
-			owner = {
-				OR = {
-					NOT = { religion_group = christian }
-					is_heretic = yes
-				}
-			}
-		}
+#LCDA		333 = { # Rome
+#			owner = {
+#				OR = {
+#					NOT = { religion_group = christian }
+#					is_heretic = yes
+#				}
+#			}
+#LCDA		}
 	}
 	
 	mean_time_to_happen = {
@@ -5540,25 +5463,7 @@ narrative_event = {
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
 		
-		OR = {
-			221 = { # Provence
-				NOT = { owner = { religion_group = christian } }
-			}
-			214 = { # Toulouse
-				NOT = { owner = { religion_group = christian } }
-			}
-			112 = { # Paris
-				NOT = { owner = { religion_group = christian } }
-			}
-			119 = { # Cologne
-				religion_group = christian
-				NOT = { owner = { religion_group = christian } }
-			}
-			257 = { # Braunschweig
-				religion_group = christian
-				NOT = { owner = { religion_group = christian } }
-			}
-		}
+#LCDA
 	}
 	
 	mean_time_to_happen = {
@@ -5652,9 +5557,9 @@ narrative_event = {
 		year = 900
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
-		774 = { # Jerusalem
-			NOT = { owner = { religion_group = muslim } }
-		}
+#LCDA			774 = { # Jerusalem
+#			NOT = { owner = { religion_group = muslim } }
+#		}
 	}
 	
 	mean_time_to_happen = {
@@ -5701,9 +5606,9 @@ narrative_event = {
 		year = 900
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
-		719 = { # Mecca
-			NOT = { owner = { religion_group = muslim } }
-		}
+#LCDA		719 = { # Mecca
+#			NOT = { owner = { religion_group = muslim } }
+#		}
 	}
 	
 	mean_time_to_happen = {
@@ -5750,17 +5655,17 @@ narrative_event = {
 		year = 900
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
-		OR = {
-			693 = { # Baghdad
-				NOT = { owner = { religion_group = muslim } }
-			}
-			728 = { # Damascus
-				NOT = { owner = { religion_group = muslim } }
-			}
-			796 = { # Cairo
-				NOT = { owner = { religion_group = muslim } }
-			}
-		}
+#LCDA		OR = {
+#			693 = { # Baghdad
+#				NOT = { owner = { religion_group = muslim } }
+#			}
+#			728 = { # Damascus
+#				NOT = { owner = { religion_group = muslim } }
+#			}
+#			796 = { # Cairo
+#				NOT = { owner = { religion_group = muslim } }
+#			}
+#LCDA		}
 	}
 	
 	mean_time_to_happen = {
@@ -5807,17 +5712,17 @@ narrative_event = {
 		year = 1000
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
-		OR = {
-			843 = { # Marrakesh
-				NOT = { owner = { religion_group = muslim } }
-			}
-			817 = { # Tunis
-				NOT = { owner = { religion_group = muslim } }
-			}
-			831 = { # Al Djazair
-				NOT = { owner = { religion_group = muslim } }
-			}
-		}
+#LCDA		OR = {
+#			843 = { # Marrakesh
+#				NOT = { owner = { religion_group = muslim } }
+#			}
+#			817 = { # Tunis
+#				NOT = { owner = { religion_group = muslim } }
+#			}
+#			831 = { # Al Djazair
+#				NOT = { owner = { religion_group = muslim } }
+#			}
+#LCDA		}
 	}
 	
 	mean_time_to_happen = {

@@ -1358,23 +1358,7 @@ narrative_event = {
 		}
 		
 		
-		OR = {
-			869 = { # Hajar
-				NOT = { owner = { religion_group = muslim } }
-			}
-			728 = { # Damascus
-				NOT = { owner = { religion_group = muslim } }
-			}
-			796 = { # Cairo
-				NOT = { owner = { religion_group = muslim } }
-			}
-			774 = { # Jerusalem
-				NOT = { owner = { religion_group = muslim } }
-			}
-			719 = { # Mecca
-				NOT = { owner = { religion_group = muslim } }
-			}
-		}
+#LCDA
 	}
 	
 	mean_time_to_happen = {

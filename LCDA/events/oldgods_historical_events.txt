@@ -290,29 +290,7 @@ letter_event = {
 }
 
 # Castle has been erected
-province_event = {
-	id = TOG.4002
-	desc = EVTDESC_TOG_4002
-	picture = "GFX_evt_castle_construction"
-	border = GFX_event_normal_frame_religion
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_TOG_4002
-		build_holding = {
-		   title = b_kolbatz
-		   type = castle
-		   holder = FROMFROM
-		}
-		b_kolbatz = { set_name = Jomsborg }
-		hidden_tooltip = {
-			owner = {
-				narrative_event = { id = TOG.4003 days = 7 }
-			}
-		}
-	}
-}
+#LCDA
 
 # News spread about the new castle
 narrative_event = {
@@ -350,68 +328,7 @@ narrative_event = {
 ### Jomsvikings in Wolgast
 
 # Palnatoke created
-character_event = {
-	id = TOG.4009
-	hide_window = yes
-
-	min_age = 16
-	only_men = yes
-	only_playable = yes
-	religion = catholic
-	
-	trigger = {
-		has_dlc = "The Old Gods"
-		year = 920
-		controls_religion = yes # Let it happen for the Pope - he's always around
-		NOT = { has_global_flag = no_land_to_jomsvikings }
-		NOT = { has_global_flag = jomsvikings_founded }
-		# The settlement has not been built yet
-		b_zussow = {
-			has_holder = no
-		}
-		# Wolgast
-		308 = {
-			owner = {
-				OR = {
-					religion = norse_pagan
-					religion = norse_pagan_reformed
-				}
-			}
-			NOT = { num_of_settlements = 4 }
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 620
-	}
-	
-	immediate = {
-		308 = {
-			owner = {
-				create_character = {
-					random_traits = no
-					name = "Palnatoke"
-					religion = norse_pagan
-					culture = norse
-					dynasty = none
-					female = no
-					age = 28
-					trait = tough_soldier
-					trait = brave
-					trait = strong
-					trait = zealous
-					trait = hunter
-					trait = wroth
-					trait = berserker
-				}
-				new_character = {
-					character_event = { id = TOG.4005 }
-				}
-			}
-		}
-	}
-}
-
+#LCDA
 # Chief Writes a Letter (Wolgast)
 character_event = {
 	id = TOG.4005
@@ -492,30 +409,7 @@ letter_event = {
 }
 
 # Castle has been erected
-province_event = {
-	id = TOG.4007
-	desc = EVTDESC_TOG_4002
-	picture = "GFX_evt_castle_construction"
-	border = GFX_event_normal_frame_religion
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_TOG_4002
-		build_holding = {
-		   title = b_zussow
-		   type = castle
-		   holder = FROMFROM
-		}
-		b_zussow = { set_name = Jomsborg }
-		hidden_tooltip = {
-			FROMFROM = {
-				narrative_event = { id = TOG.4008 days = 7 }
-			}
-		}
-	}
-}
-
+#LCDA
 # News spread about the new castle
 narrative_event = {
 	id = TOG.4008
@@ -552,68 +446,7 @@ narrative_event = {
 ### Jomsvikings in Rügen
 
 # Palnatoke created
-character_event = {
-	id = TOG.4010
-	hide_window = yes
-
-	min_age = 16
-	only_men = yes
-	only_playable = yes
-	religion = catholic
-	
-	trigger = {
-		has_dlc = "The Old Gods"
-		year = 920
-		controls_religion = yes # Let it happen for the Pope - he's always around
-		NOT = { has_global_flag = no_land_to_jomsvikings }
-		NOT = { has_global_flag = jomsvikings_founded }
-		# The settlement has not been built yet
-		b_putbus = {
-			has_holder = no
-		}
-		# Rügen
-		304 = {
-			owner = {
-				OR = {
-					religion = norse_pagan
-					religion = norse_pagan_reformed
-				}
-			}
-			NOT = { num_of_settlements = 3 }
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 620
-	}
-	
-	immediate = {
-		304 = {
-			owner = {
-				create_character = {
-					random_traits = no
-					name = "Palnatoke"
-					religion = norse_pagan
-					culture = norse
-					dynasty = none
-					female = no
-					age = 28
-					trait = tough_soldier
-					trait = brave
-					trait = strong
-					trait = zealous
-					trait = hunter
-					trait = wroth
-					trait = berserker
-				}
-				new_character = {
-					character_event = { id = TOG.4015 }
-				}
-			}
-		}
-	}
-}
-
+#LCDA
 # Chief Writes a Letter (Rügen)
 character_event = {
 	id = TOG.4015
@@ -694,30 +527,7 @@ letter_event = {
 }
 
 # Castle has been erected
-province_event = {
-	id = TOG.4017
-	desc = EVTDESC_TOG_4002
-	picture = "GFX_evt_castle_construction"
-	border = GFX_event_normal_frame_religion
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_TOG_4002
-		build_holding = {
-		   title = b_putbus
-		   type = castle
-		   holder = FROMFROM
-		}
-		b_putbus = { set_name = Jomsborg }
-		hidden_tooltip = {
-			FROMFROM = {
-				narrative_event = { id = TOG.4018 days = 7 }
-			}
-		}
-	}
-}
-
+#LCDA
 # News spread about the new castle
 narrative_event = {
 	id = TOG.4018
@@ -754,68 +564,7 @@ narrative_event = {
 ### Jomsvikings in Werle
 
 # Palnatoke created
-character_event = {
-	id = TOG.4020
-	hide_window = yes
-
-	min_age = 16
-	only_men = yes
-	only_playable = yes
-	religion = catholic
-	
-	trigger = {
-		has_dlc = "The Old Gods"
-		year = 920
-		controls_religion = yes # Let it happen for the Pope - he's always around
-		NOT = { has_global_flag = no_land_to_jomsvikings }
-		NOT = { has_global_flag = jomsvikings_founded }
-		# The settlement has not been built yet
-		b_tribsees = {
-			has_holder = no
-		}
-		# Werle
-		307 = {
-			owner = {
-				OR = {
-					religion = norse_pagan
-					religion = norse_pagan_reformed
-				}
-			}
-			NOT = { num_of_settlements = 4 }
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 620
-	}
-	
-	immediate = {
-		307 = {
-			owner = {
-				create_character = {
-					random_traits = no
-					name = "Palnatoke"
-					religion = norse_pagan
-					culture = norse
-					dynasty = none
-					female = no
-					age = 28
-					trait = tough_soldier
-					trait = brave
-					trait = strong
-					trait = zealous
-					trait = hunter
-					trait = wroth
-					trait = berserker
-				}
-				new_character = {
-					character_event = { id = TOG.4025 }
-				}
-			}
-		}
-	}
-}
-
+#LCDA
 # Chief Writes a Letter (Werle)
 character_event = {
 	id = TOG.4025
@@ -896,30 +645,7 @@ letter_event = {
 }
 
 # Castle has been erected
-province_event = {
-	id = TOG.4027
-	desc = EVTDESC_TOG_4002
-	picture = "GFX_evt_castle_construction"
-	border = GFX_event_normal_frame_religion
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTA_TOG_4002
-		build_holding = {
-		   title = b_tribsees
-		   type = castle
-		   holder = FROMFROM
-		}
-		b_tribsees = { set_name = Jomsborg }
-		hidden_tooltip = {
-			FROMFROM = {
-				narrative_event = { id = TOG.4028 days = 7 }
-			}
-		}
-	}
-}
-
+#LCDA
 # News spread about the new castle
 narrative_event = {
 	id = TOG.4028

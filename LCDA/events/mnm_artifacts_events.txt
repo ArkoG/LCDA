@@ -1256,15 +1256,7 @@ character_event = {
 				}
 
 				10 = {
-					modifier = { 
-						factor = 0 
-						NOR = { 
-							religion_group = zoroastrian_group 
-							culture_group = iranian
-							has_landed_title = e_persia
-							has_landed_title = k_persia
-						} 
-					}
+#LCDA
 					modifier = { factor = 0 NOT = { has_character_modifier = relic_rumor_medium } }
 					modifier = {
 						factor = 0
