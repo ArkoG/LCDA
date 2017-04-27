@@ -1,0 +1,42 @@
+bm_1032 = {
+	name = "BM_1032_ERA"
+	desc = "BM_1032_ERA_INFO"
+	date = 1031.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_1
+	
+	selectable_character = {
+		id = 100036 # Géraud
+		age = 26
+		name = ERA_CHAR_NAME_100036
+		title = d_genevois
+		title_name = d_genevois
+		
+		character = {
+			dna = bcedirmbfcy
+			properties = aj00bc00000
+			religion="catholic"
+			culture="frankish"
+			government = feudal_government
+			dynasty=300101
+		}
+	}
+
+	selectable_character = {
+		id = 100007 # Rodolphe Ier
+		age = 18
+		name = ERA_CHAR_NAME_100007
+		title = c_faucigny
+		title_name = c_faucigny
+		
+		character = {
+			dna = bcalbhabgal
+			properties = aj0aca000000
+			religion="catholic"
+			culture="frankish"
+			government = feudal_government
+			dynasty=300102
+		}
+	}
+}
