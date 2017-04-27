@@ -1,0 +1,215 @@
+1 = {
+   title=c_nyon
+   max_settlements=6
+   terrain=hills
+}
+2 = {
+   title=c_gex
+   max_settlements=3
+   terrain=mountain
+}
+3 = {
+   title=c_geneve
+   max_settlements=6
+   terrain=hills
+}
+4 = {
+   title=c_thonon
+   max_settlements=5
+   terrain=hills
+}
+5 = {
+   title=c_abondance
+   max_settlements=4
+   terrain=hills
+}
+6 = {
+   title=c_aigle
+   max_settlements=5
+   terrain=plains
+}
+7 = {
+   title=c_faucigny
+   max_settlements=4
+   terrain=plains
+}
+8 = {
+   title=c_giffre
+   max_settlements=3
+   terrain=plains
+}
+9 = {
+   title=c_trient
+   max_settlements=5
+   terrain=hills
+}
+10 = {
+   title=c_montjoie
+   max_settlements=3
+   terrain=plains
+}
+11 = {
+   title=c_annecy
+   max_settlements=5
+   terrain=plains
+}
+12 = {
+   title=c_seyssel
+   max_settlements=6
+   terrain=plains
+}
+13 = {
+   title=c_albens
+   max_settlements=4
+   terrain=forest
+}
+14 = {
+   title=c_novalaise
+   max_settlements=6
+   terrain=farmlands
+}
+15 = {
+   title=c_bourget
+   max_settlements=5
+   terrain=plains
+}
+16 = {
+   title=c_montmelian
+   max_settlements=6
+   terrain=farmlands
+}
+17 = {
+   title=c_conflans
+   max_settlements=4
+   terrain=plains
+}
+18 = {
+   title=c_beaufort
+   max_settlements=3
+   terrain=hills
+}
+19 = {
+   title=c_maurienne
+   max_settlements=6
+   terrain=hills
+}
+20 = {
+   title=c_modane
+   max_settlements=6
+   terrain=hills
+}
+21 = {
+   title=c_montcenis
+   max_settlements=6
+   terrain=plains
+}
+22 = {
+   title=c_moutiers
+   max_settlements=6
+   terrain=plains
+}
+23 = {
+   title=c_bourgsaintmaurice
+   max_settlements=6
+   terrain=plains
+}
+24 = {
+   title=c_courmayeur
+   max_settlements=6
+   terrain=plains
+}
+25 = {
+   title=c_aoste
+   max_settlements=6
+   terrain=plains
+}
+26 = {
+   title=c_chatillon
+   max_settlements=6
+   terrain=plains
+}
+27 = {
+   title=c_saintmaurice
+   max_settlements=6
+   terrain=farmlands
+}
+28 = {
+   title=c_martigny
+   max_settlements=6
+   terrain=plains
+}
+29 = {
+   title=c_montjoux
+   max_settlements=6
+   terrain=farmlands
+}
+30 = {
+   title=c_conthey
+   max_settlements=6
+   terrain=plains
+}
+31 = {
+   title=c_voirons
+   max_settlements=6
+   terrain=plains
+}
+32 = {
+   title=c_moirans
+   max_settlements=6
+   terrain=plains
+}
+33 = {
+   title=c_tourdupin
+   max_settlements=6
+   terrain=mountain
+}
+34 = {
+   title=c_vienne
+   max_settlements=6
+   terrain=hills
+}
+35 = {
+   title=c_albon
+   max_settlements=6
+   terrain=hills
+}
+36 = {
+   title=c_romans
+   max_settlements=3
+   terrain=hills
+}
+37 = {
+   title=c_royans
+   max_settlements=6
+   terrain=hills
+}
+38 = {
+   title=c_graisivaudan
+   max_settlements=6
+   terrain=hills
+}
+39 = {
+   title=c_grenoble
+   max_settlements=6
+   terrain=hills
+}
+40 = {
+   title=c_oisans
+   max_settlements=3
+   terrain=hills
+}
+41 = {
+   title=c_trieves
+   max_settlements=6
+   terrain=hills
+}
+42 = {
+   title=c_vercors
+   max_settlements=6
+   terrain=plains
+}
+43 = {
+   title=c_valmontheys
+   max_settlements=6
+   terrain=hills
+}
