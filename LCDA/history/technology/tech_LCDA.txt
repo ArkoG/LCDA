@@ -2,6 +2,7 @@
 
 technology = {
 	titles = {
+		#DJ
 		d_equestres
 		d_chablais
 		d_faucigny
@@ -11,9 +12,22 @@ technology = {
 		d_tarentaise
 		d_basvalais
 		d_aoste
+		
 		d_salmorenc
 		d_viennois
 		d_graisivaudan
+		
+		#titular (needed ?)
+		d_vienne_ecl
+		d_embrun_ecl
+		d_gap_ecl
+		d_grenoble_ecl
+		d_geneve_ecl
+		d_stmaurice_ecl
+		d_maurienne_ecl
+		d_tarentaise_ecl
+		d_geneve_cite
+		
 	}
 
 	769 = {
