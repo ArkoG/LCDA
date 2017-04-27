@@ -17,16 +17,6 @@ technology = {
 		d_viennois
 		d_graisivaudan
 		
-		#titular (needed ?)
-		d_vienne_ecl
-		d_embrun_ecl
-		d_gap_ecl
-		d_grenoble_ecl
-		d_geneve_ecl
-		d_stmaurice_ecl
-		d_maurienne_ecl
-		d_tarentaise_ecl
-		d_geneve_cite
 		
 	}
 
