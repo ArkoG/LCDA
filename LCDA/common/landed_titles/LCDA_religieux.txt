@@ -1,0 +1,148 @@
+#EVECHES SECULAIRES
+	
+#d_vienne_ecl = {
+#		color={ 255 255 255 }
+#		color2={ 0 0 0 }
+#		
+#		capital = 3 #xxx	
+#			
+#				location_ruler_title = yes
+#				landless = yes
+#				primary = yes
+#				title = "SECULAR_ARCHBISHOP"
+#				title_prefix = "SECULAR_ARCHBISHOP_OF"
+#				foa = "SECULAR_ARCHBISHOP_FOA"	
+#}
+d_vienne_ecl = {
+		color={ 255 255 255 }
+		color2={ 0 0 0 }
+		
+		capital = 34 #Vienne	
+		culture = arpitan
+		religion = catholic
+				title = "SECULAR_ARCHBISHOP"
+				title_prefix = "SECULAR_ARCHBISHOP_OF"
+				foa = "SECULAR_ARCHBISHOP_FOA"	
+
+				landless = yes
+				short_name = yes
+
+		allow={ always = no }
+}
+d_embrun_ecl = {
+		color={ 255 255 255 }
+		color2={ 0 0 0 }
+		
+		capital = 44 #Embrun	
+		culture = occitan
+		religion = catholic
+		
+				title = "SECULAR_ARCHBISHOP"
+				title_prefix = "SECULAR_ARCHBISHOP_OF"
+				foa = "SECULAR_ARCHBISHOP_FOA"	
+
+				landless = yes
+				short_name = yes
+
+		allow={ always = no }
+}
+d_gap_ecl = {
+		color={ 255 255 255 }
+		color2={ 0 0 0 }
+		
+		capital = 49 #Gap	
+		culture = occitan
+		religion = catholic
+		
+				title = "SECULAR_BISHOP"
+				title_prefix = "SECULAR_BISHOP_OF"
+				foa = "SECULAR_BISHOP_FOA"	
+
+				landless = yes
+				short_name = yes
+
+		allow={ always = no }
+}
+d_grenoble_ecl = {
+		color={ 255 255 255 }
+		color2={ 0 0 0 }
+		
+		capital = 39 #Grenoble	
+		culture = arpitan
+		religion = catholic
+		
+				title = "SECULAR_BISHOP"
+				title_prefix = "SECULAR_BISHOP_OF"
+				foa = "SECULAR_BISHOP_FOA"	
+
+				landless = yes
+				short_name = yes
+
+		allow={ always = no }
+}
+
+d_geneve_ecl = {
+		color={ 255 255 255 }
+		color2={ 0 0 0 }
+		
+		capital = 3 #Genéve	
+		culture = arpitan
+		religion = catholic
+		
+				title = "SECULAR_BISHOP"
+				title_prefix = "SECULAR_BISHOP_OF"
+				foa = "SECULAR_BISHOP_FOA"	
+
+				landless = yes
+				short_name = yes
+
+		allow={ always = no }
+}
+d_stmaurice_ecl = {
+		color={ 255 255 255 }
+		color2={ 0 0 0 }
+		
+		capital = 27 #Saint Maurice	
+		culture = arpitan	
+		religion = catholic		
+				title = "ABBE_TERRITORIAL"
+				title_prefix = "ABBE_TERRITORIAL_OF"
+				foa = "ABBE_TERRITORIAL_FOA"	
+				
+		allow={ always = no }
+
+}
+d_maurienne_ecl = {
+		color={ 255 255 255 }
+		color2={ 0 0 0 }
+		
+		dignity = 5
+		
+		capital = 19 #Maurienne	
+		culture = arpitan
+		religion = catholic
+				title = "SECULAR_BISHOP"
+				title_prefix = "SECULAR_BISHOP_OF"
+				foa = "SECULAR_BISHOP_FOA"	
+
+				landless = yes
+				short_name = yes
+				
+		allow={ always = no }
+}
+d_tarentaise_ecl = {
+		color={ 255 255 255 }
+		color2={ 0 0 0 }
+		
+		capital = 22 #Moutier	
+		culture = arpitan
+		religion = catholic	
+				title = "SECULAR_ARCHBISHOP"
+				title_prefix = "SECULAR_ARCHBISHOP_OF"
+				foa = "SECULAR_ARCHBISHOP_FOA"	
+
+				landless = yes
+				short_name = yes
+				
+		allow={ always = no }
+}

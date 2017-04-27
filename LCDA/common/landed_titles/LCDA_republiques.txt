@@ -1,0 +1,18 @@
+#REPUBLIQUES
+
+
+d_geneve_cite = {
+		color={ 255 255 255 }
+		color2={ 0 0 0 }
+		
+		capital = 3 #Genéve	
+		culture = arpitan
+
+		#allow={ is_republic = yes }
+}
+
+b_ct_geneve1 = {	culture = arpitan	religion = catholic	}
+b_ct_geneve2 = {	culture = arpitan	religion = catholic	}
+b_ct_geneve3 = {	culture = arpitan	religion = catholic	}
+b_ct_geneve4 = {	culture = arpitan	religion = catholic	}
+b_ct_geneve5 = {	culture = arpitan	religion = catholic	}

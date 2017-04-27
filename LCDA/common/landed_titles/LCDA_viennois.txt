@@ -1,0 +1,177 @@
+k_vienne = {
+		color={ 0 90 150 }
+		color2={ 255 255 255 }
+		
+		capital = 31 #voirons TEMP for validator
+		#capital = 35 #Albon			
+		
+	d_salmorenc = {
+		color={ 110 20 110 }
+		color2={ 172 4 10 }
+		
+		capital = 31 #voirons	
+		
+		c_voirons = { #31
+			color={ 130 0 130 }
+			color2={ 255 255 255 }
+		
+			b_voirons1 = {}
+			b_voirons2 = {}
+			b_voirons3 = {}
+			b_voirons4 = {}
+			b_voirons5 = {}
+			b_voirons6 = {}
+	
+		}
+		c_moirans = { #32
+			color={ 90 40 90 }
+			color2={ 0 86 148 }
+		
+			b_moirans1 = {}
+			b_moirans2 = {}
+			b_moirans3 = {}
+			b_moirans4 = {}
+			b_moirans5 = {}
+			b_moirans6 = {}
+		}
+	}
+	d_viennois = {
+		color={ 0 188 250 }
+		color2={ 172 4 10 }
+		
+		capital = 35 #albon
+		
+		c_albon = { #35
+			color={ 0 188 250 }
+			color2={ 250 188 0 }
+		
+			dignity = 9
+			
+			b_albon1 = {}
+			b_albon2 = {}
+			b_albon3 = {}
+			b_albon4 = {}
+			b_albon5 = {}
+			b_albon6 = {}
+		}
+		c_romans = { #36
+			color={ 20 188 230 }
+			color2={ 250 188 0 }
+			
+			b_romans1 = {}
+			b_romans2 = {}
+			b_romans3 = {}
+			b_romans4 = {}
+			b_romans5 = {}
+			b_romans6 = {}
+		}
+		c_royans = { #37
+			color={ 40 188 210 }
+			color2={ 250 188 0 }
+		
+			b_royans1 = {}
+			b_royans2 = {}
+			b_royans3 = {}
+			b_royans4 = {}
+			b_royans5 = {}
+			b_royans6 = {}
+		}
+		c_vienne = { #34
+			color={ 60 188 190 }
+			color2={ 250 188 0 }
+
+			dignity = 9
+			
+			b_vienne1 = {}
+			b_vienne2 = {}
+			b_vienne3 = {}
+			b_vienne4 = {}
+			b_vienne5 = {}
+			b_vienne6 = {}
+		}
+		c_tourdupin = { #33
+			color={ 40 168 210 }
+			color2={ 250 188 0 }
+			
+			b_tourdupin1 = {}
+			b_tourdupin2 = {}
+			b_tourdupin3 = {}
+			b_tourdupin4 = {}
+			b_tourdupin5 = {}
+			b_tourdupin6 = {}
+		}		
+	}
+	d_graisivaudan = {
+		color={ 190 250 0 }
+		color2={ 0 0 0 }
+		
+		capital = 39 #Grenoble	
+		
+		c_grenoble = { #39
+			color={ 180 240 0 }
+			color2={ 255 255 255 }
+		
+			b_grenoble1 = {}
+			b_grenoble2 = {}
+			b_grenoble3 = {}
+			b_grenoble4 = {}
+			b_grenoble5 = {}
+			b_grenoble6 = {}
+		}
+		c_graisivaudan = { #38
+			color={ 200 220 0 }
+			color2={ 255 255 255 }
+		
+			b_graisivaudan1 = {}
+			b_graisivaudan2 = {}
+			b_graisivaudan3 = {}
+			b_graisivaudan4 = {}
+			b_graisivaudan5 = {}
+			b_graisivaudan6 = {}
+		}
+		c_oisans = { #40
+			color={ 180 220 20 }
+			color2={ 0 86 148 }
+		
+			b_oisans1 = {}
+			b_oisans2 = {}
+			b_oisans3 = {}
+			b_oisans4 = {}
+			b_oisans5 = {}
+			b_oisans6 = {}
+		}
+		c_vercors = { #41
+			color={ 160 240 20 }
+			color2={ 250 188 0 }
+		
+			b_vercors1 = {}
+			b_vercors2 = {}
+			b_vercors3 = {}
+			b_vercors4 = {}
+			b_vercors5 = {}
+			b_vercors6 = {}
+		}
+		c_trieves = { #42
+			color={ 180 220 0 }
+			color2={ 0 86 148 }
+		
+			b_trieves1 = {}
+			b_trieves2 = {}
+			b_trieves3 = {}
+			b_trieves4 = {}
+			b_trieves5 = {}
+			b_trieves6 = {}
+		}
+		c_valmontheys = { #43
+			color={ 160 240 20 }
+			color2={ 250 188 0 }
+		
+			b_valmontheys1 = {}
+			b_valmontheys2 = {}
+			b_valmontheys3 = {}
+			b_valmontheys4 = {}
+			b_valmontheys5 = {}
+			b_valmontheys6 = {}
+		}
+	}
+}
