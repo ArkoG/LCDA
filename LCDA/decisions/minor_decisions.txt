@@ -357,7 +357,14 @@ decisions = {
 				has_quest = quest_monastic_order_pilgrimage_christian
 			}
 			is_playable = yes
-			religion_group = christian
+			#religion_group = christian
+			OR = {
+				religion = catholic # All Catholic holy places
+				religion = cathar
+				religion = fraticelli
+				religion = waldensian
+				religion = lollard
+			}
 			NOT = { trait = pilgrim }
 		}
 		allow = {

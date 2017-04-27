@@ -6446,7 +6446,7 @@ weaken_vassal_plot = {
 	}
 }
 
-#LCDA
+#LCDA removed CB completly
 #imperial_reconquest = {
 #}
 #LCDA
@@ -10767,7 +10767,7 @@ indian_subjugation = {
 
 # 52: This can be used for various special cases; the great conquerors
 #manifest_destiny_invasion = {
-#LCDA
+#LCDA #removed CB completly
 #LCDA
 #}
 
