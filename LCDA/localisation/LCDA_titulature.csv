@@ -68,10 +68,10 @@ PORTIER_female;;Portier;;;;;;;;;;;;x
 PORTIER_title_ruler_consort;;Portier;;;;;;;;;;;x
 PORTIER_title_ruler_consort_female;;Portier;;;;;;;;;;;;x
 SECULAR_ARCHBISHOP;;Archevêque;;;;;;;;;;;;x
-#SECULAR_ARCHBISHOP_OF;;Archidiocèse de;;;;;;;;;;;;x
+SECULAR_ARCHBISHOP_OF;;Archidiocèse de;;;;;;;;;;;;x
 SECULAR_ARCHBISHOP_FOA;;Votre Éminence;;;;;;;;;;;;x
 SECULAR_BISHOP;;Evêque;;;;;;;;;;;;x
-#SECULAR_BISHOP_OF;Diocèse de;Diocèse de;Diocèse de;;;;;;;;;;;x
+SECULAR_BISHOP_OF;Diocèse de;Diocèse de;Diocèse de;;;;;;;;;;;x
 SECULAR_BISHOP_FOA;;Votre Éminence;;;;;;;;;;;;x
 ABBE_TERRITORIAL;;Abbé;;;;;;;;;;;;x
 ABBE_TERRITORIAL_OF;;Abbaye Territoriale de;;;;;;;;;;;;x
