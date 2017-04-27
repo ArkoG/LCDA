@@ -38,9 +38,11 @@ k_savoie = {
 			color2={ 250 188 0 }
 		
 			dignity = 9
+			
 			holy_site = catholic
+			
 			b_geneve1 = {}
-			b_geneve2 = {  }
+			b_geneve2 = { }
 			b_geneve3 = {}
 			b_geneve4 = {}
 			b_geneve5 = {}
@@ -57,7 +59,9 @@ k_savoie = {
 		c_saintmaurice = { #27
 			color={ 172 4 10 }
 			color2={ 255 255 255 }
-		holy_site = catholic
+			
+			holy_site = catholic
+			
 			b_saintmaurice1 = {}
 			b_saintmaurice2 = {  }
 			b_saintmaurice3 = {}
@@ -68,7 +72,7 @@ k_savoie = {
 		c_thonon = { #4
 			color={ 172 4 10 }
 			color2={ 255 255 255 }
-			holy_site = catholic
+			
 			b_thonon1 = {}
 			b_thonon2 = {}
 			b_thonon3 = {}
@@ -79,7 +83,7 @@ k_savoie = {
 		c_abondance = { #5
 			color={ 250 188 0 }
 			color2={ 0 86 148 }
-			holy_site = catholic
+			
 			b_abondance1 = {}
 			b_abondance2 = {}
 			b_abondance3 = {}
@@ -279,7 +283,9 @@ k_savoie = {
 			color2={ 255 255 255 }
 			
 			dignity = 5
-		holy_site = catholic
+			
+			holy_site = catholic
+			
 			b_maurienne1 = {}
 			b_maurienne2 = {  }
 			b_maurienne3 = {}

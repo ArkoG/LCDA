@@ -82,6 +82,8 @@ k_vienne = {
 
 			dignity = 9
 			
+			holy_site = catholic
+						
 			b_vienne1 = {}
 			b_vienne2 = {}
 			b_vienne3 = {}
@@ -111,6 +113,8 @@ k_vienne = {
 			color={ 180 240 0 }
 			color2={ 255 255 255 }
 		
+			holy_site = catholic
+			
 			b_grenoble1 = {}
 			b_grenoble2 = {}
 			b_grenoble3 = {}
