@@ -46,7 +46,6 @@ learning = 6
 add_trait = "elusive_shadow"
 add_trait = "cruel"
 add_trait = "wroth"
-add_trait = "wroth"
 add_trait = "shy"
 1270.11.6={birth=yes}
 1324.11.6={death=yes}
