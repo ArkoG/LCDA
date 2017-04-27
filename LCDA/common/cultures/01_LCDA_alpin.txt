@@ -1,0 +1,274 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+
+#alpin_group:
+#arpitan
+#romanche
+#alemanique
+#alpin
+
+alpin_group = {
+	graphical_cultures = {westerngfx}
+
+		#color = { 0.3 0.55 0.8 }
+		
+	arpitan = {
+		graphical_cultures = {frankishgfx}
+		
+		color = { 0.3 0.55 0.8 }
+		
+		male_names = {
+			Amédée
+			Aymerard_Aymeric
+			Guillaume_William
+			Vuillielme_William
+			Gérold_Gerard
+			Géraud_Gerard
+			Gui_Guy
+			Marchand
+			Rodolphe_Ralph
+			Sigefroy_Siegfried
+			Édouard_Edward Érrard Étienne_Stephen 
+			Adalbert_Albert Adémar Adrien Aimery_Aymeric Alain_Alan Aldebert_Albert Aldéric Alphonse_Alphonse Amaury_Amalric
+			Ancel André_Andrew Angelbert Antoine_Antoninus Archambaud_Archibald Arnaud_Arnold Arnault_Arnold Arnoul_Arnulf Aubry Aymar 
+			Barthélémi_Bartolomeus Bérenger_Berengar Bernard_Bernard Bertrand_Bertrand Bohemond Boson_Boson Bouchard Boniface
+			Centule_Centule Charles_Charles
+			Ebbon Enguerrand Eudes_Otto Eustache_Eustace Evrard Edouard Emeric
+			Frédéric_Frederick 
+			Gaucher
+			Gauthier_Walter Geoffroy_Godfrey Gilbert_Gilbert Gilles_Egidius Godefroy_Godfrey Guichard Guigues
+			Hélie Hamelin Henri_Henry Herbert Hildebert Hugues_Hugh Humbert_Humbert 
+			Jacques_Jacob Jaufré_Godfrey Jean_John
+			Jourdain_Jordan Julien_Julian 
+			Lothaire_Lothar Louis_Louis Loup_Lupo 
+			Mathieu_Matthew Maurice Nicolas_Nicholas 
+			Ogier Orson Oddon_Otto
+			Philippe_Philip Pierre_Peter Ponce
+			Raimbaut Raoul_Ralph Ramus_Ramus Raymond_Raymond Raynaud_Reinhold Richard_Richard Robert_Robert Robin Roger_Roger Rorgon Rorgues Roubaud 
+			Savary Sigismond_Sigmund Simon_Simon 
+			Thibault_Theobald Thiébaut_Theobald Thierry_Thierry Thomas_Thomas 
+			Valeran 
+			Yves
+		}
+		female_names = {
+			Ottilie_Lucia
+			Thetberge_Tiburge
+			Éléonore_Eleanor Élodie Étiennette 
+			Adèle_Adela Adalmode_Almodis Adelaide_Adelaide Adelinde Agathe_Agatha Agnès_Agnes Aléarde Alice_Alice Aliénor_Eleanor
+			Alix_Alice Almodis_Almodis Amelie_Amelia Anne_Anna Antoinette Arsinde_Arsenda Aude Aurengarde 
+			Béatrice_Beatrice Béatrix_Beatrice Belleassez Benoîte Bérengère Berthe Blanche_Blanche Bonne_Bonne 
+			Cécile_Cecilia Cathèrine_Catherine Charlotte Constance_Constance 
+			Denise Douce_Douce 
+			Echive Eglantine Emma_Emma Ermengarde_Ermengarde Ermessinde_Ermesinda
+			Esclarmonde_Esclarmunda Euphrosine_Euphrosyne Eustachie Eve_Eva 
+			Gerberge_Gerberga Gisèle_Gisela Guillaumette 
+			Héloise_Eloise Helvis Hodierne 
+			Ide_Ida Ida_Ida Ildégarde_Hildegard Isabeau_Elisabeth Isabelle_Elisabeth 
+			Jeanne_Joan Judith_Judith Julienne_Juliana 
+			Mafalda Mahaut_Mahaut Margot Marguerite_Margaret 
+			Marie_Maria Marthe_Martha Mascarose_Mascarosa Mathilde_Matilda Mélisende_Melisende Mélusine 
+			Péronelle_Peronella Pernelle_Peronella Perinne Pernette Philiberte Plaisance_Plaisance 
+			Raymonde 
+			Sarrazine Solène Sophie_Sophia
+			Stéphanie_Stephania Sybille_Sibylla 
+			Tiburge_Tiburge 
+			Valence_Yolanda 
+			Yolande_Yolanda 
+		}
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+
+		modifier = default_culture_modifier
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}
+	romanche = {
+		graphical_cultures = {occitangfx}
+		
+		color = { 0.8 0.65 0.35 }
+
+		male_names = { 
+			Asinio Amédée Anton Andrin Alexandre_alexander Arthur Alexis Adrien Arnaud
+			Bruno Beatus Benedict Benjamin Barclamiu_bartholomew
+			Corsin Curdin_conrad
+			Donat David
+			Eddo Egino Enzo Esteban_stephen Elias Ermes
+			Flurin Floris Fortunat_fortunatus Fortunatin_fortunatinus Fadri_frederick
+			Gagl Gieri Gian Gabriel Giachem Giosch
+			Hesso Hugo Henri
+			Johannes Jarno Jules_julius Julien_julian Jachen
+			Kaspar
+			Luci_lucius Lucas Laurin Léo Loïc
+			Men Moreno Mathis_matthew Marco_marcus Manuel Mattli Mose_moses
+			Nicolas Nathan Nevio Noah
+			Paschal Paulus Peder Philipp 
+			Quentin
+			René Rothar Ruthard Romain Raphaël Remo
+			Silvan_silvanus Simon_simon Samuel_samuel Stiafen_stephen Saturnin_saturninus
+			Tello Tumasch_thomas
+			Ursicin
+			Valentin Verendarius Victor Vitus
+		}
+		female_names = {
+			Amélie Alicia Anaïs Alexia Ambra Avrillia
+			Chloé Camille Charlotte Chiara Célia Culastia
+			Diana Dumina Dumengia
+			Emma Eva Elisa Elodia
+			Flurina Fabiolla Fegliadella Flomma Flurescha
+			Giulia Gracina
+			Idda Inès Inglina_angelina
+			Justine Juliette Janett
+			Ladina Lina Lorena Léa Lara Liuna_leona Lurenza_lorenza
+			Maria Mathilde Manon Maeva Marlagna
+			Noémie Nannina_anna Neisina_agnes
+			Olivia
+			Pauline
+			Renata Ricarda
+			Seraina Sara Sofia Sylvia Sumbriva
+			Ursina
+			Victoria
+		}
+		male_patronym = "Ca" #"Capeder", for example, means "House of Peter"
+		prefix = yes
+
+		from_dynasty_prefix = "da "
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	alemanique = {
+			graphical_cultures = {germangfx}
+			
+			color = { 0.5 0.5 0.5 }
+
+			male_names = {
+				Adalbert_Albert Adam_Adam Adolf Albrecht_Albert Almerich_Amalric Amadeus Andreas_Andrew Anselm Arnold_Arnold Arnulf_Arnulf Augustin 
+				Baldemar Baldewin_Baldwin Berengar_Berengar Bernhard_Bernard Berthold Bruno Burchard Caspar Christopher_Christopher
+				Diether Dietmar Dietpold Dietrich_Thierry Dietwin Eberhard Eckhard Ehrenfried Eginolf Ekbert Emelrich_Aymeric Emich
+				Engelbrecht Erich_Erik Ernst_Ernest Ezzo Folkhard Folkmar Franz_Francis Friedrich_Frederick Gebhard Georg_George
+				Gerhard Gerlach Giselbert_Gilbert Gottfried_Godfrey Gotthard Gottschalk Gotzelo Guntram Günzel Hartmann Hartwig 
+				Heinrich_Henry Herbert Hermann_Herman Hesso Hugo_Hugh Humbert_Humbert Jakob_Jacob Johann_John Karl_Charles Karloman
+				Konrad_Konrad Kuno_Konrad Lambert_Lambert Leopold Lothar_Lothaire Ludolf Ludwig_Louis Luitpold Lutbert Magnus_Magnus
+				Manfred Markward Martin_Martin Mathias_Matthew Meinhard Michael_Michael Nikolaus_Nicholas Norbert Ordulf Otto_Otto
+				Peter_Peter Philipp_Philip Poppo Rudger_Roger Reinhard Rudolf Ruprecht_Robert Siegfried Sieghard Siegmund_Sigmund
+				Simon_Simon Stefan_Stephen Theodorich_Theodore Thietmar Thomas_Thomas Udo Ulrich_Ulrich Viktor Waldemar_Vladimir Walram
+				Walther_Walter Welf Wenzel_Vaclav Werner Widukind Wigerich Wilhelm_William Wolfgang Wolfram
+			}
+			female_names = {
+				Adela_Adela Adelheid_Adelaide Adelinde Agathe_Agatha Agnes_Agnes Alberade Amalberga Amalie_Amelia 
+				Barbara Beatrix_Beatrice Benedicta_Benedicta Berchte Berta Binhilde Brunhilde_Brunhilda Cecilie_Cecilia Cothilda_Clotilde Christine_Christina
+				Dorothea_Dorothy Elisabeth_Elisabeth Emma_Emma Engeltraud Ermengard_Ermengarde Eufemia Friedrica_Frederique Frida 
+				Gerberga_Gerberga Gerhild Gertrude_Gertrude Gisela_Gisela Gudrun_Gudrun Gunhilda_Gunhild Hedwig Heilwiva Heike Helene_Helen 
+				Helga Henrike Hildeburg Hildegard_Hildegard Ida_Ida Ilsa Inge_Inge Irmele Irmeltrud Irmgard_Ermengarde Isentrude
+				Judith_Judith Jutte Katharina_Catherine Karlotte Klara Klementia_Clementia Konstanze_Constance Kriemhild Kunigunde 
+				Luitgard Margarete_Margaret Maria_Maria Mathilde_Matilda Mechtild Oda Osterhild Richara_Ricarda Richenza Richwara Romilda 
+				Serhilda Sofie_Sophia Sybille_Sibylla Trude Ulrike Ursula Ute Walpurga Wilhelmina Winfrida Wulfhilde
+			}
+			from_dynasty_prefix = "von "
+
+			# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+			pat_grf_name_chance = 50
+			mat_grf_name_chance = 5
+			father_name_chance = 10
+			
+			# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+			pat_grm_name_chance = 10
+			mat_grm_name_chance = 50
+			mother_name_chance = 5
+
+			modifier = default_culture_modifier
+		}
+	alpin = {
+		graphical_cultures = {frankishgfx}
+		
+		color = { 0.25 0.5 0.75 }
+		
+		male_names = {
+			Amédée
+			Aymerard_Aymeric
+			Guillaume_William
+			Vuillielme_William
+			Gérold_Gerard
+			Géraud_Gerald
+			Gui_Guy
+			Marchand
+			Rodolphe_Ralph
+			Sigefroy_Siegfried
+			Édouard_Edward Érrard Étienne_Stephen 
+			Adalbert_Albert Adémar Adrien Aimery_Aymeric Alain_Alan Aldebert_Albert Aldéric Alphonse_Alphonse Amaury_Amalric
+			Ancel André_Andrew Angelbert Antoine_Antoninus Archambaud_Archibald Arnaud_Arnold Arnault_Arnold Arnoul_Arnulf Aubry Aymar 
+			Barthélémi_Bartolomeus Bérenger_Berengar Bernard_Bernard Bertrand_Bertrand Bohemond Boson_Boson Bouchard Boniface
+			Centule_Centule Charles_Charles
+			Ebbon Enguerrand Eudes_Otto Eustache_Eustace Evrard Edouard
+			Frédéric_Frederick 
+			Gaucher
+			Gauthier_Walter Geoffroy_Godfrey Gilbert_Gilbert Gilles_Egidius Godefroy_Godfrey Guichard Guigues
+			Hélie Hamelin Henri_Henry Herbert Hildebert Hugues_Hugh Humbert_Humbert 
+			Jacques_Jacob Jaufré_Godfrey Jean_John
+			Jourdain_Jordan Julien_Julian 
+			Lothaire_Lothar Louis_Louis Loup_Lupo 
+			Mathieu_Matthew Maurice Nicolas_Nicholas 
+			Ogier Orson Othon_Otto
+			Philippe_Philip Pierre_Peter Ponce
+			Raimbaut Raoul_Ralph Raymond_Raymond Raynaud_Reinhold Richard_Richard Robert_Robert Robin Roger_Roger Rorgon Rorgues Roubaud 
+			Savary Sigismond_Sigmund Simon_Simon 
+			Thibault_Theobald Thiébaut_Theobald Thierry_Thierry Thomas_Thomas 
+			Valeran 
+			Yves
+		}
+		female_names = {
+			Ottilie_Lucia
+			Thetberge_Tiburge
+			Éléonore_Eleanor Élodie Étiennette 
+			Adèle_Adela Adalmode_Almodis Adelaide_Adelaide Adelinde Agathe_Agatha Agnès_Agnes Aléarde Alice_Alice Aliénor_Eleanor
+			Alix_Alice Almodis_Almodis Amelie_Amelia Anne_Anna Antoinette Arsinde_Arsenda Aude Aurengarde 
+			Béatrice_Beatrice Béatrix_Beatrice Belleassez Benoîte Bérengère Berthe Blanche_Blanche Bonne_Bonne 
+			Cécile_Cecilia Cathèrine_Catherine Charlotte Constance_Constance 
+			Denise Douce_Douce 
+			Echive Eglantine Elisabeth_Elisabeth Emma_Emma Ermengarde_Ermengarde Ermessinde_Ermesinda
+			Esclarmonde_Esclarmunda Euphrosine_Euphrosyne Eustachie Eve_Eva 
+			Gerberge_Gerberga Gisèle_Gisela Guillaumette 
+			Héloise_Eloise Helvis Hodierne 
+			Ide_Ida Ida_Ida Ildégarde_Hildegard Isabeau_Elisabeth Isabelle_Elisabeth 
+			Jeanne_Joan Judith_Judith Julienne_Juliana 
+			Mafalda Mahaut_Mahaut Margot Marguerite_Margaret 
+			Marie_Maria Marthe_Martha Mascarose_Mascarosa Mathilde_Matilda Mélisende_Melisende Mélusine 
+			Péronelle_Peronella Pernelle_Peronella Perinne Pernette Plaisance_Plaisance 
+			Raymonde 
+			Sarrazine Solène Sophie_Sophia
+			Stéphanie_Stephania Sybille_Sibylla 
+			Tiburge_Tiburge 
+			Valence_Yolanda 
+			Yolande_Yolanda 
+		}
+		from_dynasty_prefix = "de "
+		grammar_transform = french
+
+		modifier = default_culture_modifier
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}
+}
