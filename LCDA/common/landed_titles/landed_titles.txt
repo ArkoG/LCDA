@@ -1,17 +1,7 @@
 # EMPIRES
 
-e_hre = {                      # Created by special decision only
-	color={ 250 250 250 }
-	color2={ 0 0 0 }
-	
-	capital = 90 # Jülich / Aachen
+#e_hre = {                      # Created by special decision only
 
-	short_name = yes
-	
-	allow = {
-		always = no # Only created through special decisions
-	}
-}
 
 e_germany = {
 
@@ -159,8 +149,8 @@ e_germany = {
 				color={ 200 100 30 }
 				color2={ 255 255 255 }
 
-				holy_site = norse_pagan
-				holy_site = norse_pagan_reformed
+				#holy_site = norse_pagan
+				#holy_site = norse_pagan_reformed
 				
 				b_middelburg = {
 				}
@@ -1124,8 +1114,8 @@ e_germany = {
 				color={ 192 192 192 }
 				color2={ 255 255 255 }
 
-				holy_site = norse_pagan
-				holy_site = norse_pagan_reformed
+				#holy_site = norse_pagan
+				#holy_site = norse_pagan_reformed
 				
 				b_braunschweig = {
 				}
@@ -1602,25 +1592,8 @@ e_germany = {
 	}
 }
 
-e_roman_empire = {
-	color={ 167 10 100 }
-	color2={ 255 255 20 }
-	
-	capital = 333 # Rome
-	
-	short_name = yes
-	
-	title = "Emperor"
-	title_female = "Empress"
-	purple_born_heirs = yes
-	
-	culture = italian
-	religion = orthodox
-	
-	allow = {
-		always = no # Only created through special event
-	}
-}
+#e_roman_empire = {
+
 
 e_byzantium = {
 	color={ 143 12 125 }
@@ -2028,7 +2001,7 @@ e_byzantium = {
 				
 				top_de_jure_capital = yes
 
-				holy_site = orthodox
+				#holy_site = orthodox
 				
 				turkish = "Kostantiniyye"
 				
@@ -2036,7 +2009,7 @@ e_byzantium = {
 					turkish = "Kostantiniyye"
 				}
 				b_hagiasophia = {
-					pentarchy = yes
+					#pentarchy = yes
 					turkish = "Ayasofya"
 				}
 				b_galata = {
@@ -2146,7 +2119,7 @@ e_byzantium = {
 				color={ 192 22 133 }
 				color2={ 255 255 20 }
 
-				holy_site = orthodox
+				#holy_site = orthodox
 				
 				b_serres = {
 				}
@@ -2171,7 +2144,7 @@ e_byzantium = {
 				
 				turkish = "Salonika"
 
-				holy_site = hellenic_pagan
+				#holy_site = hellenic_pagan
 				
 				b_thessaloniki = {
 					turkish = "Salonika"
@@ -2431,7 +2404,7 @@ e_byzantium = {
 				color={ 215 75 167 }
 				color2={ 255 255 20 }
 
-				holy_site = hellenic_pagan
+				#holy_site = hellenic_pagan
 				
 				b_athens = {
 				}
@@ -2558,7 +2531,7 @@ e_byzantium = {
 				
 				turkish = "Balakhisar"
 
-				holy_site = hellenic_pagan
+				#holy_site = hellenic_pagan
 				
 				b_abydos = {
 					turkish = "Balakhisar"
@@ -2815,7 +2788,7 @@ e_byzantium = {
 				
 				turkish = "Ayasoluk"
 
-				holy_site = orthodox
+				#holy_site = orthodox
 				
 				b_ephesos = {
 					turkish = "Ayasoluk"
@@ -5956,10 +5929,10 @@ e_italy = {
 				christian = 5000 # Crusade target weight
 
 				####ex holy site
-				holy_site = aztec
-				holy_site = aztec_reformed
-				holy_site = hellenic_pagan
-				holy_site = pagan
+				#holy_site = aztec
+				#holy_site = aztec_reformed
+				#holy_site = hellenic_pagan
+				#holy_site = pagan
 				
 				italian = Roma
 				castillan = Roma
@@ -5980,7 +5953,7 @@ e_italy = {
 				old_saxon = Rom
 				
 				b_roma = {
-					pentarchy = yes
+					#pentarchy = yes
 					used_for_dynasty_names = no
 					
 					italian = Roma
@@ -6250,8 +6223,8 @@ e_scandinavia = {
 				color={ 30 30 155 }
 				color2={ 255 255 255 }
 
-				holy_site = norse_pagan
-				holy_site = norse_pagan_reformed
+				#holy_site = norse_pagan
+				#holy_site = norse_pagan_reformed
 				
 				b_sigtuna = {
 				}
@@ -6497,7 +6470,7 @@ e_scandinavia = {
 				danish = "Vestergøtland"
 				norse = "Vestergautland"
 
-				holy_site = pagan
+				#holy_site = pagan
 				
 				b_galakvist = {
 					norwegian = "Gælakvist"
@@ -7015,8 +6988,8 @@ e_scandinavia = {
 				norse = Sjælland
 				english = Zealand
 
-				holy_site = norse_pagan
-				holy_site = norse_pagan_reformed
+				#holy_site = norse_pagan
+				#holy_site = norse_pagan_reformed
 				
 				b_kobenhavn = {
 					swedish = Köpenhamn
@@ -7843,8 +7816,8 @@ e_scandinavia = {
 				color={ 25 205 240 }
 				color2={ 255 255 255 }
 
-				holy_site = norse_pagan
-				holy_site = norse_pagan_reformed
+				#holy_site = norse_pagan
+				#holy_site = norse_pagan_reformed
 				
 				b_tinghaugen = {
 				}
@@ -8233,8 +8206,8 @@ e_scandinavia = {
 				norwegian = "Øsel"
 				german = "Ösel"
 
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
+				#holy_site = finnish_pagan
+				#holy_site = finnish_pagan_reformed
 				
 				b_kuressare = {
 					swedish = "Arensborg"
@@ -8386,8 +8359,8 @@ e_scandinavia = {
 				norwegian = "Kexholm"
 				danish = "Kexholm"
 
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
+				#holy_site = finnish_pagan
+				#holy_site = finnish_pagan_reformed
 				
 				b_antrea = {
 					swedish = "St Andree"
@@ -8928,8 +8901,8 @@ e_wendish_empire = {
 				color={ 127 30 2 }
 				color2={ 255 255 255 }
 
-				holy_site = slavic_pagan
-				holy_site = slavic_pagan_reformed
+				#holy_site = slavic_pagan
+				#holy_site = slavic_pagan_reformed
 				
 				b_plock = {
 				}
@@ -9519,10 +9492,10 @@ e_wendish_empire = {
 
 				pommeranian = Rana
 
-				holy_site = slavic_pagan
-				holy_site = slavic_pagan_reformed
-				holy_site = baltic_pagan
-				holy_site = baltic_pagan_reformed
+				#holy_site = slavic_pagan
+				#holy_site = slavic_pagan_reformed
+				#holy_site = baltic_pagan
+				#holy_site = baltic_pagan_reformed
 				
 				b_charenza = {
 				}
@@ -10015,8 +9988,8 @@ e_wendish_empire = {
 				danish = "Kulm"
 				norse = "Kulm"
 
-				holy_site = baltic_pagan
-				holy_site = baltic_pagan_reformed
+				#holy_site = baltic_pagan
+				#holy_site = baltic_pagan_reformed
 				
 				b_chelmno = {
 					german = "Kulm"
@@ -10242,8 +10215,8 @@ e_wendish_empire = {
 				color={ 148 100 100 }
 				color2={ 255 255 255 }
 
-				holy_site = baltic_pagan
-				holy_site = baltic_pagan_reformed
+				#holy_site = baltic_pagan
+				#holy_site = baltic_pagan_reformed
 				
 				b_drohiczyn = {
 				}
@@ -10289,8 +10262,8 @@ e_wendish_empire = {
 				danish = "Riga"
 				norwegian = "Riga"
 
-				holy_site = baltic_pagan
-				holy_site = baltic_pagan_reformed
+				#holy_site = baltic_pagan
+				#holy_site = baltic_pagan_reformed
 				
 				b_riga = {
 				}
@@ -10952,10 +10925,10 @@ e_russia = {
 				danish = "Holmgård"
 				norwegian = "Holmgård"
 						
-				holy_site = slavic_pagan
-				holy_site = slavic_pagan_reformed
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed								
+				#holy_site = slavic_pagan
+				#holy_site = slavic_pagan_reformed
+				#holy_site = finnish_pagan
+				#holy_site = finnish_pagan_reformed								
 
 				b_borovichi = {
 					norse = Nygarðr
@@ -11559,8 +11532,8 @@ e_russia = {
 				norwegian = Kønugård
 				danish = Kønugård
 
-				holy_site = slavic_pagan
-				holy_site = slavic_pagan_reformed
+				#holy_site = slavic_pagan
+				#holy_site = slavic_pagan_reformed
 				
 				b_kiev = {
 					norse = Könugarðr
@@ -11983,8 +11956,8 @@ e_russia = {
 				color = { 160 175 40 }
 				color2={ 255 255 255 }
 
-				holy_site = baltic_pagan
-				holy_site = baltic_pagan_reformed
+				#holy_site = baltic_pagan
+				#holy_site = baltic_pagan_reformed
 				
 				b_bryansk = {
 				}
@@ -12068,8 +12041,8 @@ e_russia = {
 				color={ 121 140 50 }
 				color2={ 255 255 255 }
 
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
+				#holy_site = finnish_pagan
+				#holy_site = finnish_pagan_reformed
 				
 				b_ryazan = {
 				}
@@ -12194,8 +12167,8 @@ e_russia = {
 				color={ 237 211 140 }
 				color2={ 255 255 255 }
 
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
+				#holy_site = finnish_pagan
+				#holy_site = finnish_pagan_reformed
 				
 				b_perym = {
 				}
@@ -12693,8 +12666,8 @@ e_tartaria = {
 			c_otuken = {
 				color = { 130 136 220 }
 
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed
+				#holy_site = tengri_pagan
+				#holy_site = tengri_pagan_reformed
 				
 				b_otuken = {
 				}
@@ -13319,8 +13292,8 @@ e_tartaria = {
 				color={ 155 122 34 }
 				color2={ 255 255 255 }
 
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed
+				#holy_site = tengri_pagan
+				#holy_site = tengri_pagan_reformed
 				
 				b_itil = {
 				}
@@ -13745,8 +13718,8 @@ e_tartaria = {
 				color={ 250 210 104 }
 				color2={ 255 255 255 }
 
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed				
+				#holy_site = tengri_pagan
+				#holy_site = tengri_pagan_reformed				
 				
 				b_bakhchisaray = {
 				}
@@ -13937,8 +13910,8 @@ e_tartaria = {
 				color={ 234 176 20 }
 				color2={ 255 255 255 }
 
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed
+				#holy_site = tengri_pagan
+				#holy_site = tengri_pagan_reformed
 				
 				b_tobol = {
 				}
@@ -14843,8 +14816,8 @@ e_tartaria = {
 				color={ 236 178 22 }
 				color2={ 255 255 255 }
 
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed
+				#holy_site = tengri_pagan
+				#holy_site = tengri_pagan_reformed
 				
 				b_yangikent = {}
 				b_syganak = {
@@ -14992,10 +14965,10 @@ e_persia = {
 				color={ 111 162 21 }
 				color2={ 255 255 255 }
 
-				holy_site = zoroastrian # The Great Fire of Adur Burzen-Mehr
-				holy_site = yazidi
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
+				#holy_site = zoroastrian # The Great Fire of Adur Burzen-Mehr
+				#holy_site = yazidi
+				#holy_site = zun_pagan
+				#holy_site = zun_pagan_reformed
 				
 				b_nishapur = {
 				}
@@ -15360,8 +15333,8 @@ e_persia = {
 				color={ 91 130 24 }
 				color2={ 255 255 255 }
 
-				holy_site = zoroastrian # The Great Fire of Adur Farnbag
-				holy_site = yazidi
+				#holy_site = zoroastrian # The Great Fire of Adur Farnbag
+				#holy_site = yazidi
 				
 				b_perozabad = {
 				}
@@ -15454,9 +15427,9 @@ e_persia = {
 				color={ 190 231 118 }
 				color2={ 255 255 255 }
 
-				holy_site = jewish
-				holy_site = samaritan
-				holy_site = karaite
+				#holy_site = jewish
+				#holy_site = samaritan
+				#holy_site = karaite
 				
 				b_hamadan = {
 				}
@@ -15479,7 +15452,7 @@ e_persia = {
 				color={ 193 234 121 }
 				color2={ 255 255 255 }
 
-				holy_site = nestorian
+				#holy_site = nestorian
 				
 				b_rayy = {
 				}
@@ -15530,7 +15503,7 @@ e_persia = {
 				color={ 86 143 61 }
 				color2={ 255 255 255 }
 
-				holy_site = zoroastrian # The Great Fire of Adur Gushnasp
+				#holy_site = zoroastrian # The Great Fire of Adur Gushnasp
 				
 				b_oroumieh = {
 				}
@@ -15761,7 +15734,7 @@ e_persia = {
 				color={ 102 122 67 }
 				color2={ 255 255 255 }
 
-				holy_site = zoroastrian # Lake Hamun / Mount Khwaja
+				#holy_site = zoroastrian # Lake Hamun / Mount Khwaja
 				
 				b_haozdar = {
 				}
@@ -15888,8 +15861,8 @@ e_persia = {
 				color={ 135 90 30 }
 				color2={ 255 255 255 }
 
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
+				#holy_site = zun_pagan
+				#holy_site = zun_pagan_reformed
 				
 				b_kabul = {
 				}
@@ -15968,8 +15941,8 @@ e_persia = {
 				color={ 189 110 60 }
 				color2={ 255 255 255 }
 
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
+				#holy_site = zun_pagan
+				#holy_site = zun_pagan_reformed
 				
 				b_bost = { # Aka Lashgar Gah
 				}
@@ -16278,7 +16251,7 @@ e_persia = {
 				color={ 201 225 158 }
 				color2={ 255 255 255 }
 
-				holy_site = zoroastrian
+				#holy_site = zoroastrian
 				
 				b_balkh = {
 				}
@@ -16504,7 +16477,7 @@ e_persia = {
 				color={ 105 150 32 }
 				color2={ 255 255 255 }
 
-				holy_site = shiite
+				#holy_site = shiite
 				
 				b_nadjaf = {
 				}
@@ -16732,8 +16705,8 @@ e_persia = {
 				color={ 16 135 12 }
 				color2={ 255 255 255 }
 
-				holy_site = sunni
-				holy_site = nestorian
+				#holy_site = sunni
+				#holy_site = nestorian
 				
 				b_baqubah = {
 				}
@@ -16847,7 +16820,7 @@ e_persia = {
 				color={ 9 236 89 }
 				color2={ 255 255 255 }
 				
-				holy_site = yazidi
+				#holy_site = yazidi
 				
 				b_mosul = {
 				}
@@ -17220,8 +17193,8 @@ e_carpathia = {
 				color={ 233 212 155 }
 				color2={ 255 255 255 }
 
-				holy_site = slavic_pagan
-				holy_site = slavic_pagan_reformed
+				#holy_site = slavic_pagan
+				#holy_site = slavic_pagan_reformed
 				
 				b_barlad = {
 				}
@@ -18412,8 +18385,8 @@ e_france = {
 				color={ 38 144 211 }
 				color2={ 255 255 255 }
 
-				holy_site = aztec
-				holy_site = aztec_reformed
+				#holy_site = aztec
+				#holy_site = aztec_reformed
 				
 				b_paris = {
 					used_for_dynasty_names = no
@@ -21055,9 +21028,9 @@ e_spain = {
 				egyptian_arabic = "Qurtubah"
 				andalusian_arabic = "Qurtubah"
 
-				holy_site = sunni
-				holy_site = aztec
-				holy_site = aztec_reformed
+				#holy_site = sunni
+				#holy_site = aztec
+				#holy_site = aztec_reformed
 				
 				b_cordoba = {
 					bedouin_arabic = "Qurtubah"
@@ -21766,9 +21739,9 @@ e_arabia = {
 				
 				muslim = 500 # Crusade target weight
 
-				holy_site = sunni
-				holy_site = shiite
-				holy_site = ibadi
+				#holy_site = sunni
+				#holy_site = shiite
+				#holy_site = ibadi
 				
 				b_medina = {
 				}
@@ -21793,11 +21766,11 @@ e_arabia = {
 				
 				muslim = 1000 # Crusade target weight
 
-				holy_site = sunni
-				holy_site = shiite
-				holy_site = pagan
-				holy_site = yazidi
-				holy_site = ibadi
+				#holy_site = sunni
+				#holy_site = shiite
+				#holy_site = pagan
+				#holy_site = yazidi
+				#holy_site = ibadi
 				
 				b_mecca = {
 				}
@@ -22000,7 +21973,7 @@ e_arabia = {
 				color={ 98 201 7 }
 				color2={ 255 255 255 }
 				
-				holy_site = ibadi
+				#holy_site = ibadi
 			
 				b_alhamra = {
 				}
@@ -22065,9 +22038,9 @@ e_arabia = {
 				color={ 104 207 13 }
 				color2={ 255 255 255 }
 
-				holy_site = jewish
-				holy_site = samaritan
-				holy_site = karaite
+				#holy_site = jewish
+				#holy_site = samaritan
+				#holy_site = karaite
 				
 				b_salalah = {
 				}
@@ -22297,13 +22270,13 @@ e_arabia = {
 				color={ 102 221 136 }
 				color2={ 255 255 255 }
 
-				holy_site = miaphysite
-				holy_site = monophysite
-				holy_site = hellenic_pagan
-				holy_site = nestorian
+				#holy_site = miaphysite
+				#holy_site = monophysite
+				#holy_site = hellenic_pagan
+				#holy_site = nestorian
 				
 				b_alexandria = {
-					pentarchy = yes
+					#pentarchy = yes
 				}
 				b_abukir = {
 				}
@@ -22487,8 +22460,8 @@ e_arabia = {
 				color={ 24 236 119 }
 				color2={ 255 255 255 }
 
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
+				#holy_site = zun_pagan
+				#holy_site = zun_pagan_reformed
 				
 				b_cairo = {
 				}
@@ -22652,9 +22625,9 @@ e_arabia = {
 				color={ 143 201 8 }
 				color2={ 255 255 255 }
 
-				holy_site = jewish
-				holy_site = samaritan
-				holy_site = karaite
+				#holy_site = jewish
+				#holy_site = samaritan
+				#holy_site = karaite
 				
 				b_attur = {
 				}
@@ -22991,18 +22964,18 @@ e_arabia = {
 				muslim = 250 # Crusade target weight
 
 				####ex holy site
-				holy_site = orthodox
-				holy_site = sunni
-				holy_site = shiite
-				holy_site = miaphysite
-				holy_site = monophysite
-				holy_site = nestorian
-				holy_site = pagan
-				holy_site = yazidi
-				holy_site = jewish
-				holy_site = samaritan
-				holy_site = karaite
-				holy_site = ibadi
+				#holy_site = orthodox
+				#holy_site = sunni
+				#holy_site = shiite
+				#holy_site = miaphysite
+				#holy_site = monophysite
+				#holy_site = nestorian
+				#holy_site = pagan
+				#holy_site = yazidi
+				#holy_site = jewish
+				#holy_site = samaritan
+				#holy_site = karaite
+				#holy_site = ibadi
 				
 				b_mirabel = { # Base name changed to "Majdal Yaba"
 					german = "Mirabel"
@@ -23033,7 +23006,7 @@ e_arabia = {
 					georgian = "Antipatris"
 				}
 				b_jerusalem = {
-					pentarchy = yes
+					#pentarchy = yes
 				}
 				b_nablus = {
 				}
@@ -23329,13 +23302,13 @@ e_arabia = {
 				color={ 152 69 135 }
 				color2={ 255 255 255 }
 
-				holy_site = orthodox
-				holy_site = miaphysite
-				holy_site = monophysite
-				holy_site = nestorian
+				#holy_site = orthodox
+				#holy_site = miaphysite
+				#holy_site = monophysite
+				#holy_site = nestorian
 				
 				b_antiocheia = {
-					pentarchy = yes
+					#pentarchy = yes
 				}
 				b_latakiah = {
 				}
@@ -23490,10 +23463,10 @@ e_arabia = {
 				color={ 125 255 6 }
 				color2={ 255 255 255 }
 
-				holy_site = shiite
-				holy_site = jewish
-				holy_site = samaritan
-				holy_site = karaite
+				#holy_site = shiite
+				#holy_site = jewish
+				#holy_site = samaritan
+				#holy_site = karaite
 				
 				b_qsarbardawil = {
 				}
@@ -23732,10 +23705,10 @@ e_arabia = {
 				color={ 45 152 34 }
 				color2={ 255 255 255 }
 
-				holy_site = aztec
-				holy_site = aztec_reformed
-				holy_site = west_african_pagan
-				holy_site = west_african_pagan_reformed
+				#holy_site = aztec
+				#holy_site = aztec_reformed
+				#holy_site = west_african_pagan
+				#holy_site = west_african_pagan_reformed
 				
 				b_marrakech = {
 				}
@@ -24023,9 +23996,9 @@ e_arabia = {
 				color={ 49 196 83 }
 				color2={ 255 255 255 }
 
-				holy_site = west_african_pagan
-				holy_site = west_african_pagan_reformed
-				holy_site = ibadi
+				#holy_site = west_african_pagan
+				#holy_site = west_african_pagan_reformed
+				#holy_site = ibadi
 				
 				b_tiaret = {
 				}
@@ -24287,8 +24260,8 @@ e_arabia = {
 				color={ 26 238 101 }
 				color2={ 255 255 255 }
 
-				holy_site = west_african_pagan
-				holy_site = west_african_pagan_reformed			
+				#holy_site = west_african_pagan
+				#holy_site = west_african_pagan_reformed			
 				
 				b_medjerda = {
 				}
@@ -24784,8 +24757,8 @@ e_abyssinia = {
 				color={ 186 135 70 }
 				color2={ 255 255 255 }
 
-				holy_site = miaphysite
-				holy_site = monophysite
+				#holy_site = miaphysite
+				#holy_site = monophysite
 				
 				b_adwa = {
 				}
@@ -25331,8 +25304,8 @@ e_abyssinia = {
 				color = { 155 140 67 }
 				color2={ 255 255 255 }
 
-				holy_site = miaphysite
-				holy_site = monophysite
+				#holy_site = miaphysite
+				#holy_site = monophysite
 				
 				b_napata = {
 				}
@@ -25949,8 +25922,8 @@ e_britannia = {
 				color={ 241 90 35 }
 				color2={ 255 255 255 }
 			
-				holy_site = aztec
-				holy_site = aztec_reformed
+				#holy_site = aztec
+				#holy_site = aztec_reformed
 
 				b_westminster = {
 					used_for_dynasty_names = no
@@ -28144,8 +28117,8 @@ e_mali = {
 				color={ 130 180 61 }
 				color2={ 255 255 255 }
 
-				holy_site = west_african_pagan
-				holy_site = west_african_pagan_reformed			
+				#holy_site = west_african_pagan
+				#holy_site = west_african_pagan_reformed			
 				
 				b_timbuktu = {}
 				b_alafia = {}
@@ -28208,7 +28181,7 @@ e_mali = {
 				color={ 130 180 61 }
 				color2={ 255 255 255 }
 				
-				holy_site = pagan
+				#holy_site = pagan
 				
 				b_el_ghaba = {}
 				b_koumbi_saleh = {}
@@ -28261,8 +28234,8 @@ e_mali = {
 				color={ 130 180 61 }
 				color2={ 255 255 255 }
 
-				holy_site = west_african_pagan
-				holy_site = west_african_pagan_reformed
+				#holy_site = west_african_pagan
+				#holy_site = west_african_pagan_reformed
 				
 				b_boure = {}
 				b_niani = {}

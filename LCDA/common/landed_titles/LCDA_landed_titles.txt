@@ -10,6 +10,42 @@ e_alps = {
 			
 		capital = 16 #Montmélian			
 			
+		
+		catholic = 50
+		orthodox = 50
+		aztec = 50
+		aztec_reformed = 50
+		hellenic_pagan = 50
+		pagan = 50
+		finnish_pagan = 50
+		finnish_pagan_reformed = 50
+		slavic_pagan = 50
+		slavic_pagan_reformed = 50
+		baltic_pagan = 50
+		baltic_pagan_reformed	 = 50			
+		tengri_pagan = 50
+		tengri_pagan_reformed	 = 50			
+		norse_pagan = 50
+		norse_pagan_reformed = 50				
+		zoroastrian  = 50
+		yazidi = 50
+		zun_pagan = 50
+		zun_pagan_reformed = 50
+		jewish = 50
+		samaritan = 50
+		karaite = 50
+		nestorian = 50
+		shiite = 50
+		sunni = 50				
+		ibadi = 50
+		miaphysite = 50
+		monophysite = 50
+		west_african_pagan = 50
+		west_african_pagan_reformed = 50
+		buddhist = 50
+		hindu = 50
+		jain = 50
+				
 		d_equestres = {
 			color={ 250 188 0 }
 			color2={ 172 4 10 }
@@ -79,13 +115,9 @@ e_alps = {
 				holy_site = buddhist
 				holy_site = hindu
 				holy_site = jain
-		
 				
-				
-				
-				
-				b_geneve1 = {}
-				b_geneve2 = { }
+				b_geneve1 = {pentarchy = yes}
+				b_geneve2 = {}
 				b_geneve3 = {}
 				b_geneve4 = {}
 				b_geneve5 = {}
@@ -138,7 +170,7 @@ e_alps = {
 				holy_site = hindu
 				holy_site = jain
 				
-				b_saintmaurice1 = {}
+				b_saintmaurice1 = {pentarchy = yes}
 				b_saintmaurice2 = {  }
 				b_saintmaurice3 = {}
 				b_saintmaurice4 = {}
@@ -149,7 +181,7 @@ e_alps = {
 				color={ 172 4 10 }
 				color2={ 255 255 255 }
 				
-				b_thonon1 = {}
+				b_thonon1 = {pentarchy = yes}
 				b_thonon2 = {}
 				b_thonon3 = {}
 				b_thonon4 = {}
@@ -160,7 +192,7 @@ e_alps = {
 				color={ 250 188 0 }
 				color2={ 0 86 148 }
 				
-				b_abondance1 = {}
+				b_abondance1 = {pentarchy = yes}
 				b_abondance2 = {}
 				b_abondance3 = {}
 				b_abondance4 = {}
@@ -194,7 +226,7 @@ e_alps = {
 
 				b_faucigny1 = { #dignity = 5
 				}
-				b_faucigny2 = {}
+				b_faucigny2 = {pentarchy = yes}
 				b_faucigny3 = {}
 				b_faucigny4 = {}
 				b_faucigny5 = {}
@@ -562,8 +594,43 @@ e_alps = {
 			color2={ 255 255 255 }
 			
 			capital = 31 #voirons TEMP for validator
-			#capital = 35 #Albon			
+			#capital = 35 #Albon	
 			
+		catholic = 50
+		orthodox = 50
+		aztec = 50
+		aztec_reformed = 50
+		hellenic_pagan = 50
+		pagan = 50
+		finnish_pagan = 50
+		finnish_pagan_reformed = 50
+		slavic_pagan = 50
+		slavic_pagan_reformed = 50
+		baltic_pagan = 50
+		baltic_pagan_reformed	 = 50			
+		tengri_pagan = 50
+		tengri_pagan_reformed	 = 50			
+		norse_pagan = 50
+		norse_pagan_reformed = 50				
+		zoroastrian  = 50
+		yazidi = 50
+		zun_pagan = 50
+		zun_pagan_reformed = 50
+		jewish = 50
+		samaritan = 50
+		karaite = 50
+		nestorian = 50
+		shiite = 50
+		sunni = 50				
+		ibadi = 50
+		miaphysite = 50
+		monophysite = 50
+		west_african_pagan = 50
+		west_african_pagan_reformed = 50
+		buddhist = 50
+		hindu = 50
+		jain = 50
+		
 		d_salmorenc = {
 			color={ 110 20 110 }
 			color2={ 172 4 10 }
