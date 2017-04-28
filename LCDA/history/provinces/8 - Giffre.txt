@@ -16,6 +16,10 @@ b_giffre3 = city #Taninges
 #b_giffre6 = castle #Terre de Sallaz
 
 #Samoëns, première mention du nom en 1167, franchise en 1435 par Amédée VIII
+#Samoëns étant le siège de la châtellenie de Samoëns, de nobles familles y ont établi des maisons fortes dans les environs :
+ #   Maison forte dite de Lucinge (attestée), au sud-est de la colline où est installé le château37,39,40. Il s'agit aujourd'hui de l'Hôtel de Ville41. Elle appartient à la famille de Lucinge, qui possède également la maison forte de Vallon (attestée)41.
+ #   Maison de la famille de Graveruazà ou Graveyruel (attestée vers 1300), à l'ouest40,41
+#    Maison forte dite de Couvette (ce nom provient du nom d'un fief détenu à Fillinges) appartenant à la famille de Menthon (vers 1340), au sud-ouest37,39,40,41. La famille hérite d'ailleurs d'une partie des biens des Lucinges41.
 
 
 # Misc
