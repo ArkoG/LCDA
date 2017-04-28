@@ -1,0 +1,159 @@
+###LCDA 
+##local DYNASTIES
+#range 100//99 999
+
+#Faucigny
+100 = { name = "de Vetraz"	culture = arpitan }
+101 = { name = "de Monthoux"	culture = arpitan }
+102 = { name = "de Cranves"	culture = arpitan }
+103 = { name = "de Bonne"	culture = arpitan }
+104 = { name = "de Fillinges"	culture = arpitan }
+105 = { name = "de Viuz"	culture = arpitan }
+106 = { name = "de Mégevette"	culture = arpitan }
+107 = { name = "de Rovorée"	culture = arpitan } #Mieussy
+108 = { name = "d'Onnion"	culture = arpitan }
+109 = { name = "de Marignier"	culture = arpitan }
+
+110 = { name = "de Thiez"	culture = arpitan }
+111 = { name = "de Contamines"	culture = arpitan }
+112 = { name = "de Lullin"	culture = arpitan }
+113 = { name = "de Flérier"	culture = arpitan } #Tanninges
+114 = { name = "de Samoëns"	culture = arpitan }
+115 = { name = "de Vallon"	culture = arpitan }
+116 = { name = "de Châtelard"	culture = arpitan }#Morillon
+117 = { name = "de Verchaix"	culture = arpitan }
+118 = { name = "de Cellières"	culture = arpitan }#Rivière enverse
+119 = { name = "de Graverruaz"	culture = arpitan }#Verchaix
+
+120 = { name = "de Sixt"	culture = arpitan }
+121 = { name = "de Joux-plane"	culture = arpitan }
+122 = { name = "de Mélan"	culture = arpitan }
+123 = { name = "d'Oëx"	culture = arpitan }
+124 = { name = "de Marcossey"	culture = arpitan }#Marnaz
+125 = { name = "de Vougy"	culture = arpitan }
+126 = { name = "de Chessy"	culture = arpitan }#Cluses
+127 = { name = "de Magland"	culture = arpitan }
+128 = { name = "de Sallanches"	culture = arpitan }
+129 = { name = "de Cordon"	culture = arpitan }
+
+130 = { name = "de Charousse"	culture = arpitan }#chateau de Passy
+131 = { name = "de Servoz"	culture = arpitan }
+132 = { name = "de Passy"	culture = arpitan }
+133 = { name = "de Megève"	culture = arpitan }
+134 = { name = "de Vaudagne"	culture = arpitan }#les Houches
+135 = { name = "de Vallorcine"	culture = arpitan }
+136 = { name = "de Saint-Gervais"	culture = arpitan }
+137 = { name = "de Combloux"	culture = arpitan }
+138 = { name = "de Mussel"	culture = arpitan }#Scionzier
+139 = { name = "de Barbey"	culture = arpitan }#Mieussy
+
+140 = { name = "de la Frasse"	culture = arpitan }
+141 = { name = "d'Arâches"	culture = arpitan }
+142 = { name = "de Saint-Sigismond"	culture = arpitan }
+143 = { name = "de Montjoie"	culture = arpitan }
+144 = { name = "d'Arly"	culture = arpitan }
+145 = { name = "de la Giettaz"	culture = arpitan }
+146 = { name = "de Flumet"	culture = arpitan }
+147 = { name = "de Béol"	culture = arpitan }
+148 = { name = "de Thyez"	culture = arpitan }
+149 = { name = "de Châtillon"	culture = arpitan } #sur Cluses
+
+150 = { name = "de Cuar"	culture = arpitan }#Les gets
+151 = { name = "de Brizon"	culture = arpitan }
+152 = { name = "de Saxonnex"	culture = arpitan }
+153 = { name = "d'Ayse"	culture = arpitan }
+154 = { name = "de Toisinges"	culture = arpitan }
+155 = { name = "de Crédoz"	culture = arpitan }
+156 = { name = "de Montanier"	culture = arpitan }
+157 = { name = "de Pers"	culture = arpitan }
+158 = { name = "de Moussy"	culture = arpitan }
+159 = { name = "d'Arenthon"	culture = arpitan }
+
+160 = { name = "de Cornier"	culture = arpitan }
+161 = { name = "de Reignier"	culture = arpitan }
+162 = { name = "d'Arthaz"	culture = arpitan }
+163 = { name = "d'Etrembières"	culture = arpitan }
+164 = { name = "de Saxel"	culture = arpitan }
+165 = { name = "de Montriond"	culture = arpitan }
+166 = { name = "de Chamonix"	culture = arpitan }
+167 = { name = "de Vallorcine"	culture = arpitan }
+168 = { name = "d'Argentière"	culture = arpitan }
+169 = { name = "de Criou"	culture = arpitan }
+
+170 = { name = "de Cormand"	culture = arpitan }
+171 = { name = "de Chamoules"	culture = arpitan }
+172 = { name = "d'Orcheix"	culture = arpitan }
+173 = { name = "de Chevran"	culture = arpitan }
+174 = { name = "d'Arêches"	culture = arpitan }#Beaufortin
+175 = { name = "de Saint-Maxime"	culture = arpitan }
+176 = { name = "de Queige"	culture = arpitan }
+177 = { name = "de Lucia"	culture = arpitan }
+178 = { name = "de Beaufort"	culture = arpitan }
+179 = { name = "du Planey"	culture = arpitan }
+
+180 = { name = "de Demi-Quartier"	culture = arpitan }
+181 = { name = "de Riddes"	culture = arpitan }
+182 = { name = "de Bieux"	culture = arpitan }
+183 = { name = "des Aravis"	culture = arpitan }
+184 = { name = "de Magny"	culture = arpitan }#Beaufortin
+185 = { name = "de Méran"	culture = arpitan }
+186 = { name = "de Polinge"	culture = arpitan }
+187 = { name = "de Pontd'Arve"	culture = arpitan }
+188 = { name = "de Villy"	culture = arpitan }
+189 = { name = "de Bellecombe"	culture = arpitan }
+
+190 = { name = "de Nangy"	culture = arpitan }
+191 = { name = "de Cevins"	culture = arpitan }
+192 = { name = "d'Ornex"	culture = arpitan }
+193 = { name = "de Turchon"	culture = arpitan }
+194 = { name = "de Chillaz"	culture = arpitan }#Beaufortin
+195 = { name = "Clerton"	culture = arpitan }
+196 = { name = "de Vorzier"	culture = arpitan }
+197 = { name = "de Lucia"	culture = arpitan }
+198 = { name = "de Beaufort"	culture = arpitan }
+199 = { name = "du Planey"	culture = arpitan }
+
+#Chablais
+200 = { name = "de Bernex"	culture = arpitan }
+201 = { name = "de Vinzier"	culture = arpitan }
+202 = { name = "de Lugrin"	culture = arpitan }
+203 = { name = "de Neuvecelle"	culture = arpitan }
+204 = { name = "de Bonnevaux"	culture = arpitan }
+#205 = { name = "de Viuz"	culture = arpitan }
+#206 = { name = "de Mégevette"	culture = arpitan }
+#207 = { name = "de Mieussy"	culture = arpitan }
+#208 = { name = "d'Onnion"	culture = arpitan }
+#209 = { name = "de Marignier"	culture = arpitan }
+
+#210 = { name = "de Thiez"	culture = arpitan }
+#211 = { name = "de Contamines"	culture = arpitan }
+#212 = { name = "de Lullin"	culture = arpitan }
+#213 = { name = "de Tanninges"	culture = arpitan }
+#214 = { name = "de Samoëns"	culture = arpitan }
+#215 = { name = "de Vallon"	culture = arpitan }
+#216 = { name = "de Châtelard"	culture = arpitan }
+#217 = { name = "de Verchaix"	culture = arpitan }
+#218 = { name = "de Rivière-enverse"	culture = arpitan }
+#219 = { name = "de Morillon"	culture = arpitan }
+
+280 = { name = "de Greysier"	culture = arpitan }
+281 = { name = "de Chens"	culture = arpitan }
+282 = { name = "d'Hermance"	culture = arpitan }
+283 = { name = "de Filly"	culture = arpitan }
+284 = { name = "d'Yvoire"	culture = arpitan }
+285 = { name = "d'Armoy"	culture = arpitan }
+286 = { name = "de Bellevaux"	culture = arpitan }
+287 = { name = "de Ballaison"	culture = arpitan }
+288 = { name = "de Loisin"	culture = arpitan }
+289 = { name = "de Bons"	culture = arpitan }#en Chablais
+
+290 = { name = "de Nernier"	culture = arpitan }
+291 = { name = "de Cervens"	culture = arpitan }
+292 = { name = "de Féternes"	culture = arpitan }
+293 = { name = "de Thonon"	culture = arpitan }
+294 = { name = "d'Evian"	culture = arpitan }
+295 = { name = "de Morzine"	culture = arpitan }
+296 = { name = "d'Aulps"	culture = arpitan }
+297 = { name = "d'Abondance"	culture = arpitan }
+298 = { name = "de Châtel"	culture = arpitan }
+299 = { name = "du Pas"	culture = arpitan } #Pas de Morgins
