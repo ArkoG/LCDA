@@ -68,10 +68,30 @@ title_trainee_du_royaume;;Courtisane désavouée;;;;;;;;;;x
 title_trainee_du_royaume_desc;;Votre déplaisir à l'endroit de cette femme est tel que vous décidez la désavouer aux yeux de tous. A n'en point douter, cette humiliation n'aura pour égal que la détestation que celle-ci nourrira pour votre personne.;;;;;;;;;;x
 #;;x;;;;;;;;;;;;x
 #;;BOOKMARKS;;;;;;;;;;;;x
+#;;BM names and desc;;;;;;;;;;;;x
 BM_1032_ERA;The End of the Rodolphians;Le Roi est mort ! Vive l'Indépendance !;;;;;;;;;;;;x
 BM_1032_ERA_INFO;;Mort sans descendance, le dernier Roi de Bourgogne, Rodolphe III, dit le Pieux, lègue les droits sur son royaume à l'Empereur Konrad II. Après avoir affronté quelques velléités soulevées par cette succession, l'Empereur récupère le pouvoir. Pouvoir très relatif et plutôt lâche sur la région, qui permet à chacun une relative indépendance de fait. \nVoilà une situation fort favorable à l'émergence de nouvelles puissances telles que les comtes de Savoie, les comtes d'Albon-Viennois, ou tout simplement VOUS Monseigneur ! \n \n A vous de jouer.;;;;;;;;;;;;x
 BM_1309_ERA;;La République de Genève;;;;;;;;;;;;x
 BM_1309_ERA_INFO;;Acquisition des droits et d'autonomie des citoyens de la cité genevoise.;;;;;;;;;;;;x
+#;;ERA char_name (regnal) + char_desc;;;;;;;;;;;;x
+ERA_CHAR_NAME_100036;Géraud II de Genève;;;;;;;;;;;;;x
+ERA_CHAR_INFO_100036;Géraud II de Genève blabla;;;;;;;;;;;;;x
+ERA_CHAR_NAME_100000;Aymerard Ier de Faucigny;;;;;;;;;;;;;x
+ERA_CHAR_INFO_100000;Aymerard Ier de Faucigny blabla;;;;;;;;;;;;;x
+ERA_CHAR_NAME_200001;Bernard de Plainpalais;;;;;;;;;;;;;x
+ERA_CHAR_INFO_200001;Bernard de Plainpalais est Patricien et Bourgmestre de la cité.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_200002;Humbert de Saconnex;;;;;;;;;;;;;x
+ERA_CHAR_INFO_200002;Humbert de Saconnex est Patricien de la cité.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_200003;Aymon d'Aygues-Vives;;;;;;;;;;;;;x
+ERA_CHAR_INFO_200003;Aymon d'Aygues-Vives est Patricien de la cité.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_200004;Guillaume de Sécheron;;;;;;;;;;;;;x
+ERA_CHAR_INFO_200004;Guillaume de Sécheron est Patricien de la cité.;;;;;;;;;;;;;x
+ERA_CHAR_NAME_200005;Aymon de Champel;;;;;;;;;;;;;x
+ERA_CHAR_INFO_200005;Aymon de Champel est Patricien de la cité.;;;;;;;;;;;;;x
+#;;ERA titres en dur;;;;;;;;;;;;x
+BM_comte_de_genevois;County of Genevois;Comté de Genevois;;;;;;;;;;;;x
+BM_sire_de_faucigny;Lordship of Faucigny;Seigneurie de Faucigny;;;;;;;;;;;;x
+BM_cite_de_geneve;City-state of Geneva;Cité-état de Genève;;;;;;;;;;;;x
 #;;x;;;;;;;;;;;;x
 #;;DIVERS;;;;;;;;;;;;x
 TITULAR_TITLE;§YTitular Title§! (no de jure vassals);§YTitre non terrien§! (pas de vassaux de jure);§YNomineller Title§! (keine de jure-Vasallen);;§Ytítulo titular§! (sin vasallos de iure);;;;;;;;;x

@@ -1,37 +1,38 @@
 bm_1032 = {
 	name = "BM_1032_ERA"
 	desc = "BM_1032_ERA_INFO"
-	date = 1031.1.1
+	date = 1032.1.1
 	
 	era = yes						## Will be shown on Era screen.
 	picture = GFX_pick_era_monts_alpage
 	
 	selectable_character = {
-		id = 100036 # Géraud
-		age = 26
-		name = ERA_CHAR_NAME_100036
-		title = d_genevois
-		title_name = d_genevois
+		id = 100036 # Géraud 				#real 
+		age = 19 							#age of portrait shown 
+		name = ERA_CHAR_NAME_100036 		#fake name // ERA_CHAR_INFO for desc
+		title = d_genevois 					#determines CoA displayed+tier portrait ring
+		title_name = BM_comte_de_genevois 	#determines title name displayed
 		
 		character = {
-			dna = bcedirmbfcy
-			properties = aj00bc00000
+			dna = msxqwxdcaqi 				#fake
+			properties = 0o0oced000000		#fake
 			religion="catholic"
 			culture="arpitan"
-			government = feudal_government
-			dynasty=300101
+			government = feudal_government	#fake
+			dynasty=300101 					#real
 		}
 	}
 
 	selectable_character = {
-		id = 100007 # Rodolphe Ier
-		age = 18
-		name = ERA_CHAR_NAME_100007
+		id = 100000 # Aymerard
+		age = 42
+		name = ERA_CHAR_NAME_100000
 		title = c_faucigny
-		title_name = c_faucigny
+		title_name = BM_sire_de_faucigny
 		
 		character = {
-			dna = bcalbhabgal
+			dna = kefdvsnauaw
+			properties = cg0ekk000000
 			properties = aj0aca000000
 			religion="catholic"
 			culture="arpitan"
@@ -50,15 +51,15 @@ bm_1309 = {
 	picture = GFX_pick_era_monts_neige
 	
 	selectable_character = {
-		id = 200001 # 
+		id = 200001 #
 		age = 26
 		name = ERA_CHAR_NAME_200001
 		title = d_geneve_cite
-		title_name = d_geneve_cite
+		title_name = BM_cite_de_geneve
 		
 		character = {
 			dna = bcedirmbfcy
-			properties = aj00bc00000
+			properties = aj00cc00000
 			religion="catholic"
 			culture="arpitan"
 			government = merchant_republic_government
@@ -67,19 +68,67 @@ bm_1309 = {
 	}
 
 	selectable_character = {
-		id = 200002 # Rodolphe Ier
+		id = 200002 #
 		age = 18
 		name = ERA_CHAR_NAME_200002
-		title = b_ct_geneve2
-		title_name = b_ct_geneve2
+		title = d_geneve_cite
+		title_name = BM_cite_de_geneve
 		
 		character = {
-			dna = bcalbhabgal
+			dna = bcblbhbbgal
 			properties = aj0aca000000
 			religion="catholic"
 			culture="arpitan"
 			government = merchant_republic_government
 			dynasty=400101
+		}
+	}
+	selectable_character = {
+		id = 200003 #
+		age = 18
+		name = ERA_CHAR_NAME_200003
+		title = d_geneve_cite
+		title_name = BM_cite_de_geneve
+		
+		character = {
+			dna = bcalahaagal
+			properties = aj0bba000000
+			religion="catholic"
+			culture="arpitan"
+			government = merchant_republic_government
+			dynasty=400102
+		}
+	}
+	selectable_character = {
+		id = 200004 #
+		age = 18
+		name = ERA_CHAR_NAME_200004
+		title = d_geneve_cite
+		title_name = BM_cite_de_geneve
+		
+		character = {
+			dna = bcalachagal
+			properties = aj0aba000000
+			religion="catholic"
+			culture="arpitan"
+			government = merchant_republic_government
+			dynasty=400103
+		}
+	}
+	selectable_character = {
+		id = 200005 #
+		age = 18
+		name = ERA_CHAR_NAME_200005
+		title = d_geneve_cite
+		title_name = BM_cite_de_geneve
+		
+		character = {
+			dna = bcalachcgal
+			properties = aj0bab000000
+			religion="catholic"
+			culture="arpitan"
+			government = merchant_republic_government
+			dynasty=400104
 		}
 	}
 }
