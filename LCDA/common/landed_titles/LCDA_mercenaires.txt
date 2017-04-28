@@ -1,3 +1,80 @@
 #MERCENAIRES
 
+d_merc_01 = {
+
+	color={ 150 40 40 }		color2={ 255 255 255 }
+	capital = 1 # XXX
+	allow = {	religion_group = christian	}	#Hire Trigger
+	religion = catholic #Parent Religion 
+	mercenary = yes
+	culture = arpitan
+	title = "CAPTAIN"	foa = "CAPTAIN_FOA"
+	landless = yes #Always exists
+	primary = yes #Cannot be held as a secondary title
+	independent = yes #Cannot be vassalized
+	strength_growth_per_century = 0.1
+	mercenary_type = merc_01_composition
+}
+d_merc_02 = { 
+
+	color={ 150 40 40 }		color2={ 255 255 255 }
+	capital = 1 # XXX
+	allow = {	religion_group = christian	}	#Hire Trigger
+	religion = catholic #Parent Religion 
+	mercenary = yes
+	culture = arpitan
+	title = "CAPTAIN"	foa = "CAPTAIN_FOA"
+	landless = yes #Always exists
+	primary = yes #Cannot be held as a secondary title
+	independent = yes #Cannot be vassalized
+	strength_growth_per_century = 0.1
+	mercenary_type = merc_02_composition
+}
+d_merc_03 = {
+
+	color={ 150 40 40 }		color2={ 255 255 255 }
+	capital = 1 # XXX
+	allow = {	religion_group = christian	}	#Hire Trigger
+	religion = catholic #Parent Religion 
+	mercenary = yes
+	culture = arpitan
+	title = "CAPTAIN"	foa = "CAPTAIN_FOA"
+	landless = yes #Always exists
+	primary = yes #Cannot be held as a secondary title
+	independent = yes #Cannot be vassalized
+	strength_growth_per_century = 0.1
+	mercenary_type = merc_03_composition
+}
+
+d_navy_01 = {
+
+	color={ 150 40 40 }		color2={ 255 255 255 }
+	capital = 1 # XXX
+	allow = {	religion_group = christian	}	#Hire Trigger
+	religion = catholic #Parent Religion 
+	mercenary = yes
+	culture = arpitan
+	title = "CAPTAIN"	foa = "CAPTAIN_FOA"
+	landless = yes #Always exists
+	primary = yes #Cannot be held as a secondary title
+	independent = yes #Cannot be vassalized
+	strength_growth_per_century = 0.1
+	mercenary_type = navy_01_composition
+}
+
+d_navy_02 = {
+
+	color={ 150 40 40 }		color2={ 255 255 255 }
+	capital = 1 # XXX
+	allow = {	religion_group = christian	}	#Hire Trigger
+	religion = catholic #Parent Religion 
+	mercenary = yes
+	culture = arpitan
+	title = "CAPTAIN"	foa = "CAPTAIN_FOA"
+	landless = yes #Always exists
+	primary = yes #Cannot be held as a secondary title
+	independent = yes #Cannot be vassalized
+	strength_growth_per_century = 0.1
+	mercenary_type = navy_02_composition
+}
 
