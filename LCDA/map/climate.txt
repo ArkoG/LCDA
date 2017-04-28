@@ -1,14 +1,14 @@
 #Example: Most of Europe north of med.
 mild_winter = {
-1
+
 }
 
 #Example: Inland Europe & Scandinavia
 normal_winter = {
-2
+
 }
 
 #Example: Russia & Lappland
 severe_winter = {
-3
+
 }
