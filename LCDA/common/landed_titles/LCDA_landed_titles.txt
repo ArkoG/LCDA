@@ -222,7 +222,7 @@ e_alps = {
 				color={ 172 4 10 }
 				color2={ 255 255 255 }
 			
-				dignity = 5
+				dignity = 8
 
 				b_faucigny1 = { #dignity = 5
 				}
@@ -371,6 +371,8 @@ e_alps = {
 			c_beaufort = { #18
 				color={ 0 90 150 }
 				color2={ 255 255 255 }
+			
+				dignity = 4
 			
 				b_beaufort1 = {}
 				b_beaufort2 = {}
