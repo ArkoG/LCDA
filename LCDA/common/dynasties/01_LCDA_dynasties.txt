@@ -6,82 +6,82 @@
 300101 = {
 	name = "de Genève"			
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	1	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	1	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 300102 = {
 	name = "de Faucigny"		
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	2	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	2	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 300103 = {
 	name = "von Rheinfelden"	
 	culture = souabe	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	3	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	3	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 300104 = {
 	name = "de Savoie"			
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	4	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	4	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 300105 = {
 	name = "d'Aynard de Domène"
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	5	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	5	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 300106 = {
 	name = "de Grolée"			
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	6	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	6	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 300107 = {
 	name = "des Alleman"		
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	7	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	7	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 300108 = {
 	name = "de Beauvoir"		
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	8	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	8	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 300109 = {
 	name = "de Lucinge"		
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	9	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	9	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 300110 = {
 	name = "d'Auxonne"			
 	culture = franc	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	10	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	10	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 300111 = {
 	name = "Bérenger"			
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	11	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	11	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 300112 = {
 	name = "de Thoire"			
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	12	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	12	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
 300113 = {
 	name = "de Villars"		
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	13	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	13	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
 300114 = {
 	name = "de Thoire-Villard"	
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	14	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	14	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
 300115 = {
 	name = "de Compey"			
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	15	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	15	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
 300116 = {
 	name = "de Vosérier"		
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	16	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	16	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	} #originaires d'Amancy, branche des comtes de Genève
 300117 = {
 	name = "de Viu"			
@@ -90,7 +90,7 @@
 300118 = {
 	name = "de Lugrin"			
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	18	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	18	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 300119 = {
 	name = "de Lullier"		
@@ -111,7 +111,7 @@
 300123 = {
 	name = "de Beaufort"
 	culture = arpitan	
-	#coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	23	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	23	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}
 
 # Coa >>49 max.
