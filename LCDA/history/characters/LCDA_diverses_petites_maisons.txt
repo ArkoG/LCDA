@@ -1,22 +1,8 @@
-100018={
-name = "Oddon" #de Compey, sire de Thorens
-dynasty = 300115
-dna = "pobjpfamkbb"
-culture = arpitan
-religion = catholic
-martial = 4
-diplomacy = 5
-stewardship = 1
-intrigue = 2
-learning = 5
-add_trait = "skilled_tactician"
-add_trait = "paranoid"
-add_trait = "cruel"
-add_trait = "arbitrary"
-1030.11.28={birth=yes}
-1083.1.1={death=yes}
-}
-																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										
+###LCDA 
+##diverses petites maisons
+#range 100 000//...
+
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								
 #pape
 100200 = {
 	name="Theophylactus"

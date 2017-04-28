@@ -1,9 +1,73 @@
-100	=	 {	name=	"Frédéric"		dynasty=	0	religion=	"catholic"	culture=	"arpitan"												 1010.1.1	=	{ birth=	"	 1010.1.1	"	}												1073.1.1	=	{ death=	"	1073.1.1	"	}	}
-101	=	 {	name=	"Berthold"		dynasty=	0	religion=	"catholic"	culture=	"arpitan"		
-#add_trait = voeu_de_celibat_H
-										 1000.1.1	=	{ birth=	"	 1000.1.1	"	}												1068.1.1	=	{ death=	"	1068.1.1	"	}	}
-105	=	 {	name=	"Humbert"		dynasty=	0	religion=	"catholic"	culture=	"arpitan"												 1100.1.1	=	{ birth=	"	 1100.1.1	"	}												1135.1.1	=	{ death=	"	1135.1.1	"	}	}
+###LCDA 
+##diverses petites maisons
+#range 99//...
+
+99	= {
+    name="Vuillerme"
+    dynasty = 99 #de Cinquestral
+
+    religion = catholic
+    culture = arpitan
+
+    
+    999.1.1 = { birth = yes }
+    999.1.1 = {
+        effect = { # Actually executed at the scenario start date, before Adapting History finishes when loading.
+            set_global_flag = running_LCDA
+        }
+    }
+    1500.1.1 = { # Don't nominally-kill the character in history before the latest start date OR after the mod end date
+        death = yes
+    }
+}
+
+100	= { 
+	name="Frédéric"	
+	dynasty=	0
+	religion=	"catholic"
+	culture=	"arpitan"
+	1010.1.1	=	{ birth=	"	 1010.1.1	"	}
+	1073.1.1	=	{ death=	"	1073.1.1	"	}
+}
+101	= { 
+	name="Berthold"	
+	dynasty=	0
+	religion=	"catholic"	
+	culture=	"arpitan"		
+	#add_trait = voeu_de_celibat_H
+	1000.1.1	=	{ birth=	"	 1000.1.1	"	}	
+	1068.1.1	=	{ death=	"	1068.1.1	"	}
+}
+105	={ 
+	name="Humbert"	
+	dynasty=	0
+	religion=	"catholic"
+	culture=	"arpitan"											
+	1100.1.1	=	{ birth=	"	 1100.1.1	"	}											
+	1135.1.1	=	{ death=	"	1135.1.1	"	}
+}
 #105 humbert de grammont, près ceyzérieu, ain. évêque de Genève à partir de 1120.
-106	=	 {	name=	"Aymon"			dynasty=	0	religion=	"catholic"	culture=	"arpitan"												 1000.1.1	=	{ birth=	"	 1000.1.1	"	}												1057.1.1	=	{ death=	"	1057.1.1	"	}	}
-107	=	 {	name=	"Theobaldus"	dynasty=	0	religion=	"catholic"	culture=	"arpitan"												 1000.1.1	=	{ birth=	"	 1000.1.1	"	}												1060.1.1	=	{ death=	"	1060.1.1	"	}	}
-108	=	 {	name=	"Buchard"		dynasty=	0	religion=	"catholic"	culture=	"arpitan"												 1000.1.1	=	{ birth=	"	 1000.1.1	"	}												1060.1.1	=	{ death=	"	1060.1.1	"	}	}
+106	={
+	name="Aymon"		
+	dynasty=	0
+	religion=	"catholic"
+	culture=	"arpitan"											
+	1000.1.1	=	{ birth=	"	 1000.1.1	"	}											
+	1057.1.1	=	{ death=	"	1057.1.1	"	}
+}
+107	={ 
+	name="Theobaldus"
+	dynasty=	0
+	religion=	"catholic"
+	culture=	"arpitan"												
+	1000.1.1	=	{ birth=	"	 1000.1.1	"	}											
+	1060.1.1	=	{ death=	"	1060.1.1	"	}
+}
+108	={ 
+	name="Buchard"	
+	dynasty=	0
+	religion=	"catholic"
+	culture=	"arpitan"
+	1000.1.1	=	{ birth=	"	 1000.1.1	"	}
+	1060.1.1	=	{ death=	"	1060.1.1	"	}
+}

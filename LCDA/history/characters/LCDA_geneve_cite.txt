@@ -1,3 +1,8 @@
+###LCDA 
+##
+#range 200001//...
+
+#patriciens de Genève
 200001={
 name = "Bernard"
 dynasty = 400100
