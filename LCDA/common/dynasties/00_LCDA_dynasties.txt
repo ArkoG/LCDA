@@ -2,13 +2,14 @@
 ##local DYNASTIES
 #range 100//99 999
 
-#Faucigny
+99 = { name = "de Cinquestral"	culture = arpitan } #mod flag giver
+#Faucigny 100//199
 100 = { name = "de Vetraz"	culture = arpitan }
 101 = { name = "de Monthoux"	culture = arpitan }
 102 = { name = "de Cranves"	culture = arpitan }
 103 = { name = "de Bonne"	culture = arpitan }
-104 = { name = "de Fillinges"	culture = arpitan }
-105 = { name = "de Viuz"	culture = arpitan }
+104 = { name = "de Boëge"	culture = arpitan }
+105 = { name = "de Tornalta"	culture = arpitan }
 106 = { name = "de Mégevette"	culture = arpitan }
 107 = { name = "de Rovorée"	culture = arpitan } #Mieussy
 108 = { name = "d'Onnion"	culture = arpitan }
@@ -88,7 +89,7 @@
 175 = { name = "de Saint-Maxime"	culture = arpitan }
 176 = { name = "de Queige"	culture = arpitan }
 177 = { name = "de Lucia"	culture = arpitan }
-178 = { name = "de Beaufort"	culture = arpitan }
+178 = { name = "de Domelin"	culture = arpitan }
 179 = { name = "du Planey"	culture = arpitan }
 
 180 = { name = "de Demi-Quartier"	culture = arpitan }
@@ -98,7 +99,7 @@
 184 = { name = "de Magny"	culture = arpitan }#Beaufortin
 185 = { name = "de Méran"	culture = arpitan }
 186 = { name = "de Polinge"	culture = arpitan }
-187 = { name = "de Pontd'Arve"	culture = arpitan }
+187 = { name = "de Boringe"	culture = arpitan }#Pont d'Arve
 188 = { name = "de Villy"	culture = arpitan }
 189 = { name = "de Bellecombe"	culture = arpitan }
 
@@ -109,14 +110,14 @@
 194 = { name = "de Chillaz"	culture = arpitan }#Beaufortin
 195 = { name = "Clerton"	culture = arpitan }
 196 = { name = "de Vorzier"	culture = arpitan }
-197 = { name = "de Lucia"	culture = arpitan }
-198 = { name = "de Beaufort"	culture = arpitan }
+197 = { name = "de Bisanne"	culture = arpitan }
+198 = { name = "de Bellaval"	culture = arpitan }
 199 = { name = "du Planey"	culture = arpitan }
 
-#Chablais
+#Chablais 200//299
 200 = { name = "de Bernex"	culture = arpitan }
 201 = { name = "de Vinzier"	culture = arpitan }
-202 = { name = "de Lugrin"	culture = arpitan }
+#202 = { name = "de Lugrin"	culture = arpitan }
 203 = { name = "de Neuvecelle"	culture = arpitan }
 204 = { name = "de Bonnevaux"	culture = arpitan }
 #205 = { name = "de Viuz"	culture = arpitan }
@@ -156,4 +157,4 @@
 296 = { name = "d'Aulps"	culture = arpitan }
 297 = { name = "d'Abondance"	culture = arpitan }
 298 = { name = "de Châtel"	culture = arpitan }
-299 = { name = "du Pas"	culture = arpitan } #Pas de Morgins
+#299 = { name = "du Pas"	culture = arpitan } #Pas de Morgins

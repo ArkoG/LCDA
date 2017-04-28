@@ -1,4 +1,7 @@
-#EVEQUES
+###LCDA 
+##local EVEQUES
+#range 100 000//199 999
+
 
 #100100	=	{name=	"de Plainpalais"	culture=	arpitan	}
 #100101	=	{name=	"de Saconnex"		culture=	arpitan	}

@@ -1,4 +1,7 @@
-#CITE DE GENEVE circa 1309
+###LCDA 
+##CITE DE GENEVE circa 1309
+#range 400 000//499 999
+
 400100	=	{name=	"de Plainpalais"	culture=	arpitan	}
 400101	=	{name=	"de Saconnex"		culture=	arpitan	}
 400102	=	{name=	"d'Aygues-Vives"	culture=	arpitan	}
