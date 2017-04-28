@@ -20,13 +20,13 @@ technology = {
 		
 	}
 
-	769 = {
+	1000 = {
 		military = 0.5
 		economy = 1.0
 		culture = 1.0
 	}
 		
-	1337 = {
+	1500 = {
 		military = 5.0
 		economy = 5.0
 		culture = 5.0
