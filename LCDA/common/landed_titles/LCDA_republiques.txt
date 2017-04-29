@@ -8,7 +8,7 @@ d_geneve_cite = {
 		capital = 3 #Genéve	
 		culture = arpitan
 
-		#allow={ is_republic = yes }
+		allow={ is_republic = yes }
 }
 
 b_ct_geneve1 = {	culture = arpitan	religion = catholic	}

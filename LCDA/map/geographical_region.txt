@@ -197,9 +197,9 @@ world_africa_east = {
 #	}
 }
 world_africa = {
-#	regions = {
-#		world_africa_north world_africa_west world_africa_east
-#	}
+	regions = {
+		world_africa_north world_africa_west world_africa_east
+	}
 }
 world_steppe_tarim = {
 #	duchies = {
@@ -220,24 +220,25 @@ world_steppe_east = {
 #	}
 }
 world_steppe = {
-#	regions = {
-#		world_steppe_west world_steppe_east world_steppe_tarim
-#	}
+	regions = {
+		world_steppe_west world_steppe_east world_steppe_tarim
+	}
 }
 world_europe = {
-#	regions = {
-#		world_europe_west world_europe_south world_europe_east world_europe_north
-#	}
+	regions = {
+		world_alps
+		world_europe_west world_europe_south world_europe_east world_europe_north
+	}
 }
 world_middle_east = {
-#	regions = {
-#		world_middle_east_arabia world_middle_east_jerusalem
-#	}
+	regions = {
+		world_middle_east_arabia world_middle_east_jerusalem
+	}
 }
 world_india = {
-#	regions = {
-#		world_india_deccan world_india_bengal world_india_rajastan
-#	}
+	regions = {
+		world_india_deccan world_india_bengal world_india_rajastan
+	}
 }
 
 ###########################################################################
