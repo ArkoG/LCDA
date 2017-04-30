@@ -19,7 +19,7 @@ b_modane3 = city
 # Misc
 culture = arpitan
 religion = catholic
-
+terrain = mountain
 # History
 
 #999.9.9 = {	b_modane2 = MONASTERE	}

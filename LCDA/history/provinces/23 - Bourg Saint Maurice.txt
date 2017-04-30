@@ -19,7 +19,7 @@ b_bourgsaintmaurice3 = city
 # Misc
 culture = arpitan
 religion = catholic
-
+terrain = mountain
 # History
 
 #999.9.9 = {	b_bourgsaintmaurice2 = MONASTERE	}

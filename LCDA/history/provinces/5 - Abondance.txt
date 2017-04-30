@@ -20,7 +20,7 @@ b_abondance3 = city #Evian
 culture = arpitan
 religion = catholic
 #terrain = forest
-
+terrain = mountain
 # History
 
 # 999.9.9  = { b_abondance1 = BOURGFEODAL	}

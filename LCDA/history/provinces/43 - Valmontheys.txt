@@ -19,7 +19,7 @@ b_valmontheys3 = city # La Mure ? (citée fortifiée)
 # Misc
 culture = arpitan
 religion = catholic
-terrain = mountain
+#terrain = mountain
 
 # History
 
