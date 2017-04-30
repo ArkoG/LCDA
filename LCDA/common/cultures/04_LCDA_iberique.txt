@@ -8,10 +8,10 @@
 
 
 iberique_group = {
-	graphical_cultures = occitangfx
+	graphical_cultures = { occitangfx }
 
 	basque = {
-		graphical_cultures = occitangfx
+		graphical_cultures = { occitangfx }
 		
 		color = { 0.7 0.7 0.4 }
 
@@ -40,7 +40,7 @@ iberique_group = {
 		modifier = default_culture_modifier
 	}
 	castillan = {
-		graphical_cultures = southerngfx
+		graphical_cultures = { southerngfx }
 		
 		color = { 0.4 0.7 0.5 }
 
@@ -75,7 +75,7 @@ iberique_group = {
 		modifier = default_culture_modifier
 	}
 	galicien = {
-		graphical_cultures = southerngfx
+		graphical_cultures = { southerngfx }
 		
 		color = { 0.4 0.7 0.3 }
 

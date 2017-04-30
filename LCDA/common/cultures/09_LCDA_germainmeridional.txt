@@ -8,10 +8,10 @@
 
 
 germainmeridional_group = {
-	graphical_cultures = westerngfx
+	graphical_cultures = { westerngfx }
 
 	bavarois = {
-		graphical_cultures = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.5 0.5 0.5 }
 
@@ -53,7 +53,7 @@ germainmeridional_group = {
 		modifier = default_culture_modifier
 	}
 	souabe = {
-		graphical_cultures = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.5 0.5 0.5 }
 
@@ -95,7 +95,7 @@ germainmeridional_group = {
 		modifier = default_culture_modifier
 	}
 	tyrolien = {
-		graphical_cultures = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.5 0.5 0.5 }
 

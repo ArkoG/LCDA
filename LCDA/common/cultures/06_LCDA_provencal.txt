@@ -8,10 +8,10 @@
 #catalan
 
 provencal_group = {
-	graphical_cultures = westerngfx
+	graphical_cultures = { westerngfx }
 
 	occitan = {
-		graphical_cultures = occitangfx
+		graphical_cultures = { occitangfx }
 		
 		color = { 0.75 0.75 0.3 }
 
@@ -50,7 +50,7 @@ provencal_group = {
 		mother_name_chance = 5
 	}
 	limousin = {
-		graphical_cultures = occitangfx
+		graphical_cultures = { occitangfx }
 		
 		color = { 0.75 0.75 0.3 }
 
@@ -89,7 +89,7 @@ provencal_group = {
 		mother_name_chance = 5
 	}
 	gascon = {
-		graphical_cultures = occitangfx
+		graphical_cultures = { occitangfx }
 		
 		color = { 0.75 0.75 0.3 }
 
@@ -128,7 +128,7 @@ provencal_group = {
 		mother_name_chance = 5
 	}
 	catalan = {
-		graphical_cultures = southerngfx
+		graphical_cultures = { southerngfx }
 		
 		color = { 0.4 0.7 0.4 }
 

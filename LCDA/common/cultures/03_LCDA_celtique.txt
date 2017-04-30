@@ -9,10 +9,10 @@
 
 
 celtique_group = {
-	graphical_cultures = westerngfx
+	graphical_cultures = { westerngfx }
 
 	irlandais = {
-		graphical_cultures = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.8 0.8 }
 
@@ -48,7 +48,7 @@ celtique_group = {
 		mother_name_chance = 10
 	}
 	ecossais = {
-		graphical_cultures = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.7 0.7 }
 
@@ -82,7 +82,7 @@ celtique_group = {
 		mother_name_chance = 10
 	}
 	gallois = {
-		graphical_cultures = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.8 0.6 }
 
@@ -124,7 +124,7 @@ celtique_group = {
 		mother_name_chance = 0
 	}
 	breton = {
-		graphical_cultures = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.5 0.4 }
 		

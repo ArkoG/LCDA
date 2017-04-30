@@ -6,10 +6,10 @@
 #normand
 
 group_francique = {
-	graphical_cultures = westerngfx
+	graphical_cultures = { westerngfx }
 
 	franc = {
-		graphical_cultures = frankishgfx
+		graphical_cultures = { frankishgfx }
 		
 		color = { 0.8 0.8 0.2 }
 		male_names = {
@@ -49,7 +49,7 @@ group_francique = {
 		mother_name_chance = 10
 	}
 	normand = {
-		graphical_cultures = normangfx
+		graphical_cultures = { normangfx }
 
 		color = { 0.8 0.7 0.1 }
 		

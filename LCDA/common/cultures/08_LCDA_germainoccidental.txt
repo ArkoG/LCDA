@@ -8,10 +8,10 @@
 
 
 germainoccidental_group = {
-	graphical_cultures = westerngfx
+	graphical_cultures = { westerngfx }
 
 	franconien = {
-		graphical_cultures = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.5 0.5 0.5 }
 
@@ -53,7 +53,7 @@ germainoccidental_group = {
 		modifier = default_culture_modifier
 	}
 	saxon = {
-		graphical_cultures = saxongfx
+		graphical_cultures = { saxongfx }
 		
 		color = { 0.8 0.3 0.3 }
 		
@@ -78,8 +78,7 @@ germainoccidental_group = {
 		modifier = default_culture_modifier
 	}
 	frison = {
-		graphical_cultures = germangfx
-		graphical_unit_culture = western
+		graphical_cultures = { germangfx }
 		
 		color = { 0.8 0.4 0.2 }
 		

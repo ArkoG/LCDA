@@ -7,7 +7,7 @@
 #sarde
 
 italien_group = {
-	graphical_cultures = westerngfx
+	graphical_cultures = { westerngfx }
 
 	padan = {
 		graphical_cultures = { occitangfx southerngfx }
