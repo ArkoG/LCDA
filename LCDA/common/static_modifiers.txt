@@ -450,7 +450,7 @@ castle = {
 }
 
 city = {
-	tax_income = 8
+	tax_income = 8 #LCDA (previously 12)
 	fort_level = 0
 	light_infantry = 75
 	archers = 40
@@ -460,7 +460,7 @@ city = {
 }
 
 temple = {
-	tax_income = 4
+	tax_income = 4 #LCDA (previously 8)
 	heavy_infantry = 45
 	light_infantry = 45
 	archers = 40
@@ -471,7 +471,7 @@ temple = {
 }
 
 trade_post = {
-	tax_income = 3
+	tax_income = 3 #LCDA (previously 6)
 	fort_level = 0
 	levy_size = 0
 	light_infantry = 50
@@ -482,7 +482,7 @@ trade_post = {
 }
 
 family_palace = {
-	tax_income = 5
+	tax_income = 5 #LCDA (previously 10)
 	fort_level = 0
 	light_infantry = 40
 	archers = 10
