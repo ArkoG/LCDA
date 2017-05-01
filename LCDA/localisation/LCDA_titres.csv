@@ -18,13 +18,13 @@ e_alps;Alpine crown;La Couronne des Alpes;;;;;;;;;;;;x
 e_alps_adj;alpine;alpine;;;;;;;;;;;;x
 #;;DUCHE DE SAVOIE;;;;;;;;;;;;x
 k_savoie;;Savoie;;;;;;;;;;;;x
-k_savoie_adj;; ;;;;;;;;;;;;x
+k_savoie_adj;;savoisienne;;;;;;;;;;;;x
 #;;COMTE DES EQUESTRES;;;;;;;;;;;;x
 d_equestres;;Equestres;;;;;;;;;;;;x
-d_equestres_adj;; ;;;;;;;;;;;;x
+d_equestres_adj;;;;;;;;;;;;;;x
 #;;seigneurie de NYON;;;;;;;;;;;;x
 c_nyon;;Nyon;;;;;;;;;;;;x
-c_nyon_adj;; ;;;;;;;;;;;;x
+c_nyon_adj;;;;;;;;;;;;;;x
 b_nyon1;;Nyon;;;;;;;;;;;;x
 b_nyon2;;Bonmont;;;;;;;;;;;;x
 b_nyon3;;Aubonne;;;;;;;;;;;;x
@@ -33,7 +33,7 @@ b_nyon5;Oujon;;;;;;;;;;;;;x
 b_nyon6;;Saint-Cergues;;;;;;;;;;;;x
 #;;seigneurie de GEX;;;;;;;;;;;;x
 c_gex;;Gex;;;;;;;;;;;;x
-c_gex_adj;; ;;;;;;;;;;;;x
+c_gex_adj;;;;;;;;;;;;;;x
 b_gex1;;Gex;;;;;;;;;;;;x
 b_gex2;;Saint-Genis;;;;;;;;;;;;x
 b_gex3;;Divonne;;;;;;;;;;;;x
@@ -42,7 +42,7 @@ b_gex5;;Collonges;;;;;;;;;;;;x
 b_gex6;;Meyrin;;;;;;;;;;;;x
 #;;seigneurie de GENÈVE;;;;;;;;;;;;x
 c_geneve;;Genève;;;;;;;;;;;;x
-c_geneve_adj;; ;;;;;;;;;;;;x
+c_geneve_adj;;genevoise;;;;;;;;;;;;x
 b_geneve1;;Genève;;;;;;;;;;;;x
 b_geneve2;;Genève;;;;;;;;;;;;x
 b_geneve3;;Genève;;;;;;;;;;;;x
@@ -51,10 +51,10 @@ b_geneve5;;Laconnex;;;;;;;;;;;;x
 b_geneve6;;Versoix;;;;;;;;;;;;x
 #;;COMTE DE CHABLAIS;;;;;;;;;;;;x
 d_chablais;;Chablais;;;;;;;;;;;;x
-d_chablais_adj;;Chablais;;;;;;;;;;;;x
+d_chablais_adj;;chablaissienne;;;;;;;;;;;;x
 #;;seigneurie de SAINT-MAURICE;;;;;;;;;;;;x		
 c_saintmaurice;;Saint-Maurice;;;;;;;;;;;;x
-c_saintmaurice_adj;; ;;;;;;;;;;;;x
+c_saintmaurice_adj;;;;;;;;;;;;;;x
 b_saintmaurice1;;Evionnaz;;;;;;;;;;;;x
 b_saintmaurice2;;Saint-Maurice;;;;;;;;;;;;x
 b_saintmaurice3;;Monthey;;;;;;;;;;;;x
@@ -63,7 +63,7 @@ b_saintmaurice5;;Meillerie;;;;;;;;;;;;x
 b_saintmaurice6;;Champéry;;;;;;;;;;;;x
 #;;seigneurie de THONON;;;;;;;;;;;;x
 c_thonon;;Thonon;;;;;;;;;;;;x
-c_thonon_adj;; ;;;;;;;;;;;;x
+c_thonon_adj;;;;;;;;;;;;;;x
 b_thonon1;;Ripaille;;;;;;;;;;;;x
 b_thonon2;;Filly;;;;;;;;;;;;x
 b_thonon3;;Thonon;;;;;;;;;;;;x
@@ -72,7 +72,7 @@ b_thonon5;;Corzent;;;;;;;;;;;;x
 b_thonon6;;Douvaine;;;;;;;;;;;;x
 #;;seigneurie d'ABONDANCE;;;;;;;;;;;;x
 c_abondance;;Abondance;;;;;;;;;;;;x
-c_abondance_adj;; ;;;;;;;;;;;;x
+c_abondance_adj;;;;;;;;;;;;;;x
 b_abondance1;;Féternes;;;;;;;;;;;;x
 b_abondance2;;Aulps;;;;;;;;;;;;x
 b_abondance3;;Evian;;;;;;;;;;;;x
@@ -81,7 +81,7 @@ b_abondance5;;Abondance;;;;;;;;;;;;x
 b_abondance6;;Chairavaux ;;;;;;;;;;;;x
 #;;seigneurie d'AIGLE;;;;;;;;;;;;x
 c_aigle;;Aigle;;;;;;;;;;;;x
-c_aigle_adj;; ;;;;;;;;;;;;x
+c_aigle_adj;;;;;;;;;;;;;;x
 b_aigle1;;Aigle;;;;;;;;;;;;x
 b_aigle2;;Mimont;;;;;;;;;;;;x
 b_aigle3;Villeneuve;;;;;;;;;;;;;x
@@ -93,7 +93,7 @@ d_faucigny;;Faucigny;;;;;;;;;;;;x
 d_faucigny_adj;;faucignerande;;;;;;;;;;;;x
 #;;seigneurie de FAUCIGNY;;;;;;;;;;;;x
 c_faucigny;;Faucigny;;;;;;;;;;;;x
-c_faucigny_adj;; ;;;;;;;;;;;;x
+c_faucigny_adj;;faucignerande;;;;;;;;;;;;x
 b_faucigny1;;Faucigny;;;;;;;;;;;;x
 b_faucigny2;;Contamines;;;;;;;;;;;;x
 b_faucigny3;;Bonneville;;;;;;;;;;;;x
@@ -101,8 +101,8 @@ b_faucigny4;;Lucinges;;;;;;;;;;;;x
 b_faucigny5;;Béol;;;;;;;;;;;;x
 b_faucigny6;;Boëge;;;;;;;;;;;;x
 #;;seigneurie de GIFFRE;;;;;;;;;;;;x
-c_giffre;;Giffre;;;;;;;;;;;;x
-c_giffre_adj;; ;;;;;;;;;;;;x
+c_giffre;;Samoëns;;;;;;;;;;;;x
+c_giffre_adj;;septimontaine;;;;;;;;;;;;x
 b_giffre1;;Thyez;;;;;;;;;;;;x
 b_giffre2;;Sixt;;;;;;;;;;;;x
 b_giffre3;;Taninges;;;;;;;;;;;;x
@@ -111,7 +111,7 @@ b_giffre5;;Mélan;;;;;;;;;;;;x
 b_giffre6;;Sallaz;;;;;;;;;;;;x
 #;;seigneurie de TRIENT;;;;;;;;;;;;x
 c_trient;;Trient;;;;;;;;;;;;x
-c_trient_adj;; ;;;;;;;;;;;;x
+c_trient_adj;;;;;;;;;;;;;;x
 b_trient1;;Finhaut;;;;;;;;;;;;x
 b_trient2;;Champex;;;;;;;;;;;;x
 b_trient3;;Trient;;;;;;;;;;;;x
@@ -120,7 +120,7 @@ b_trient5;;Vallorcine;;;;;;;;;;;;x
 b_trient6;;Argentière;;;;;;;;;;;;x
 #;;seigneurie de VALMONJOIE;;;;;;;;;;;;x
 c_montjoie;;Valmonjoie;;;;;;;;;;;;x
-c_montjoie_adj;; ;;;;;;;;;;;;x
+c_montjoie_adj;;;;;;;;;;;;;;x
 b_montjoie1;;Montjoie;;;;;;;;;;;;x
 b_montjoie2;;Chamonix;;;;;;;;;;;;x
 b_montjoie3;;Sallanches;;;;;;;;;;;;x
@@ -129,10 +129,10 @@ b_montjoie5;;Passy;;;;;;;;;;;;x
 b_montjoie6;;Saint-Gervais;;;;;;;;;;;;x
 #;;COMTE DE GENEVOIS;;;;;;;;;;;;x
 d_genevois;;Genevois;;;;;;;;;;;;x
-d_genevois_adj;; ;;;;;;;;;;;;x
+d_genevois_adj;;genevoise;;;;;;;;;;;;x
 #;;seigneurie d'ANNECY;;;;;;;;;;;;x
 c_annecy;;Annecy;;;;;;;;;;;;x
-c_annecy_adj;; ;;;;;;;;;;;;x
+c_annecy_adj;;;;;;;;;;;;;;x
 b_annecy1;;La Roche;;;;;;;;;;;;x
 b_annecy2;;Thônes;;;;;;;;;;;;x
 b_annecy3;;Faverges;;;;;;;;;;;;x
@@ -141,7 +141,7 @@ b_annecy5;;Annecy;;;;;;;;;;;;x
 b_annecy6;;Ugine;;;;;;;;;;;;x
 #;;seigneurie de SEYSSEL;;;;;;;;;;;;x
 c_seyssel;;Seyssel;;;;;;;;;;;;x
-c_seyssel_adj;; ;;;;;;;;;;;;x
+c_seyssel_adj;;;;;;;;;;;;;;x
 b_seyssel1;;Seyssel;;;;;;;;;;;;x
 b_seyssel2;;Chessenaz;;;;;;;;;;;;x
 b_seyssel3;;Seyssel;;;;;;;;;;;;x
@@ -150,7 +150,7 @@ b_seyssel5;;;;;;;;;;;;;;x
 b_seyssel6;;Menthonnex;;;;;;;;;;;;x
 #;;seigneurie d'ALBENS;;;;;;;;;;;;x
 c_albens;;Albanais;;;;;;;;;;;;x
-c_albens_adj;; ;;;;;;;;;;;;x
+c_albens_adj;;;;;;;;;;;;;;x
 b_albens1;;Albens;;;;;;;;;;;;x
 b_albens2;;Bauges;;;;;;;;;;;;x
 b_albens3;;Rumilly;;;;;;;;;;;;x
@@ -162,7 +162,7 @@ d_savoie_propre;;Savoie;;;;;;;;;;;;x
 d_savoie_propre_adj;;savoisienne;;;;;;;;;;;;x
 #;;seigneurie de NOVALAISE;;;;;;;;;;;;x
 c_novalaise;;L'Épine;;;;;;;;;;;;x
-c_novalaise_adj;; ;;;;;;;;;;;;x
+c_novalaise_adj;;;;;;;;;;;;;;x
 b_novalaise1;;La Forest;;;;;;;;;;;;x
 b_novalaise2;;Novalaise;;;;;;;;;;;;x
 b_novalaise3;;Yenne;;;;;;;;;;;;x
@@ -171,7 +171,7 @@ b_novalaise5;Aiguebelette;;;;;;;;;;;;;x
 b_novalaise6;;Pont-de-Beauvoisin;;;;;;;;;;;;x
 #;;seigneurie de BOURGET;;;;;;;;;;;;x
 c_bourget;;Bourget;;;;;;;;;;;;x
-c_bourget_adj;; ;;;;;;;;;;;;x
+c_bourget_adj;;;;;;;;;;;;;;x
 b_bourget1;;Bourget;;;;;;;;;;;;x
 b_bourget2;;Entremont;;;;;;;;;;;;x
 b_bourget3;;Aix;;;;;;;;;;;;x
@@ -180,7 +180,7 @@ b_bourget5;;Hautecombe;;;;;;;;;;;;x
 b_bourget6;;Montfalcon;;;;;;;;;;;;x
 #;;seigneurie de MONTMÉLIAN;;;;;;;;;;;;x
 c_montmelian;;Montmélian;;;;;;;;;;;;x
-c_montmelian_adj;; ;;;;;;;;;;;;x
+c_montmelian_adj;;;;;;;;;;;;;;x
 b_montmelian1;;Montmélian;;;;;;;;;;;;x
 b_montmelian2;;Saint-Hugon;;;;;;;;;;;;x
 b_montmelian3;;Chignin;;;;;;;;;;;;x
@@ -190,7 +190,7 @@ b_montmelian6;;Pontcharra;;;;;;;;;;;;x
 b_montmelian7;;Montmayeur;;;;;;;;;;;;x
 #;;seigneurie de CONFLANS;;;;;;;;;;;;x
 c_conflans;;Conflans;;;;;;;;;;;;x
-c_conflans_adj;; ;;;;;;;;;;;;x
+c_conflans_adj;;;;;;;;;;;;;;x
 b_conflans1;;Conflans;;;;;;;;;;;;x
 b_conflans2;;Tamié;;;;;;;;;;;;x
 b_conflans3;;Ugine;;;;;;;;;;;;x
@@ -199,7 +199,7 @@ b_conflans5;;Saint-Sigismond;;;;;;;;;;;;x
 b_conflans6;;Villefranche;;;;;;;;;;;;x
 #;;seigneurie de BEAUFORT;;;;;;;;;;;;x
 c_beaufort;;Beaufort;;;;;;;;;;;;x
-c_beaufort_adj;; ;;;;;;;;;;;;x
+c_beaufort_adj;;;;;;;;;;;;;;x
 b_beaufort1;;Beaufort;;;;;;;;;;;;x
 b_beaufort2;;Vanches;;;;;;;;;;;;x
 b_beaufort3;;Outards;;;;;;;;;;;;x
@@ -208,10 +208,10 @@ b_beaufort5;;Arêches;;;;;;;;;;;;x
 b_beaufort6;;La Gittaz;;;;;;;;;;;;x
 #;;COMTE DE MAURIENNE;;;;;;;;;;;;x
 d_maurienne;;Maurienne;;;;;;;;;;;;x
-d_maurienne_adj;; ;;;;;;;;;;;;x
+d_maurienne_adj;;;;;;;;;;;;;;x
 #;;seigneurie de MAURIENNE;;;;;;;;;;;;x
 c_maurienne;;Maurienne;;;;;;;;;;;;x
-c_maurienne_adj;; ;;;;;;;;;;;;x
+c_maurienne_adj;;;;;;;;;;;;;;x
 b_maurienne1;;Charbonnières;;;;;;;;;;;;x
 b_maurienne2;;Saint-Jean;;;;;;;;;;;;x
 b_maurienne3;;Aiguebelle;;;;;;;;;;;;x
@@ -220,7 +220,7 @@ b_maurienne5;;Saint-Michel;;;;;;;;;;;;x
 b_maurienne6;;;;;;;;;;;;;;x
 #;;seigneurie de MODANE;;;;;;;;;;;;x
 c_modane;;Modane;;;;;;;;;;;;x
-c_modane_adj;; ;;;;;;;;;;;;x
+c_modane_adj;;;;;;;;;;;;;;x
 b_modane1;;;;;;;;;;;;;;x
 b_modane2;;;;;;;;;;;;;;x
 b_modane3;;;;;;;;;;;;;;x
@@ -229,7 +229,7 @@ b_modane5;;;;;;;;;;;;;;x
 b_modane6;;;;;;;;;;;;;;x
 #;;seigneurie de MONT-CENIS;;;;;;;;;;;;x
 c_montcenis;;Mont-Cenis;;;;;;;;;;;;x
-c_montcenis_adj;; ;;;;;;;;;;;;x
+c_montcenis_adj;;;;;;;;;;;;;;x
 b_montcenis1;;;;;;;;;;;;;;x
 b_montcenis2;;Mont-Cenis;;;;;;;;;;;;x
 b_montcenis3;;;;;;;;;;;;;;x
@@ -238,10 +238,10 @@ b_montcenis5;;;;;;;;;;;;;;x
 b_montcenis6;;;;;;;;;;;;;;x
 #;;COMTE DE TARENTAISE;;;;;;;;;;;;x
 d_tarentaise;;Tarentaise;;;;;;;;;;;;x
-d_tarentaise_adj;; ;;;;;;;;;;;;x
+d_tarentaise_adj;;tarine;;;;;;;;;;;;x
 #;;seigneurie de MOUTIERS;;;;;;;;;;;;x
 c_moutiers;;Moutiers;;;;;;;;;;;;x
-c_moutiers_adj;; ;;;;;;;;;;;;x
+c_moutiers_adj;;;;;;;;;;;;;;x
 b_moutiers1;;Feissons;;;;;;;;;;;;x
 b_moutiers2;;Moutiers;;;;;;;;;;;;x
 b_moutiers3;;;;;;;;;;;;;;x
@@ -250,7 +250,7 @@ b_moutiers5;;;;;;;;;;;;;;x
 b_moutiers6;;;;;;;;;;;;;;x
 #;;seigneurie de BOURG-ST-MAURICE;;;;;;;;;;;;x
 c_bourgsaintmaurice;;Bourg-Saint-Maurice;;;;;;;;;;;;x
-c_bourgsaintmaurice_adj;; ;;;;;;;;;;;;x
+c_bourgsaintmaurice_adj;;;;;;;;;;;;;;x
 b_bourgsaintmaurice1;;;;;;;;;;;;;;x
 b_bourgsaintmaurice2;;Bourg-Saint-Maurice;;;;;;;;;;;;x
 b_bourgsaintmaurice3;;;;;;;;;;;;;;x
@@ -262,7 +262,7 @@ d_basvalais;;Valais;;;;;;;;;;;;x
 d_basvalais_adj;; ;;;;;;;;;;;;x
 #;;seigneurie de MARTIGNY;;;;;;;;;;;;x
 c_martigny;;Martigny;;;;;;;;;;;;x
-c_martigny_adj;; ;;;;;;;;;;;;x
+c_martigny_adj;;;;;;;;;;;;;;x
 b_martigny1;;La Bâtiaz;;;;;;;;;;;;x
 b_martigny2;;Martigny;;;;;;;;;;;;x
 b_martigny3;;Martigny;;;;;;;;;;;;x
@@ -271,7 +271,7 @@ b_martigny5;;;;;;;;;;;;;;x
 b_martigny6;;Bagnes;;;;;;;;;;;;x
 #;;seigneurie de MONT-JOUX;;;;;;;;;;;;x
 c_montjoux;;Mont-Joux;;;;;;;;;;;;x
-c_montjoux_adj;; ;;;;;;;;;;;;x
+c_montjoux_adj;;;;;;;;;;;;;;x
 b_montjoux1;;;;;;;;;;;;;;x
 b_montjoux2;;;;;;;;;;;;;;x
 b_montjoux3;;;;;;;;;;;;;;x
@@ -280,7 +280,7 @@ b_montjoux5;;;;;;;;;;;;;;x
 b_montjoux6;;;;;;;;;;;;;;x
 #;;seigneurie de CONTHEY;;;;;;;;;;;;x
 c_conthey;;Conthey;;;;;;;;;;;;x
-c_conthey_adj;; ;;;;;;;;;;;;x
+c_conthey_adj;;;;;;;;;;;;;;x
 b_conthey1;;Conthey;;;;;;;;;;;;x
 b_conthey2;;Bramois;;;;;;;;;;;;x
 b_conthey3;;Hérémence;;;;;;;;;;;;x
@@ -292,7 +292,7 @@ d_aoste;;Aoste;;;;;;;;;;;;x
 d_aoste_adj;;valdotaine;;;;;;;;;;;;x
 #;;seigneurie de COURMAYEUR;;;;;;;;;;;;x
 c_courmayeur;;Courmayeur;;;;;;;;;;;;x
-c_courmayeur_adj;; ;;;;;;;;;;;;x
+c_courmayeur_adj;;;;;;;;;;;;;;x
 b_courmayeur1;;;;;;;;;;;;;;x
 b_courmayeur2;;;;;;;;;;;;;;x
 b_courmayeur3;;;;;;;;;;;;;;x
@@ -301,7 +301,7 @@ b_courmayeur5;;;;;;;;;;;;;;x
 b_courmayeur6;;;;;;;;;;;;;;x
 #;;seigneurie de AOSTE;;;;;;;;;;;;x
 c_aoste;;Aoste;;;;;;;;;;;;x
-c_aoste_adj;; ;;;;;;;;;;;;x
+c_aoste_adj;;;;;;;;;;;;;;x
 b_aoste1;;Aoste;;;;;;;;;;;;x
 b_aoste2;;Aoste;;;;;;;;;;;;x
 b_aoste3;;;;;;;;;;;;;;x
@@ -310,7 +310,7 @@ b_aoste5;;;;;;;;;;;;;;x
 b_aoste6;;;;;;;;;;;;;;x
 #;;seigneurie de CHÂTILLON;;;;;;;;;;;;x
 c_chatillon;;Châtillon;;;;;;;;;;;;x
-c_chatillon_adj;; ;;;;;;;;;;;;x
+c_chatillon_adj;;;;;;;;;;;;;;x
 b_chatillon1;;Châtillon;;;;;;;;;;;;x
 b_chatillon2;;;;;;;;;;;;;;x
 b_chatillon3;;;;;;;;;;;;;;x
@@ -319,13 +319,13 @@ b_chatillon5;;;;;;;;;;;;;;x
 b_chatillon6;;;;;;;;;;;;;;x
 #;;DUCHE DE VIENNOIS;;;;;;;;;;;;x
 k_vienne;;Vienne;;;;;;;;;;;;x
-k_vienne_adj;; ;;;;;;;;;;;;x
+k_vienne_adj;;viennoise;;;;;;;;;;;;x
 #;;COMTE DE SALMORENC;;;;;;;;;;;;x
 d_salmorenc;;Salmorenc;;;;;;;;;;;;x
-d_salmorenc_adj;; ;;;;;;;;;;;;x
+d_salmorenc_adj;;;;;;;;;;;;;;x
 #;;seigneurie de VOIRON;;;;;;;;;;;;x
 c_voirons;;Voiron;;;;;;;;;;;;x
-c_voirons_adj;; ;;;;;;;;;;;;x
+c_voirons_adj;;;;;;;;;;;;;;x
 b_voirons1;;Voiron;;;;;;;;;;;;x
 b_voirons2;;Bonnevaux;;;;;;;;;;;;x
 b_voirons3;;;;;;;;;;;;;;x
@@ -334,7 +334,7 @@ b_voirons5;;;;;;;;;;;;;;x
 b_voirons6;;;;;;;;;;;;;;x
 #;;seigneurie de MOIRANS;;;;;;;;;;;;x
 c_moirans;;Moirans;;;;;;;;;;;;x
-c_moirans_adj;; ;;;;;;;;;;;;x
+c_moirans_adj;;;;;;;;;;;;;;x
 b_moirans1;;Moirans;;;;;;;;;;;;x
 b_moirans2;;;;;;;;;;;;;;x
 b_moirans3;;;;;;;;;;;;;;x
@@ -346,7 +346,7 @@ d_viennois;;Viennois;;;;;;;;;;;;x
 d_viennois_adj;;viennoise;;;;;;;;;;;;x
 #;;seigneurie D'ALBON;;;;;;;;;;;;x	
 c_albon;;Albon;;;;;;;;;;;;x
-c_albon_adj;; ;;;;;;;;;;;;x
+c_albon_adj;;;;;;;;;;;;;;x
 b_albon1;;;;;;;;;;;;;;x
 b_albon2;;;;;;;;;;;;;;x
 b_albon3;;;;;;;;;;;;;;x
@@ -355,7 +355,7 @@ b_albon5;;;;;;;;;;;;;;x
 b_albon6;;;;;;;;;;;;;;x
 #;;seigneurie DE ROMANS;;;;;;;;;;;;x	
 c_romans;;Romans;;;;;;;;;;;;x
-c_romans_adj;; ;;;;;;;;;;;;x
+c_romans_adj;;;;;;;;;;;;;;x
 b_romans1;;Peyrins;;;;;;;;;;;;x
 b_romans2;;Romans;;;;;;;;;;;;x
 b_romans3;;Romans;;;;;;;;;;;;x
@@ -364,7 +364,7 @@ b_romans5;;Saint-Barnard;;;;;;;;;;;;x
 b_romans6;;Saint-Marcellin;;;;;;;;;;;;x
 #;;seigneurie DE ROYANS;;;;;;;;;;;;x	
 c_royans;;Royans;;;;;;;;;;;;x
-c_royans_adj;; ;;;;;;;;;;;;x
+c_royans_adj;;;;;;;;;;;;;;x
 b_royans1;;Beauvoir;;;;;;;;;;;;x
 b_royans2;;Bouvante;;;;;;;;;;;;x
 b_royans3;;;;;;;;;;;;;;x
@@ -373,7 +373,7 @@ b_royans5;;Léoncel;;;;;;;;;;;;x
 b_royans6;;;;;;;;;;;;;;x
 #;;seigneurie DE VIENNE;;;;;;;;;;;;x	
 c_vienne;;Vienne;;;;;;;;;;;;x
-c_vienne_adj;; ;;;;;;;;;;;;x
+c_vienne_adj;;viennoise;;;;;;;;;;;;x
 b_vienne1;;Vienne;;;;;;;;;;;;x
 b_vienne2;;Vienne;;;;;;;;;;;;x
 b_vienne3;;;;;;;;;;;;;;x
@@ -382,7 +382,7 @@ b_vienne5;;;;;;;;;;;;;;x
 b_vienne6;;;;;;;;;;;;;;x
 #;;seigneurie DE LA TOUR DU PIN;;;;;;;;;;;;x	
 c_tourdupin;;La Tour Du Pin;;;;;;;;;;;;x
-c_tourdupin_adj;; ;;;;;;;;;;;;x			
+c_tourdupin_adj;;turipinoise;;;;;;;;;;;;x			
 b_tourdupin1;;La Tour Du Pin;;;;;;;;;;;;x
 b_tourdupin2;;;;;;;;;;;;;;x
 b_tourdupin3;;;;;;;;;;;;;;x
@@ -391,10 +391,10 @@ b_tourdupin5;;;;;;;;;;;;;;x
 b_tourdupin6;;;;;;;;;;;;;;x
 #;;COMTE DE GRAISIVAUDAN;;;;;;;;;;;;x		
 d_graisivaudan;;Graisivaudan;;;;;;;;;;;;x
-d_graisivaudan_adj;; ;;;;;;;;;;;;x
+d_graisivaudan_adj;;;;;;;;;;;;;;x
 #;;seigneurie DE GRENOBLE;;;;;;;;;;;;x	
 c_grenoble;;Grenoble;;;;;;;;;;;;x
-c_grenoble_adj;; ;;;;;;;;;;;;x
+c_grenoble_adj;;grenobloise;;;;;;;;;;;;x
 b_grenoble1;;;;;;;;;;;;;;x
 b_grenoble2;;;;;;;;;;;;;;x
 b_grenoble3;;;;;;;;;;;;;;x
@@ -403,7 +403,7 @@ b_grenoble5;Saint-Pierre;Saint-Pierre;;;;;;;;;;;;x
 b_grenoble6;;;;;;;;;;;;;;x
 #;;seigneurie DE GRAISIVAUDAN;;;;;;;;;;;;x	
 c_graisivaudan;;Graisivaudan;;;;;;;;;;;;x
-c_graisivaudan_adj;; ;;;;;;;;;;;;x
+c_graisivaudan_adj;;;;;;;;;;;;;;x
 b_graisivaudan1;La buissières;La buissières;;;;;;;;;;;;x
 b_graisivaudan2;Grande Chartreuse;Grande Chartreuse;;;;;;;;;;;;x
 b_graisivaudan3;La buissières;La buissières;;;;;;;;;;;;x
@@ -412,7 +412,7 @@ b_graisivaudan5;Theys;;;;;;;;;;;;;x
 b_graisivaudan6;Allevard;;;;;;;;;;;;;x
 #;;seigneurie D'OISANS;;;;;;;;;;;;x	
 c_oisans;;Visan;;;;;;;;;;;;x
-c_oisans_adj;; ;;;;;;;;;;;;x
+c_oisans_adj;;;;;;;;;;;;;;x
 b_oisans1;;La Paute;;;;;;;;;;;;x
 b_oisans2;;Saint-Laurent;;;;;;;;;;;;x
 b_oisans3;;Parocchia de Lento;;;;;;;;;;;;x
@@ -421,7 +421,7 @@ b_oisans5;;Allemond;;;;;;;;;;;;x
 b_oisans6;;Vénosc;;;;;;;;;;;;x
 #;;seigneurie DE VERCORS;;;;;;;;;;;;x	
 c_vercors;;Vercors;;;;;;;;;;;;x
-c_vercors_adj;; ;;;;;;;;;;;;x		
+c_vercors_adj;;;;;;;;;;;;;;x		
 b_vercors1;;;;;;;;;;;;;;x
 b_vercors2;;;;;;;;;;;;;;x
 b_vercors3;;;;;;;;;;;;;;x
@@ -430,7 +430,7 @@ b_vercors5;;;;;;;;;;;;;;x
 b_vercors6;;;;;;;;;;;;;;x
 #;;seigneurie DE TRIEVES;;;;;;;;;;;;x	
 c_trieves;;Trièves;;;;;;;;;;;;x
-c_trieves_adj;; ;;;;;;;;;;;;x
+c_trieves_adj;;;;;;;;;;;;;;x
 b_trieves1;;;;;;;;;;;;;;x
 b_trieves2;;;;;;;;;;;;;;x
 b_trieves3;;;;;;;;;;;;;;x
@@ -439,7 +439,7 @@ b_trieves5;;;;;;;;;;;;;;x
 b_trieves6;;;;;;;;;;;;;;x
 #;;seigneurie DE VALMONTHEYS;;;;;;;;;;;;x	
 c_valmontheys;;Valmontheys;;;;;;;;;;;;x
-c_valmontheys_adj;; ;;;;;;;;;;;;x
+c_valmontheys_adj;;valmontheyse;;;;;;;;;;;;x
 b_valmontheys1;;;;;;;;;;;;;;x
 b_valmontheys2;;;;;;;;;;;;;;x
 b_valmontheys3;;;;;;;;;;;;;;x
@@ -448,7 +448,7 @@ b_valmontheys5;;;;;;;;;;;;;;x
 b_valmontheys6;;;;;;;;;;;;;;x
 #;;COMTE DE BRIGANTINE;;;;;;;;;;;;x
 c_briancon;;Briançon;;;;;;;;;;;;x
-c_briancon_adj;; ;;;;;;;;;;;;x
+c_briancon_adj;;;;;;;;;;;;;;x
 b_;;;;;;;;;;;;;;x
 b_;;;;;;;;;;;;;;x
 b_;;;;;;;;;;;;;;x
@@ -514,23 +514,23 @@ d_navy_20;;;;;;;;;;;;;;x
 #;;SPECIAUX;;;;;;;;;;;;x
 #;;RELIGIEUX;;;;;;;;;;;;x
 d_geneve_ecl;;Diocèse de Genève;;;;;;;;;;;;x
-d_geneve_ecl_adj;; ;;;;;;;;;;;;x
+d_geneve_ecl_adj;;genevoise;;;;;;;;;;;;x
 d_tarentaise_ecl;;Archidiocèse de Tarentaise;;;;;;;;;;;;x
-d_tarentaise_ecl_adj;; ;;;;;;;;;;;;x
+d_tarentaise_ecl_adj;;tarine;;;;;;;;;;;;x
 d_maurienne_ecl;;Diocèse de Maurienne;;;;;;;;;;;;x
-d_maurienne_ecl_adj;; ;;;;;;;;;;;;x
+d_maurienne_ecl_adj;;;;;;;;;;;;;;x
 d_stmaurice_ecl;;Saint Maurice d'Agaune;;;;;;;;;;;;x
-d_stmaurice_ecl_adj;; ;;;;;;;;;;;;x
+d_stmaurice_ecl_adj;;;;;;;;;;;;;;x
 d_grenoble_ecl;;Diocèse de Grenoble;;;;;;;;;;;;x
-d_grenoble_ecl_adj;; ;;;;;;;;;;;;x
+d_grenoble_ecl_adj;;grenobloise;;;;;;;;;;;;x
 d_gap_ecl;;Diocèse de Gap;;;;;;;;;;;;x
-d_gap_ecl_adj;; ;;;;;;;;;;;;x
+d_gap_ecl_adj;;;;;;;;;;;;;;x
 d_embrun_ecl;;Archidiocèse d'Embrun;;;;;;;;;;;;x
-d_embrun_ecl_adj;; ;;;;;;;;;;;;x
+d_embrun_ecl_adj;;;;;;;;;;;;;;x
 d_vienne_ecl;;Archidiocèse de Vienne;;;;;;;;;;;;x
-d_vienne_ecl_adj;; ;;;;;;;;;;;;x
+d_vienne_ecl_adj;;viennoise;;;;;;;;;;;;x
 k_papal_state;;Status Pontificus;;;;;;;;;;;;x
-k_papal_state_adj;; ;;;;;;;;;;;;x
+k_papal_state_adj;;papale;;;;;;;;;;;;x
 #;;REPUBLIQUES;;;;;;;;;;;;x
 d_geneve_cite;;Genève;;;;;;;;;;;;x
-d_geneve_cite_adj;; ;;;;;;;;;;;;x
+d_geneve_cite_adj;;genevoise;;;;;;;;;;;;x
