@@ -1,7 +1,6 @@
 ###LCDA 
 ##char_ID ranges
 #
-#range 98 #mod flag giver L3T
 #range 99/99 #mod flag giver
 #range 100//200 #abbés de St Maurice évêques etc.
 #range 1000//99999 #religieux

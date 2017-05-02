@@ -14,8 +14,9 @@ bm_1032 = {
 		title_name = BM_comte_de_genevois 	#determines title name displayed
 		
 		character = {
-			dna = msxqwxdcaqi 				#fake
-			properties = 0o0oced000000		#fake
+			dna=bchac0ddca0					#fake
+			properties=be0abd000000			#fake
+
 			religion="catholic"
 			culture="arpitan"
 			government = feudal_government	#fake
@@ -31,9 +32,8 @@ bm_1032 = {
 		title_name = BM_sire_de_faucigny
 		
 		character = {
-			dna = kefdvsnauaw
-			properties = cg0ekk000000
-			properties = aj0aca000000
+			dna="0jhlc0cfc00"
+			properties="0j0cbk00000000"
 			religion="catholic"
 			culture="arpitan"
 			government = feudal_government
@@ -58,8 +58,8 @@ bm_1309 = {
 		title_name = BM_cite_de_geneve
 		
 		character = {
-			dna = bcedirmbfcy
-			properties = aj00cc00000
+			dna="afddd0abb00"
+			properties="ce0igi00000000"
 			religion="catholic"
 			culture="arpitan"
 			government = merchant_republic_government
@@ -75,8 +75,8 @@ bm_1309 = {
 		title_name = BM_cite_de_geneve
 		
 		character = {
-			dna = bcblbhbbgal
-			properties = aj0aca000000
+			dna="abij00lebb0"
+			properties="lk00ac00000000"
 			religion="catholic"
 			culture="arpitan"
 			government = merchant_republic_government
@@ -91,8 +91,8 @@ bm_1309 = {
 		title_name = BM_cite_de_geneve
 		
 		character = {
-			dna = bcalahaagal
-			properties = aj0bba000000
+			dna="adkde0cfab0"
+			properties="0l0kde00000000"
 			religion="catholic"
 			culture="arpitan"
 			government = merchant_republic_government
@@ -107,8 +107,8 @@ bm_1309 = {
 		title_name = BM_cite_de_geneve
 		
 		character = {
-			dna = bcalachagal
-			properties = aj0aba000000
+			dna="0fcjb0hgbb0"
+			properties="mc0kdf00000000"
 			religion="catholic"
 			culture="arpitan"
 			government = merchant_republic_government
@@ -123,8 +123,8 @@ bm_1309 = {
 		title_name = BM_cite_de_geneve
 		
 		character = {
-			dna = bcalachcgal
-			properties = aj0bab000000
+			dna="bkgif0gac00"
+			properties="cf0gfc00000000"
 			religion="catholic"
 			culture="arpitan"
 			government = merchant_republic_government
