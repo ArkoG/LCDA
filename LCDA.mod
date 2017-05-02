@@ -1,7 +1,5 @@
 name = "-La Couronne des Alpes-" # name of your mod, shown in launcher
-path = "mod/LCDA" # location of your mod files 
-replace_path = "common/artifacts"
-replace_path = "common/artifact_spawns"
+path = "mod/LCDA" # location of your mod files
 replace_path = "common/dynasties"
 replace_path = "common/landed_titles"
 replace_path = "common/province_setup"
