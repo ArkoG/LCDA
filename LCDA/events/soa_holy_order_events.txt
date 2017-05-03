@@ -227,6 +227,7 @@ letter_event = {
 }
 
 # The Grand Master demands the right to build a castle in your demesne
+###in LCDA + L3T it will receive a commandry
 character_event = {
 	id = SoA.1020
 	
@@ -373,14 +374,31 @@ province_event = {
 			wealth = -300
 		}
 	}
-	
+#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-		build_holding = {
-		   type = castle
-		   holder = FROMFROM
-		}
+
+		trigger = { has_global_flag = running_L3T }
+		custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+			hidden_tooltip = {
+				build_holding = {
+					type = temple
+					holder = FROMFROM
+					set_title_flag = future_commanderie
+					}
+				FROMFROM = { character_event = { id = L3T.13 } }
+			}
 	}
+
+	option = {
+		name = EVTOPTA_SOA_1024
+		trigger= { NOT = { has_global_flag = running_L3T }}
+			build_holding = {
+			   type = castle
+			   holder = FROMFROM
+			}
+	}
+#LCDA
 }
 
 # The son of a ruler volunteers to join the Knights Templar
@@ -800,13 +818,31 @@ province_event = {
 		}
 	}
 	
+#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-		build_holding = {
-		   type = castle
-		   holder = FROMFROM
-		}
+
+		trigger = { has_global_flag = running_L3T }
+		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+			hidden_tooltip = {
+				build_holding = {
+					type = temple
+					holder = FROMFROM
+					set_title_flag = future_commanderie
+					}
+				owner = { character_event = { id = L3T.13 } }
+			}
 	}
+
+	option = {
+		name = EVTOPTA_SOA_1024
+		trigger= { NOT = { has_global_flag = running_L3T }}
+			build_holding = {
+			   type = castle
+			   holder = FROMFROM
+			}
+	}
+#LCDA
 }
 
 
@@ -1369,13 +1405,31 @@ province_event = {
 		}
 	}
 	
+#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-		build_holding = {
-		   type = castle
-		   holder = FROMFROM
-		}
+
+		trigger = { has_global_flag = running_L3T }
+		
+			hidden_tooltip = {
+				build_holding = {
+					type = temple
+					holder = FROMFROM
+					set_title_flag = future_commanderie
+					}
+				owner = { character_event = { id = L3T.13 } }
+			}
 	}
+
+	option = {
+		name = EVTOPTA_SOA_1024
+		trigger= { NOT = { has_global_flag = running_L3T }}
+			build_holding = {
+			   type = castle
+			   holder = FROMFROM
+			}
+	}
+#LCDA
 }
 
 ########################################
@@ -1554,7 +1608,38 @@ narrative_event = {
 		
 		OR = {
 			year = 1228	# Historical
-			
+
+#LCDA			
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				693 = { # Baghdad
+					NOT = { owner = { religion_group = muslim } }
+				}
+			}
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				728 = { # Damascus
+					NOT = { owner = { religion_group = muslim } }
+				}
+			}
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				796 = { # Cairo
+					NOT = { owner = { religion_group = muslim } }
+				}
+			}
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				774 = { # Jerusalem
+					NOT = { owner = { religion_group = muslim } }
+				}
+			}
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				719 = { # Mecca
+					NOT = { owner = { religion_group = muslim } }
+				}
+			}
 #LCDA
 		}
 	}
@@ -2720,13 +2805,31 @@ province_event = {
 		}
 	}
 	
+#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-		build_holding = {
-		   type = castle
-		   holder = FROMFROM
-		}
+
+		trigger = { has_global_flag = running_L3T }
+		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+			hidden_tooltip = {
+				build_holding = {
+					type = temple
+					holder = FROMFROM
+					set_title_flag = future_commanderie
+					}
+				owner = { character_event = { id = L3T.13 } }
+			}
 	}
+
+	option = {
+		name = EVTOPTA_SOA_1024
+		trigger= { NOT = { has_global_flag = running_L3T }}
+			build_holding = {
+			   type = castle
+			   holder = FROMFROM
+			}
+	}
+#LCDA
 }
 
 ########################################
@@ -4674,13 +4777,31 @@ province_event = {
 		}
 	}
 	
+#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-		build_holding = {
-		   type = castle
-		   holder = FROMFROM
-		}
+
+		trigger = { has_global_flag = running_L3T }
+		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+			hidden_tooltip = {
+				build_holding = {
+					type = temple
+					holder = FROMFROM
+					set_title_flag = future_commanderie
+					}
+				owner = { character_event = { id = L3T.13 } }
+			}
 	}
+
+	option = {
+		name = EVTOPTA_SOA_1024
+		trigger= { NOT = { has_global_flag = running_L3T }}
+			build_holding = {
+			   type = castle
+			   holder = FROMFROM
+			}
+	}
+#LCDA
 }
 
 # Ping event when expelling the Brotherhood
@@ -5328,13 +5449,31 @@ province_event = {
 		}
 	}
 	
+#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-		build_holding = {
-		   type = castle
-		   holder = FROMFROM
-		}
+
+		trigger = { has_global_flag = running_L3T }
+		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+			hidden_tooltip = {
+				build_holding = {
+					type = temple
+					holder = FROMFROM
+					set_title_flag = future_commanderie
+					}
+				owner = { character_event = { id = L3T.13 } }
+			}
 	}
+
+	option = {
+		name = EVTOPTA_SOA_1024
+		trigger= { NOT = { has_global_flag = running_L3T }}
+			build_holding = {
+			   type = castle
+			   holder = FROMFROM
+			}
+	}
+#LCDA
 }
 
 # Ping event when expelling the Order
@@ -10888,13 +11027,31 @@ province_event = {
 		}
 	}
 	
+#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-		build_holding = {
-		   type = castle
-		   holder = FROMFROM
-		}
+
+		trigger = { has_global_flag = running_L3T }
+		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+			hidden_tooltip = {
+				build_holding = {
+					type = temple
+					holder = FROMFROM
+					set_title_flag = future_commanderie
+					}
+				owner = { character_event = { id = L3T.13 } }
+			}
 	}
+
+	option = {
+		name = EVTOPTA_SOA_1024
+		trigger= { NOT = { has_global_flag = running_L3T }}
+			build_holding = {
+			   type = castle
+			   holder = FROMFROM
+			}
+	}
+#LCDA
 }
 
 # Ping event when expelling the Order
@@ -11554,13 +11711,31 @@ province_event = {
 		}
 	}
 	
+#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-		build_holding = {
-		   type = castle
-		   holder = FROMFROM
-		}
+
+		trigger = { has_global_flag = running_L3T }
+		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+			hidden_tooltip = {
+				build_holding = {
+					type = temple
+					holder = FROMFROM
+					set_title_flag = future_commanderie
+					}
+				owner = { character_event = { id = L3T.13 } }
+			}
 	}
+
+	option = {
+		name = EVTOPTA_SOA_1024
+		trigger= { NOT = { has_global_flag = running_L3T }}
+			build_holding = {
+			   type = castle
+			   holder = FROMFROM
+			}
+	}
+#LCDA
 }
 
 # Ping event when expelling the Order
@@ -12201,13 +12376,31 @@ province_event = {
 		}
 	}
 	
+#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-		build_holding = {
-		   type = castle
-		   holder = FROMFROM
-		}
+
+		trigger = { has_global_flag = running_L3T }
+		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+			hidden_tooltip = {
+				build_holding = {
+					type = temple
+					holder = FROMFROM
+					set_title_flag = future_commanderie
+					}
+				owner = { character_event = { id = L3T.13 } }
+			}
 	}
+
+	option = {
+		name = EVTOPTA_SOA_1024
+		trigger= { NOT = { has_global_flag = running_L3T }}
+			build_holding = {
+			   type = castle
+			   holder = FROMFROM
+			}
+	}
+#LCDA
 }
 
 # Ping event when expelling the Order
