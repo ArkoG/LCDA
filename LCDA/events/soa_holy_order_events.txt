@@ -4220,9 +4220,7 @@ narrative_event = {
 	religion_group = christian
 	
 	trigger = {
-#LCDA
-		is_heretic = no
-			
+		year = 333 #LCDA	
 		NOT = {
 			is_title_active = d_holy_sepulchre
 		}
@@ -4864,10 +4862,11 @@ narrative_event = {
 	
 	only_playable = yes
 	religion_group = christian
-	
+
 	trigger = {
 		OR = {
 			AND = {
+				NOT = { has_global_flag = running_LCDA }#LCDA
 				875 = { # Aksum is Miaphysite-controlled
 					holder_scope = { religion = miaphysite }
 					religion = miaphysite 
@@ -4883,6 +4882,7 @@ narrative_event = {
 				religion = miaphysite
 			}
 			AND = {
+				NOT = { has_global_flag = running_LCDA }#LCDA
 				875 = { # Aksum is monophysite-controlled
 					holder_scope = { religion = monophysite }
 					religion = monophysite 
@@ -5444,30 +5444,13 @@ province_event = {
 		}
 	}
 	
-#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-
-		trigger = { has_global_flag = running_L3T }
-		custom_tooltip = { text = construction_commanderie }
-			hidden_tooltip = {
-				build_holding = {
-					type = temple
-					holder = FROMFROM
-					}
-				owner = { character_event = { id = L3T.13 } }
-			}
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
 	}
-
-	option = {
-		name = EVTOPTA_SOA_1024
-		trigger= { NOT = { has_global_flag = running_L3T }}
-			build_holding = {
-			   type = castle
-			   holder = FROMFROM
-			}
-	}
-#LCDA
 }
 
 # Ping event when expelling the Order
@@ -10448,23 +10431,41 @@ narrative_event = {
 		
 		OR = {
 			year = 1175	# Historical
-			221 = { # Provence
-				NOT = { owner = { religion_group = christian } }
+			AND = {
+				NOT = { has_global_flag = running_LCDA }			
+				221 = { # Provence
+					NOT = { owner = { religion_group = christian } }
+				}
 			}
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
 			214 = { # Toulouse
-				NOT = { owner = { religion_group = christian } }
+					NOT = { owner = { religion_group = christian } }
+				}
 			}
-			112 = { # Paris
-				NOT = { owner = { religion_group = christian } }
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				112 = { # Paris
+					NOT = { owner = { religion_group = christian } }
+				}
 			}
-			119 = { # Cologne
-				NOT = { owner = { religion_group = christian } }
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				119 = { # Cologne
+					NOT = { owner = { religion_group = christian } }
+				}
 			}
-			257 = { # Braunschweig
-				NOT = { owner = { religion_group = christian } }
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				257 = { # Braunschweig
+					NOT = { owner = { religion_group = christian } }
+				}
 			}
-			149 = { # Bordeaux
-				NOT = { owner = { religion_group = christian } }
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				149 = { # Bordeaux
+					NOT = { owner = { religion_group = christian } }
+				}
 			}
 		}
 	}
@@ -11130,26 +11131,46 @@ narrative_event = {
 		
 		OR = {
 			year = 1164	# Historical
-			221 = { # Provence
-				NOT = { owner = { religion_group = christian } }
+#LCDA			
+			AND = {
+				NOT = { has_global_flag = running_LCDA }			
+				221 = { # Provence
+					NOT = { owner = { religion_group = christian } }
+				}
 			}
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
 			214 = { # Toulouse
-				NOT = { owner = { religion_group = christian } }
+					NOT = { owner = { religion_group = christian } }
+				}
 			}
-			112 = { # Paris
-				NOT = { owner = { religion_group = christian } }
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				112 = { # Paris
+					NOT = { owner = { religion_group = christian } }
+				}
 			}
-			119 = { # Cologne
-				NOT = { owner = { religion_group = christian } }
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				119 = { # Cologne
+					NOT = { owner = { religion_group = christian } }
+				}
 			}
-			257 = { # Braunschweig
-				NOT = { owner = { religion_group = christian } }
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				257 = { # Braunschweig
+					NOT = { owner = { religion_group = christian } }
+				}
 			}
-			149 = { # Bordeaux
-				NOT = { owner = { religion_group = christian } }
+			AND = {
+				NOT = { has_global_flag = running_LCDA }
+				149 = { # Bordeaux
+					NOT = { owner = { religion_group = christian } }
+				}
 			}
 		}
 	}
+#LCDA
 	
 	mean_time_to_happen = {
 		months = 36
@@ -12368,30 +12389,13 @@ province_event = {
 		}
 	}
 	
-#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-
-		trigger = { has_global_flag = running_L3T }
-		custom_tooltip = { text = construction_commanderie }
-			hidden_tooltip = {
-				build_holding = {
-					type = temple
-					holder = FROMFROM
-					}
-				owner = { character_event = { id = L3T.13 } }
-			}
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
 	}
-
-	option = {
-		name = EVTOPTA_SOA_1024
-		trigger= { NOT = { has_global_flag = running_L3T }}
-			build_holding = {
-			   type = castle
-			   holder = FROMFROM
-			}
-	}
-#LCDA
 }
 
 # Ping event when expelling the Order
