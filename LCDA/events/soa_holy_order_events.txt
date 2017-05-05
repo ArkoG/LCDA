@@ -384,7 +384,6 @@ province_event = {
 				build_holding = {
 					type = temple
 					holder = FROMFROM
-					set_title_flag = future_commanderie
 					}
 				FROMFROM = { character_event = { id = L3T.13 } }
 			}
@@ -823,12 +822,11 @@ province_event = {
 		name = EVTOPTA_SOA_1024
 
 		trigger = { has_global_flag = running_L3T }
-		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+		custom_tooltip = { text = construction_commanderie }
 			hidden_tooltip = {
 				build_holding = {
 					type = temple
 					holder = FROMFROM
-					set_title_flag = future_commanderie
 					}
 				owner = { character_event = { id = L3T.13 } }
 			}
@@ -1415,7 +1413,6 @@ province_event = {
 				build_holding = {
 					type = temple
 					holder = FROMFROM
-					set_title_flag = future_commanderie
 					}
 				owner = { character_event = { id = L3T.13 } }
 			}
@@ -2810,12 +2807,11 @@ province_event = {
 		name = EVTOPTA_SOA_1024
 
 		trigger = { has_global_flag = running_L3T }
-		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+		custom_tooltip = { text = construction_commanderie }
 			hidden_tooltip = {
 				build_holding = {
 					type = temple
 					holder = FROMFROM
-					set_title_flag = future_commanderie
 					}
 				owner = { character_event = { id = L3T.13 } }
 			}
@@ -4782,12 +4778,11 @@ province_event = {
 		name = EVTOPTA_SOA_1024
 
 		trigger = { has_global_flag = running_L3T }
-		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+		custom_tooltip = { text = construction_commanderie }
 			hidden_tooltip = {
 				build_holding = {
 					type = temple
 					holder = FROMFROM
-					set_title_flag = future_commanderie
 					}
 				owner = { character_event = { id = L3T.13 } }
 			}
@@ -5454,12 +5449,11 @@ province_event = {
 		name = EVTOPTA_SOA_1024
 
 		trigger = { has_global_flag = running_L3T }
-		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+		custom_tooltip = { text = construction_commanderie }
 			hidden_tooltip = {
 				build_holding = {
 					type = temple
 					holder = FROMFROM
-					set_title_flag = future_commanderie
 					}
 				owner = { character_event = { id = L3T.13 } }
 			}
@@ -11032,12 +11026,11 @@ province_event = {
 		name = EVTOPTA_SOA_1024
 
 		trigger = { has_global_flag = running_L3T }
-		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+		custom_tooltip = { text = construction_commanderie }
 			hidden_tooltip = {
 				build_holding = {
 					type = temple
 					holder = FROMFROM
-					set_title_flag = future_commanderie
 					}
 				owner = { character_event = { id = L3T.13 } }
 			}
@@ -11716,12 +11709,11 @@ province_event = {
 		name = EVTOPTA_SOA_1024
 
 		trigger = { has_global_flag = running_L3T }
-		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+		custom_tooltip = { text = construction_commanderie }
 			hidden_tooltip = {
 				build_holding = {
 					type = temple
 					holder = FROMFROM
-					set_title_flag = future_commanderie
 					}
 				owner = { character_event = { id = L3T.13 } }
 			}
@@ -12381,12 +12373,11 @@ province_event = {
 		name = EVTOPTA_SOA_1024
 
 		trigger = { has_global_flag = running_L3T }
-		#custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
+		custom_tooltip = { text = construction_commanderie }
 			hidden_tooltip = {
 				build_holding = {
 					type = temple
 					holder = FROMFROM
-					set_title_flag = future_commanderie
 					}
 				owner = { character_event = { id = L3T.13 } }
 			}
