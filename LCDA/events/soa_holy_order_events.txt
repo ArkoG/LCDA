@@ -227,7 +227,6 @@ letter_event = {
 }
 
 # The Grand Master demands the right to build a castle in your demesne
-###in LCDA + L3T it will receive a commandry
 character_event = {
 	id = SoA.1020
 	
@@ -374,30 +373,14 @@ province_event = {
 			wealth = -300
 		}
 	}
-#LCDA
+	
 	option = {
 		name = EVTOPTA_SOA_1024
-
-		trigger = { has_global_flag = running_L3T }
-		custom_tooltip = { text = construction_commanderie } # ++++le modifier de holding qui va bien
-			hidden_tooltip = {
-				build_holding = {
-					type = temple
-					holder = FROMFROM
-					}
-				FROMFROM = { character_event = { id = L3T.13 } }
-			}
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
 	}
-
-	option = {
-		name = EVTOPTA_SOA_1024
-		trigger= { NOT = { has_global_flag = running_L3T }}
-			build_holding = {
-			   type = castle
-			   holder = FROMFROM
-			}
-	}
-#LCDA
 }
 
 # The son of a ruler volunteers to join the Knights Templar
@@ -817,30 +800,13 @@ province_event = {
 		}
 	}
 	
-#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-
-		trigger = { has_global_flag = running_L3T }
-		custom_tooltip = { text = construction_commanderie }
-			hidden_tooltip = {
-				build_holding = {
-					type = temple
-					holder = FROMFROM
-					}
-				owner = { character_event = { id = L3T.13 } }
-			}
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
 	}
-
-	option = {
-		name = EVTOPTA_SOA_1024
-		trigger= { NOT = { has_global_flag = running_L3T }}
-			build_holding = {
-			   type = castle
-			   holder = FROMFROM
-			}
-	}
-#LCDA
 }
 
 
@@ -1403,30 +1369,13 @@ province_event = {
 		}
 	}
 	
-#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-
-		trigger = { has_global_flag = running_L3T }
-		
-			hidden_tooltip = {
-				build_holding = {
-					type = temple
-					holder = FROMFROM
-					}
-				owner = { character_event = { id = L3T.13 } }
-			}
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
 	}
-
-	option = {
-		name = EVTOPTA_SOA_1024
-		trigger= { NOT = { has_global_flag = running_L3T }}
-			build_holding = {
-			   type = castle
-			   holder = FROMFROM
-			}
-	}
-#LCDA
 }
 
 ########################################
@@ -1602,39 +1551,14 @@ narrative_event = {
 			is_title_active = d_bektashi
 		}
 		
-		
 		OR = {
 			year = 1228	# Historical
-
-#LCDA			
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				693 = { # Baghdad
-					NOT = { owner = { religion_group = muslim } }
-				}
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				728 = { # Damascus
-					NOT = { owner = { religion_group = muslim } }
-				}
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				796 = { # Cairo
-					NOT = { owner = { religion_group = muslim } }
-				}
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				774 = { # Jerusalem
-					NOT = { owner = { religion_group = muslim } }
-				}
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				719 = { # Mecca
-					NOT = { owner = { religion_group = muslim } }
+#LCDA
+			any_realm_province = {
+				NOT = {
+					religion = sunni
+					religion = zikri
+					religion = yazidi
 				}
 			}
 #LCDA
@@ -2802,30 +2726,13 @@ province_event = {
 		}
 	}
 	
-#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-
-		trigger = { has_global_flag = running_L3T }
-		custom_tooltip = { text = construction_commanderie }
-			hidden_tooltip = {
-				build_holding = {
-					type = temple
-					holder = FROMFROM
-					}
-				owner = { character_event = { id = L3T.13 } }
-			}
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
 	}
-
-	option = {
-		name = EVTOPTA_SOA_1024
-		trigger= { NOT = { has_global_flag = running_L3T }}
-			build_holding = {
-			   type = castle
-			   holder = FROMFROM
-			}
-	}
-#LCDA
 }
 
 ########################################
@@ -4221,14 +4128,22 @@ narrative_event = {
 	
 	trigger = {
 #LCDA
-		OR = { 
-			is_title_active = d_sunni
-			is_title_active = d_shiite
+		any_realm_province = {
+			region = world_middle_east_jerusalem
+			OR = {
+				religion = orthodox
+				religion = bogomilist
+				religion = monothelite
+				religion = iconoclast
+				religion = paulician
+			}
 		}
-#LCDA
+		is_heretic = no
+			
 		NOT = {
 			is_title_active = d_holy_sepulchre
 		}
+#LCDA
 	}
 	
 	mean_time_to_happen = {
@@ -4776,30 +4691,13 @@ province_event = {
 		}
 	}
 	
-#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-
-		trigger = { has_global_flag = running_L3T }
-		custom_tooltip = { text = construction_commanderie }
-			hidden_tooltip = {
-				build_holding = {
-					type = temple
-					holder = FROMFROM
-					}
-				owner = { character_event = { id = L3T.13 } }
-			}
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
 	}
-
-	option = {
-		name = EVTOPTA_SOA_1024
-		trigger= { NOT = { has_global_flag = running_L3T }}
-			build_holding = {
-			   type = castle
-			   holder = FROMFROM
-			}
-	}
-#LCDA
 }
 
 # Ping event when expelling the Brotherhood
@@ -4867,42 +4765,18 @@ narrative_event = {
 	
 	only_playable = yes
 	religion_group = christian
-
+	
 	trigger = {
-		OR = {
-			AND = {
-				NOT = { has_global_flag = running_LCDA }#LCDA
-				875 = { # Aksum is Miaphysite-controlled
-					holder_scope = { religion = miaphysite }
-					religion = miaphysite 
-				}
-				793 = { # Makuria is Miaphysite-controlled
-					holder_scope = { religion = miaphysite }
-					religion = miaphysite 
-				}
-				802 = { # Alexandria is Miaphysite-controlled
-					holder_scope = { religion = miaphysite }
-					religion = miaphysite 
-				}
+#LCDA
+		any_realm_province = {
+			region = world_africa_east
+			OR = {
 				religion = miaphysite
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }#LCDA
-				875 = { # Aksum is monophysite-controlled
-					holder_scope = { religion = monophysite }
-					religion = monophysite 
-				}
-				793 = { # Makuria is monophysite-controlled
-					holder_scope = { religion = monophysite }
-					religion = monophysite 
-				}
-				802 = { # Alexandria is monophysite-controlled
-					holder_scope = { religion = monophysite }
-					religion = monophysite 
-				}
 				religion = monophysite
+				religion = monothelite
 			}
 		}
+#LCDA
 		is_heretic = no
 		
 		NOT = {
@@ -10436,42 +10310,12 @@ narrative_event = {
 		
 		OR = {
 			year = 1175	# Historical
-			AND = {
-				NOT = { has_global_flag = running_LCDA }			
-				221 = { # Provence
-					NOT = { owner = { religion_group = christian } }
-				}
+#LCDA
+			any_realm_province = {
+				region = world_europe_west_iberia
+				NOT =  { religion_group = christian }
 			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-			214 = { # Toulouse
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				112 = { # Paris
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				119 = { # Cologne
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				257 = { # Braunschweig
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				149 = { # Bordeaux
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
+#LCDA
 		}
 	}
 	
@@ -11027,30 +10871,13 @@ province_event = {
 		}
 	}
 	
-#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-
-		trigger = { has_global_flag = running_L3T }
-		custom_tooltip = { text = construction_commanderie }
-			hidden_tooltip = {
-				build_holding = {
-					type = temple
-					holder = FROMFROM
-					}
-				owner = { character_event = { id = L3T.13 } }
-			}
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
 	}
-
-	option = {
-		name = EVTOPTA_SOA_1024
-		trigger= { NOT = { has_global_flag = running_L3T }}
-			build_holding = {
-			   type = castle
-			   holder = FROMFROM
-			}
-	}
-#LCDA
 }
 
 # Ping event when expelling the Order
@@ -11136,46 +10963,14 @@ narrative_event = {
 		
 		OR = {
 			year = 1164	# Historical
-#LCDA			
-			AND = {
-				NOT = { has_global_flag = running_LCDA }			
-				221 = { # Provence
-					NOT = { owner = { religion_group = christian } }
-				}
+#LCDA
+			any_realm_province = {
+				region = world_europe_west_iberia
+				NOT =  { religion_group = christian }
 			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-			214 = { # Toulouse
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				112 = { # Paris
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				119 = { # Cologne
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				257 = { # Braunschweig
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
-			AND = {
-				NOT = { has_global_flag = running_LCDA }
-				149 = { # Bordeaux
-					NOT = { owner = { religion_group = christian } }
-				}
-			}
+#LCDA
 		}
 	}
-#LCDA
 	
 	mean_time_to_happen = {
 		months = 36
@@ -11730,30 +11525,13 @@ province_event = {
 		}
 	}
 	
-#LCDA
 	option = {
 		name = EVTOPTA_SOA_1024
-
-		trigger = { has_global_flag = running_L3T }
-		custom_tooltip = { text = construction_commanderie }
-			hidden_tooltip = {
-				build_holding = {
-					type = temple
-					holder = FROMFROM
-					}
-				owner = { character_event = { id = L3T.13 } }
-			}
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
 	}
-
-	option = {
-		name = EVTOPTA_SOA_1024
-		trigger= { NOT = { has_global_flag = running_L3T }}
-			build_holding = {
-			   type = castle
-			   holder = FROMFROM
-			}
-	}
-#LCDA
 }
 
 # Ping event when expelling the Order
@@ -11835,17 +11613,25 @@ narrative_event = {
 		is_heretic = no
 		
 		NOT = { is_title_active = d_saint_addai }
-		
-		OR = {
-			AND = {
-				religion = nestorian
+
 #LCDA
+		AND = {
+			any_realm_province = {
+				region = world_middle_east_arabia
+				OR =  { 
+					religion = nestorian
+					religion = messalian
+				}
 			}
-			AND = {
-				religion = messalian
-#LCDA
+			any_realm_province = {
+				region = world_middle_east_jerusalem
+				OR =  { 
+					religion = nestorian
+					religion = messalian
+				}
 			}
 		}
+#LCDA		
 	}
 	
 	mean_time_to_happen = {
