@@ -4754,26 +4754,7 @@ narrative_event = {
 	
 	mean_time_to_happen = {
 		months = 1800
-		modifier = {
-			factor = 0.25
-			OR = {
-				c_cairo = {
-					holder_scope = {
-						same_realm = ROOT
-					}
-				}
-				c_damascus = {
-					holder_scope = {
-						same_realm = ROOT
-					}
-				}
-				c_tunis = {
-					holder_scope = {
-						same_realm = ROOT
-					}
-				}
-			}
-		}
+#LCDA
 		modifier = {
 			factor = 0.5
 			decadence = 90
@@ -5303,12 +5284,14 @@ narrative_event = {
 	
 	trigger = {
 		controls_religion = yes
-		year = 1090
-		
+		OR = {		
+			year = 1090
+			has_global_flag = muslim_jihads_unlocked 
+		}
 #		774 = { # Jerusalem
 #			NOT = { owner = { religion_group = christian } }
 #		}
-		
+#LCDA
 		NOT = { has_global_flag = christian_crusades_unlocked }
 	}
 	
@@ -5336,159 +5319,11 @@ narrative_event = {
 }
 
 # THE START OF THE CHRISTIAN CRUSADES - BYZANTIUM FAILING
-narrative_event = {
-	id = 39661
-	title = EVTNAME39660
-	desc = EVTDESC39661
-	picture = GFX_evt_hagia_sofia
-	border = GFX_event_narrative_frame_religion
-	
-	major = yes
-	
-	show_ROOT = yes
-	hide_new = yes
-	
-	only_playable = yes
-	min_age = 16
-	only_men = yes
-	religion = catholic
-	
-	trigger = {
-		year = 900
-		controls_religion = yes
-		NOT = { has_global_flag = christian_crusades_unlocked }
-		
-#LCDA	
-	}
-	
-	mean_time_to_happen = {
-		months = 3
-	}
-	
-	immediate = {
-		set_global_flag = christian_crusades_unlocked
-	}
-	
-	option = {
-		name = EVTOPTA39660
-		trigger = {
-			religion_group = christian
-		}
-	}
-	
-	option = {
-		name = EVTOPTB39660
-		trigger = {
-			NOT = { religion_group = christian }
-		}
-	}
-}
-
-# THE START OF THE CHRISTIAN CRUSADES - ROME HAS FALLEN
-narrative_event = {
-	id = 39662
-	title = EVTNAME39660
-	desc = EVTDESC39662
-	picture = GFX_evt_pope
-	border = GFX_event_narrative_frame_religion
-	
-	major = yes
-	
-	show_ROOT = yes
-	hide_new = yes
-	
-	only_playable = yes
-	min_age = 16
-	only_men = yes
-	religion = catholic
-	
-	trigger = {
-		year = 900
-		controls_religion = yes
-		NOT = { has_global_flag = christian_crusades_unlocked }
-		
-#LCDA		333 = { # Rome
-#			owner = {
-#				OR = {
-#					NOT = { religion_group = christian }
-#					is_heretic = yes
-#				}
-#			}
-#LCDA		}
-	}
-	
-	mean_time_to_happen = {
-		months = 3
-	}
-	
-	immediate = {
-		set_global_flag = christian_crusades_unlocked
-	}
-	
-	option = {
-		name = EVTOPTA39660
-		trigger = {
-			religion_group = christian
-		}
-	}
-	
-	option = {
-		name = EVTOPTB39660
-		trigger = {
-			NOT = { religion_group = christian }
-		}
-	}
-}
-
-# THE START OF THE CHRISTIAN CRUSADES - EUROPE
-narrative_event = {
-	id = 39663
-	title = EVTNAME39660
-	desc = EVTDESC39663
-	picture = GFX_evt_crusaders
-	border = GFX_event_narrative_frame_religion
-	
-	major = yes
-	
-	show_ROOT = yes
-	hide_new = yes
-	
-	only_playable = yes
-	min_age = 16
-	only_men = yes
-	religion = catholic
-	
-	trigger = {
-		year = 900
-		controls_religion = yes
-		NOT = { has_global_flag = christian_crusades_unlocked }
-		
 #LCDA
-	}
-	
-	mean_time_to_happen = {
-		months = 3
-	}
-	
-	immediate = {
-		set_global_flag = christian_crusades_unlocked
-	}
-	
-	option = {
-		name = EVTOPTA39660
-		trigger = {
-			religion_group = christian
-		}
-	}
-	
-	option = {
-		name = EVTOPTB39660
-		trigger = {
-			NOT = { religion_group = christian }
-		}
-	}
-}
-
+# THE START OF THE CHRISTIAN CRUSADES - ROME HAS FALLEN
+#LCDA
+# THE START OF THE CHRISTIAN CRUSADES - EUROPE
+#LCDA
 # THE START OF MUSLIM JIHADS - 1187 IF THERE IS STILL A CALIPH
 narrative_event = {
 	id = 39670
@@ -5554,12 +5389,16 @@ narrative_event = {
 	religion_group = muslim
 	
 	trigger = {
-		year = 900
+		OR = {
+			year = 900
+			has_global_flag = christian_crusades_unlocked
+		}
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
 #LCDA			774 = { # Jerusalem
 #			NOT = { owner = { religion_group = muslim } }
 #		}
+
 	}
 	
 	mean_time_to_happen = {
@@ -5586,226 +5425,13 @@ narrative_event = {
 }
 
 # THE START OF MUSLIM JIHADS - MECCA HAS FALLEN
-narrative_event = {
-	id = 39672
-	title = EVTNAME39670
-	desc = EVTDESC39672
-	picture = GFX_evt_mecca_falls_soa
-	border = GFX_event_narrative_frame_religion
-	
-	major = yes
-	
-	show_ROOT = yes
-	hide_new = yes
-	
-	only_playable = yes
-	min_age = 16
-	religion_group = muslim
-	
-	trigger = {
-		year = 900
-		controls_religion = yes
-		NOT = { has_global_flag = muslim_jihads_unlocked }
-#LCDA		719 = { # Mecca
-#			NOT = { owner = { religion_group = muslim } }
-#		}
-	}
-	
-	mean_time_to_happen = {
-		months = 3
-	}
-	
-	immediate = {
-		set_global_flag = muslim_jihads_unlocked
-	}
-	
-	option = {
-		name = EVTOPTA39670
-		trigger = {
-			religion_group = muslim
-		}
-	}
-	
-	option = {
-		name = EVTOPTB39670
-		trigger = {
-			NOT = { religion_group = muslim }
-		}
-	}
-}
-
+#LCDA
 # THE START OF MUSLIM JIHADS - THE CENTER CANNOT HOLD
-narrative_event = {
-	id = 39673
-	title = EVTNAME39670
-	desc = EVTDESC39673
-	picture = GFX_evt_moors
-	border = GFX_event_narrative_frame_religion
-	
-	major = yes
-	
-	show_ROOT = yes
-	hide_new = yes
-	
-	only_playable = yes
-	min_age = 16
-	religion_group = muslim
-	
-	trigger = {
-		year = 900
-		controls_religion = yes
-		NOT = { has_global_flag = muslim_jihads_unlocked }
-#LCDA		OR = {
-#			693 = { # Baghdad
-#				NOT = { owner = { religion_group = muslim } }
-#			}
-#			728 = { # Damascus
-#				NOT = { owner = { religion_group = muslim } }
-#			}
-#			796 = { # Cairo
-#				NOT = { owner = { religion_group = muslim } }
-#			}
-#LCDA		}
-	}
-	
-	mean_time_to_happen = {
-		months = 3
-	}
-	
-	immediate = {
-		set_global_flag = muslim_jihads_unlocked
-	}
-	
-	option = {
-		name = EVTOPTA39670
-		trigger = {
-			religion_group = muslim
-		}
-	}
-	
-	option = {
-		name = EVTOPTB39670
-		trigger = {
-			NOT = { religion_group = muslim }
-		}
-	}
-}
-
+#LCDA
 # THE START OF MUSLIM JIHADS - AFRICA UNDER THREAT
-narrative_event = {
-	id = 39674
-	title = EVTNAME39670
-	desc = EVTDESC39674
-	picture = GFX_evt_desert
-	border = GFX_event_narrative_frame_religion
-	
-	major = yes
-	
-	show_ROOT = yes
-	hide_new = yes
-	
-	only_playable = yes
-	min_age = 16
-	religion_group = muslim
-	
-	trigger = {
-		year = 1000
-		controls_religion = yes
-		NOT = { has_global_flag = muslim_jihads_unlocked }
-#LCDA		OR = {
-#			843 = { # Marrakesh
-#				NOT = { owner = { religion_group = muslim } }
-#			}
-#			817 = { # Tunis
-#				NOT = { owner = { religion_group = muslim } }
-#			}
-#			831 = { # Al Djazair
-#				NOT = { owner = { religion_group = muslim } }
-#			}
-#LCDA		}
-	}
-	
-	mean_time_to_happen = {
-		months = 3
-	}
-	
-	immediate = {
-		set_global_flag = muslim_jihads_unlocked
-	}
-	
-	option = {
-		name = EVTOPTA39670
-		trigger = {
-			religion_group = muslim
-		}
-	}
-	
-	option = {
-		name = EVTOPTB39670
-		trigger = {
-			NOT = { religion_group = muslim }
-		}
-	}
-}
-
+#LCDA
 # THE START OF PAGAN GREAT HOLY WARS - AFTER THE ABRAHAMICS
-narrative_event = {
-	id = 39680
-	title = EVTNAME39680
-	desc = EVTDESC39680
-	picture = GFX_evt_midwinter_blot_oldgods
-	border = GFX_event_narrative_frame_religion
-	
-	major = yes
-	
-	show_ROOT = yes
-	hide_new = yes
-	
-	only_playable = yes
-	min_age = 16
-	religion_group = pagan_group
-	
-	trigger = {
-		controls_religion = yes
-		
-		NOT = { has_global_flag = pagan_ghws_unlocked }
-		
-		OR = {
-			has_global_flag = muslim_jihads_unlocked
-			has_global_flag = christian_crusades_unlocked
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 120
-	}
-	
-	immediate = {
-		set_global_flag = pagan_ghws_unlocked
-	}
-	
-	option = {
-		name = EVTOPTA39680
-		trigger = {
-			religion = ROOT
-		}
-	}
-	
-	option = {
-		name = EVTOPTB39680
-		trigger = {
-			religion_group = pagan_group
-			NOT = { religion = ROOT }
-		}
-	}
-	
-	option = {
-		name = EVTOPTC39680
-		trigger = {
-			NOT = { religion_group = pagan_group }
-		}
-	}
-}
+#LCDA who cares ?
 
 # Vassal accepts religious conversion demand. 
 # Fired from 'on_vassal_accepts_religious_conversion'
