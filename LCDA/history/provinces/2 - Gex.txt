@@ -19,7 +19,7 @@ b_gex3 = city
 # Misc
 culture = arpitan
 religion = catholic
-terrain = forest
+terrain = mountain
 
 # History
 
