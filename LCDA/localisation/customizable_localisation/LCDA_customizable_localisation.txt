@@ -35,51 +35,34 @@ defined_text = {
 }
 ###PASS DESC###
 defined_text = {
-#	name = GetPassDescA
 	name = GetPassDesc
 	
 	text = {
 		localisation_key = col_minor_descA
-		#trigger = { has_province_modifier = minor_pass }
 	}
 	text = {
 		localisation_key = col_major_descA
-		#trigger = { has_province_modifier = great_pass }
 	}
-#}
-#defined_text = {
-#	name = GetPassDescB
 
 	text = {
 		localisation_key = col_minor_descB
-		#trigger = { has_province_modifier = minor_pass }
 	}
 	text = {
 		localisation_key = col_major_descB
-		#trigger = { has_province_modifier = great_pass }
 	}
-#}
-#defined_text = {
-#	name = GetPassDescC
+
 
 	text = {
 		localisation_key = col_minor_descC
-		#trigger = { has_province_modifier = minor_pass }
 	}
 	text = {
 		localisation_key = col_major_descC
-		#trigger = { has_province_modifier = great_pass }
 	}
-#}
-#defined_text = {
-#	name = GetPassDescD
 
 	text = {
 		localisation_key = col_minor_descD
-		#trigger = { has_province_modifier = minor_pass }
 	}
 	text = {
 		localisation_key = col_major_descD
-		#trigger = { has_province_modifier = great_pass }
 	}
 }
