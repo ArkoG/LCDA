@@ -1,9 +1,5 @@
 #;;x;;;;;;;;;;;;x
 #;;MODIFIEURS;;;;;;;;;;;;x
-great_pass;;Col Majeur;;;;;;;;;;;;x
-great_pass_desc;;Ce col est un des passages clé à travers les Alpes. S'en assurer le contrôle représente un avantage financier et stratégique non négligeable.;;;;;;;;;;;;;x
-minor_pass;;Col Mineur;;;;;;;;;;;;x
-minor_pass_desc;;Ce col, bien que d'importance moindre procure néanmoins quelques avantages non sans intérêts.;;;;;;;;;;;;x
 pont_fluvial;;Pont;;;;;;;;;;;;x
 pont_fluvial_desc;;Le pont qui enjambe cet important cours d'eau est un passsage obligé pour de nombreux marchands qui peut être mis à profit pour générer des revenus comfortables par une politique de prélèvement de droits de péages.;;;;;;;;;;;;x
 route_fluviale01;;Voie Commerciale Fluviale;;;;;;;;;;;;x
