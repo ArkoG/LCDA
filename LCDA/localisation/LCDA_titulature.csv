@@ -67,16 +67,16 @@ PORTIER_FOA;;Monseigneur;;;;;;;;;;;;x
 PORTIER_female;;Portier;;;;;;;;;;;;x
 PORTIER_title_ruler_consort;;Portier;;;;;;;;;;;x
 PORTIER_title_ruler_consort_female;;Portier;;;;;;;;;;;;x
-SECULAR_ARCHBISHOP;;Archevêque;;;;;;;;;;;;x
-SECULAR_ARCHBISHOP_OF;;Archidiocèse de;;;;;;;;;;;;x
-SECULAR_ARCHBISHOP_FOA;;Votre Éminence;;;;;;;;;;;;x
-SECULAR_BISHOP;;Evêque;;;;;;;;;;;;x
-SECULAR_BISHOP_OF;Diocèse de;Diocèse de;Diocèse de;;;;;;;;;;;x
-SECULAR_BISHOP_FOA;;Votre Éminence;;;;;;;;;;;;x
-ABBE_TERRITORIAL;;Abbé;;;;;;;;;;;;x
-ABBE_TERRITORIAL_OF;;Abbaye Territoriale de;;;;;;;;;;;;x
-ABBE_TERRITORIAL_FOA;;Mon Père;;;;;;;;;;;;x
-VICOMTE;;Vicomte;;;;;;;;;;;;x
-VICOMTE_female;;Vicomtesse;;;;;;;;;;;;x
-VICOMTE_FOA;;Votre seigneurie;;;;;;;;;;;;x
-VICOMTE_OF;;Vicomté de;;;;;;;;;;;;x
+SECULAR_ARCHBISHOP;Archbishop;Archevêque;;;;;;;;;;;;x
+SECULAR_ARCHBISHOP_OF;Archbishopric of;Archidiocèse de;;;;;;;;;;;;x
+SECULAR_ARCHBISHOP_FOA;Eminency;Votre Éminence;;;;;;;;;;;;x
+SECULAR_BISHOP;Bishop;Evêque;;;;;;;;;;;;x
+SECULAR_BISHOP_OF;Bishopric of;Diocèse de;Diocèse de;;;;;;;;;;;x
+SECULAR_BISHOP_FOA;Eminency;Votre Éminence;;;;;;;;;;;;x
+ABBE_TERRITORIAL;Abbot;Abbé;;;;;;;;;;;;x
+ABBE_TERRITORIAL_OF;Territorial abbey of;Abbaye Territoriale de;;;;;;;;;;;;x
+ABBE_TERRITORIAL_FOA;Father;Mon Père;;;;;;;;;;;;x
+VICOMTE;Viscount;Vicomte;;;;;;;;;;;;x
+VICOMTE_female;Viscountess;Vicomtesse;;;;;;;;;;;;x
+VICOMTE_FOA;My Lord;Votre seigneurie;;;;;;;;;;;;x
+VICOMTE_OF;My Lord;Vicomté de;;;;;;;;;;;;x
