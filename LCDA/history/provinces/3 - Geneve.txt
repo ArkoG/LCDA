@@ -24,3 +24,4 @@ religion = catholic
 
 #999.9.9 = {	b_geneve = ca_tpinit_1	}
 1309.1.1 = { capital = b_geneve3 }
+1309.1.1 = { b_geneve6 = city }

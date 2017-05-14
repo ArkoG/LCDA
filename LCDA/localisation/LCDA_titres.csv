@@ -1,11 +1,11 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 #;;;;;;;;;;;;;;x
 k_;;x;;;;;;;;;;;;x
-k__adj;; ;;;;;;;;;;;;x
+k_adj;; ;;;;;;;;;;;;x
 d_;;x;;;;;;;;;;;;x
-d__adj;; ;;;;;;;;;;;;x
+d_adj;; ;;;;;;;;;;;;x
 c_;;x;;;;;;;;;;;;x
-c__adj;; ;;;;;;;;;;;;x
+c_adj;; ;;;;;;;;;;;;x
 b_;;x;;;;;;;;;;;;x
 b_;;x;;;;;;;;;;;;x
 b_;;x;;;;;;;;;;;;x
@@ -17,98 +17,98 @@ world_alps;The Alps;Les Alpes;;;;;;;;;;;;x
 e_alps;Alpine crown;La Couronne des Alpes;;;;;;;;;;;;x
 e_alps_adj;alpine;alpine;;;;;;;;;;;;x
 #;;DUCHE DE SAVOIE;;;;;;;;;;;;x
-k_savoie;;Savoie;;;;;;;;;;;;x
+k_savoie;Savoie;Savoie;;;;;;;;;;;;x
 k_savoie_adj;;savoisienne;;;;;;;;;;;;x
 #;;COMTE DES EQUESTRES;;;;;;;;;;;;x
-d_equestres;;Equestres;;;;;;;;;;;;x
+d_equestres;Equestres;Equestres;;;;;;;;;;;;x
 d_equestres_adj;;;;;;;;;;;;;;x
 #;;seigneurie de NYON;;;;;;;;;;;;x
-c_nyon;;Nyon;;;;;;;;;;;;x
+c_nyon;Nyon;Nyon;;;;;;;;;;;;x
 c_nyon_adj;;;;;;;;;;;;;;x
-b_nyon1;;Nyon;;;;;;;;;;;;x
-b_nyon2;;Bonmont;;;;;;;;;;;;x
-b_nyon3;;Aubonne;;;;;;;;;;;;x
-b_nyon4;;Mont-le-Grand;;;;;;;;;;;;x
-b_nyon5;Oujon;;;;;;;;;;;;;x
-b_nyon6;;Saint-Cergues;;;;;;;;;;;;x
+b_nyon1;Nyon;Nyon;;;;;;;;;;;;x
+b_nyon2;Bonmont;Bonmont;;;;;;;;;;;;x
+b_nyon3;Aubonne;Aubonne;;;;;;;;;;;;x
+b_nyon4;Mont-le-Grand;Mont-le-Grand;;;;;;;;;;;;x
+b_nyon5;Oujon;Oujon;;;;;;;;;;;;x
+b_nyon6;Saint-Cergues;Saint-Cergues;;;;;;;;;;;;x
 #;;seigneurie de GEX;;;;;;;;;;;;x
-c_gex;;Gex;;;;;;;;;;;;x
-c_gex_adj;;;;;;;;;;;;;;x
-b_gex1;;Gex;;;;;;;;;;;;x
-b_gex2;;Saint-Genis;;;;;;;;;;;;x
-b_gex3;;Divonne;;;;;;;;;;;;x
-b_gex4;;Coppet;;;;;;;;;;;;x
-b_gex5;;Collonges;;;;;;;;;;;;x
-b_gex6;;Meyrin;;;;;;;;;;;;x
+c_gex;Gex;Gex;;;;;;;;;;;;x
+c_gex_adj;gessian;gessien;;;;;;;;;;;;x
+b_gex1;Gex;Gex;;;;;;;;;;;;x
+b_gex2;Saint-Genis;Saint-Genis;;;;;;;;;;;;x
+b_gex3;Divonne;Divonne;;;;;;;;;;;;x
+b_gex4;Coppet;Coppet;;;;;;;;;;;;x
+b_gex5;Collonges;Collonges;;;;;;;;;;;;x
+b_gex6;Meyrin;Meyrin;;;;;;;;;;;;x
 #;;seigneurie de GENÈVE;;;;;;;;;;;;x
-c_geneve;;Genève;;;;;;;;;;;;x
+c_geneve;Genève;Genève;;;;;;;;;;;;x
 c_geneve_adj;;genevoise;;;;;;;;;;;;x
-b_geneve1;;Genève;;;;;;;;;;;;x
-b_geneve2;;Genève;;;;;;;;;;;;x
-b_geneve3;;Genève;;;;;;;;;;;;x
-b_geneve4;;Ternier;;;;;;;;;;;;x
-b_geneve5;;Laconnex;;;;;;;;;;;;x
-b_geneve6;;Versoix;;;;;;;;;;;;x
+b_geneve1;Genève;Genève;;;;;;;;;;;;x
+b_geneve2;Genève;Genève;;;;;;;;;;;;x
+b_geneve3;Genève;Genève;;;;;;;;;;;;x
+b_geneve4;Ternier;Ternier;;;;;;;;;;;;x
+b_geneve5;Laconnex;Laconnex;;;;;;;;;;;;x
+b_geneve6;Versoix;Versoix;;;;;;;;;;;;x
 #;;COMTE DE CHABLAIS;;;;;;;;;;;;x
-d_chablais;;Chablais;;;;;;;;;;;;x
-d_chablais_adj;;chablaissienne;;;;;;;;;;;;x
+d_chablais;Chablais;Chablais;;;;;;;;;;;;x
+d_chablais_adj;captulensian;chablaissienne;;;;;;;;;;;;x
 #;;seigneurie de SAINT-MAURICE;;;;;;;;;;;;x		
-c_saintmaurice;;Saint-Maurice;;;;;;;;;;;;x
+c_saintmaurice;Saint-Maurice;Saint-Maurice;;;;;;;;;;;;x
 c_saintmaurice_adj;;;;;;;;;;;;;;x
-b_saintmaurice1;;Evionnaz;;;;;;;;;;;;x
-b_saintmaurice2;;Saint-Maurice;;;;;;;;;;;;x
-b_saintmaurice3;;Monthey;;;;;;;;;;;;x
-b_saintmaurice4;;Vouvry;;;;;;;;;;;;x
-b_saintmaurice5;;Meillerie;;;;;;;;;;;;x
-b_saintmaurice6;;Champéry;;;;;;;;;;;;x
+b_saintmaurice1;Evionnaz;Evionnaz;;;;;;;;;;;;x
+b_saintmaurice2;Saint-Maurice;Saint-Maurice;;;;;;;;;;;;x
+b_saintmaurice3;Monthey;Monthey;;;;;;;;;;;;x
+b_saintmaurice4;Vouvry;Vouvry;;;;;;;;;;;;x
+b_saintmaurice5;Meillerie;Meillerie;;;;;;;;;;;;x
+b_saintmaurice6;Champéry;Champéry;;;;;;;;;;;;x
 #;;seigneurie de THONON;;;;;;;;;;;;x
-c_thonon;;Thonon;;;;;;;;;;;;x
+c_thonon;Thonon;Thonon;;;;;;;;;;;;x
 c_thonon_adj;;;;;;;;;;;;;;x
-b_thonon1;;Ripaille;;;;;;;;;;;;x
-b_thonon2;;Filly;;;;;;;;;;;;x
-b_thonon3;;Thonon;;;;;;;;;;;;x
-b_thonon4;;Allinges;;;;;;;;;;;;x
-b_thonon5;;Corzent;;;;;;;;;;;;x
-b_thonon6;;Douvaine;;;;;;;;;;;;x
+b_thonon1;Ripaille;Ripaille;;;;;;;;;;;;x
+b_thonon2;Filly;Filly;;;;;;;;;;;;x
+b_thonon3;Thonon;Thonon;;;;;;;;;;;;x
+b_thonon4;Allinges;Allinges;;;;;;;;;;;;x
+b_thonon5;Corzent;Corzent;;;;;;;;;;;;x
+b_thonon6;Douvaine;Douvaine;;;;;;;;;;;;x
 #;;seigneurie d'ABONDANCE;;;;;;;;;;;;x
-c_abondance;;Abondance;;;;;;;;;;;;x
+c_abondance;Abondance;Abondance;;;;;;;;;;;;x
 c_abondance_adj;;;;;;;;;;;;;;x
-b_abondance1;;Féternes;;;;;;;;;;;;x
-b_abondance2;;Aulps;;;;;;;;;;;;x
-b_abondance3;;Evian;;;;;;;;;;;;x
-b_abondance4;;Valdranses;;;;;;;;;;;;x
-b_abondance5;;Abondance;;;;;;;;;;;;x
-b_abondance6;;Chairavaux ;;;;;;;;;;;;x
+b_abondance1;Féternes;Féternes;;;;;;;;;;;;x
+b_abondance2;Aulps;Aulps;;;;;;;;;;;;x
+b_abondance3;Evian;Evian;;;;;;;;;;;;x
+b_abondance4;Valdranses;Valdranses;;;;;;;;;;;;x
+b_abondance5;Abondance;Abondance;;;;;;;;;;;;x
+b_abondance6;Chairavaux;Chairavaux ;;;;;;;;;;;;x
 #;;seigneurie d'AIGLE;;;;;;;;;;;;x
-c_aigle;;Aigle;;;;;;;;;;;;x
+c_aigle;Aigle;Aigle;;;;;;;;;;;;x
 c_aigle_adj;;;;;;;;;;;;;;x
-b_aigle1;;Aigle;;;;;;;;;;;;x
-b_aigle2;;Mimont;;;;;;;;;;;;x
-b_aigle3;Villeneuve;;;;;;;;;;;;;x
-b_aigle4;Chillon;;;;;;;;;;;;;x
+b_aigle1;Aigle;Aigle;;;;;;;;;;;;x
+b_aigle2;Mimont;Mimont;;;;;;;;;;;;x
+b_aigle3;Villeneuve;Villeneuve;;;;;;;;;;;;x
+b_aigle4;Chillon;Chillon;;;;;;;;;;;;x
 b_aigle5;;NONE;;;;;;;;;;;;x
-b_aigle6;;Bex;;;;;;;;;;;;x
+b_aigle6;Bex;Bex;;;;;;;;;;;;x
 #;;COMTE DE FAUCIGNY;;;;;;;;;;;;x
-d_faucigny;;Faucigny;;;;;;;;;;;;x
+d_faucigny;Faucigny;Faucigny;;;;;;;;;;;;x
 d_faucigny_adj;;faucignerande;;;;;;;;;;;;x
 #;;seigneurie de FAUCIGNY;;;;;;;;;;;;x
-c_faucigny;;Faucigny;;;;;;;;;;;;x
+c_faucigny;Faucigny;Faucigny;;;;;;;;;;;;x
 c_faucigny_adj;;faucignerande;;;;;;;;;;;;x
-b_faucigny1;;Faucigny;;;;;;;;;;;;x
-b_faucigny2;;Contamines;;;;;;;;;;;;x
-b_faucigny3;;Bonneville;;;;;;;;;;;;x
-b_faucigny4;;Lucinges;;;;;;;;;;;;x
-b_faucigny5;;Béol;;;;;;;;;;;;x
-b_faucigny6;;Boëge;;;;;;;;;;;;x
+b_faucigny1;Faucigny;Faucigny;;;;;;;;;;;;x
+b_faucigny2;Contamines;Contamines;;;;;;;;;;;;x
+b_faucigny3;Bonneville;Bonneville;;;;;;;;;;;;x
+b_faucigny4;Lucinges;Lucinges;;;;;;;;;;;;x
+b_faucigny5;Béol;Béol;;;;;;;;;;;;x
+b_faucigny6;Boëge;Boëge;;;;;;;;;;;;x
 #;;seigneurie de GIFFRE;;;;;;;;;;;;x
-c_giffre;;Samoëns;;;;;;;;;;;;x
+c_giffre;Samoëns;Samoëns;;;;;;;;;;;;x
 c_giffre_adj;;septimontaine;;;;;;;;;;;;x
-b_giffre1;;Thyez;;;;;;;;;;;;x
-b_giffre2;;Sixt;;;;;;;;;;;;x
-b_giffre3;;Taninges;;;;;;;;;;;;x
-b_giffre4;;Châtillon;;;;;;;;;;;;x
-b_giffre5;;Mélan;;;;;;;;;;;;x
-b_giffre6;;Sallaz;;;;;;;;;;;;x
+b_giffre1;Thyez;Thyez;;;;;;;;;;;;x
+b_giffre2;Sixt;Sixt;;;;;;;;;;;;x
+b_giffre3;Taninges;Taninges;;;;;;;;;;;;x
+b_giffre4;Châtillon;Châtillon;;;;;;;;;;;;x
+b_giffre5;Mélan;Mélan;;;;;;;;;;;;x
+b_giffre6;Sallaz;Sallaz;;;;;;;;;;;;x
 #;;seigneurie de TRIENT;;;;;;;;;;;;x
 c_trient;;Trient;;;;;;;;;;;;x
 c_trient_adj;;;;;;;;;;;;;;x
