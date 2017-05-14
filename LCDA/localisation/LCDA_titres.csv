@@ -13,6 +13,9 @@ b_;;x;;;;;;;;;;;;x
 b_;;x;;;;;;;;;;;;x
 b_;;x;;;;;;;;;;;;x
 world_alps;The Alps;Les Alpes;;;;;;;;;;;;x
+western_alps;Western Alps;Alpes occidentales;;;;;;;;;;;;x
+northern_alps;Northern Alps;Alpes septentrionales;;;;;;;;;;;;x
+southern_alps;Southern Alps;Aples méridionales;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;x
 e_alps;Alpine crown;La Couronne des Alpes;;;;;;;;;;;;x
 e_alps_adj;alpine;alpine;;;;;;;;;;;;x
