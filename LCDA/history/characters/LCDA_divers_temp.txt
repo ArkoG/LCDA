@@ -4,7 +4,7 @@
 
 99	= {
     name="Vuillerme"
-    dynasty = 99 #de Cinquestral
+    dynasty = 1000036013 #de Cinquestral
 
     religion = catholic
     culture = arpitan

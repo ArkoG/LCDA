@@ -2,7 +2,7 @@
 ##local DYNASTIES
 #range 100//99 999
 
-99 = { name = "de Cinquestral"	culture = arpitan } #mod flag giver
+1000036013 = { name = "de Cinquestral"	culture = arpitan } #mod flag giver
 #Faucigny 100//199
 100 = { name = "de Vetraz"	culture = arpitan }
 101 = { name = "de Monthoux"	culture = arpitan }
