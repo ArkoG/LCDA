@@ -3,6 +3,7 @@
 law = succ_primogeniture
 liege=c_faucigny
 law = cognatic_succession
+effect = { set_title_flag = needs_elision }
 }
 1020.1.1= 	{ holder=100000 } #Aymerard
 1055.1.1= 	{ holder=100001 } #Louis Ier
