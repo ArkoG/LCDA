@@ -8,7 +8,7 @@ PROV6;Aigle;Aigle;;;;;;;;;;;;x
 PROV7;Faucigny;Faucigny;;;;;;;;;;;;x
 PROV8;Samoëns;Samoëns;;;;;;;;;;;;x
 PROV9;Trient;Trient;;;;;;;;;;;;x
-PROV10;Montjoie;Montjoie;;;;;;;;;;;;x
+PROV10;Valmontjoie;Valmontjoie;;;;;;;;;;;;x
 PROV11;Annecy;Annecy;;;;;;;;;;;;x
 PROV12;Seyssel;Seyssel;;;;;;;;;;;;x
 PROV13;Albens;Albens;;;;;;;;;;;;x
@@ -62,15 +62,15 @@ PROV53;Oulx;Oulx;;;;;;;;;;;;x
 PROV54;Montgenèvre;Montgenèvre;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;x
-PROV1018;;Lac du Bourget;;;;;;;;;;;;x
-PROV1019;;Lac d'Annecy;;;;;;;;;;;;x
+PROV1018;Bourget lake;Lac du Bourget;;;;;;;;;;;;x
+PROV1019;Annecy lake;Lac d'Annecy;;;;;;;;;;;;x
 PROV1020;Isère;Isère;;;;;;;;;;;;x
 PROV1021;Upper Rhone;Rhône supérieur;;;;;;;;;;;;x
 PROV1022;Ain;Ain;;;;;;;;;;;;x
 PROV1023;Cisjuran Rhone;Rhône cisjuran;;;;;;;;;;;;x
 PROV1024;Doria;Doire;;;;;;;;;;;;x
-PROV1025;;Lac de Neuchâtel;;;;;;;;;;;;x
-PROV1026;;Lac Léman;;;;;;;;;;;;x
+PROV1025;Neuchâtel lake;Lac de Neuchâtel;;;;;;;;;;;;x
+PROV1026;Leman lake;Lac Léman;;;;;;;;;;;;x
 PROV1027;;;;;;;;;;;;;;x
 PROV1028;;;;;;;;;;;;;;x
 PROV1029;;;;;;;;;;;;;;x

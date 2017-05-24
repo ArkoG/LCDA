@@ -122,35 +122,35 @@ b_trient4;;NONE;;;;;;;;;;;;x
 b_trient5;;Vallorcine;;;;;;;;;;;;x
 b_trient6;;Argentière;;;;;;;;;;;;x
 #;;seigneurie de VALMONJOIE;;;;;;;;;;;;x
-c_montjoie;;Valmonjoie;;;;;;;;;;;;x
+c_montjoie;Valmonjoie;Valmonjoie;;;;;;;;;;;;x
 c_montjoie_adj;;;;;;;;;;;;;;x
-b_montjoie1;;Montjoie;;;;;;;;;;;;x
-b_montjoie2;;Chamonix;;;;;;;;;;;;x
-b_montjoie3;;Sallanches;;;;;;;;;;;;x
-b_montjoie4;;Flumet;;;;;;;;;;;;x
-b_montjoie5;;Passy;;;;;;;;;;;;x
-b_montjoie6;;Saint-Gervais;;;;;;;;;;;;x
+b_montjoie1;Montjoie;Montjoie;;;;;;;;;;;;x
+b_montjoie2;Saint-Gervais;Saint-Gervais;;;;;;;;;;;;x
+b_montjoie3;Sallanches;Sallanches;;;;;;;;;;;;x
+b_montjoie4;Flumet;;;;;;;;;;;;;x
+b_montjoie5;Passy;Passy;;;;;;;;;;;;x
+b_montjoie6;Chamonix;Chamonix;;;;;;;;;;;;x
 #;;COMTE DE GENEVOIS;;;;;;;;;;;;x
 d_genevois;;Genevois;;;;;;;;;;;;x
 d_genevois_adj;;genevoise;;;;;;;;;;;;x
 #;;seigneurie d'ANNECY;;;;;;;;;;;;x
-c_annecy;;Annecy;;;;;;;;;;;;x
+c_annecy;Annecy;Annecy;;;;;;;;;;;;x
 c_annecy_adj;;;;;;;;;;;;;;x
-b_annecy1;;La Roche;;;;;;;;;;;;x
-b_annecy2;;Thônes;;;;;;;;;;;;x
-b_annecy3;;Faverges;;;;;;;;;;;;x
-b_annecy4;;Thorens;;;;;;;;;;;;x
-b_annecy5;;Annecy;;;;;;;;;;;;x
-b_annecy6;;Ugine;;;;;;;;;;;;x
+b_annecy1;La Roche;;;;;;;;;;;;;x
+b_annecy2;Thônes;;;;;;;;;;;;;x
+b_annecy3;Faverges;;;;;;;;;;;;;x
+b_annecy4;Thorens;;;;;;;;;;;;;x
+b_annecy5;Annecy;;;;;;;;;;;;;x
+b_annecy6;Ugine;;;;;;;;;;;;;x
 #;;seigneurie de SEYSSEL;;;;;;;;;;;;x
-c_seyssel;;Seyssel;;;;;;;;;;;;x
+c_seyssel;Seyssel;;;;;;;;;;;;;x
 c_seyssel_adj;;;;;;;;;;;;;;x
-b_seyssel1;;Seyssel;;;;;;;;;;;;x
-b_seyssel2;;Chessenaz;;;;;;;;;;;;x
-b_seyssel3;;Seyssel;;;;;;;;;;;;x
-b_seyssel4;;Frangy;;;;;;;;;;;;x
+b_seyssel1;Seyssel;;;;;;;;;;;;;x
+b_seyssel2;Chessenaz;;;;;;;;;;;;;x
+b_seyssel3;Seyssel;;;;;;;;;;;;;x
+b_seyssel4;Frangy;;;;;;;;;;;;;x
 b_seyssel5;;;;;;;;;;;;;;x
-b_seyssel6;;Menthonnex;;;;;;;;;;;;x
+b_seyssel6;Menthonnex;;;;;;;;;;;;;x
 #;;seigneurie d'ALBENS;;;;;;;;;;;;x
 c_albens;;Albanais;;;;;;;;;;;;x
 c_albens_adj;;;;;;;;;;;;;;x
