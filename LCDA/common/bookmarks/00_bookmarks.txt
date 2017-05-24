@@ -5,6 +5,7 @@ bm_1032 = {
 	
 	era = yes						## Will be shown on Era screen.
 	picture = GFX_pick_era_monts_alpage
+	custom_start = yes
 	
 	selectable_character = {
 		id = 100036 # Géraud 				#real 
