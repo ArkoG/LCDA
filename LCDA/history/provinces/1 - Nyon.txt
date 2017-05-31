@@ -19,7 +19,7 @@ b_nyon3 = city #Aubonne château puis ville
 # Misc
 culture = arpitan
 religion = catholic
-terrain = mountain
+#terrain = mountain
 # History
 
 #999.9.9 = {	b_nyon = ca_tpinit_1	}

@@ -25,7 +25,7 @@ b_giffre3 = city #Taninges
 # Misc
 culture = arpitan
 religion = catholic
-terrain = mountain
+#terrain = mountain
 # History
 
 
