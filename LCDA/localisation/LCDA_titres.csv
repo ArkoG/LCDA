@@ -458,6 +458,61 @@ b_;;;;;;;;;;;;;;x
 b_;;;;;;;;;;;;;;x
 b_;;;;;;;;;;;;;;x
 b_;;;;;;;;;;;;;;x
+
+#;;COMTE DE LYON;;;;;;;;;;;;x
+k_lyon;Lyon;;;;;;;;;;;;;x
+k_lyon_adj;lyonnaise;lyonnaise;;;;;;;;;;;;x
+
+#;;COMTE DE BELLEY;;;;;;;;;;;;x
+d_bugey;Bugey;;;;;;;;;;;;;x
+d_bugey_adj;bugist;bugiste;;;;;;;;;;;;x
+
+PROV55;Thoire;;;;;;;;;;;;;x
+c_thoire;Thoire;;;;;;;;;;;;;x
+c_thoire_adj;thoirian;thoirienne;;;;;;;;;;;;x
+b_thoire1;Thoire;;;;;;;;;;;;;x
+b_thoire2;Izernoire;;;;;;;;;;;;;x
+b_thoire3;Matafelon;;;;;;;;;;;;;x
+b_thoire4;Oyonnax;;;;;;;;;;;;;x
+b_thoire5;Poncin;;;;;;;;;;;;;x
+b_thoire6;Vaucluse;;;;;;;;;;;;;x
+b_thoire7;;;;;;;;;;;;;;x
+
+PROV58;Belley;;;;;;;;;;;;;x
+c_belley;Belley;;;;;;;;;;;;;x
+c_belley_adj;belleysian;belleysanne;;;;;;;;;;;;x
+b_belley1;Belley;;;;;;;;;;;;;x
+b_belley2;Valromey;;;;;;;;;;;;;x
+b_belley3;Cordon;;;;;;;;;;;;;x
+b_belley4;Belley;;;;;;;;;;;;;x
+b_belley5;Angeville;;;;;;;;;;;;;x
+b_belley6;Portes;;;;;;;;;;;;;x
+b_belley7;;;;;;;;;;;;;;x
+
+PROV56;Nantua;;;;;;;;;;;;;x
+c_nantua;Nantua;;;;;;;;;;;;;x
+c_nantua_adj;nantuatian;nantuataise;;;;;;;;;;;;x
+b_nantua1;Nantua;;;;;;;;;;;;;x
+b_nantua2;Bellegarde;;;;;;;;;;;;;x
+b_nantua3;Nantua;;;;;;;;;;;;;x
+b_nantua4;Charix;;;;;;;;;;;;;x
+b_nantua5;;;;;;;;;;;;;;x
+b_nantua6;;;;;;;;;;;;;;x
+b_nantua7;;;;;;;;;;;;;;x
+
+PROV57;Saint-Rambert;;;;;;;;;;;;;x
+c_saintrambert;Saint-Rambert;;;;;;;;;;;;;x
+c_saintrambert_adj;ramberian;rambérienne;;;;;;;;;;;;x
+b_saintrambert1;Saint-Rambert;;;;;;;;;;;;;x
+b_saintrambert2;Varey;;;;;;;;;;;;;x
+b_saintrambert3;Saint-Rambert;;;;;;;;;;;;;x
+b_saintrambert4;Ambronannay;;;;;;;;;;;;;x
+b_saintrambert5;Saint-Germain;;;;;;;;;;;;;x
+b_saintrambert6;Saint-Germain;;;;;;;;;;;;;x
+b_saintrambert7;Cornillon;;;;;;;;;;;;;x
+b_saintrambert8;Saint-Denis;;;;;;;;;;;;;x
+b_saintrambert9;Allymes;;;;;;;;;;;;;x
+
 #;;COMTE D'EMBRUNOIS;;;;;;;;;;;;x
 #;;MERCS;;;;;;;;;;;;x
 d_merc_01;;La Bande de Granier;;;;;;;;;;;;x
@@ -514,26 +569,31 @@ d_navy_17;;;;;;;;;;;;;;x
 d_navy_18;;;;;;;;;;;;;;x
 d_navy_19;;;;;;;;;;;;;;x
 d_navy_20;;;;;;;;;;;;;;x
+
 #;;SPECIAUX;;;;;;;;;;;;x
+
 #;;RELIGIEUX;;;;;;;;;;;;x
-d_geneve_ecl;;Diocèse de Genève;;;;;;;;;;;;x
+d_geneve_ecl;Diocese of Genève;Diocèse de Genève;;;;;;;;;;;;x
 d_geneve_ecl_adj;;genevoise;;;;;;;;;;;;x
-d_tarentaise_ecl;;Archidiocèse de Tarentaise;;;;;;;;;;;;x
+d_tarentaise_ecl;Archidiocese of Tarentaise;Archidiocèse de Tarentaise;;;;;;;;;;;;x
 d_tarentaise_ecl_adj;;tarine;;;;;;;;;;;;x
-d_maurienne_ecl;;Diocèse de Maurienne;;;;;;;;;;;;x
+d_maurienne_ecl;Diocese of Maurienne;Diocèse de Maurienne;;;;;;;;;;;;x
 d_maurienne_ecl_adj;;;;;;;;;;;;;;x
-d_stmaurice_ecl;;Saint Maurice d'Agaune;;;;;;;;;;;;x
+d_stmaurice_ecl;Saint Maurice d'Agaune;Saint Maurice d'Agaune;;;;;;;;;;;;x
 d_stmaurice_ecl_adj;;;;;;;;;;;;;;x
-d_grenoble_ecl;;Diocèse de Grenoble;;;;;;;;;;;;x
+d_grenoble_ecl;Diocese of Grenoble;Diocèse de Grenoble;;;;;;;;;;;;x
 d_grenoble_ecl_adj;;grenobloise;;;;;;;;;;;;x
-d_gap_ecl;;Diocèse de Gap;;;;;;;;;;;;x
+d_gap_ecl;Diocese of Gap;Diocèse de Gap;;;;;;;;;;;;x
 d_gap_ecl_adj;;;;;;;;;;;;;;x
-d_embrun_ecl;;Archidiocèse d'Embrun;;;;;;;;;;;;x
+d_embrun_ecl;Archidiocese of Embrun;Archidiocèse d'Embrun;;;;;;;;;;;;x
 d_embrun_ecl_adj;;;;;;;;;;;;;;x
-d_vienne_ecl;;Archidiocèse de Vienne;;;;;;;;;;;;x
+d_vienne_ecl;Archidiocese of Vienne;Archidiocèse de Vienne;;;;;;;;;;;;x
 d_vienne_ecl_adj;;viennoise;;;;;;;;;;;;x
-k_papal_state;;Status Pontificus;;;;;;;;;;;;x
-k_papal_state_adj;;papale;;;;;;;;;;;;x
+d_belley_ecl;Diocese of Belley;Diocèse de Belley;;;;;;;;;;;;x
+d_belley_ecl_adj;belleysian;belleysanne;;;;;;;;;;;;x
+k_papal_state;Status Pontificus;Status Pontificus;;;;;;;;;;;;x
+k_papal_state_adj;papal;papale;;;;;;;;;;;;x
+
 #;;REPUBLIQUES;;;;;;;;;;;;x
 d_geneve_cite;;Genève;;;;;;;;;;;;x
 d_geneve_cite_adj;;genevoise;;;;;;;;;;;;x
