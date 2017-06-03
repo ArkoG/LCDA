@@ -41,7 +41,7 @@ b_gex1;Gex;Gex;;;;;;;;;;;;x
 b_gex2;Saint-Genis;Saint-Genis;;;;;;;;;;;;x
 b_gex3;Divonne;Divonne;;;;;;;;;;;;x
 b_gex4;Coppet;Coppet;;;;;;;;;;;;x
-b_gex5;Collonges;Collonges;;;;;;;;;;;;x
+b_gex5;Chézery;;;;;;;;;;;;;x
 b_gex6;Meyrin;Meyrin;;;;;;;;;;;;x
 #;;seigneurie de GENÈVE;;;;;;;;;;;;x
 c_geneve;Genève;Genève;;;;;;;;;;;;x
@@ -493,9 +493,9 @@ PROV56;Nantua;;;;;;;;;;;;;x
 c_nantua;Nantua;;;;;;;;;;;;;x
 c_nantua_adj;nantuatian;nantuataise;;;;;;;;;;;;x
 b_nantua1;Nantua;;;;;;;;;;;;;x
-b_nantua2;Bellegarde;;;;;;;;;;;;;x
+b_nantua2;Saint-Germain;;;;;;;;;;;;;x
 b_nantua3;Nantua;;;;;;;;;;;;;x
-b_nantua4;Charix;;;;;;;;;;;;;x
+b_nantua4;Musinens;;;;;;;;;;;;;x
 b_nantua5;;;;;;;;;;;;;;x
 b_nantua6;;;;;;;;;;;;;;x
 b_nantua7;;;;;;;;;;;;;;x
