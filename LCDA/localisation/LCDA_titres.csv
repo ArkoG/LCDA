@@ -423,7 +423,7 @@ b_oisans4;;Le Bourg;;;;;;;;;;;;x
 b_oisans5;;Allemond;;;;;;;;;;;;x
 b_oisans6;;Vénosc;;;;;;;;;;;;x
 #;;seigneurie DE VERCORS;;;;;;;;;;;;x	
-c_vercors;;Vercors;;;;;;;;;;;;x
+c_vercors;Sassenage;Sassenage;;;;;;;;;;;;x
 c_vercors_adj;;;;;;;;;;;;;;x		
 b_vercors1;;;;;;;;;;;;;;x
 b_vercors2;;;;;;;;;;;;;;x
@@ -451,7 +451,7 @@ b_valmontheys5;;;;;;;;;;;;;;x
 b_valmontheys6;;;;;;;;;;;;;;x
 #;;COMTE DE BRIGANTINE;;;;;;;;;;;;x
 c_briancon;;Briançon;;;;;;;;;;;;x
-c_briancon_adj;;;;;;;;;;;;;;x
+c_briancon_adj;;brigantine;;;;;;;;;;;;x
 b_;;;;;;;;;;;;;;x
 b_;;;;;;;;;;;;;;x
 b_;;;;;;;;;;;;;;x
@@ -506,7 +506,7 @@ c_saintrambert_adj;ramberian;rambérienne;;;;;;;;;;;;x
 b_saintrambert1;Saint-Rambert;;;;;;;;;;;;;x
 b_saintrambert2;Varey;;;;;;;;;;;;;x
 b_saintrambert3;Saint-Rambert;;;;;;;;;;;;;x
-b_saintrambert4;Ambronannay;;;;;;;;;;;;;x
+b_saintrambert4;Ambronnay;;;;;;;;;;;;;x
 b_saintrambert5;Saint-Germain;;;;;;;;;;;;;x
 b_saintrambert6;Saint-Germain;;;;;;;;;;;;;x
 b_saintrambert7;Cornillon;;;;;;;;;;;;;x
