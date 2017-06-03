@@ -508,13 +508,13 @@ e_alps = {
 		}
 	#}
 		d_aoste = {
-			color={ 255 255 255 }
+			color={ 20 150 100 }
 			color2={ 0 0 0}
 			
 			capital = 25 #Aoste	
 			
 			c_courmayeur = { #24
-				color={ 172 4 10 }
+				color={ 20 120 80 }
 				color2={ 255 255 255 }
 			
 				b_courmayeur1 = {}
@@ -525,7 +525,7 @@ e_alps = {
 				b_courmayeur6 = {}
 			}
 			c_aoste = { #25
-				color={ 172 4 10 }
+				color={ 80 120 20 }
 				color2={ 255 255 255 }
 
 				culture = arpitan			
@@ -543,7 +543,7 @@ e_alps = {
 				b_aoste6 = {}
 			}
 			c_chatillon = { #26
-				color={ 172 4 10 }
+				color={ 80 130 80 }
 				color2={ 255 255 255 }
 			
 				b_chatillon1 = {}
@@ -765,13 +765,13 @@ e_alps = {
 			}		
 		}
 		d_graisivaudan = {
-			color={ 190 250 0 }
+			color={ 125 125 125 }
 			color2={ 0 0 0 }
 			
 			capital = 39 #Grenoble	
 			
 			c_grenoble = { #39
-				color={ 180 240 0 }
+				color={ 185 125 185 }
 				color2={ 255 255 255 }
 			
 				holy_site = catholic
@@ -817,7 +817,7 @@ e_alps = {
 				b_grenoble6 = {}
 			}
 			c_graisivaudan = { #38
-				color={ 200 220 0 }
+				color={ 125 185 125 }
 				color2={ 255 255 255 }
 			
 				b_graisivaudan1 = {}
@@ -828,7 +828,7 @@ e_alps = {
 				b_graisivaudan6 = {}
 			}
 			c_oisans = { #40
-				color={ 180 220 20 }
+				color={ 185 185 125 }
 				color2={ 0 86 148 }
 			
 				b_oisans1 = {}
@@ -839,7 +839,7 @@ e_alps = {
 				b_oisans6 = {}
 			}
 			c_vercors = { #41
-				color={ 160 240 20 }
+				color={ 125 185 185 }
 				color2={ 250 188 0 }
 			
 				b_vercors1 = {}
@@ -850,7 +850,7 @@ e_alps = {
 				b_vercors6 = {}
 			}
 			c_trieves = { #42
-				color={ 180 220 0 }
+				color={ 125 125 125 }
 				color2={ 0 86 148 }
 			
 				b_trieves1 = {}
@@ -861,7 +861,7 @@ e_alps = {
 				b_trieves6 = {}
 			}
 			c_valmontheys = { #43
-				color={ 160 240 20 }
+				color={ 185 185 185 }
 				color2={ 250 188 0 }
 			
 				b_valmontheys1 = {}
