@@ -32,5 +32,5 @@ religion = catholic
 1150.1.1 = {	remove_settlement = b_saintrambert8	}
 1250.1.1 = {	remove_settlement = b_saintrambert3	} #fic removal
 1250.1.1 = {	b_saintrambert6 = city	} #bourg date inconnue
-1326.1.1 = {	b_saintrambert5 = capital	} #À partir de 1326, il est le centre de bailliage du Bugey
+1326.1.1 = {	capital = b_saintrambert5 } #À partir de 1326, il est le centre de bailliage du Bugey
 1350.1.1 = {	b_saintrambert9 = castle } #allymes
