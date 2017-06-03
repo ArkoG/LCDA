@@ -1,0 +1,7 @@
+#Château de Varey, sires de Coligny et de revermont, vassal de Thoire
+
+#famille de xxx
+1150.1.1 = { liege=c_thoire }
+1240.1.1 = { liege=c_geneve }
+#vers 1240 = { comtes de genève#####
+
