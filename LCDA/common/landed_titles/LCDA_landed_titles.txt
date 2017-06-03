@@ -555,6 +555,75 @@ e_alps = {
 			}
 		}
 	}
+	k_lyon = {
+		color={ 170 20 20 }
+		color2={ 250 188 0 }
+			
+		capital = 58 #Belley
+			
+		d_bugey = {
+			color={ 180 30 30 }
+			color2={ 250 188 0 }
+			
+			capital = 58 #Belley
+			
+			c_belley = { #58
+				color={ 180 50 15 }
+				color2={ 255 255 255 }
+			
+				dignity = 8
+
+				b_belley1 = {}
+				b_belley2 = {}
+				b_belley3 = {}
+				b_belley4 = {}
+				b_belley5 = {}
+				b_belley6 = {}
+				b_belley7 = {}
+			}
+			c_nantua = { #56
+				color={ 180 15 50 }
+				color2={ 255 255 255 }
+			
+				b_nantua1 = {}
+				b_nantua2 = {}
+				b_nantua3 = {}
+				b_nantua4 = {}
+				b_nantua5 = {}
+				b_nantua6 = {}
+				b_nantua7 = {}
+			}
+			c_saintrambert = { #57
+				color={ 165 20 20 }
+				color2={ 255 255 255 }
+					
+				b_saintrambert1 = {}
+				b_saintrambert2 = {}
+				b_saintrambert3 = {}
+				b_saintrambert4 = {}
+				b_saintrambert5 = {}
+				b_saintrambert6 = {}
+				b_saintrambert7 = {}
+				b_saintrambert8 = {}
+				b_saintrambert9 = {}
+			}
+			c_thoire = { #58
+				color={ 165 15 50 }
+				color2={ 255 255 255 }
+				
+				dignity = 10
+				
+				b_thoire1 = {}
+				b_thoire2 = {}
+				b_thoire3 = {}
+				b_thoire4 = {}
+				b_thoire5 = {}
+				b_thoire6 = {}
+				b_thoire7 = {}
+			}
+		}
+	}
+
 	k_vienne = {
 			color={ 0 90 150 }
 			color2={ 255 255 255 }

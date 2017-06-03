@@ -146,3 +146,21 @@ d_tarentaise_ecl = {
 				
 		allow={ always = no }
 }
+d_belley_ecl = {
+		color={ 0 0 0 }
+		color2={ 0 0 0 }
+		
+		dignity = 5
+		
+		capital = 58 #Belley	
+		culture = arpitan
+		religion = catholic
+				title = "SECULAR_BISHOP"
+				title_prefix = "SECULAR_BISHOP_OF"
+				foa = "SECULAR_BISHOP_FOA"	
+
+				landless = yes
+				short_name = yes
+				
+		allow={ always = no }
+}
