@@ -1,0 +1,36 @@
+# 57 - saintrambert
+
+# County Title
+title = c_saintrambert
+
+# Settlements
+max_settlements = 7
+
+b_saintrambert1 = temple #saint rambert
+b_saintrambert3 = city #bourg de saint rambert
+b_saintrambert4 = temple #Ambronay
+b_saintrambert8 = castle #chateau de st denis (ambérieu} attesté en 1032
+
+#b_saintrambert2 = castle #Varey vassal de thoire	
+#b_saintrambert5 = {} #saint germain AKA Ambérieu bourg et chateau, sire de coligny vassal des thoire. Construit vraisemblablement à la fin du XIe siècle ou au tout début du XIIe siècle 
+#par les sires de Coligny, le château est tour à tour passé aux mains des sires de La Tour du Pin (1210) Note 2, souche de la dernière branche des dauphins de Viennois (1282), des comtes de Savoie (1321) 
+#et enfin des rois de France (1601). De par son importance politique et militaire, il eut à subir plusieurs sièges dont ceux de 1283 et 1321Kersuzan 1, et fut de 1282 à 1355 au cœur 
+#des plus grandes opérations militaires qui opposèrent le comte de Savoie au dauphin de Viennois et à ses alliés. À partir de 1326, il est le centre de bailliage du Bugey et fait partie de l'apanage du prince héritier de Savoie dès cette date.
+
+#b_saintrambert6 = city #saint germain
+#b_saintrambert7 = castle #cornillon
+#b_saintrambert9 = castle #allymes
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+1090.1.1 = {	b_saintrambert5 = castle } #saint germain vraisemblablement fin 11éme, attesté en 1141 et 1151
+1150.1.1 = {	b_saintrambert2 = castle } #Varey vassal de thoire
+1150.1.1 = {	b_saintrambert7 = castle } #cornillon
+1150.1.1 = {	remove_settlement = b_saintrambert8	}
+1250.1.1 = {	remove_settlement = b_saintrambert3	} #fic removal
+1250.1.1 = {	b_saintrambert6 = city	} #bourg date inconnue
+1326.1.1 = {	b_saintrambert5 = capital	} #À partir de 1326, il est le centre de bailliage du Bugey
+1350.1.1 = {	b_saintrambert9 = castle } #allymes

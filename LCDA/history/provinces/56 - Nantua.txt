@@ -1,0 +1,26 @@
+# 56 - Nantua
+
+# County Title
+title = c_nantua
+
+# Settlements
+max_settlements = 3
+
+b_nantua1 = temple #
+b_nantua2 = castle #bellegarde, fic
+#b_nantua3 = city #
+#b_nantua4 = {} Charix, fic
+#b_nantua5 = {}
+#b_nantua6 = {}
+#b_nantua7 = {}
+
+
+# Misc
+culture = arpitan
+religion = catholic
+#terrain = mountain
+
+# History
+
+1300.1.1 = {	b_nantua3 = city	} #fic
+1300.1.1 = {	max_settlements = 4	}

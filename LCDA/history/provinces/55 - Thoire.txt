@@ -1,0 +1,29 @@
+# 55 - thoire
+
+# County Title
+title = c_thoire
+
+# Settlements
+max_settlements = 5
+
+b_thoire1 = castle #thoire
+b_thoire2 = castle #Izernore, tenu par les Bussy
+b_thoire3 = city #oyonnax
+
+#b_thoire4 = castle #matafelon
+#b_thoire5 = castle #Poncin
+#b_thoire6 = temple #chartreuse de vaucluse
+#b_thoire7 = {}
+
+
+# Misc
+culture = arpitan
+religion = catholic
+#terrain = mountain
+
+# History
+
+1100.1.1 = {	b_thoire4 = castle	} #première moitié du 12éme s.
+1139.1.1 = {	b_thoire6 = temple } #chartreuse de vaucluse
+1200.1.1 = {	b_thoire5 = castle	} #fin 12éme s.
+1200.1.1 = {	max_settlements = 6	}

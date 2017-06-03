@@ -1,0 +1,29 @@
+# 58 - Belley
+
+# County Title
+title = c_belley
+
+# Settlements
+max_settlements = 5
+
+b_belley1 = temple #cité épisco
+b_belley3 = castle #chateau de cordon
+
+#b_belley2 = castle #valromey
+#b_belley4 = city #belley, quand charte
+#b_belley5 = castle #Angeville à Hauteville-Lompnes #spare
+#b_belley6 =  temple #Portes // chartreuse
+#b_belley7 = {}
+
+
+# Misc
+culture = arpitan
+religion = catholic
+#terrain = mountain
+
+# History
+
+1115.1.1 = {	b_belley6 = temple	}
+1115.1.1 = {	b_belley2 = castle	}
+1309.1.1 = {	b_belley4 = city	}
+1309.1.1 = {	max_settlements = 6	}
