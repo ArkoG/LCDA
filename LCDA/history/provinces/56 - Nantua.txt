@@ -7,9 +7,9 @@ title = c_nantua
 max_settlements = 3
 
 b_nantua1 = temple #
-b_nantua2 = castle #bellegarde, fic
+b_nantua2 = castle #Saint germain de joux, fic
 #b_nantua3 = city #
-#b_nantua4 = {} Charix, fic
+#b_nantua4 = {} Musinens AKA Bellegarde, fic
 #b_nantua5 = {}
 #b_nantua6 = {}
 #b_nantua7 = {}

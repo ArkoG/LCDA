@@ -4,7 +4,7 @@
 title = c_gex
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 
 
 b_gex1 = castle
@@ -12,7 +12,7 @@ b_gex2 = temple
 b_gex3 = city
 
 #b_gex4 = castle #Coppet, fief des Thoire Villars.
-#b_gex5 = temple
+#b_gex5 = temple #terre de Chézery
 #b_gex6 = city
 
 
@@ -27,5 +27,6 @@ religion = catholic
 
 #999.9.9 = {	b_gex = ca_tpinit_1	}
 
-1035.1.1 = { max_settlements = 4 }
+#1035.1.1 = { max_settlements = 4 }
 1040.1.1 = { max_settlements = 6 }
+1140.1.1 = { b_gex5 = temple } #terre de Chézery abbaye cistercienne
