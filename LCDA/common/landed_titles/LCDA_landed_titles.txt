@@ -506,7 +506,6 @@ e_alps = {
 				b_conthey6 = {}
 			}
 		}
-	#}
 		d_aoste = {
 			color={ 20 150 100 }
 			color2={ 0 0 0}
