@@ -10,16 +10,15 @@ b_thoire1 = castle #thoire
 b_thoire2 = castle #Izernore, tenu par les Bussy
 b_thoire3 = city #oyonnax
 
-#b_thoire4 = castle #matafelon
+#b_thoire4 = castle #Matafelon
 #b_thoire5 = castle #Poncin
 #b_thoire6 = temple #chartreuse de vaucluse
-#b_thoire7 = {}
+#b_thoire7 = castle #Montréal
 
 
 # Misc
 culture = arpitan
 religion = catholic
-#terrain = mountain
 
 # History
 
