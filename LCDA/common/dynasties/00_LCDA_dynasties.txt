@@ -120,7 +120,7 @@
 #202 = { name = "de Lugrin"	culture = arpitan }
 203 = { name = "de Neuvecelle"	culture = arpitan }
 204 = { name = "de Bonnevaux"	culture = arpitan }
-#205 = { name = "de Viuz"	culture = arpitan }
+205 = { name = "d'Effeniaz"	culture = arpitan } #de Finhaut
 #206 = { name = "de Mégevette"	culture = arpitan }
 #207 = { name = "de Mieussy"	culture = arpitan }
 #208 = { name = "d'Onnion"	culture = arpitan }
