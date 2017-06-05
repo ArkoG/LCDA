@@ -61,7 +61,7 @@
 300112 = {
 	name = "de Thoire"			
 	culture = arpitan	
-	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	12	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
+	coat_of_arms = {	template = 0	layer = {	Texture =	7	texture_internal =	13	Emblem =	0	Color =	0	Color =	0	Color =	0	}	}
 	}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
 300113 = {
 	name = "de Villars"		
