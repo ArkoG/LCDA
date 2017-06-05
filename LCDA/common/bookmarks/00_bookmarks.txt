@@ -41,6 +41,22 @@ bm_1032 = {
 			dynasty=300102
 		}
 	}
+	selectable_character = {
+		id = 100060 # Vuillerme
+		age = 17
+		name = ERA_CHAR_NAME_100060
+		title = c_thoire
+		title_name = BM_sire_de_thoire
+		
+		character = {
+			dna="afddd0abb00"
+			properties="ce0igi00000000"
+			religion="catholic"
+			culture="arpitan"
+			government = feudal_government
+			dynasty=300112
+		}
+	}
 }
 
 bm_1309 = {
