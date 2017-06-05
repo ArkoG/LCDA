@@ -1,2 +1,4 @@
+#Izernore
 999.1.1 = { liege=c_thoire }
 999.1.1 = { effect = { set_title_flag = needs_elision } }
+#holden by de Bussy familly

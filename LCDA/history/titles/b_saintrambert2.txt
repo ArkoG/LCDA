@@ -2,6 +2,11 @@
 
 #famille de xxx
 1150.1.1 = { liege=c_thoire }
+1150.1.1 = { holder=100062 } #Humbert the 1st #should be a vassal familly
+1158.1.1 = { holder=100063 } #Guillaume #should be a vassal familly
+1165.1.1 = { holder=100064 } #Humbert II #should be a vassal familly
+1215.1.1 = { holder=10065 } #Etienne #should be a vassal familly
+1235.1.1 = { holder=0 } #should be a vassal familly
 1240.1.1 = { liege=c_geneve }
 #vers 1240 = { comtes de genève#####
 
