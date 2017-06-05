@@ -102,6 +102,106 @@ add_trait = "arbitrary"
 100057	=	 {	name=	"Aymon"				dynasty=	300109	religion=	"catholic"	culture=	"arpitan"				father=	100054	mother=	100055	1209.1.1	=	{ birth=	"	1209.1.1	"	}												1300.1.1	=	{ death=	"	1300.1.1	"	}	}
 100058	=	 {	name=	"François"			dynasty=	300109	religion=	"catholic"	culture=	"arpitan"				father=	100054	mother=	100055	1210.1.1	=	{ birth=	"	1210.1.1	"	}												1239.1.1	=	{ death=	"	1239.1.1	"	}	}
 
+
+
+100059 = {
+	name = "Jean" #fictif
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	#father =	100054
+	#mother =	100055
+	 990.1.1 = { birth = yes }	
+	1032.1.1 = { death = yes }
+}
+100060 = {
+	name = "Vuillerme" #fictif
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	father =	100059
+	#mother =	100055
+	1015.1.1 = { birth = yes }	
+	1075.1.1 = { death = yes }
+}
+100061 = {
+	name = "Hugues"
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 8
+	diplomacy = 2
+	stewardship = 6
+	intrigue = 4
+	learning = 6
+	father = 100060
+	#mother =	100055
+	1050.1.1 = { birth = yes }	
+	1131.1.1 = { death = yes }
+}
+100062 = {
+	name = "Humbert" #1st
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 2
+	diplomacy = 4
+	stewardship = 6
+	intrigue = 8
+	learning = 8
+	father = 100061
+	#mother =	100055
+	1080.1.1 = { birth = yes }	
+	1158.1.1 = { death = yes }
+}
+100063 = {
+	name = "Guillaume" #
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 2
+	diplomacy = 6
+	stewardship = 4
+	intrigue = 8
+	learning = 8
+	father = 100061
+	#mother =	100055
+	1095.1.1 = { birth = yes }	
+	1165.1.1 = { death = yes }
+}
+100064 = {
+	name = "Humbert" #2nd
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 8
+	diplomacy = 8
+	stewardship = 2
+	intrigue = 4
+	learning = 6
+	father = 100063
+	#mother =	100055
+	1145.1.1 = { birth = yes }	
+	#1188.1.10#married to Alix de Coligny
+	1215.1.1 = { death = yes }
+}
+100065 = {
+	name = "Etienne" #
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 8
+	diplomacy = 4
+	stewardship = 2
+	intrigue = 8
+	learning = 6
+	father = 100064
+	#mother =	100055
+	1178.1.1 = { birth = yes }	
+	#marié à Agnès de Villars (†après 1242), qui lui porte en dot en 1187 les biens de cette famille
+	1235.1.1 = { death = yes }
+}
+
 #de Beaufort, ID 300123
 
 #génération 1
