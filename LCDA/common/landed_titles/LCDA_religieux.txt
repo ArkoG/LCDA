@@ -164,3 +164,17 @@ d_belley_ecl = {
 				
 		allow={ always = no }
 }
+d_stoyand_ecl = {
+		color={ 255 255 255 }
+		color2={ 0 0 0 }
+		
+		capital = 59 #Saint-Oyand	
+		culture = arpitan	
+		religion = catholic		
+				title = "ABBE_TERRITORIAL"
+				title_prefix = "ABBE_TERRITORIAL_OF"
+				foa = "ABBE_TERRITORIAL_FOA"	
+				
+		allow={ always = no }
+
+}

@@ -1,0 +1,26 @@
+# 59 - Saint-Oyand
+
+# County Title
+title = c_saintoyand
+
+# Settlements
+max_settlements = 4
+
+b_saintoyand1 = temple #Saint-Oyand
+b_saintoyand2 = temple #Saint-Lauconne
+b_saintoyand3 = city #
+#possèdent le chateau de Jasseron (en Coligny), jusque 1300
+#autres possessions, prieuré d'Arbois
+
+#b_saintoyand4 = castle #
+#b_saintoyand5 = castle #
+#b_saintoyand6 = temple #
+#b_saintoyand7 = 
+
+
+# Misc
+culture = arpitan
+religion = catholic
+#terrain = mountain
+
+# History

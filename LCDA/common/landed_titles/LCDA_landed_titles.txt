@@ -620,6 +620,20 @@ e_alps = {
 				b_thoire6 = {}
 				b_thoire7 = {}
 			}
+			c_saintoyand = { #59
+				color={ 185 10 20 }
+				color2={ 200 200 200 }
+				
+				dignity = 7
+				
+				b_saintoyand1 = {}
+				b_saintoyand2 = {}
+				b_saintoyand3 = {}
+				b_saintoyand4 = {}
+				b_saintoyand5 = {}
+				b_saintoyand6 = {}
+				b_saintoyand7 = {}
+			}
 		}
 	}
 
