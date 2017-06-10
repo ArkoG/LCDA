@@ -115,3 +115,12 @@
 	}
 
 # Coa >>49 max.
+
+300124 = {
+	name = "de Bussy"
+	culture = arpitan	
+}
+300125 = {
+	name = "de Coligny"
+	culture = arpitan	
+}

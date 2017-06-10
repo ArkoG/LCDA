@@ -13,7 +13,7 @@ b_thoire3 = city #oyonnax
 #b_thoire4 = castle #Matafelon
 #b_thoire5 = castle #Poncin
 #b_thoire6 = temple #chartreuse de vaucluse
-#b_thoire7 = castle #Montréal
+#b_thoire7 = castle #Montréal franchises et capitale en  1287
 
 
 # Misc
@@ -24,6 +24,10 @@ religion = catholic
 
 1100.1.1 = {	b_thoire4 = castle	} #première moitié du 12éme s.
 1139.1.1 = {	b_thoire6 = temple } #chartreuse de vaucluse
+1200.1.1 = {	remove_settlement = b_thoire1	} #no known date
 1200.1.1 = {	b_thoire5 = castle	} #fin 12éme s.
 1200.1.1 = {	capital = b_thoire5 }	
 1200.1.1 = {	max_settlements = 6	}
+1250.1.1 = {	b_thoire7 = castle	}
+1287.1.1 = {	max_settlements = 7	}
+1287.1.1 = {	capital = b_thoire7 }

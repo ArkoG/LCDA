@@ -3,8 +3,15 @@
 #range 100000//100033 #Faucigny DYN 300102
 #range 100034//100038 #Genève DYN 300101
 #range 100039//100058 #Faucigny DYN 300102
-#range 100059//100099 -free-
+#range 100059//100076 #Thoire DYN 300113
+#range 100077 Bussy
+#range 100078//100099 -free-
 #range 100100//100116 #Beaufort DYN 300123
+
+#stats for c_level total = 20
+#stats for b_level totel = 16
+
+
 
 #sires de Faucigny
 100000	=	 {	name=	"Aymerard"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				
@@ -109,8 +116,6 @@ add_trait = "arbitrary"
 	dynasty = 300112 #de Thoire
 	religion = "catholic"
 	culture = "arpitan"
-	#father =	100054
-	#mother =	100055
 	 990.1.1 = { birth = yes }	
 	1032.1.1 = { death = yes }
 }
@@ -120,22 +125,20 @@ add_trait = "arbitrary"
 	religion = "catholic"
 	culture = "arpitan"
 	father =	100059
-	#mother =	100055
 	1015.1.1 = { birth = yes }	
 	1075.1.1 = { death = yes }
 }
 100061 = {
-	name = "Hugues"
+	name = "Hugues" #historical
 	dynasty = 300112 #de Thoire
 	religion = "catholic"
 	culture = "arpitan"
-	martial = 8
+	martial = 6
 	diplomacy = 2
 	stewardship = 6
 	intrigue = 4
-	learning = 6
+	learning = 2
 	father = 100060
-	#mother =	100055
 	1050.1.1 = { birth = yes }	
 	1131.1.1 = { death = yes }
 }
@@ -144,62 +147,249 @@ add_trait = "arbitrary"
 	dynasty = 300112 #de Thoire
 	religion = "catholic"
 	culture = "arpitan"
-	martial = 2
+	martial = 8
 	diplomacy = 4
-	stewardship = 6
-	intrigue = 8
-	learning = 8
+	stewardship = 3
+	intrigue = 3
+	learning = 2
 	father = 100061
 	#mother =	100055
 	1080.1.1 = { birth = yes }	
 	1158.1.1 = { death = yes }
 }
+#four sons of 100062
 100063 = {
-	name = "Guillaume" #
+	name = "Guillaume" #heir
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 6
+	diplomacy = 6
+	stewardship = 2
+	intrigue = 3
+	learning = 3
+	father = 100062
+	1097.1.1 = { birth = yes }	
+	1165.1.1 = { death = yes }
+}
+100064 = {
+	name = "Humbert" #Chevalier
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 6
+	diplomacy = 6
+	stewardship = 2
+	intrigue = 3
+	learning = 3
+	father = 100062
+	1098.1.1 = { birth = yes }	
+	1165.1.1 = { death = yes }
+}
+100065 = {
+	name = "Gislebert" #Chevalier
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 6
+	diplomacy = 6
+	stewardship = 2
+	intrigue = 3
+	learning = 3
+	father = 100062
+	1100.1.1 = { birth = yes }	
+	1165.1.1 = { death = yes }
+}
+100066 = {
+	name = "Ponce" #abbé de St Oyen puis évêque de Belley en 1162
 	dynasty = 300112 #de Thoire
 	religion = "catholic"
 	culture = "arpitan"
 	martial = 2
-	diplomacy = 6
-	stewardship = 4
-	intrigue = 8
-	learning = 8
-	father = 100061
-	#mother =	100055
-	1095.1.1 = { birth = yes }	
-	1165.1.1 = { death = yes }
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 6
+	father = 100062
+	1103.1.1 = { birth = yes }	
+	1163.1.1 = { death = yes }
 }
-100064 = {
+
+#trois enfants de 100063
+100067 = {
 	name = "Humbert" #2nd
 	dynasty = 300112 #de Thoire
 	religion = "catholic"
 	culture = "arpitan"
-	martial = 8
-	diplomacy = 8
-	stewardship = 2
-	intrigue = 4
-	learning = 6
+	martial = 6
+	diplomacy = 4
+	stewardship = 6
+	intrigue = 2
+	learning = 2
 	father = 100063
-	#mother =	100055
-	1145.1.1 = { birth = yes }	
-	#1188.1.10#married to Alix de Coligny
+	1135.1.1 = { birth = yes }
+	1188.1.10 =	{ add_spouse = 100070 } #Alix de Coligny
 	1215.1.1 = { death = yes }
 }
-100065 = {
-	name = "Etienne" #
+100068 = {
+	name = "Bernard" #abbé de saint-claude, evêque de Belley as Bernard III 1200-1230
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 0
+	diplomacy = 4
+	stewardship = 4
+	intrigue = 2
+	learning = 10
+	father = 100063
+	1140.1.1 = { birth = yes }	
+	1212.1.1 = { death = yes }
+}
+100069 = {
+	name = "Jeanne" #no known name
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	female=yes
+	martial = 0
+	diplomacy = 7
+	stewardship = 3
+	intrigue = 6
+	learning = 4
+	father = 100063
+	1141.1.1 = { birth = yes }
+	#married to Turembert de Chatillon en Michaille
+	1220.1.1 = { death = yes }
+}
+
+100070 = {
+	name = "Alix" #
+	dynasty = 300125 #de Coligny
+	religion = "catholic"
+	culture = "arpitan"
+	female=yes
+	martial = 0
+	diplomacy = 6
+	stewardship = 8
+	intrigue = 2
+	learning = 4
+	#father = xxxx Humbert II de Coligny
+	#mother = xxxx Ide de Vienne
+	1135.1.1 = { birth = yes }
+	#1188.1.10 =	{ add_spouse = 100067 } #Humbert II de Thoire 
+	1228.1.1 = { death = yes }
+}
+
+#cinq enfants d'Humbert II de Thoire
+100071 = {
+	name = "Etienne" # I
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 5
+	diplomacy = 10
+	stewardship = 1
+	intrigue = 4
+	learning = 2
+	father = 100067
+	mother = 100070
+	1178.1.1 = { birth = yes }	
+	1200.1.10 =	{ add_spouse = 100076 } #marié à Agnès de Villars (†après 1242), qui lui porte en dot en 1187 les biens de cette famille
+	1235.1.1 = { death = yes }
+}
+100072 = {
+	name = "Ponce" #evêque de Mâcon en 1199
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 0
+	diplomacy = 5
+	stewardship = 2
+	intrigue = 5
+	learning = 8
+	father = 100067
+	mother = 100070
+	1179.1.1 = { birth = yes }	
+	1220.1.1 = { death = yes }
+}
+100073 = {
+	name = "Humbert" #Chevalier
 	dynasty = 300112 #de Thoire
 	religion = "catholic"
 	culture = "arpitan"
 	martial = 8
-	diplomacy = 4
+	diplomacy = 2
 	stewardship = 2
-	intrigue = 8
-	learning = 6
-	father = 100064
-	#mother =	100055
-	1178.1.1 = { birth = yes }	
-	#marié à Agnès de Villars (†après 1242), qui lui porte en dot en 1187 les biens de cette famille
-	1235.1.1 = { death = yes }
+	intrigue = 4
+	learning = 4
+	father = 100067
+	mother = 100070
+	1180.1.1 = { birth = yes }	
+	1230.1.1 = { death = yes }
+}
+100074 = {
+	name = "Bernard" #Chevalier
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 8
+	diplomacy = 2
+	stewardship = 2
+	intrigue = 4
+	learning = 4
+	father = 100067
+	mother = 100070
+	1181.1.1 = { birth = yes }	
+	1230.1.1 = { death = yes }
+}
+100075 = {
+	name = "Boniface" #Prieur de Nantua en 1200, evêque de Belley en 1215
+	dynasty = 300112 #de Thoire
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 0
+	diplomacy = 2
+	stewardship = 4
+	intrigue = 4
+	learning = 10
+	father = 100067
+	mother = 100070
+	1182.1.1 = { birth = yes }	
+	1225.1.1 = { death = yes }
+}
+100076 = {
+	name = "Agnès" 
+	dynasty = 300113 #de Villars
+	religion = "catholic"
+	culture = "arpitan"
+	female=yes
+	martial = 0
+	diplomacy = 8
+	stewardship = 8
+	intrigue = 2
+	learning = 4
+	#father = xxxx Etienne II de Villars
+	#mother = xxxx Nn
+	1185.1.1 = { birth = yes }
+	#1187 inherits c_villars
+	#1200.1.10 =	{ add_spouse = 100071 } #Etienne I de Thoire 
+	1242.1.1 = { death = yes }
+}
+#they had 2 children, Etienne (II) and Jeanne
+
+
+100077 = {
+	name = "Guy" #fictif
+	dynasty = 300124 #de Bussy
+	religion = "catholic"
+	culture = "arpitan"
+	martial = 10
+	diplomacy = 4
+	stewardship = 0
+	intrigue = 2
+	learning = 0
+	1015.1.1 = { birth = yes }	
+	1075.1.1 = { death = yes }
 }
 
 #de Beaufort, ID 300123

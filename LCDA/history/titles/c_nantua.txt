@@ -1,1 +1,7 @@
 999.1.1 = { liege=0 }
+
+
+1200.1.1 = { holder = 100075 } #Boniface de Thoire, Prieur de Nantua en 1200, evêque de Belley en 1215
+
+
+1215.1.1 = { holder = 0 }

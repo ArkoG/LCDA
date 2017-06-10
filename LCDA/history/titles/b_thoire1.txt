@@ -1,9 +1,9 @@
- 999.1.1 = { liege=0 }
- 999.1.1 = { holder=100059 } #Jean, fic
+#Thoire
+999.1.1 = { liege=c_thoire }
+999.1.1 = { holder=100059 } #Jean, fic
 1032.1.1 = { holder=100060 } #Vuillerme, fic
 1075.1.1 = { holder=100061 } #Hugues
 1131.1.1 = { holder=100062 } #Humbert the 1st
 1158.1.1 = { holder=100063 } #Guillaume
-1165.1.1 = { holder=100067 } #Humbert II
-1215.1.1 = { holder=100071 } #Etienne I
-1235.1.1 = { holder=0 }
+1165.1.1 = { holder=100064 } #Humbert II
+1200.1.1 = { holder=0 } #end of the demesne

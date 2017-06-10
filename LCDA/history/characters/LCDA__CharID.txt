@@ -9,8 +9,14 @@
 #range 100018//100018 #Compey DYN 300115
 #range 100034//100038 #Genève DYN 300101
 #range 100039//100058 #Faucigny DYN 300102
-#range 100059//100062 #Thoire DYN 300102
-#range 100060//100099 -free-
+#range 100059//100065 #Thoire DYN 300113
+
+
+#range 100077 #Bussy DYN 300124
+
+
+#range 100077 Bussy
+#range 100078//100099 -free-
 #range 100100//100116 #Beaufort DYN 300123
 
 #range 100200//100200#pape 1032
