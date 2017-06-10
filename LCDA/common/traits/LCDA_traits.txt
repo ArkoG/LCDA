@@ -74,5 +74,5 @@ noble_chevalier = {
 	
 	ai_zeal = 5			#
 	ai_ambition = 10	#
-	ai_honor = 12		#bishop are sinful it seems
+	ai_honor = 15		#
 }	
