@@ -17,6 +17,7 @@ technology = {
 		d_viennois
 		d_graisivaudan
 		
+		d_bugey
 		
 	}
 
