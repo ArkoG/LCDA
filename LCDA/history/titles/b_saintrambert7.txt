@@ -1,5 +1,6 @@
 #Cornillon, chateau des abbés de Saint-Rambert
-999.1.1 = { liege=c_saintrambert }
+999.1.1={ holder = 0 }
 
+1050.1.1 = { liege=c_saintrambert }
 1150.1.1={ holder = 1024 }
 1190.1.1={ holder = 0 }

@@ -1,5 +1,6 @@
 999.1.1 = { liege=d_stoyand_ecl }
 
-1200.1.1 = { holder = 100068 }#Bernard III de Thoire
+1150.1.1 = { 100066} #Ponce" #abbé de St Oyen puis évêque de Belley en 1162, revoir dates +fiche perso
+1185.1.1 = { holder = 100068 }#Bernard III de Thoire #revoir date + fiche perso
 
-1215.1.1 = { holder=0 }
+1200.1.1 = { holder=0 }

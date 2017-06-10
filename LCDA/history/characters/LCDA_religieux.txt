@@ -11,11 +11,12 @@ diplomacy = 2
 stewardship = 5
 intrigue = 2
 learning = 1
-add_trait = "flamboyant_schemer"
-add_trait = "cynical"
-add_trait = "shy"
-add_trait = "brave"
-add_trait = "honest"
+trait = "flamboyant_schemer"
+trait = "cynical"
+trait = "shy"
+trait = "brave"
+trait = "honest"
+	trait = "clerge_abbe"
 }
 1001	=	 {	name=	"Robert"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1032.1.1	=	{ birth=	"	1032.1.1	"	}	
@@ -25,8 +26,9 @@ diplomacy = 7
 stewardship = 4
 intrigue = 7
 learning = 3
-add_trait = "grey_eminence"
-add_trait = "envious"
+trait = "grey_eminence"
+trait = "envious"
+	trait = "clerge_abbe"
 }
 1002	=	 {	name=	"Rodolphe"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1070.1.1	=	{ birth=	"	1070.1.1	"	}	
@@ -36,7 +38,8 @@ diplomacy = 1
 stewardship = 6
 intrigue = 3
 learning = 4
-add_trait = "flamboyant_schemer"	
+trait = "flamboyant_schemer"	
+	trait = "clerge_abbe"
 }
 1003	=	 {	name=	"Aymerard"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1080.1.1	=	{ birth=	"	1080.1.1	"	}	
@@ -46,9 +49,10 @@ diplomacy = 3
 stewardship = 6
 intrigue = 5
 learning = 8
-add_trait = "grey_eminence"
-add_trait = "mystic"
-add_trait = "honest"
+trait = "grey_eminence"
+trait = "mystic"
+trait = "honest"
+	trait = "clerge_abbe"
 }
 1004	=	 {	name=	"Rodolphe"	dynasty=	300116	religion=	"catholic"	culture=	"arpitan"	
 1100.1.1	=	{ birth=	"	1100.1.1	"	}	
@@ -58,10 +62,11 @@ diplomacy = 4
 stewardship = 6
 intrigue = 5
 learning = 4
-add_trait = "underhanded_rogue"
-add_trait = "paranoid"
-add_trait = "envious"
-add_trait = "cruel"	
+trait = "underhanded_rogue"
+trait = "paranoid"
+trait = "envious"
+trait = "cruel"	
+	trait = "clerge_abbe"
 }
 1005	=	 {	name=	"Burchard"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1110.1.1	=	{ birth=	"	1110.1.1	"	}	
@@ -71,10 +76,11 @@ diplomacy = 4
 stewardship = 1
 intrigue = 2
 learning = 1
-add_trait = "thrifty_clerk"
-add_trait = "slothful"
-add_trait = "patient"
-add_trait = "kind"
+trait = "thrifty_clerk"
+trait = "slothful"
+trait = "patient"
+trait = "kind"
+	trait = "clerge_abbe"
 }
 1006	=	 {	name=	"Pierre"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1120.1.1	=	{ birth=	"	1120.1.1	"	}	
@@ -84,10 +90,11 @@ diplomacy = 5
 stewardship = 7
 intrigue = 7
 learning = 2
-add_trait = "brilliant_strategist"
-add_trait = "humble"
-add_trait = "content"
-add_trait = "wroth"
+trait = "brilliant_strategist"
+trait = "humble"
+trait = "content"
+trait = "wroth"
+	trait = "clerge_abbe"
 }
 1007	=	 {	name=	"Gérold"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1120.1.1	=	{ birth=	"	1120.1.1	"	}	
@@ -97,9 +104,10 @@ diplomacy = 8
 stewardship = 6
 intrigue = 5
 learning = 6
-add_trait = "detached_priest"
-add_trait = "patient"
-add_trait = "trusting"	
+trait = "detached_priest"
+trait = "patient"
+trait = "trusting"	
+	trait = "clerge_abbe"
 }
 1008	=	 {	name=	"Guillaume"	dynasty=	300117	religion=	"catholic"	culture=	"arpitan"	
 1150.1.1	=	{ birth=	"	1150.1.1	"	}	
@@ -109,9 +117,10 @@ diplomacy = 6
 stewardship = 1
 intrigue = 8
 learning = 7
-add_trait = "grey_eminence"
-add_trait = "brave"
-add_trait = "cruel"
+trait = "grey_eminence"
+trait = "brave"
+trait = "cruel"
+	trait = "clerge_abbe"
 }
 1009	=	 {	name=	"Albert"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1170.1.1	=	{ birth=	"	1170.1.1	"	}	
@@ -121,9 +130,10 @@ diplomacy = 3
 stewardship = 8
 intrigue = 5
 learning = 1
-add_trait = "elusive_shadow"
-add_trait = "arbitrary"
-add_trait = "wounded"	
+trait = "elusive_shadow"
+trait = "arbitrary"
+trait = "wounded"	
+	trait = "clerge_abbe"
 }
 1010	=	 {	name=	"Pierre"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1190.1.1	=	{ birth=	"	1190.1.1	"	}	
@@ -133,9 +143,10 @@ diplomacy = 5
 stewardship = 1
 intrigue = 2
 learning = 3
-add_trait = "skilled_tactician"
-add_trait = "craven"
-add_trait = "gregarious"	
+trait = "skilled_tactician"
+trait = "craven"
+trait = "gregarious"	
+	trait = "clerge_abbe"
 }
 1011	=	 {	name=	"Jean"		dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1190.1.1	=	{ birth=	"	1190.1.1	"	}	
@@ -145,9 +156,10 @@ diplomacy = 1
 stewardship = 1
 intrigue = 2
 learning = 0
-add_trait = "charismatic_negotiator"
-add_trait = "greedy"
-add_trait = "patient"
+trait = "charismatic_negotiator"
+trait = "greedy"
+trait = "patient"
+	trait = "clerge_abbe"
 }
 1012	=	 {	name=	"Pierre"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1190.1.1	=	{ birth=	"	1190.1.1	"	}	
@@ -157,9 +169,10 @@ diplomacy = 2
 stewardship = 4
 intrigue = 0
 learning = 6
-add_trait = "underhanded_rogue"
-add_trait = "lustful"
-add_trait = "diligent"
+trait = "underhanded_rogue"
+trait = "lustful"
+trait = "diligent"
+	trait = "clerge_abbe"
 }
 1013	=	 {	name=	"Viffred"	dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1200.1.1	=	{ birth=	"	1200.1.1	"	}	
@@ -169,9 +182,10 @@ diplomacy = 2
 stewardship = 3
 intrigue = 5
 learning = 5
-add_trait = "underhanded_rogue"
-add_trait = "impaler"
-add_trait = "craven"
+trait = "underhanded_rogue"
+trait = "impaler"
+trait = "craven"
+	trait = "clerge_abbe"
 }
 1014	=	 {	name=	"Raymond Bondaci"	dynasty=0	religion=	"catholic"	culture=	"arpitan"	
 1220.1.1	=	{ birth=	"	1220.1.1	"	}	
@@ -181,8 +195,9 @@ diplomacy = 2
 stewardship = 2
 intrigue = 6
 learning = 5
-add_trait = "underhanded_rogue"
-add_trait = "just"
+trait = "underhanded_rogue"
+trait = "just"
+	trait = "clerge_abbe"
 }
 1015	=	 {	name=	"Jean"		dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1220.1.1	=	{ birth=	"	1220.1.1	"	}	
@@ -192,9 +207,10 @@ diplomacy = 0
 stewardship = 4
 intrigue = 6
 learning = 4
-add_trait = "underhanded_rogue"
-add_trait = "shy"
-add_trait = "drunkard"
+trait = "underhanded_rogue"
+trait = "shy"
+trait = "drunkard"
+	trait = "clerge_abbe"
 }
 1016	=	 {	name=	"Gérold"	dynasty=	300118	religion=	"catholic"	culture=	"arpitan"	
 1250.1.1	=	{ birth=	"	1250.1.1	"	}	
@@ -204,10 +220,11 @@ diplomacy = 6
 stewardship = 4
 intrigue = 6
 learning = 5
-add_trait = "naive_appeaser"
-add_trait = "temperate"
-add_trait = "gregarious"
-add_trait = "cruel"
+trait = "naive_appeaser"
+trait = "temperate"
+trait = "gregarious"
+trait = "cruel"
+	trait = "clerge_abbe"
 }
 1017	=	 {	name=	"Jean"		dynasty=	0		religion=	"catholic"	culture=	"arpitan"	
 1295.1.1	=	{ birth=	"	1295.1.1	"	}	
@@ -217,10 +234,11 @@ diplomacy = 5
 stewardship = 0
 intrigue = 6
 learning = 5
-add_trait = "skilled_tactician"
-add_trait = "impaler"
-add_trait = "brave"
-add_trait = "diligent"
+trait = "skilled_tactician"
+trait = "impaler"
+trait = "brave"
+trait = "diligent"
+	trait = "clerge_abbe"
 }
 1018	=	 {	name=	"Pierre"	dynasty=	300119	religion=	"catholic"	culture=	"arpitan"	
 1300.1.1	=	{ birth=	"	1300.1.1	"	}	
@@ -230,11 +248,12 @@ diplomacy = 3
 stewardship = 6
 intrigue = 5
 learning = 4
-add_trait = "underhanded_rogue"
-add_trait = "arbitrary"
-add_trait = "cynical"
-add_trait = "gregarious"
-add_trait = "wounded"
+trait = "underhanded_rogue"
+trait = "arbitrary"
+trait = "cynical"
+trait = "gregarious"
+trait = "wounded"
+	trait = "clerge_abbe"
 }
 1019	=	 {	name=	"Jean"		dynasty=	300120	religion=	"catholic"	culture=	"arpitan"	
 1330.1.1	=	{ birth=	"	1330.1.1	"	}	
@@ -244,8 +263,9 @@ diplomacy = 4
 stewardship = 3
 intrigue = 6
 learning = 7
-add_trait = "fortune_builder"
-add_trait = "cruel"
+trait = "fortune_builder"
+trait = "cruel"
+	trait = "clerge_abbe"
 }
 1020	=	 {	name=	"Girard"	dynasty=	300121	religion=	"catholic"	culture=	"arpitan"	
 1330.1.1	=	{ birth=	"	1330.1.1	"	}	
@@ -255,10 +275,11 @@ diplomacy = 4
 stewardship = 6
 intrigue = 3
 learning = 5
-add_trait = "charismatic_negotiator"
-add_trait = "kind"
-add_trait = "ambitious"
-add_trait = "shy"	
+trait = "charismatic_negotiator"
+trait = "kind"
+trait = "ambitious"
+trait = "shy"	
+	trait = "clerge_abbe"
 }
 1021	=	 {	name=	"Thomas"	dynasty=	300122	religion=	"catholic"	culture=	"arpitan"	
 1350.1.1	=	{ birth=	"	1350.1.1	"	}	
@@ -268,9 +289,10 @@ diplomacy = 5
 stewardship = 4
 intrigue = 3
 learning = 8
-add_trait = "indulgent_wastrel"
-add_trait = "arbitrary"
-add_trait = "lustful"
+trait = "indulgent_wastrel"
+trait = "arbitrary"
+trait = "lustful"
+	trait = "clerge_abbe"
 }
 1022	=	 {	name=	"Guillaume"	dynasty=	300118	religion=	"catholic"	culture=	"arpitan"	
 1380.1.1	=	{ birth=	"	1380.1.1	"	}	
@@ -280,9 +302,10 @@ diplomacy = 6
 stewardship = 5
 intrigue = 0
 learning = 1
-add_trait = "thrifty_clerk"
-add_trait = "deceitful"
-add_trait = "brave"	
+trait = "thrifty_clerk"
+trait = "deceitful"
+trait = "brave"	
+	trait = "clerge_abbe"
 }
 
 #prieurs de Saint Rambert
@@ -297,7 +320,8 @@ add_trait = "brave"
 	stewardship = 4
 	intrigue = 0
 	learning = 8
-	add_trait = "charismatic_negotiator"
+	trait = "charismatic_negotiator"
+	trait = "clerge_abbe"
 }
 1024= {	
 	name="Adon" #prieur de Saint Rambert en 1150
@@ -310,5 +334,6 @@ add_trait = "brave"
 	stewardship = 4
 	intrigue = 0
 	learning = 6
-	add_trait = "thrifty_clerk"
+	trait = "thrifty_clerk"
+	trait = "clerge_abbe"
 }

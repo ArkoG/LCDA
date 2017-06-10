@@ -31,7 +31,7 @@ properties="0j0cbk00000000"
 100009	=	 {	name=	"Raymond"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100003	mother=	100006	1071.1.2	=	{ birth=	"	1071.1.2	"	}												1131.1.2	=	{ death=	"	1131.1.2	"	}	}
 100010	=	 {	name=	"Gérold"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100003	mother=	100006	1073.1.1	=	{ birth=	"	1073.1.1	"	}												1129.7.1	=	{ death=	"	1129.7.1	"	}	}
 100011	=	 {	name=	"Amédée"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100003	mother=	100006	1080.1.1	=	{ birth=	"	1080.1.1	"	}												1128.1.1	=	{ death=	"	1128.1.1	"	}	}
-100012	=	 {	name=	"Aymon"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100007					1125.1.1	=	{ birth=	"	1125.1.1	"	}												1192.1.1	=	{ death=	"	1192.1.1	"	}	1147.1.1	=	{ add_trait=crusader	}}
+100012	=	 {	name=	"Aymon"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100007					1125.1.1	=	{ birth=	"	1125.1.1	"	}												1192.1.1	=	{ death=	"	1192.1.1	"	}	1147.1.1	=	{ trait=crusader	}}
 100013	=	 {	name=	"Arducius"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100007					1115.1.1	=	{ birth=	"	1115.1.1	"	}												1185.7.25	=	{ death=	"	1185.7.25	"	}	}
 100014	=	 {	name=	"Gui"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100007					1113.1.1	=	{ birth=	"	1113.1.1	"	}												1180.1.1	=	{ death=	"	1180.1.1	"	}	}
 100015	=	 {	name=	"Rodolphe"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"				father=	100007					1115.1.1	=	{ birth=	"	1115.1.1	"	}	1140.1.1	=	{ add_spouse=	100025	}	1178.1.1	=	{ death=	"	1178.1.1	"	}	}
@@ -49,10 +49,10 @@ diplomacy = 5
 stewardship = 1
 intrigue = 2
 learning = 5
-add_trait = "skilled_tactician"
-add_trait = "paranoid"
-add_trait = "cruel"
-add_trait = "arbitrary"
+trait = "skilled_tactician"
+trait = "paranoid"
+trait = "cruel"
+trait = "arbitrary"
 1030.11.28={birth=yes}
 1083.1.1={death=yes}
 }
@@ -98,7 +98,7 @@ add_trait = "arbitrary"
 100044	=	 {	name=	"Flotte"			dynasty=	300111	religion=	"catholic"	culture=	"arpitan"	female=yes									1205.1.1	=	{ birth=	"	1205.1.1	"	}												1248.1.1	=	{ death=	"	1248.1.1	"	}	}
 100045	=	 {	name=	"Béatrix"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"	female=yes	father=	100041	mother=	100043	1210.1.1	=	{ birth=	"	1210.1.1	"	}												1276.3.8	=	{ death=	"	1276.3.8	"	}	}
 100046	=	 {	name=	"Agnès"				dynasty=	300102	religion=	"catholic"	culture=	"arpitan"	female=yes	father=	100041	mother=	100043	1215.1.1	=	{ birth=	"	1215.1.1	"	}												1268.8.11	=	{ death=	"	1268.8.11	"	}	}
-100047	=	 {	name=	"Aymon"				dynasty=	0		religion=	"catholic"	culture=	"arpitan"				father=	100041					1225.1.1	=	{ birth=	"	1225.1.1	"	}												1262.1.1	=	{ death=	"	1262.1.1	"	}	add_trait= bastard }
+100047	=	 {	name=	"Aymon"				dynasty=	0		religion=	"catholic"	culture=	"arpitan"				father=	100041					1225.1.1	=	{ birth=	"	1225.1.1	"	}												1262.1.1	=	{ death=	"	1262.1.1	"	}	trait= bastard }
 100050	=	 {	name=	"Pierre"			dynasty=	300102	religion=	"catholic"	culture=	"arpitan"												1281.1.1	=	{ birth=	"	1281.1.1	"	}												1342.3.28	=	{ death=	"	1342.3.28	"	}	}
 100051	=	 {	name=	"Anguisio"			dynasty=	300109	religion=	"catholic"	culture=	"arpitan"				father=	100026	mother=	100028	1166.1.1	=	{ birth=	"	1166.1.1	"	}												1235.1.1	=	{ death=	"	1235.1.1	"	}	}
 100052	=	 {	name=	"Rodolphe"			dynasty=	300109	religion=	"catholic"	culture=	"arpitan"				father=	100026	mother=	100028	1168.1.1	=	{ birth=	"	1168.1.1	"	}	1188.1.1	=	{ add_spouse=	100033	}	1236.1.1	=	{ death=	"	1236.1.1	"	}	}
@@ -184,6 +184,7 @@ add_trait = "arbitrary"
 	learning = 3
 	father = 100062
 	1098.1.1 = { birth = yes }	
+	1118.1.1 = { add_trait = "noble_chevalier"}
 	1165.1.1 = { death = yes }
 }
 100065 = {
@@ -197,7 +198,8 @@ add_trait = "arbitrary"
 	intrigue = 3
 	learning = 3
 	father = 100062
-	1100.1.1 = { birth = yes }	
+	1100.1.1 = { birth = yes }
+	1120.1.1 = { add_trait = "noble_chevalier"}	
 	1165.1.1 = { death = yes }
 }
 100066 = {
@@ -211,7 +213,10 @@ add_trait = "arbitrary"
 	intrigue = 3
 	learning = 6
 	father = 100062
-	1103.1.1 = { birth = yes }	
+	1103.1.1 = { birth = yes }
+	1150.1.1 = { add_trait = "clerge_abbe" }
+	1162.1.1 = { remove_trait = "clerge_abbe" }
+	1162.1.1 = { add_trait = "clerge_eveque" }	
 	1163.1.1 = { death = yes }
 }
 
@@ -243,6 +248,9 @@ add_trait = "arbitrary"
 	learning = 10
 	father = 100063
 	1140.1.1 = { birth = yes }	
+	1185.1.1 = { add_trait = "clerge_abbe" }
+	1200.1.1 = { remove_trait = "clerge_abbe" }
+	1200.1.1 = { add_trait = "clerge_eveque" }
 	1212.1.1 = { death = yes }
 }
 100069 = {
@@ -310,6 +318,7 @@ add_trait = "arbitrary"
 	father = 100067
 	mother = 100070
 	1179.1.1 = { birth = yes }	
+	1199.1.1 = { add_trait = "clerge_eveque" }
 	1220.1.1 = { death = yes }
 }
 100073 = {
@@ -325,6 +334,7 @@ add_trait = "arbitrary"
 	father = 100067
 	mother = 100070
 	1180.1.1 = { birth = yes }	
+	1200.1.1 = { add_trait = "noble_chevalier"}	
 	1230.1.1 = { death = yes }
 }
 100074 = {
@@ -340,6 +350,7 @@ add_trait = "arbitrary"
 	father = 100067
 	mother = 100070
 	1181.1.1 = { birth = yes }	
+	1201.1.1 = { add_trait = "noble_chevalier"}	
 	1230.1.1 = { death = yes }
 }
 100075 = {
@@ -355,6 +366,9 @@ add_trait = "arbitrary"
 	father = 100067
 	mother = 100070
 	1182.1.1 = { birth = yes }	
+	1200.1.1 = { add_trait = "clerge_abbe" }
+	1215.1.1 = { remove_trait = "clerge_abbe" }
+	1215.1.1 = { add_trait = "clerge_eveque" }
 	1225.1.1 = { death = yes }
 }
 100076 = {
@@ -388,7 +402,8 @@ add_trait = "arbitrary"
 	stewardship = 0
 	intrigue = 2
 	learning = 0
-	1015.1.1 = { birth = yes }	
+	1015.1.1 = { birth = yes }
+	1035.1.1 = { add_trait = "noble_chevalier"}		
 	1075.1.1 = { death = yes }
 }
 
@@ -406,9 +421,9 @@ diplomacy = 5
 stewardship = 2
 intrigue = 4
 learning = 5
-add_trait = "detached_priest"
-add_trait = "chaste"
-add_trait = "slothful"
+trait = "detached_priest"
+trait = "chaste"
+trait = "slothful"
 900.9.9={birth=yes}
 920.4.4 = {add_spouse=100101}
 944.9.9={death=yes}
@@ -426,11 +441,11 @@ diplomacy = 4
 stewardship = 4
 intrigue = 1
 learning = 6
-add_trait = "flamboyant_schemer"
-add_trait = "just"
-add_trait = "deceitful"
-add_trait = "humble"
-add_trait = "wounded"
+trait = "flamboyant_schemer"
+trait = "just"
+trait = "deceitful"
+trait = "humble"
+trait = "wounded"
 901.9.17={birth=yes}
 920.4.4 = {add_spouse=100100}
 971.1.9={death=yes}
@@ -448,10 +463,10 @@ diplomacy = 5
 stewardship = 0
 intrigue = 4
 learning = 6
-add_trait = "grey_eminence"
-add_trait = "slothful"
-add_trait = "brave"
-add_trait = "cruel"
+trait = "grey_eminence"
+trait = "slothful"
+trait = "brave"
+trait = "cruel"
 father = 100100
 mother = 100101
 923.2.20={birth=yes}
@@ -470,10 +485,10 @@ diplomacy = 0
 stewardship = 5
 intrigue = 4
 learning = 2
-add_trait = "midas_touched"
-add_trait = "brave"
-add_trait = "slothful"
-add_trait = "wroth"
+trait = "midas_touched"
+trait = "brave"
+trait = "slothful"
+trait = "wroth"
 father = 100100
 mother = 100101
 920.12.8={birth=yes}
@@ -491,8 +506,8 @@ diplomacy = 3
 stewardship = 1
 intrigue = 2
 learning = 1
-add_trait = "misguided_warrior"
-add_trait = "proud"
+trait = "misguided_warrior"
+trait = "proud"
 father = 100100
 mother = 100101
 921.6.25={birth=yes}
@@ -511,8 +526,8 @@ diplomacy = 6
 stewardship = 6
 intrigue = 4
 learning = 6
-add_trait = "brilliant_strategist"
-add_trait = "proud"
+trait = "brilliant_strategist"
+trait = "proud"
 father = 100100
 mother = 100101
 920.7.26={birth=yes}
@@ -531,7 +546,7 @@ diplomacy = 2
 stewardship = 7
 intrigue = 5
 learning = 2
-add_trait = "skilled_tactician"
+trait = "skilled_tactician"
 920.3.29={birth=yes}
 941.7.17 = {add_spouse=100102}
 996.3.29={death=yes}
@@ -550,10 +565,10 @@ diplomacy = 5
 stewardship = 1
 intrigue = 7
 learning = 7
-add_trait = "midas_touched"
-add_trait = "diligent"
-add_trait = "envious"
-add_trait = "deceitful"
+trait = "midas_touched"
+trait = "diligent"
+trait = "envious"
+trait = "deceitful"
 father = 100102
 mother = 100106
 942.5.9={birth=yes}
@@ -571,10 +586,10 @@ diplomacy = 5
 stewardship = 6
 intrigue = 2
 learning = 3
-add_trait = "intricate_webweaver"
-add_trait = "envious"
-add_trait = "just"
-add_trait = "brave"
+trait = "intricate_webweaver"
+trait = "envious"
+trait = "just"
+trait = "brave"
 father = 100102
 mother = 100106
 944.12.9={birth=yes}
@@ -594,7 +609,7 @@ diplomacy = 3
 stewardship = 2
 intrigue = 7
 learning = 6
-add_trait = "grey_eminence"
+trait = "grey_eminence"
 944.6.18={birth=yes}
 965.8.21 = {add_spouse=100109}
 1018.6.18={death=yes}
@@ -612,11 +627,11 @@ diplomacy = 3
 stewardship = 2
 intrigue = 3
 learning = 6
-add_trait = "midas_touched"
-add_trait = "patient"
-add_trait = "gregarious"
-add_trait = "lustful"
-add_trait = "diligent"
+trait = "midas_touched"
+trait = "patient"
+trait = "gregarious"
+trait = "lustful"
+trait = "diligent"
 father = 100109
 mother = 100110
 967.2.21={birth=yes}
@@ -634,9 +649,9 @@ diplomacy = 7
 stewardship = 5
 intrigue = 4
 learning = 3
-add_trait = "elusive_shadow"
-add_trait = "gregarious"
-add_trait = "just"
+trait = "elusive_shadow"
+trait = "gregarious"
+trait = "just"
 father = 100109
 mother = 100110
 968.8.28={birth=yes}
@@ -656,9 +671,9 @@ diplomacy = 4
 stewardship = 4
 intrigue = 2
 learning = 4
-add_trait = "fortune_builder"
-add_trait = "scholar"
-add_trait = "cynical"
+trait = "fortune_builder"
+trait = "scholar"
+trait = "cynical"
 974.2.3={birth=yes}
 989.3.22 = {add_spouse=100113}
 1015.7.6={death=yes}
@@ -677,12 +692,12 @@ diplomacy = 4
 stewardship = 3
 intrigue = 3
 learning = 4
-add_trait = "midas_touched"
-add_trait = "hedonist"
-add_trait = "honest"
-add_trait = "kind"
-add_trait = "zealous"
-add_trait = "ill"
+trait = "midas_touched"
+trait = "hedonist"
+trait = "honest"
+trait = "kind"
+trait = "zealous"
+trait = "ill"
 father = 100113
 mother = 100114
 990.2.20={birth=yes}
@@ -700,10 +715,10 @@ diplomacy = 5
 stewardship = 6
 intrigue = 5
 learning = 6
-add_trait = "charismatic_negotiator"
-add_trait = "scholar"
-add_trait = "gregarious"
-add_trait = "humble"
+trait = "charismatic_negotiator"
+trait = "scholar"
+trait = "gregarious"
+trait = "humble"
 father = 100113
 mother = 100114
 991.1.15={birth=yes}

@@ -1,5 +1,5 @@
 999.1.1 = { liege=0 }
 
-1200.1.1 = { holder = 100068 }#Bernard III de Thoire
+1185.1.1 = { holder = 100068 }#Bernard III de Thoire
 
-1215.1.1 = { holder=0 }
+1200.1.1 = { holder=0 }

@@ -27,6 +27,7 @@
 	religion=	"catholic"
 	culture=	"arpitan"
 	1010.1.1	=	{ birth=	"	 1010.1.1	"	}
+	1030.1.1 = { add_trait = clerge_eveque }
 	1073.1.1	=	{ death=	"	1073.1.1	"	}
 }
 101	= { 
@@ -35,6 +36,7 @@
 	religion=	"catholic"	
 	culture=	"arpitan"		
 	#add_trait = voeu_de_celibat_H
+	trait = clerge_abbe
 	1000.1.1	=	{ birth=	"	 1000.1.1	"	}	
 	1068.1.1	=	{ death=	"	1068.1.1	"	}
 }
@@ -42,7 +44,8 @@
 	name="Humbert"	
 	dynasty=	0
 	religion=	"catholic"
-	culture=	"arpitan"											
+	culture=	"arpitan"	
+	trait = clerge_eveque	
 	1100.1.1	=	{ birth=	"	 1100.1.1	"	}											
 	1135.1.1	=	{ death=	"	1135.1.1	"	}
 }
@@ -51,7 +54,8 @@
 	name="Aymon"		
 	dynasty=	0
 	religion=	"catholic"
-	culture=	"arpitan"											
+	culture=	"arpitan"		
+	trait = clerge_eveque	
 	1000.1.1	=	{ birth=	"	 1000.1.1	"	}											
 	1057.1.1	=	{ death=	"	1057.1.1	"	}
 }
@@ -59,7 +63,8 @@
 	name="Theobaldus"
 	dynasty=	0
 	religion=	"catholic"
-	culture=	"arpitan"												
+	culture=	"arpitan"	
+	trait = clerge_eveque
 	1000.1.1	=	{ birth=	"	 1000.1.1	"	}											
 	1060.1.1	=	{ death=	"	1060.1.1	"	}
 }
@@ -68,6 +73,7 @@
 	dynasty=	0
 	religion=	"catholic"
 	culture=	"arpitan"
+	trait = clerge_eveque
 	1000.1.1	=	{ birth=	"	 1000.1.1	"	}
 	1060.1.1	=	{ death=	"	1060.1.1	"	}
 }
