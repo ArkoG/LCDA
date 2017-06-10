@@ -16,3 +16,10 @@ voeu_de_celibat_H;;Voeu de Célibat;;;;;;;;;;;;x
 voeu_de_celibat_H_desc;;Ce personnage vit à présent reclus dans un monastère et a fait voeu (ou a y été contraint) de célibat et de renoncement à toute possession matérielle. Il ne pourra dès lors ni se marier, ni hériter.;;;;;;;;;;;;x
 voeu_de_celibat_F;;Voeu de Célibat;;;;;;;;;;;;x
 voeu_de_celibat_F_desc;;Cette femme vit recluse dans un monastère et a fait voeu (ou a été forcée par ses parents) de célibat et de renoncement à toute possession matérielle. Elle ne peut en conséquence ni prétendre se marier, ni hériter.;;;;;;;;;;;;x
+
+clerge_abbe;Abbot;Abbé;;;;;;;;;;;;x
+clerge_abbe_desc;This character leads a priory or abbey;Ce personnage dirige un prieuré ou une abbaye.;;;;;;;;;;;;x
+clerge_eveque;Bishop;Evêque;;;;;;;;;;;;x
+clerge_eveque_desc;This character holds an eclesiatical title.;Ce personnage détient un titre éclésiastique.;;;;;;;;;;;;x
+noble_chevalier;Knight;Chevalier;;;;;;;;;;;;x
+noble_chevalier_desc;This character is a valourous knight from nobility;Ce personnage, issu de la noblesse, est un valeureux chevalier.;;;;;;;;;;;;x

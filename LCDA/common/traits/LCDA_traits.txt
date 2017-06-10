@@ -1,0 +1,78 @@
+##############################
+# LIFESTYLE for LCDA by Arko #
+##############################
+
+#max attribute +3
+#customizer = no
+#random = no
+##lifestyle = yes  
+
+clerge_abbe = {
+	sex_appeal_opinion = -20
+	church_opinion = 15
+	same_opinion = 10
+	#lifestyle = yes  
+	monthly_character_piety = 2
+	fertility = -0.8
+	learning = 3
+
+	opposites = { trait = clerge_eveque }
+	customizer = no
+	random = no
+	potential = { 
+		is_female = no
+		is_catholic_group = yes
+	}
+	religious = yes 
+	#priest = yes
+	cannot_marry = yes
+	cannot_inherit = yes
+	ai_rationality = 10 #reasonable
+	ai_zeal = 15 		#reasonably zealous
+	ai_ambition = -10 	#boring
+}
+
+clerge_eveque = {
+	sex_appeal_opinion = -20
+	church_opinion = 5
+	same_opinion = 10
+	#lifestyle = yes  
+	monthly_character_piety = 1
+	monthly_character_prestige = 1
+	fertility = -0.5
+	learning = 1
+	diplomacy = 2 
+	
+	opposites = { trait = clerge_abbe }
+	customizer = no
+	random = no
+	potential = { 
+		is_female = no
+		is_catholic_group = yes
+	}
+	religious = yes 
+	#priest = yes
+	cannot_marry = yes
+	cannot_inherit = yes
+	ai_zeal = 30 		#in the name of God !
+	ai_ambition = 15	#bishop are ambitious
+	ai_greed = 10		#bishop are sinful it seems
+}
+
+noble_chevalier = {
+	sex_appeal_opinion = 15
+	noble_opinion = 5
+	same_opinion = 10
+	#lifestyle = yes  
+	monthly_character_prestige = 1
+	fertility = 0.1 #chevaucher sa donne faim
+	martial = 3
+
+	customizer = no
+	random = no
+	potential = { is_female = no }
+	
+	ai_zeal = 5			#
+	ai_ambition = 10	#
+	ai_honor = 12		#bishop are sinful it seems
+}	
