@@ -61,7 +61,8 @@ clerge_eveque = {
 
 noble_chevalier = {
 	sex_appeal_opinion = 15
-	noble_opinion = 5
+	liege_opinion = 5
+	vassal_opinion = 5
 	same_opinion = 10
 	#lifestyle = yes  
 	monthly_character_prestige = 1
