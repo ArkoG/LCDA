@@ -1,5 +1,7 @@
 999.1.1 = { liege =  0 }
 
+#held by Savoy before 1175, capital may be Culoz
+#En 1077, le comte Amédée II de Savoie reçoit de l'empereur Henri IV du Saint-Empire la confirmation de ses droits sur la seigneurie du Bugey.
 #1160.1.1 = { holder = 100066 } Ponce (III) de Thoire
 #1163.1.1 = { holder = 0 } next is Saint Anthelme de Chignin, saint patron de la ville de Belley, co-titulaire de la cathédrale Saint-Jean-Baptiste.
 #Quelques temps plus tard Frédéric Barberousse, ayant entendu parler des vertus de ce moine l'investit du titre de prince du Saint-Empire romain germanique en 1175. Afin d'affirmer son opposition au comte Humbert III de Savoie, l'Empereur publie une bulle d'or donnant tout pouvoir temporel à l'évêque sur la ville de Belley et son pays5.

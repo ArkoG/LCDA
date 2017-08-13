@@ -2,6 +2,15 @@
 ##diverses petites maisons
 #range 99//...
 
+98	= {
+    name="Vuillerme"
+   # dynasty = 1000036013 #de Cinquestral
+    religion = catholic
+    culture = arpitan
+    499.1.1 = { birth = yes }
+    1500.1.1 = { death = yes }
+}
+
 99	= {
     name="Vuillerme"
     dynasty = 1000036013 #de Cinquestral

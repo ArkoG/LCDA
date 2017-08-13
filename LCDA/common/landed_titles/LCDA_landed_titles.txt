@@ -593,7 +593,7 @@ e_alps = {
 				b_nantua7 = {}
 			}
 			c_saintrambert = { #57
-				color={ 165 20 20 }
+				color={ 195 35 20 }
 				color2={ 255 255 255 }
 					
 				b_saintrambert1 = {}
