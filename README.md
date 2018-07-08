@@ -19,9 +19,11 @@ THE SETTING
 
 THE MECHANICS
 - inland trade
-- medieval immersion flavour
+- playable inland republic
+- medieval immersion flavour (laws, buildings etc. )
 
 THE FLAVOUR
+- full historical and detailled setup
 - exclusive graphics and coats of arms
 - thematic immersion (politics, mountains, legends etc. )
 
