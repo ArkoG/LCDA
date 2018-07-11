@@ -1,4 +1,4 @@
-max_provinces = 1466
+max_provinces = 1581
 definitions = "definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
@@ -29,6 +29,8 @@ sea_zones = { 1293 1293 }
 
 # Non-accessible sea zones
 sea_zones = { 944 944 }
+sea_zones = { 1529 1529 }
+sea_zones = { 1580 1580 }
 
 ocean_region = {	# European Ocean
 	sea_zones = { 1 2 3 4 }
@@ -72,4 +74,4 @@ major_rivers =
 	944 #Aral Sea
 }
 
-externals = { 1464 1465 } # Paths to china
+externals = { 1509 1510 1512 } # Silkroad Paths to china

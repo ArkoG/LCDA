@@ -169,8 +169,11 @@ narrative_event = {
 		set_global_flag = viking_age_started
 		enable_prepared_invasion = norse_pagan
 		enable_prepared_invasion = norse_pagan_reformed
-		any_independent_ruler = {
-			limit = { culture = norse }
+		any_playable_ruler = {
+			limit = { 
+				liege = { character = PREV } #independent = yes and any_independent_ruler exclude revolts
+				culture = norse
+			}
 			any_realm_province = {
 				if = {
 					limit = {

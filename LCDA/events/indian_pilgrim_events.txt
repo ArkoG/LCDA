@@ -1344,8 +1344,7 @@ character_event = {
 		}
 		random_vassal = { #This should often always overwrite the above
 			limit = {
-				any_character = {
-					is_heir = PREV
+				current_heir = {
 					is_landed = no
 					NOT = { is_close_relative = ROOT }
 					NOT = { is_friend = ROOT }
@@ -1383,8 +1382,7 @@ character_event = {
 				is_adult = yes
 				NOT = { is_friend = ROOT }
 				NOT = { is_rival = ROOT }
-				any_character = {
-					is_heir = PREV
+				current_heir = {
 					is_landed = no
 					NOT = { is_close_relative = ROOT }
 					NOT = { is_friend = ROOT }
@@ -1459,8 +1457,7 @@ character_event = {
 		}
 		random_vassal = { #This should often always overwrite the above
 			limit = {
-				any_character = {
-					is_heir = PREV
+				current_heir = {
 					is_landed = no
 					NOT = { is_close_relative = ROOT }
 					NOT = { is_friend = ROOT }
@@ -1503,8 +1500,7 @@ character_event = {
 						}
 					}
 				}
-				any_character = {
-					is_heir = PREV
+				current_heir = {
 					is_landed = no
 					NOT = { is_close_relative = ROOT }
 					NOT = { is_friend = ROOT }
@@ -2333,7 +2329,7 @@ character_event = {
 			limit = {
 				has_quest = quest_indian_monastic_order_pilgrimage
 			}
-			character_event = { id = MNM.8099 days = 1 }
+			character_event = { id = MNM.8096 days = 1 }
 		}
 	}
 }

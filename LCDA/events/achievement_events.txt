@@ -314,6 +314,7 @@ character_event = {
 	religion_group = indian_group
 	
 	trigger = {
+		has_dharmic_religion_trigger = yes
 		has_dlc = "Rajas of India"
 		NOT = { has_character_flag = achievement_the_british_raj }
 		has_landed_title = e_britannia
@@ -339,6 +340,7 @@ character_event = {
 	trigger = {
 		has_dlc = "Rajas of India"
 		NOT = { has_character_flag = achievement_beyond_the_indus }
+		NOT = { has_dynasty_flag = block_achievement_beyond_the_indus }
 		NOT = { culture_group = indo_aryan_group }
 		NOT = { culture_group = dravidian_group }
 		OR = {
@@ -468,6 +470,7 @@ character_event = {
 	religion_group = indian_group
 	
 	trigger = {
+		has_dharmic_religion_trigger = yes
 		has_dlc = "Rajas of India"
 		NOT = { has_character_flag = achievement_what_schism }
 		333 = { # Rome
@@ -512,6 +515,7 @@ character_event = {
 	religion_group = indian_group
 	
 	trigger = {
+		has_dharmic_religion_trigger = yes
 		has_dlc = "Rajas of India"
 		NOT = { has_character_flag = achievement_red_sea_resort }
 		719 = { # Mecca
@@ -793,6 +797,10 @@ character_event = {
 		completely_controls = c_mahoyadapuram
 		completely_controls = c_vijayawada
 		completely_controls = c_candradvipa
+		completely_controls = c_goa
+		completely_controls = c_cholamandalam
+		completely_controls = c_kataka
+		completely_controls = c_samatata
 	}
 	
 	mean_time_to_happen = {
@@ -1152,5 +1160,46 @@ character_event = {
 		killer = {
 			set_character_flag = achievement_unwelcome_visitors
 		}
+	}
+}
+
+# Block Beyond Indus achievement if you start and already fulfill the conditions
+character_event = {
+	id = 741
+	hide_window = yes
+
+	is_triggered_only = yes
+	ai = no
+
+	trigger = {
+		is_save_game = no
+		has_dlc = "Rajas of India"
+		NOT = { culture_group = indo_aryan_group }
+		NOT = { culture_group = dravidian_group }
+		OR = {
+			has_landed_title = e_rajastan
+			has_landed_title = e_bengal
+			has_landed_title = e_deccan
+			has_landed_title = e_india
+			any_realm_title = {
+				tier = KING
+				de_jure_liege = e_rajastan 
+			}
+			any_realm_title = {
+				tier = KING
+				de_jure_liege = e_bengal 
+			}
+			any_realm_title = {
+				tier = KING
+				de_jure_liege = e_deccan 
+			}
+			any_realm_title = {
+				tier = KING
+				de_jure_liege = e_india 
+			}
+		}
+	}
+	immediate = {
+		set_dynasty_flag = block_achievement_beyond_the_indus
 	}
 }

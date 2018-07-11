@@ -23,6 +23,10 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		culture_group = north_germanic
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+		}
 		is_alive = yes
 		NOT = { trait = berserker }
 		OR = {
@@ -2359,12 +2363,9 @@ character_event = {
 	max_age = 16
 	ai = yes
 	has_character_flag = demon_child
+	has_dlc = "The Old Gods"
 	
 	trigger = {
-		OR = {
-			has_dlc = "The Old Gods"
-			has_dlc = "Mystics"
-		}
 		NOT = { has_character_flag = child_strange_1 }
 		father = { is_alive = yes }
 	}
@@ -2403,12 +2404,9 @@ character_event = {
 	max_age = 16
 	ai = yes
 	has_character_flag = demon_child
+	has_dlc = "The Old Gods"
 	
 	trigger = {
-		OR = {
-			has_dlc = "The Old Gods"
-			has_dlc = "Mystics"
-		}
 		NOT = { has_character_flag = child_strange_2 }
 		father = { is_alive = yes }
 	}
@@ -2447,12 +2445,9 @@ character_event = {
 	max_age = 16
 	ai = yes
 	has_character_flag = demon_child
+	has_dlc = "The Old Gods"
 	
 	trigger = {
-		OR = {
-			has_dlc = "The Old Gods"
-			has_dlc = "Mystics"
-		}
 		NOT = { has_character_flag = child_strange_3 }
 		father = { is_alive = yes }
 	}
@@ -2491,12 +2486,9 @@ character_event = {
 	max_age = 16
 	ai = yes
 	has_character_flag = demon_child
+	has_dlc = "The Old Gods"
 	
 	trigger = {
-		OR = {
-			has_dlc = "The Old Gods"
-			has_dlc = "Mystics"
-		}
 		NOT = { has_character_flag = child_kills_1 }
 		father = { is_alive = yes }
 		OR = {
@@ -2597,12 +2589,9 @@ character_event = {
 	max_age = 16
 	ai = yes
 	has_character_flag = demon_child
+	has_dlc = "The Old Gods"
 	
 	trigger = {
-		OR = {
-			has_dlc = "The Old Gods"
-			has_dlc = "Mystics"
-		}
 		NOT = { has_character_flag = child_kills_2 }
 		father = { is_alive = yes }
 		OR = {
@@ -2703,12 +2692,9 @@ character_event = {
 	max_age = 16
 	ai = yes
 	has_character_flag = demon_child
+	has_dlc = "The Old Gods"
 	
 	trigger = {
-		OR = {
-			has_dlc = "The Old Gods"
-			has_dlc = "Mystics"
-		}
 		NOT = { has_character_flag = child_kills_3 }
 		father = { is_alive = yes }
 		OR = {
@@ -2808,12 +2794,9 @@ character_event = {
 	min_age = 4
 	max_age = 16
 	ai = yes
+	has_dlc = "The Old Gods"
 	
 	trigger = {
-		OR = {
-			has_dlc = "The Old Gods"
-			has_dlc = "Mystics"
-		}
 		NOT = { has_character_flag = child_exorcism }
 		father = { is_alive = yes }
 		OR = {
@@ -3087,12 +3070,10 @@ character_event = {
 	min_age = 16
 	max_age = 17
 	has_character_flag = demon_child
+	has_dlc = "The Old Gods"
 	
 	trigger = {
-		OR = {
-			has_dlc = "The Old Gods"
-			has_dlc = "Mystics"
-		}
+		FROM = { always = yes }
 	}
 	
 	mean_time_to_happen = {
@@ -3122,6 +3103,7 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		NOT = { has_artifact = loot_axe }
+		FROM = { always = yes }
 	}
 	
 	option = {
@@ -3154,6 +3136,7 @@ character_event = {
 			has_artifact = strange_chest 
 			has_character_flag = found_chest
 		}
+		FROM = { always = yes }
 	}
 	
 	option = {
@@ -3179,6 +3162,7 @@ character_event = {
 		has_dlc = "The Old Gods"
 		has_artifact = strange_chest
 		has_character_flag = found_chest
+		FROM = { always = yes }
 	}
 	
 	option = {
@@ -3217,6 +3201,7 @@ character_event = {
 				has_character_flag = found_chest
 			}
 		}
+		FROM = { always = yes }
 	}
 	
 	option = {
@@ -3343,6 +3328,7 @@ character_event = {
 			religion = norse_pagan
 			religion = norse_pagan_reformed
 		}
+		FROM = { always = yes }
 	}
 	
 	option = {
@@ -3382,6 +3368,7 @@ character_event = {
 			religion = norse_pagan_reformed
 		}
 		check_variable = { which = viking_raids value = 50 }
+		FROM = { always = yes }
 	}
 	
 	option = {
@@ -3418,6 +3405,7 @@ character_event = {
 			religion = norse_pagan_reformed
 		}
 		check_variable = { which = viking_raids value = 100 }
+		FROM = { always = yes }
 	}
 	
 	option = {
@@ -3459,6 +3447,7 @@ character_event = {
 			religion = norse_pagan
 			religion = norse_pagan_reformed
 		}
+		FROM = { always = yes }
 	}
 	
 	option = {

@@ -27,7 +27,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 304;308;sea;999;-1;-1;-1;-1;Rügen-Wolgast
 304;306;sea;999;-1;-1;-1;-1;Rügen-Rostock
 304;307;sea;999;-1;-1;-1;-1;Rügen-Werle
-324;325;sea;1027;-1;-1;-1;-1;Corsica-Arborea
+1577;1574;sea;1027;-1;-1;-1;-1;Cinarca-Gallura
 338;339;sea;1036;-1;-1;-1;-1;Reggio-Messina
 373;376;sea;1004;-1;-1;-1;-1;Kurzeme-Saaremaa
 376;377;sea;1004;-1;-1;-1;-1;Saaremaa-Liivimaa
@@ -42,9 +42,9 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 562;598;sea;969;-1;-1;-1;-1;Korchev-Tmutarakan
 826;827;sea;1022;-1;-1;-1;-1;Menorca-Mallorca
 858;874;sea;1386;-1;-1;-1;-1;Aden-Tadjoura
-859;874;sea;1386;-1;-1;-1;-1;Taizz-Tadjoura
-870;653;sea;1391;-1;-1;-1;-1;Dhu Zabi-Bahrein
-652;653;sea;1391;-1;-1;-1;-1;Al Hasa-Bahrein
+1532;874;sea;1386;-1;-1;-1;-1;Zabid-Tadjoura
+653;1531;sea;1391;-1;-1;-1;-1;Bahrein-Uwal
+651;1531;sea;1391;-1;-1;-1;-1;Damman-Uwal
 1295;1331;sea;1293;-1;-1;-1;-1;Kutch-Sonda
 301;932;sea;1003;-1;-1;-1;-1;Gotland-Tjust
 16;18;sea;968;-1;-1;-1;-1;Laigin-Dyfed
