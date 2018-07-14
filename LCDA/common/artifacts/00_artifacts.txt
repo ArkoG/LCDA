@@ -7,4 +7,5 @@ slots = {
 	wrist = 1
 	neck = 1
 	torso = 1
+	ceremonial_torso = 1
 }
