@@ -19,6 +19,7 @@ targetted_decisions = {
 		only_playable = yes
 		filter = vassals				# Only those under me
 		ai_target_filter = vassals		# Only those under me
+		ai_check_interval = 6
 
 		from_potential = {
 			is_playable = yes
@@ -52,10 +53,13 @@ targetted_decisions = {
 				duration = 1140
 				hidden = yes
 			}
-			FROM = {
-				any_courtier = {
-					limit = { has_job_title = job_spiritual }
-					character_event = { id = 88750 days = 3 tooltip = "EVTTOOLTIP88750" }
+			custom_tooltip = { text = EVTTOOLTIP88750 }
+			hidden_tooltip = {
+				FROM = {
+					random_courtier = {
+						limit = { has_job_title = job_spiritual }
+						hidden_tooltip = { character_event = { id = 88750 days = 3 } }
+					}
 				}
 			}
 			hidden_tooltip = {
@@ -80,11 +84,15 @@ targetted_decisions = {
 		only_playable = yes
 		filter = court
 		ai_target_filter = court
+		ai_check_interval = 6
 
 		from_potential = {
 			has_dlc = "Legacy of Rome"
 			is_playable = yes
-			culture_group = byzantine
+			OR = {
+				culture_group = byzantine
+				culture_group = chinese_group
+			}
 		}
 	
 		potential = {
@@ -110,8 +118,8 @@ targetted_decisions = {
 						character_event = { id = LoR.834 }
 					}
 				}
+				character_event = { id = LoR.833 tooltip = "EVTTOOLTIPLoR.833" }
 			}
-			character_event = { id = LoR.833 tooltip = "EVTTOOLTIPLoR.833" }
 			add_trait = eunuch
 			if = {
 				limit = { 
@@ -129,11 +137,14 @@ targetted_decisions = {
 			FROM = {
 				if = {
 					limit = { NOT = { trait = cruel } }
-					random = {
-						chance = 25
-						add_trait = cruel
-						hidden_tooltip = {
-							character_event = { id = 38259 }
+					custom_tooltip = {
+						text = cruel_imprisoner_trait_chance_TT
+						random = {
+							chance = 25
+							add_trait = cruel
+							hidden_tooltip = {
+								character_event = { id = 38259 }
+							}
 						}
 					}
 				}
@@ -210,7 +221,7 @@ targetted_decisions = {
 				FROM = { trait = kind }
 			}
 			modifier = {
-				factor = 0.2 # Less likely to do it
+				factor = 0.5 # Less likely to do it
 			}
 			modifier = {
 				factor = 1.2
@@ -228,6 +239,7 @@ targetted_decisions = {
 		only_playable = yes
 		filter = court
 		ai_target_filter = court
+		ai_check_interval = 6
 	
 		from_potential = {
 			has_dlc = "Legacy of Rome"
@@ -248,8 +260,8 @@ targetted_decisions = {
 				FROM = {
 					character_event = { id = LoR.830 }
 				}
+				character_event = { id = LoR.831 tooltip = "EVTTOOLTIPLoR.831" }
 			}
-			character_event = { id = LoR.831 tooltip = "EVTTOOLTIPLoR.831" }
 			if = {
 				limit = {
 					trait = one_eyed
@@ -273,11 +285,14 @@ targetted_decisions = {
 			FROM = {
 				if = {
 					limit = { NOT = { trait = cruel } }
-					random = {
-						chance = 25
-						add_trait = cruel
-						hidden_tooltip = {
-							character_event = { id = 38259 }
+					custom_tooltip = {
+						text = cruel_imprisoner_trait_chance_TT
+						random = {
+							chance = 25
+							add_trait = cruel
+							hidden_tooltip = {
+								character_event = { id = 38259 }
+							}
 						}
 					}
 				}
@@ -354,7 +369,7 @@ targetted_decisions = {
 				FROM = { trait = kind }
 			}
 			modifier = {
-				factor = 0.4 # Less likely to do it
+				factor = 0.5 # Less likely to do it
 			}
 			modifier = {
 				factor = 2
@@ -370,9 +385,71 @@ targetted_decisions = {
 	}
 	
 	
+<<<<<<< HEAD
 #	vassal_zun_judgement_decision = {
 #no zun in LCDA
 #	}
+=======
+	vassal_zun_judgement_decision = {
+		only_playable = yes
+		filter = court
+		ai_target_filter = court
+		ai_check_interval = 6
+	
+		from_potential = {
+			is_playable = yes
+			OR = {
+				religion = zun_pagan
+				religion = zun_pagan_reformed
+			}
+		}
+	
+		potential = {
+			vassal_of = FROM
+			host = { character = FROM }
+			prisoner = yes
+			NOT = { has_character_modifier = zun_judgement }
+		}
+		allow = {
+			prisoner = yes
+		}
+		effect = {
+			character_event = { id = CM.15000 days = 1 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				reverse_opinion = { who = FROM value = 40 }
+			}
+			modifier = {
+				factor = 0
+				FROM = { trait = kind }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = cruel }
+			}
+			modifier = {
+				factor = 0.5 # Less likely to do it
+			}
+			modifier = {
+				factor = 2
+				is_pretender = yes
+				FROM = {
+					OR = {
+						is_pretender = yes
+						is_primary_heir = yes
+					}
+				}
+			}
+		}
+	}
+>>>>>>> paradox
 	
 	prisoner_to_oubilette = {
 		filter = court

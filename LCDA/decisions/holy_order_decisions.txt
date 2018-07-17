@@ -12,6 +12,7 @@ decisions = {
 
 	borrow_money_knights_templar = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			is_nomadic = no
@@ -80,7 +81,7 @@ decisions = {
 				wealth = 0
 			}
 			modifier = {
-				factor = 0.01 # Slow it down
+				factor = 0.5 # Slow it down
 			}
 		}
 	}
@@ -392,6 +393,7 @@ decisions = {
 	
 	donate_money_to_knights_templar = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -498,13 +500,14 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
 	
 	donate_money_to_knights_hospitaler = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -611,13 +614,14 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
 	
 	donate_money_to_teutonic_order = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -711,13 +715,14 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
 	
 	donate_money_to_jomsvikings = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -788,13 +793,14 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
 	
 	borrow_money_assassins = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			OR = {
@@ -868,13 +874,14 @@ decisions = {
 				wealth = 0
 			}
 			modifier = {
-				factor = 0.01 # Slow it down
+				factor = 0.5 # Slow it down
 			}
 		}
 	}
 	
 	donate_money_to_assassins = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -939,7 +946,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -947,6 +954,7 @@ decisions = {
 		
 	borrow_money_bektashi = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			OR = {
@@ -1009,13 +1017,14 @@ decisions = {
 				wealth = 0
 			}
 			modifier = {
-				factor = 0.01 # Slow it down
+				factor = 0.5 # Slow it down
 			}
 		}
 	}
 
 	donate_money_to_bektashi = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -1078,7 +1087,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -1145,6 +1154,7 @@ decisions = {
 	
 	borrow_money_haruriyyah = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			OR = {
@@ -1206,13 +1216,14 @@ decisions = {
 				wealth = 0
 			}
 			modifier = {
-				factor = 0.01 # Slow it down
+				factor = 0.5 # Slow it down
 			}
 		}
 	}
 
 	donate_money_to_haruriyyah = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -1275,7 +1286,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -1338,9 +1349,146 @@ decisions = {
 			factor = 0
 		}
 	}
+<<<<<<< HEAD
 #vassalize_knights_hospitaler = {
 #vassalize_knights_templar = {
 
+=======
+	
+	vassalize_knights_templar = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 6
+		
+		potential = {
+			is_playable = yes
+			
+			OR = {
+				religion = catholic
+				religion = cathar
+				religion = fraticelli
+				religion = waldensian
+				religion = lollard
+			}
+			is_heretic = no
+			
+			NOT = { has_character_modifier = expelled_d_knights_templar }
+			
+			is_title_active = d_knights_templar
+			
+			has_landed_title = k_jerusalem
+			
+			has_dlc = "Sons of Abraham"
+			
+			d_knights_templar = {
+				holder_scope = {
+					NOT = { has_truce = ROOT }
+					ROOT = { NOT = { has_truce = PREV } }
+					liege = {
+						NOT = { character = ROOT }
+					}
+					NOT = { num_of_count_titles = 3 }
+					independent = yes
+					primary_title = { title = d_knights_templar }
+				}
+			}
+		}
+		
+		allow = {
+			wealth = 500
+		}
+		
+		effect = {
+			wealth = -500
+			
+			hidden_tooltip = {
+				d_knights_templar = {
+					holder_scope = {
+						wealth = 500
+						character_event = {
+							id = SoA.1015
+						}
+					}
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	vassalize_knights_hospitaler = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 6
+		
+		potential = {
+			is_playable = yes
+			OR = {
+				religion = catholic
+				religion = cathar
+				religion = fraticelli
+				religion = waldensian
+				religion = lollard
+			}
+			is_heretic = no
+			
+			NOT = { has_character_modifier = expelled_d_knights_hospitaler }
+			
+			is_title_active = d_knights_hospitaler
+			
+			has_landed_title = k_jerusalem
+			
+			d_knights_hospitaler = {
+				holder_scope = {
+					NOT = { has_truce = ROOT }
+					ROOT = { NOT = { has_truce = PREV } }
+					liege = {
+						NOT = { character = ROOT }
+					}
+					NOT = { num_of_count_titles = 3 }
+					independent = yes
+					primary_title = { title = d_knights_hospitaler }
+				}
+			}
+			
+			has_dlc = "Sons of Abraham"
+		}
+		
+		allow = {
+			wealth = 500
+		}
+		
+		effect = {
+			wealth = -500
+			
+			hidden_tooltip = {
+				d_knights_hospitaler = {
+					holder_scope = {
+						wealth = 500
+						character_event = {
+							id = SoA.1115
+						}
+					}
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+>>>>>>> paradox
 	expel_the_holy_sepulchre = {
 		only_independent = yes
 		potential = {
@@ -1405,6 +1553,7 @@ decisions = {
 	
 	donate_money_to_holy_sepulchre = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -1476,7 +1625,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -1542,6 +1691,7 @@ decisions = {
 	
 	donate_money_to_saint_anthony = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -1613,7 +1763,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -1679,6 +1829,7 @@ decisions = {
 	
 	donate_money_to_the_immortals = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -1750,7 +1901,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -1817,6 +1968,7 @@ decisions = {
 	
 	donate_money_to_the_zealots = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -1888,7 +2040,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -1950,6 +2102,7 @@ decisions = {
 	
 	donate_money_to_sky_lords = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -2017,7 +2170,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -2079,6 +2232,7 @@ decisions = {
 	
 	donate_money_to_spirit_guardians = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -2147,7 +2301,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -2209,6 +2363,7 @@ decisions = {
 	
 	donate_money_to_warriors_perun = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -2276,7 +2431,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -2338,6 +2493,7 @@ decisions = {
 	
 	donate_money_to_chosen_perkunas = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -2405,7 +2561,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -2467,6 +2623,7 @@ decisions = {
 	
 	donate_money_to_sons_kaleva = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -2534,7 +2691,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -2596,6 +2753,7 @@ decisions = {
 	
 	donate_money_to_huitzilopochtli = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -2663,7 +2821,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -2732,6 +2890,7 @@ decisions = {
 	
 	donate_money_to_knights_santiago = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -2824,7 +2983,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -2893,6 +3052,7 @@ decisions = {
 	
 	donate_money_to_knights_calatrava = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -2985,7 +3145,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -3051,6 +3211,7 @@ decisions = {
 	
 	donate_money_to_order_of_addai = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -3122,7 +3283,7 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
 	}
@@ -3181,6 +3342,7 @@ decisions = {
 	}
 	donate_money_to_zun_warriors = {
 		only_playable = yes
+		ai_check_interval = 60
 		potential = {
 			is_playable = yes
 			
@@ -3248,9 +3410,121 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0.002 # Slow it down
+				factor = 0.1 # Slow it down
 			}
 		}
-	}	
+	}
+	
+	form_st_anthony = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 6
+		potential = {
+			has_dlc = "Sons of Abraham"
+			religion = miaphysite
+			NOT = { is_title_active = d_saint_anthony }
+			is_heretic = no
+			OR = {
+				has_global_flag = christian_crusades_unlocked #Prevent Army from being created at start.
+				has_global_flag = pagan_ghws_unlocked 
+				has_global_flag = muslim_jihads_unlocked
+			}
+		}
+		allow = {
+			piety = 1000
+			wealth = 500
+			num_of_holy_sites = 1
+			religion_authority = 0.5
+		}
+		effect = {
+			piety = -1000
+			wealth = -500
+			narrative_event = { id = 39810 tooltip = EVT_39810_TT }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_st_addai = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 6
+		potential = {
+			has_dlc = "Sons of Abraham"
+			religion = nestorian
+			NOT = { is_title_active = d_saint_addai }
+			is_heretic = no
+			OR = {
+				has_global_flag = christian_crusades_unlocked #Prevent Army from being created at start.
+				has_global_flag = pagan_ghws_unlocked 
+				has_global_flag = muslim_jihads_unlocked
+			}
+		}
+		allow = {
+			piety = 1000
+			wealth = 500
+			num_of_holy_sites = 1
+			religion_authority = 0.5
+		}
+		effect = {
+			piety = -1000
+			wealth = -500
+			narrative_event = { id = 39811 tooltip = EVT_39811_TT }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	organize_army_light = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 6
+		potential = {
+			is_female = no
+			prisoner = no
+			age = 16
+			religion = manichean
+			NOT = { has_global_flag = army_light_founded }
+			OR = {
+				has_global_flag = christian_crusades_unlocked #Prevent Army from being created at start.
+				has_global_flag = pagan_ghws_unlocked 
+				has_global_flag = muslim_jihads_unlocked
+			}
+		}
+		allow = {
+			piety = 1000
+			wealth = 500
+			num_of_holy_sites = 1
+			religion_authority = 0.5
+		}
+		effect = {
+			set_global_flag = army_light_founded
+			prestige = -300
+			wealth = -300
+			activate_title = { title = d_army_light status = yes }
+			hidden_tooltip = {
+				create_character = {
+					random_traits = yes
+					religion = manichean
+					culture = ROOT
+					dynasty = NONE
+					female = no
+					age = 34
+					trait = skilled_tactician
+				}
+				new_character = {
+					d_army_light = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
 

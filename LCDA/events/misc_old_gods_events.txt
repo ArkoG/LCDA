@@ -188,7 +188,7 @@ character_event = {
 					attrition = 1.0
 				}
 				spawn_fleet = {
-					province = closest
+					province = closest_to_capital
 					owner = ROOT
 					match_character = ROOT
 					match_mult = 0.1
@@ -315,7 +315,7 @@ character_event = {
 		}
 		
 		spawn_fleet = {
-			province = closest
+			province = closest_to_capital
 			owner = ROOT
 			match_character = ROOT
 			match_mult = 0.15
@@ -420,7 +420,7 @@ character_event = {
 					attrition = 1.0
 				}
 				spawn_fleet = {
-					province = closest
+					province = closest_to_capital
 					owner = ROOT
 					match_character = ROOT
 					match_mult = 0.075
@@ -488,7 +488,291 @@ letter_event = {
 
 # Special event for the Magyars to form Hungary
 # Triggered by Decision: create_hungary
+<<<<<<< HEAD
 #LCDA
+=======
+narrative_event = {
+	id = 62910
+	title = EVTNAME62910
+	desc = EVTDESC62910
+	
+	picture = GFX_evt_council
+	border = GFX_event_narrative_frame_diplomacy
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = EVTOPTA62910
+	}
+	
+	immediate = {	
+		k_magyar = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_hungary
+			}
+		}
+		k_hungary = {
+			grant_title = ROOT
+			copy_title_laws = k_magyar
+			copy_title_history = k_magyar
+			set_name=""
+			adjective=""
+		}
+		k_magyar = {
+			destroy_landed_title = THIS
+		}
+		activate_title = { title = k_magyar status = no }
+		
+		if = {
+			limit = {
+				NOT = { has_landed_title = c_pest }
+			}
+			c_pest = {
+				usurp_title = ROOT
+				location = {
+					ROOT = {
+						capital = PREV 
+					}
+				}
+			}
+			k_hungary = {				
+				if = {
+					limit = {
+						NOT = {
+							has_dlc = "Zeus"
+							OR = {
+								has_law = crown_authority_0
+								has_law = crown_authority_1
+								has_law = crown_authority_2
+								has_law = crown_authority_3
+								has_law = crown_authority_4
+							}
+						}
+					}
+					add_law = crown_authority_0
+				}
+			}
+		}
+		
+		any_playable_ruler = {
+			limit = {
+				NOT = { has_landed_title = k_hungary }
+				ai = no
+			}
+			narrative_event = { id = 62911 }
+		}
+		
+		any_realm_province = {
+			limit = {
+				kingdom = {
+					title = k_hungary
+				}
+			}
+			culture = hungarian
+			religion = ROOT
+		}
+		
+		# The Hungarian culture in the Ukraine is lost
+		random_realm_province = {
+			limit = {
+				culture = hungarian
+				kingdom = {
+					OR = {
+						title = k_taurica
+						title = k_ruthenia
+						title = k_khazaria
+						title = k_alania
+					}
+				}
+				any_neighbor_province = {
+					NOT = { culture = hungarian }
+				}
+			}
+			random_neighbor_province = {
+				limit = {
+					NOT = { culture = hungarian }
+				}
+				reverse_culture = PREV
+				reverse_religion = PREV
+			}
+		}
+		random_realm_province = {
+			limit = {
+				culture = hungarian
+				kingdom = {
+					OR = {
+						title = k_taurica
+						title = k_ruthenia
+						title = k_khazaria
+						title = k_alania
+					}
+				}
+				any_neighbor_province = {
+					NOT = { culture = hungarian }
+				}
+			}
+			random_neighbor_province = {
+				limit = {
+					NOT = { culture = hungarian }
+				}
+				reverse_culture = PREV
+				reverse_religion = PREV
+			}
+		}
+		random_realm_province = {
+			limit = {
+				culture = hungarian
+				kingdom = {
+					OR = {
+						title = k_taurica
+						title = k_ruthenia
+						title = k_khazaria
+						title = k_alania
+					}
+				}
+				any_neighbor_province = {
+					NOT = { culture = hungarian }
+				}
+			}
+			random_neighbor_province = {
+				limit = {
+					NOT = { culture = hungarian }
+				}
+				reverse_culture = PREV
+				reverse_religion = PREV
+			}
+		}
+		random_realm_province = {
+			limit = {
+				culture = hungarian
+				kingdom = {
+					OR = {
+						title = k_taurica
+						title = k_ruthenia
+						title = k_khazaria
+						title = k_alania
+					}
+				}
+				any_neighbor_province = {
+					NOT = { culture = hungarian }
+				}
+			}
+			random_neighbor_province = {
+				limit = {
+					NOT = { culture = hungarian }
+				}
+				reverse_culture = PREV
+				reverse_religion = PREV
+			}
+		}
+		random_realm_province = {
+			limit = {
+				culture = hungarian
+				kingdom = {
+					OR = {
+						title = k_taurica
+						title = k_ruthenia
+						title = k_khazaria
+						title = k_alania
+					}
+				}
+				any_neighbor_province = {
+					NOT = { culture = hungarian }
+				}
+			}
+			random_neighbor_province = {
+				limit = {
+					NOT = { culture = hungarian }
+				}
+				reverse_culture = PREV
+				reverse_religion = PREV
+			}
+		}
+		random_realm_province = {
+			limit = {
+				culture = hungarian
+				kingdom = {
+					OR = {
+						title = k_taurica
+						title = k_ruthenia
+						title = k_khazaria
+						title = k_alania
+					}
+				}
+				any_neighbor_province = {
+					NOT = { culture = hungarian }
+				}
+			}
+			random_neighbor_province = {
+				limit = {
+					NOT = { culture = hungarian }
+				}
+				reverse_culture = PREV
+				reverse_religion = PREV
+			}
+		}
+		
+		# Lose control of the Ukraininan lands
+		any_realm_province = {
+			limit = {
+				OR = {
+					kingdom = {
+						OR = {
+							title = k_taurica
+							title = k_ruthenia
+							title = k_khazaria
+							title = k_alania
+						}
+					}
+					duchy = {
+						title = d_moldau
+					}
+				}
+				owner = {
+					# Human vassals get to keep their stuff
+					OR = {
+						ai = yes
+						character = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { 
+					duchy = {
+						holder_scope = {
+							OR = {
+								ai = yes
+								character = ROOT
+							}
+						}
+					}
+				}
+				duchy = { destroy_landed_title = THIS }
+			}
+			county = {
+				create_character = {
+					random_traits = yes
+					dynasty = none
+					religion = PREV
+					culture = PREV
+					female = no
+					age = 25
+					trait = peasant_leader
+				}
+				new_character = {
+					usurp_title_plus_barony_if_unlanded = PREV
+					set_defacto_liege = THIS
+				}
+			}
+		}
+		
+		any_claim = {
+			remove_claim = ROOT
+		}
+	}
+}
+>>>>>>> paradox
 
 # Informed about the Creation of Hungary
 #LCDA
@@ -509,10 +793,231 @@ letter_event = {
 
 
 # Special event for West Francia to be renamed to France
+<<<<<<< HEAD
 #removed LCDA
 # Special event for East Francia to be renamed to Germany
 #removed LCDA
+=======
+character_event = {
+	id = 62930
+	title = EVTNAME62930
+	desc = EVTDESC62930
+	
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_diplomacy
+	
+	only_playable = yes
+	
+	trigger = {
+		has_landed_title = k_france
+		NOT = { dynasty = 25061 } # Karling dynasty
+		NOT = { has_global_flag = west_francia_renamed }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTA62930
+		set_global_flag = west_francia_renamed
+		k_france = {
+			custom_tooltip = { text = tooltip_west_francia_to_france }
+			hidden_tooltip = {
+				set_name=""
+				adjective=""
+			}
+		}
+	}
+}
+
+# Special event for East Francia to be renamed to Germany
+character_event = {
+	id = 62931
+	title = EVTNAME62931
+	desc = EVTDESC62931
+	
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_diplomacy
+	
+	only_playable = yes
+	
+	trigger = {
+		has_landed_title = k_germany
+		NOT = { dynasty = 25061 } # Karling dynasty
+		NOT = { has_global_flag = east_francia_renamed }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTA62931
+		set_global_flag = east_francia_renamed
+		k_germany = {
+			custom_tooltip = { text = tooltip_east_francia_to_germany }
+			hidden_tooltip = {
+				set_name=""
+				adjective=""
+			}
+		}
+	}
+}
+
+>>>>>>> paradox
 # Special event for Middle Francia to be renamed to Austrasia - Since Lothair doesn't exist to name it Lotharingia
 #removed LCDA
 # Event where the sons of Lodbrok exact their revenge on Aella
+<<<<<<< HEAD
 #LCDA
+=======
+character_event = {
+	id = 62950
+	hide_window = yes
+	
+	min_age = 16
+	only_men = yes
+	prisoner = yes
+	culture = saxon
+	
+	trigger = {
+		character = 163103 # Aella
+		host = {
+			OR = {
+				character = 163108 # Björn Ironside
+				character = 163110 # Sigurd
+				character = 163111 # Ivar
+				character = 163112 # Halfdan
+				character = 163119 # Ubbe
+			}
+		}
+		NOT = { has_character_flag = aella_punished }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = aella_punished
+		host = {
+			character_event = { id = 62951 }
+		}
+	}
+}
+
+character_event = {
+	id = 62951
+	title = EVTNAME62951
+	desc = EVTDESC62951
+	
+	picture = GFX_evt_torture
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA62951 # Blood Eagle
+		ai_chance = {
+			factor = 100
+		}
+		FROM = {
+			death = {
+				death_reason = death_execution_blood_eagle
+				killer = ROOT
+			}
+		}
+		prestige = 500
+	}
+	option = {
+		name = EVTOPTB62951 # Sacrifice
+		ai_chance = {
+			factor = 0
+		}
+		FROM = {
+			death = {
+				death_reason = death_sacrificed_norse
+				killer = ROOT
+			}
+		}
+		piety = 250
+	}
+	option = {
+		name = EVTOPTC62951 # Blinding & Castration
+		ai_chance = {
+			factor = 0
+		}
+		
+		prestige = 500
+		
+		if = {
+			limit = {
+				OR = {
+					NOT = { lifestyle_traits = 1 }
+					NOT = { has_dlc = "Way of Life" }
+				}
+			}
+			add_trait = impaler
+		}
+		
+		tooltip = {
+			FROM = {
+				add_trait = eunuch
+				if = {
+					limit = {
+						trait = one_eyed
+					}
+					remove_trait = one_eyed
+				}
+				add_trait = blinded
+				add_trait = wounded
+			}
+		}
+		hidden_tooltip = {
+			FROM = {
+				character_event = { id = 62952 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTD62951 # Other plans
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+
+character_event = {
+	id = 62952
+	title = EVTNAME62951
+	desc = EVTDESC62952
+	
+	picture = GFX_evt_torture
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA62952
+		add_trait = eunuch
+		if = {
+			limit = {
+				trait = one_eyed
+			}
+			remove_trait = one_eyed
+		}
+		add_trait = blinded
+		add_trait = wounded
+		
+		hidden_tooltip = {
+			opinion = {
+				who = FROM
+				modifier = opinion_hate
+				years = 100
+			}
+		}
+	}
+}
+>>>>>>> paradox
