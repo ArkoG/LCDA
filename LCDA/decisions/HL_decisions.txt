@@ -1,7 +1,0 @@
-
-decisions = {
-#recruit_troops_norse = {}
-#recruit_troops_nomad = {}
-#become_genghis_khan = {}
-#become_genghis_khan_tribal = {}
-}
