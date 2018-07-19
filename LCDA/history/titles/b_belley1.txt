@@ -1,7 +1,7 @@
 999.1.1 = { liege = d_belley_ecl }
 
-1160.1.1 = { holder = 100066 } Ponce (III) de Thoire
-1163.1.1 = { holder = 0 } next is Saint Anthelme de Chignin, saint patron de la ville de Belley, co-titulaire de la cathédrale Saint-Jean-Baptiste.
+1160.1.1 = { holder = 100066 } #Ponce (III) de Thoire
+1163.1.1 = { holder = 0 } #next is Saint Anthelme de Chignin, saint patron de la ville de Belley, co-titulaire de la cathédrale Saint-Jean-Baptiste.
 #Quelques temps plus tard Frédéric Barberousse, ayant entendu parler des vertus de ce moine l'investit du titre de prince du Saint-Empire romain germanique en 1175. Afin d'affirmer son opposition au comte Humbert III de Savoie, l'Empereur publie une bulle d'or donnant tout pouvoir temporel à l'évêque sur la ville de Belley et son pays5.
 1175.1.1 = { liege = c_belley }
 
