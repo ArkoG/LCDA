@@ -4,29 +4,29 @@
 #automatiquement multiplié par 2 de base
 
 
-merc_01_composition {
+merc_01_composition = {
 	levy_size = 1.0
 	light_infantry = 25
 	archers = 25
 }
-merc_02_composition {
+merc_02_composition ={
 	levy_size = 1.0
 	light_infantry = 50
 	archers = 50
 }
 
-merc_03_composition {
+merc_03_composition= {
 	levy_size = 1.0
 	light_infantry = 75
 	archers = 75
 }
 
-navy_01_composition {
+navy_01_composition ={
 	levy_size = 1.0
 	galleys = 1
 }
 
-navy_02_composition {
+navy_02_composition ={
 	levy_size = 1.0
 	galleys = 3
 }
