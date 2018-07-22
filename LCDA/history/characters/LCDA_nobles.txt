@@ -73,7 +73,7 @@ trait = "arbitrary"
 100033	=	 {	name=	"Marguerite"		dynasty=	300108	religion=	"catholic"	culture=	"arpitan"	female=yes									1170.1.1	=	{ birth=	"	1170.1.1	"	}												1245.1.1	=	{ death=	"	1245.1.1	"	}	}
 #Maison de Genève related
 100034	=	 {	name=	"Gérold"	dynasty=	300101	religion=	"catholic"	culture=	"arpitan"												 990.1.1	=	{ birth=	"	 990.1.1	"	}	1010.1.1	=	{ add_spouse=	100035	}	1023.1.1	=	{ death=	"	1023.1.1	"	}	}
-100035	=	 {	name=	"Berthe"	dynasty=	0		religion=	"catholic"	culture=	"franc"		female=yes									 985.1.1	=	{ birth=	"	 985.1.1	"	}												1053.1.1	=	{ death=	"	1053.1.1	"	}	}
+100035	=	 {	name=	"Berthe"	dynasty=	0		religion=	"catholic"	culture=	"frankish"		female=yes									 985.1.1	=	{ birth=	"	 985.1.1	"	}												1053.1.1	=	{ death=	"	1053.1.1	"	}	}
 100036	=	 {	
 	name=	"Géraud"
 	dynasty=	300101

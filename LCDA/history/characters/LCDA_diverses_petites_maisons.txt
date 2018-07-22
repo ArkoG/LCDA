@@ -12,7 +12,7 @@
 	intrigue=8
 	stewardship=8
 	religion="catholic"
-	culture="padan"
+	culture="italian"
 	add_trait="diligent"
 	add_trait="patient"
 	add_trait="zealous"
