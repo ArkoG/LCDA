@@ -1,8 +1,30 @@
+k_kleinburgund = {                    
+	color={ 20 120 20 }
+	color2={ 0 0 0 }
+
+	landless = yes	
+	primary = yes
+	independent = yes
+	can_be_claimed = no
+	can_be_usurped = no
+	
+	dynasty_title_names = no
+	used_for_dynasty_names = no
+	
+	tier=king
+	
+	title = "RECTOR"
+	foa = "king_foa"
+	title_female = "RECTOR_fem" 
+}
+
 e_alps = {
 		color={ 200 200 200 }
 		color2={ 200 200 200 }
 			
 		capital = 16 #Montmélian	
+
+
 
 	k_savoie = {
 		color={ 172 4 10 }

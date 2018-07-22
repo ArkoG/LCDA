@@ -18,6 +18,8 @@ southern_alps;Southern Alps;Aples méridionales;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;x
 e_alps;Alpine crown;La Couronne des Alpes;;;;;;;;;;;;x
 e_alps_adj;alpine;alpine;;;;;;;;;;;;x
+k_kleinburgund;Burgundy;Bourgogne;Burgund;;;;;;;;;;;x
+k_kleinburgund_adj;Burgundian;bourguignonne;Burgunder;;;;;;;;;;;x
 #;;DUCHE DE SAVOIE;;;;;;;;;;;;x
 k_savoie;Savoie;Savoie;;;;;;;;;;;;x
 k_savoie_adj;;savoisienne;;;;;;;;;;;;x
@@ -123,7 +125,7 @@ d_genevois;;Genevois;;;;;;;;;;;;x
 d_genevois_adj;;genevoise;;;;;;;;;;;;x
 #;;seigneurie d'ANNECY;;;;;;;;;;;;x
 c_annecy;Annecy;Annecy;;;;;;;;;;;;x
-c_annecy_adj;;;;;;;;;;;;;;x
+c_annecy_adj;;annecienne;;;;;;;;;;;;x
 b_annecy1;La Roche;;;;;;;;;;;;;x
 b_annecy2;Thônes;;;;;;;;;;;;;x
 b_annecy3;Faverges;;;;;;;;;;;;;x
