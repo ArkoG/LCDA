@@ -1,0 +1,55 @@
+objectTypes = {
+	EMFXActorType = {
+		name = "westerngfx_port"
+		actorfile = "gfx\models\Settlements\Western\Western_Port.xac"
+		scale = 0.0f
+		use_animation = no
+		cull_distance = 300.0f
+	}
+
+	EMFXActorType = {
+		name = "easterngfx_port"
+		actorfile = "gfx\models\Settlements\Western\Western_Port.xac"
+		scale = 0.0f
+		use_animation = no
+		cull_distance = 300.0f
+	}
+
+	EMFXActorType = {
+		name = "muslimgfx_port"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_port.xac"
+		scale = 0.0f
+		use_animation = no
+		cull_distance = 300.0f
+	}
+	
+	EMFXActorType = {
+		name = "westerngfx_tradepost_flag"
+		actorfile = "gfx\models\Settlements\Western\Republic_flag.xac"
+		scale = 0.6f
+		use_animation = yes
+		cull_distance = 300.0f
+		
+		idle   = "gfx\models\Settlements\Western\Flag_anim.xsm"
+	}
+	
+	EMFXActorType = {
+		name = "muslimgfx_tradepost_flag"
+		actorfile = "gfx\models\Settlements\Muslim\Muslim_Republic_Flag.xac"
+		scale = 0.6f
+		use_animation = yes
+		cull_distance = 300.0f
+		
+		idle   = "gfx\models\Settlements\Western\Flag_anim.xsm"
+	}
+	
+	EMFXActorType = {
+		name = "tradepost_port"
+		actorfile = "gfx\models\Settlements\Western\Western_City01.xac"
+		scale = 1.5f
+		use_animation = no
+		cull_distance = 500.0f		
+	}
+
+
+}
