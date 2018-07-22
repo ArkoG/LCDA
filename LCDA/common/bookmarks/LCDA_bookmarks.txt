@@ -1,7 +1,7 @@
 bm_1032 = {
 	name = "BM_1032_ERA"
 	desc = "BM_1032_ERA_INFO"
-	date = 1032.1.1
+	date = 1032.9.5
 	
 	era = yes						## Will be shown on Era screen.
 	picture = GFX_pick_era_monts_alpage
