@@ -1,0 +1,7 @@
+962.2.2 = {
+	holder = 0
+	#name = "china_china"
+	#name = "sui_china"
+	status = hre_stability_stable
+	policy = hre_imperium_null
+}
