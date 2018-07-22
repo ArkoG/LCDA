@@ -1,0 +1,112 @@
+spriteTypes = {
+
+
+### domestic_offmaps.gfx
+	spriteType = {
+		name = "GFX_offmap_bg_hre"
+		texturefile = "gfx\\interface\\offmap_screen\\hre_background.dds"
+	}
+	spriteType = {
+		name = "GFX_offmap_banner_hre"
+		texturefile = "gfx\\interface\\offmap_screen\\hre_big_banner.dds"
+	}
+	spriteType = {
+		name = "GFX_offmap_top_embellishment_hre"
+		texturefile = "gfx\\interface\\offmap_screen\\hre_eagle_shiny_big.dds"
+	}
+	spriteType = {
+		name = "GFX_offmap_bottom_embellishment_hre"
+		texturefile = "gfx\\interface\\offmap_screen\\hre_eagle_shiny_small.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_offmap_ruler_banner_hre"
+		texturefile = "gfx\\interface\\offmap_screen\\hre_emperor_banner.dds"
+	}
+	spriteType = {
+		name = "GFX_offmap_ruler_portrait_border_hre"
+		texturefile = "gfx\\interface\\offmap_screen\\hre_emperor_portrait_ring.dds"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_offmap_currency_background_hre"
+		texturefile = "gfx\\interface\\offmap_screen\\hre_grace_banner.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_offmap_policy_hre"
+		texturefile = "gfx\\interface\\offmap_screen\\hre_policy_placeholder.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_offmap_status_hre"
+		texturefile = "gfx\\interface\\offmap_screen\\hre_status_placeholder.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_offmap_symbol_hre"
+		texturefile = "gfx\\interface\\offmap_screen\\hre_symbol_frame.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_offmap_hre_dynasty_frame"
+		texturefile = "gfx\\interface\\offmap_screen\\hre_dynasty_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_offmap_hre_mapmode_button"
+		texturefile = "gfx\\interface\\offmap_screen\\mapmode_button_hre_sphere.dds"
+	}
+	spriteType = {
+		name = "GFX_hre_screen_button"
+		texturefile = "gfx\\interface\\offmap_screen\\hre_screen_button.dds"
+	}
+	spriteType = {
+		name = "GFX_offmap_cooldowns_left_HRE"
+		texturefile = "gfx\\interface\\offmap_screen\\cooldown_icons_left_HRE.dds"
+		noOfFrames = 9
+	}
+
+##from general stuff
+	spriteType = {
+		name = "GFX_overlay_char_dead"
+		texturefile = "gfx\\interface\\overlay_char_dead.tga"
+		transparencecheck = yes
+		norefcount = yes
+		noOfFrames = 3 #adds a third icon for leaving court to HRE
+	}
+	spriteType = {
+		name = "GFX_overlay_char_dead_small"
+		texturefile = "gfx\\interface\\overlay_char_dead2.tga"
+		transparencecheck = yes
+		norefcount = yes
+		noOfFrames = 3
+	}
+
+
+	spriteType = {
+		name = "GFX_shield_crown_strip_big"
+		texturefile = "gfx\\interface\\shield_crown_strip_big_LCDA.tga"
+		noOfFrames = 6
+	}
+	spriteType = {
+		name = "GFX_shield_crown_strip_medium"
+		texturefile = "gfx\\interface\\shield_crown_strip_medium_LCDA.tga"
+		noOfFrames = 6
+	}
+	spriteType = {
+		name = "GFX_shield_crown_strip_medium2"
+		texturefile = "gfx\\interface\\shield_crown_strip_medium2_LCDA.tga"
+		noOfFrames = 6
+	}
+	spriteType = {
+		name = "GFX_shield_crown_strip_small"
+		texturefile = "gfx\\interface\\shield_crown_strip_small_LCDA.tga"
+		noOfFrames = 6
+	}	
+}
