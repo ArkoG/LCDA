@@ -1,0 +1,320 @@
+offmap_hre = {
+	name = hre_hre
+	window_name = domestic_offmaps_window_HRE
+	button_name = icon_offmaps_entry_HRE
+	currency_name = TXT_GRACE_HRE
+	currency_gain = monthly_grace
+	currency_reset_on_dynasty_change = yes
+	holder_title = title_empereur			# minor title used to identify a character as holder of this offmap power
+#	governor_title = k_kleinburgund
+	governor_title = k_kleinburgund
+#	governor_title = e_hre
+	tier = emperor
+	non_aggression_modifier = peace_deal_with_china
+	coa_religion = catholic
+	government = feudal_government
+	beginning_of_history = 962.2.2
+	#sound = china_interaction_interface
+	display_trigger = {
+		#has_dlc = "Jade Dragon"
+		#diplo range (region, variable upon the fact the emperor is crowned as king of burgundy or not)
+	}
+	policies = {
+		hre_imperium_high
+		hre_imperium_low
+		hre_imperium_null
+	}
+	statuses = {
+		hre_stability_golden_age
+		hre_stability_stable
+		hre_stability_chatastrophe
+	}
+	
+	buttons = {
+		offmap_gifts = {
+			is_active_trigger = {
+				china_offmap_tribute_decisions_enabled_trigger = yes
+			}
+		}
+		offmap_boons = {
+			is_active_trigger = {
+				china_offmap_boon_decisions_enabled_trigger = yes
+			}
+		}
+		offmap_hostility = {
+			is_active_trigger = {
+				china_offmap_hostile_decisions_enabled_trigger = yes
+			}
+			display_trigger = {
+				#NOT = { offmap_china = { offmap_ruler = { dynasty = FROM } } }
+				NOT = { offmap_hre = { offmap_ruler = { dynasty = FROM } } }
+			}
+		}
+		offmap_hostility2 = {
+			display_trigger = {
+				always = no
+			}
+		}
+	}
+	
+	#These conditions only effect the appearance of the button, it does not actually disable them from being clickable. The same triggers are used in all tribute/boon decisions respectively
+	
+	icon_triggers = {
+		china_physician_cd = {
+			frame = 9
+			trigger = {
+				hidden_tooltip = {
+					has_character_flag = chinese_grace_physician_sent
+				}
+			}
+			window_name = offmap_triggered_icon_HRE
+		}
+		china_raid_cd = {
+			frame = 8
+			right = yes	
+			trigger = {
+				hidden_tooltip = {
+					has_character_modifier = china_raid_grace_cd
+				}
+			}
+			window_name = offmap_triggered_icon_HRE
+		}
+		china_famine_cd = {
+			frame = 7
+			trigger = {
+				hidden_tooltip = {
+					has_character_modifier = china_send_relief
+				}
+			}
+			window_name = offmap_triggered_icon_HRE
+		}
+		china_tributary_cd = {
+			frame = 6
+			trigger = {
+				hidden_tooltip = {
+					has_character_modifier = chinese_grace_tributary_timer
+				}
+			}
+			window_name = offmap_triggered_icon_HRE
+		}
+		china_boon_cd = {
+			frame = 5
+			right = yes	
+			trigger = {
+				hidden_tooltip = {
+					has_character_modifier = jd_china_boon_cd
+				}
+			}
+			window_name = offmap_triggered_icon_HRE
+		}
+		china_commander_cd = {
+			frame = 4
+			trigger = {
+				hidden_tooltip = {
+					has_character_modifier = chinese_grace_send_commander_timer
+				}
+			}
+			window_name = offmap_triggered_icon_HRE
+		}
+		china_eunuch_cd = {
+			frame = 3
+			trigger = {
+				hidden_tooltip = {
+					has_character_modifier = chinese_grace_send_eunuch_timer
+				}
+			}
+			window_name = offmap_triggered_icon_HRE
+		}
+		china_concubine_cd = {
+			frame = 2
+			trigger = {
+				hidden_tooltip = {
+					has_character_modifier = chinese_grace_send_concubine_timer
+				}
+			}
+			window_name = offmap_triggered_icon_HRE
+		}
+		china_gift_cd = {
+			frame = 1
+			trigger = {
+				hidden_tooltip = {
+					has_character_modifier = chinese_grace_send_gift_timer
+				}
+			}
+			window_name = offmap_triggered_icon_HRE
+		}
+	}
+	
+	monthly_currency_gain = {
+		offmap_same_dynasty = {
+			value = 10
+			offmap_hre = { offmap_ruler = { dynasty = FROM } }
+		}
+		offmap_war_with_me = {
+			value = -10
+			war_with = FROM
+		}
+		offmap_likes_me = {
+			value = 1
+			FROM = { is_liked_by_China_trigger = yes }
+			is_within_diplo_range = FROM
+		}
+		offmap_likes_tributaries = {
+			value = 2
+			offmap_china = {			
+				offmap_has_like = likes_tributaries
+			}
+			FROM = {
+				is_tributary = {
+					type = offmap
+				}
+			}
+		}
+		vassal_of_WP = {
+			value = 2
+			FROM = {
+				liege = {
+					has_landed_title = k_kleinburgund
+					#has_landed_title = e_hre
+					}
+			}
+		}
+		offmap_same_culture_and_religion = {
+			value = 2
+			offmap_ruler = {
+				culture = FROM
+				religion = FROM
+			}
+			is_within_diplo_range = FROM
+		}
+	}
+	
+	temple_names = {
+		{ # Founder names
+		}
+		{ # Successor names
+		}
+	}
+	holder_succession = {
+		is_female = {					# chances of getting a female holder, as a percentage: if the total is >= 100, the new holder will always be female. If the total is <= 0, the new holder will always be male
+			value = 5
+			additive_modifier = {
+				value = 45
+				has_game_rule = {
+					name = gender
+					value = all
+				}
+			}
+		}
+		culture = {
+			german = { # default culture for new emperor
+				value = 90 # if any other value reaches 100, it will be picked instead
+			}
+			FROM = { # default culture for new emperor
+								# the left side here (and for culture, religion, graphical_culture and dynasty) can be a right hand side value (FROM, ROOT, a culture name, etc). and the right hand side / inside the brackets is a standard MTTH evaluation. Only the one with the highest weight will be used. If there's a tie, one of the tied values is picked at random
+				value = 0
+				additive_modifier = { #the new emperor will keep current culture if things are great
+					value = 100
+					#china_is_fine_trigger = yes
+					FROM = { culture_scope = { always = yes } } # Essentially a check that the previous emperor actually exists
+				}
+			}
+		}
+
+		graphical_culture = { 
+			FROM = {
+				value = 100
+			}
+		}
+
+		religion = {
+			catholic = { # default religion for new emperor
+				value = 100 # if any other value reaches 100, it will be picked instead (unless equal, then it will randomize)
+			}
+			FROM = {
+				value = 0
+				additive_modifier = { # the new emperor will keep current religion if things are great
+					value = 100
+					#china_is_fine_trigger = yes
+					FROM = { religion_scope = { always = yes } } # Essentially a check that the previous emperor actually exists
+				}
+			}
+		}
+
+		dynasty = {
+			FROM = { #default dynasty for new emperor
+				value = 99 #might drop from modifiers -- highest value will be picked instead (unless equal, then it will randomize)
+			}
+			actually_culture = {
+				value = 0
+				additive_modifier = {
+					value = 100
+					NOT = { FROM = { character = yes } }
+				}
+				additive_modifier = { #Fix for simulating Chinese history on old save boot-up
+					value = 100
+					random < 12
+					has_game_started = no
+				}
+			}
+		}
+
+	
+		likes = {
+			likes_pious = {
+				value = 150
+			}
+			likes_cities = {
+				value = 150
+			}
+			likes_feudal = {
+				value = 100
+			}
+			likes_theocracies = {
+				value = 150
+			}
+			likes_wealth = {
+				value = 300
+			}
+		}
+		
+		dislikes = {
+			likes_pious = {
+				value = 150
+			}
+			likes_cities = {
+				value = 150
+			}
+			likes_feudal = {
+				value = 100
+			}
+			likes_theocracies = {
+				value = 150
+			}
+			likes_others_gov = {
+				value = 350
+			}			
+			likes_wealth = {
+				value = 100
+			}
+		}
+	}
+	
+	diplomatic_range = { #Already includes the western governor's "normal" diplo range
+		OR = {
+			top_liege = {
+				suzerain = {
+					has_landed_title = k_kleinburgund
+				}
+			}
+			any_neighbor_independent_ruler = {
+				OR = {
+					has_landed_title = k_kleinburgund
+					suzerain = {
+						has_landed_title = k_kleinburgund
+					}
+				}
+			}
+		}
+	}
+}

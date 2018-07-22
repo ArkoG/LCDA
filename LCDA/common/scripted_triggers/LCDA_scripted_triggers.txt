@@ -1,0 +1,26 @@
+#LCDA
+
+#offmap HRE
+likes_cities = {
+	any_demesne_title = { holding_type = city }
+}
+likes_feudal = {
+	any_demesne_title = { holding_type = castle }
+}
+likes_theocracies = {
+	any_demesne_title = { 
+		holding_type = temple
+		religion = FROM
+		}
+}
+likes_others_gov = {
+	any_demesne_title = { 
+		holding_type = tribal
+		holding_type = nomad
+		}
+}
+
+likes_pious = {
+	has_pious_trait_trigger = yes
+	has_impious_trait_trigger = no
+}
