@@ -23,6 +23,8 @@ city_duke;Doge;Bourgmestre;;;;;;;;;;;;x
 city_count;Lord Mayor;Maire;;;;;;;;;;;;x
 city_baron;Mayor;Syndic;;;;;;;;;;;;x
 #FOA;;;;;;;;;;;;;;x
+RECTOR;Rector;Recteur;;;;;;;;;;;;x
+RECTOR_fem;Rector;Rectrice;;;;;;;;;;;;x
 emperor_foa;Your Majesty;Votre Majesté;;;;;;;;;;;;x
 king_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
 duke_foa;My Lord;Monseigneur;;;;;;;;;;;;x
