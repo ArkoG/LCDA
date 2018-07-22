@@ -6,5 +6,5 @@
 1131.1.1 = { holder=100062 } #Humbert the 1st
 1158.1.1 = { holder=100063 } #Guillaume
 1165.1.1 = { holder=100064 } #Humbert II
-1215.1.1 = { holder=10065 } #Etienne
+1215.1.1 = { holder=100065 } #Etienne
 1235.1.1 = { holder=0 }

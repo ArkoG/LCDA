@@ -1,5 +1,5 @@
 #Poncin, trésor
 1200.1.1 = { liege=c_thoire }
 1200.1.1 = { holder=100064 } #Humbert II
-1215.1.1 = { holder=10065 } #Etienne
+1215.1.1 = { holder=100065 } #Etienne
 1235.1.1 = { holder=0 }
