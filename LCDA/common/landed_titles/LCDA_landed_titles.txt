@@ -2,6 +2,9 @@ k_kleinburgund = {
 	color={ 20 120 20 }
 	color2={ 0 0 0 }
 
+	religion = german
+	culture = catholic
+	
 	landless = yes	
 	primary = yes
 	independent = yes

@@ -75,21 +75,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
-#			instantTextBoxType = {
-#				name = "offmap_label_HRE"
-#				position = { x = 0 y = 103 }
-#				textureFile = ""
-#				font = "vic_36_black"
-#				borderSize = {x = 0 y = 0}
-#				#text = "UI_MISSING_TEXT"
-#				text = "HRE_OFFMAP_forced"
-#				maxWidth = 690
-#				maxHeight = 24
-#				format = centre
-#				fixedsize = yes
-#				Orientation = "UPPER_LEFT"
-#				alwaystransparent = yes
-#			}			
+
 			iconType =
 			{
 				name ="player_crown_strip"
@@ -213,7 +199,7 @@ guiTypes = {
 			guiButtonType =	{
 				name ="offmap_hostility"
 				quadTextureSprite ="GFX_offmap_hostile_button_china"
-				position = { x= 555 y = 255 }
+				position = { x= 566 y = 247 }
 				clicksound = click_02
 				pdx_tooltip = "OFFMAP_HOSTILE"
 				pdx_tooltip_delayed = "OFFMAP_HOSTILE_DESC"
@@ -222,7 +208,7 @@ guiTypes = {
 			guiButtonType =	{
 				name ="offmap_hostility2"
 				quadTextureSprite ="GFX_offmap_hostile_button_china"
-				position = { x= 550 y = 340 }
+				position = { x= 561 y = 333 }
 				clicksound = click_02
 			}
 			
@@ -545,31 +531,31 @@ guiTypes = {
 		guiButtonType = {
 			name ="portrait"
 			quadTextureSprite = "GFX_char_34"
-			position = { x = 0 y = 7 }
+			position = { x = 0 y = 9 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
 			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
-			clicksound = click_default_china
+			#clicksound = click_default_china
 		}
 		guiButtonType = {
 			name ="portrait_frame"
 			quadTextureSprite = "GFX_charframe_34"
-			position = { x= -5 y = 1 }
+			position = { x= -5 y = 3 }
 			Orientation = "UPPER_LEFT"
-			clicksound = click_default_china
+			#clicksound = click_default_china
 		}
 		guiButtonType = {
 			name = "portrait_dead"
 			quadTextureSprite = "GFX_overlay_char_dead_small"
-			position = { x = 20 y = 21 }
+			position = { x = 20 y = 23 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_DEAD_TOOLTIP"
-			clicksound = click_default_china
+			#clicksound = click_default_china
 		}
 		
 		instantTextBoxType = {
 			position = { x=45 y =7}
 			name = "text"
-			font = "Arial12_black"
+			font = "vic_22_black"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 235
 			maxHeight = 40
@@ -583,7 +569,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_shield_medium2"
 			position = { x = 290 y = 0 }
 			Orientation = "UPPER_LEFT"
-			clicksound = click_default_china
+			#clicksound = click_default_china
 		}
 	}
 }
