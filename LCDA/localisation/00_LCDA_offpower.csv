@@ -53,7 +53,7 @@ DEATH_DATE_HRE;Went to China: $DATE|Y$ at age $AGE|Y$;Arrivée en Chine: $DATE|Y$
 DEATH_IN_CHINA_NO_KILLER;died abroad;est mort[GetNoneE] à l'étranger;;;;;;;;;;;;x
 DEATH_IN_CHINA;died abroad at the hands of $KILLER$;a été tué[Root.GetNoneE] à l'étranger par $KILLER$;;;;;;;;;;;;x
 
-likes_cities;cities; les cités;;;;;;;;;;;;x
+likes_cities;cities;les cités;;;;;;;;;;;;x
 likes_feudal;nobles;la noblesse;;;;;;;;;;;;x
 likes_theocracies;religious;les religieux;;;;;;;;;;;;x
 likes_others_gov;nomads and tribes;les nomades et tribaux;;;;;;;;;;;;;x
