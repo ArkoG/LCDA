@@ -11,10 +11,25 @@ b_;;x;;;;;;;;;;;;x
 b_;;x;;;;;;;;;;;;x
 b_;;x;;;;;;;;;;;;x
 b_;;x;;;;;;;;;;;;x
+###REGIONS
 world_alps;The Alps;Les Alpes;;;;;;;;;;;;x
 western_alps;Western Alps;Alpes occidentales;;;;;;;;;;;;x
 northern_alps;Northern Alps;Alpes septentrionales;;;;;;;;;;;;x
 southern_alps;Southern Alps;Aples méridionales;;;;;;;;;;;;x
+## DIOCESES
+custom_diocese_geneva;;Diocèse de Genève;;;;;;;;;;;;x
+custom_diocese_grenoble;;Diocèse de Grenoble;;;;;;;;;;;;x
+custom_diocese_maurienne;;Diocèse de Maurienne;;;;;;;;;;;;x
+custom_diocese_tarentaise;;Diocèse de Tarentaise;;;;;;;;;;;;x
+custom_diocese_sion;;Diocèse de Sion;;;;;;;;;;;;x
+custom_diocese_aoste;;Diocèse d'Aoste ;;;;;;;;;;;;x
+custom_diocese_vienne;;Diocèse de Vienne;;;;;;;;;;;;x
+custom_diocese_lyon;;Diocèse de Lyon;;;;;;;;;;;;x
+## ARCHIDIOCESES
+custom_archdiocese_lyon;;Diocèse métropolitain de Lyon;;;;;;;;;;;;x
+custom_archdiocese_vienne;;Diocèse métropolitain de Vienne;;;;;;;;;;;;x
+custom_archdiocese_tarentaise;;Diocèse métropolitain de Tarentaise;;;;;;;;;;;;x
+
 #;;;;;;;;;;;;;;x
 e_alps;Alpine crown;La Couronne des Alpes;;;;;;;;;;;;x
 e_alps_adj;alpine;alpine;;;;;;;;;;;;x
