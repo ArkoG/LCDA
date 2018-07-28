@@ -12,16 +12,31 @@ count;Lord;Seigneur;;;;;;;;;;;;x
 count_female;Lady;Dame;;;;;;;;;;;;x
 baron;Baron;Châtelain;;;;;;;;;;;;x
 baron_female;Baroness;Châtelaine;;;;;;;;;;;;x
-temple_emperor_catholic;King-Bishop;Roi très Chrétien;;;;;;;;;;;;x
-temple_king_catholic;Prince-Archbishop;Prince-Archevêque;;;;;;;;;;;;x
-temple_duke_catholic;Prince-Bishop;Prince-Évêque;;;;;;;;;;;;x
-temple_count_catholic;Bishop;Abbé;;;;;;;;;;;;x
-temple_baron_christian;Abbot;Prieur;;;;;;;;;;;;x
+
+temple_emperor_christian;King-Bishop;Roi très Chrétien;;;;;;;;;;;;x
+temple_king_christian;Prince-Archbishop;Prince-Archevêque;;;;;;;;;;;;x
+temple_duke_christian;Prince-Bishop;Prince-Évêque;;;;;;;;;;;;x
+temple_count_christian;Vicar;Vicaire;;;;;;;;;;;;x
+temple_baron_christian;Deacon;Diacre;;;;;;;;;;;;x
+
+#abbaye_emperor_christian;King-Bishop;Roi très Chrétien;;;;;;;;;;;;x
+#abbaye_king_christian;Prince-Archbishop;Prince-Archevêque;;;;;;;;;;;;x
+abbaye_duke_christian;Prince-Abbot;Prince-Abbé;;;;;;;;;;;;x
+abbaye_count_christian;Abbot;Abbé;;;;;;;;;;;;x
+abbaye_baron_christian;Prior;Prieur;;;;;;;;;;;;x
+
+thalasso_emperor;High Prince;Grand Prince;;;;;;;;;;;;x
+thalasso_king;Serenissime Doge;Doge Sérénissime;;;;;;;;;;;;x
+thalasso_duke;Doge;Doge;;;;;;;;;;;;x
+thalasso_count;Patrician;Patrice;;;;;;;;;;;;x
+thalasso_baron;Patrician;Patricien;;;;;;;;;;;;x
+
 city_emperor;Grand Prince;Grand Prince;;;;;;;;;;;;x
-city_king;Gouvernor;Gouverneur;;;;;;;;;;;;x
-city_duke;Doge;Bourgmestre;;;;;;;;;;;;x
+city_king;Magistrate;Magistrat;;;;;;;;;;;;x
+city_duke;Burgmaster;Bourgmestre;;;;;;;;;;;;x
 city_count;Lord Mayor;Maire;;;;;;;;;;;;x
 city_baron;Mayor;Syndic;;;;;;;;;;;;x
+
 #FOA;;;;;;;;;;;;;;x
 RECTOR;Rector;Recteur;;;;;;;;;;;;x
 RECTOR_fem;Rector;Rectrice;;;;;;;;;;;;x
@@ -32,36 +47,62 @@ count_foa;My Lord;Monseigneur;;;;;;;;;;;;x
 baron_foa;My Lord;Mon Seigneur;;;;;;;;;;;;x
 count_foa_female;My Lady;Madame;;;;;;;;;;;;x
 baron_foa_female;My Lady;Ma Dame;;;;;;;;;;;;x
+
+thalasso_emperor_foa;Your Highness;Votre Altesse;;;;;;;;;;;;x
+thalasso_king_foa;Your Serene Grace;Votre Altesse Sérénissime;;;;;;;;;;;;x
+thalasso_duke_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
+thalasso_count_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
+thalasso_baron_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
 city_emperor_foa;Your Highness;Votre Altesse;;;;;;;;;;;;x
 city_king_foa;Your Serene Grace;Votre Altesse Sérénissime;;;;;;;;;;;;x
 city_duke_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
 city_count_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
 city_baron_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
+
 temple_king_foa;Your Holiness;Votre Sainteté;;;;;;;;;;;;x
 temple_duke_foa;Your Eminence;Votre Éminence;;;;;;;;;;;;x
 temple_count_foa;Your Excellency;Votre Excellence;;;;;;;;;;;;x
 temple_baron_foa;Your Excellency;Votre Excellence;;;;;;;;;;;;x
+abbaye_duke_foa;Father;Mon Père;;;;;;;;;;;;x
+abbaye_count_foa;Father;Mon Père;;;;;;;;;;;;x
+abbaye_baron_foa;Brother;Mon Frère;;;;;;;;;;;;x
+
 #ENTITES_DE;;;;;;;;;;;;;;x
 empire_of;Kingdom of;Royaume de;;;;;;;;;;;;x
 kingdom_of;Duchy of;Duché de;;;;;;;;;;;;x
 duchy_of;County of;Comté de;;;;;;;;;;;;x
 county_of;Lordship_of;Seigneurie de;;;;;;;;;;;;x
 barony_of;Barony of;Châtellenie de;;;;;;;;;;;;x
+
+thalasso_of;Principality of;Principauté de;;;;;;;;;;;;x
+thalasso_kingdom_of;Serenissime Republic of;République Sérénissime de;;;;;;;;;;;;x
+thalasso_duchy_of;City-State of;Cité-État de;;;;;;;;;;;;x
+thalasso_county_of;City of;Cité de;;;;;;;;;;;;x
+thalasso_barony_of;Municipality of;Commune de;;;;;;;;;;;;x
 city_empire_of;Principality of;Principauté de;;;;;;;;;;;;x
 city_kingdom_of;Republic of;République de;;;;;;;;;;;;x
 city_duchy_of;City-State of;Cité-État de;;;;;;;;;;;;x
 city_county_of;City of;Cité de;;;;;;;;;;;;x
 city_barony_of;Municipality of;Commune de;;;;;;;;;;;;x
-temple_kingdom_of_catholic;Prince-Archbishopric of;Archevêché Princier de;;;;;;;;;;;;x
+
+temple_kingdom_of_christian;Prince-Archbishopric of;Archevêché Princier de;;;;;;;;;;;;x
 temple_duchy_of_christian;Prince-Bishopric of;Évêché Princier de;;;;;;;;;;;;x
-temple_county_of_christian;Bishopric of;Terres Ecclésiales de;;;;;;;;;;;;x
-temple_barony_of_christian;Abbey of;Terre Ecclésiale de;;;;;;;;;;;;x
+temple_county_of_christian;Ecclesia of;Ecclesia de;;;;;;;;;;;;x
+#temple_barony_of_christian;Decanat of;Décanat de;;;;;;;;;;;;x
+temple_barony_of_christian;Church land;Temporel religieux de;;;;;;;;;;;;x
+
+#abbaye_kingdom_of_catholic;;Archevêché Princier de;;;;;;;;;;;;x
+abbaye_duchy_of_christian;Territorial Abbey of;Abbaye territoriale de;;;;;;;;;;;;x
+abbaye_county_of_christian;Abbey of;Abbaye de;;;;;;;;;;;;x
+abbaye_barony_of_christian;Priory of;Prieuré de;;;;;;;;;;;;x
+
 #PLURIELS_ENTITES_DE;;;;;;;;;;;;;;x
 empires;Kingdoms;Royaumes;;;;;;;;;;;;x
 kingdoms;Duchies;Duchés;;;;;;;;;;;;x
 duchies;Counties;Comtés;;;;;;;;;;;;x
 counties;Lordships;Seigneuries;;;;;;;;;;;;x
 baronies;Baronies;Châtellenies;;;;;;;;;;;;x
+
 #FOA;;;;;;;;;;;;;;x
 PORTIER;;Portier;;;;;;;;;;;;x
 PORTIER_OF;;Col de;;;;;;;;;;;;x
@@ -82,3 +123,63 @@ VICOMTE;Viscount;Vicomte;;;;;;;;;;;;x
 VICOMTE_female;Viscountess;Vicomtesse;;;;;;;;;;;;x
 VICOMTE_FOA;My Lord;Votre seigneurie;;;;;;;;;;;;x
 VICOMTE_OF;My Lord;Vicomté de;;;;;;;;;;;;x
+
+#lobby rank filters;;;;;;;;;;;;;;x
+MAPMODE_DEFACTO_COUNTIES;§YLords§!;§YSeigneurs§!;;;;;;;;;;;;x
+MAPMODE_DEFACTO_COUNTIES_DESC;This map mode shows all the counts.;Ce mode de carte affiche tous les comtes.;Dieser Kartenmodus zeigt alle Grafen.;;Este mapa muestra todos los condes.;;;;;;;;;x
+MAPMODE_DEFACTO_DUCHIES;§YCounts§!;§YComtes§!;§YGrafen§!;;§YCondes§!;;;;;;;;;x
+MAPMODE_DEFACTO_DUCHIES_DESC;This map mode shows all the counts.;Ce mode de carte affiche tous les comtes.;Dieser Kartenmodus zeigt alle Grafen.;;Este mapa muestra todos los condes.;;;;;;;;;x
+MAPMODE_DEFACTO_KINGDOMS;§YDukes§!;§YDucs§!;§YHerzöge§!;;§YDuques§!;;;;;;;;;x
+MAPMODE_DEFACTO_KINGDOMS_DESC;This map mode shows all the dukes.;Ce mode de carte affiche tous les ducs.;Dieser Kartenmodus zeigt alle Herzöge.;;Este mapa muestra todos los duques.;;;;;;;;;x
+#MAPMODE icons tooltips;;;;;;;;;;;;;;x
+MAPMODE_DUCHIES;§YDe Jure Counties§!;§YComtés de jure§!;§YDe-jure-Grafen§!;;§YCondades de iure§!;;;;;;;;;x
+MAPMODE_DUCHIES_DESC;This map mode shows all geographical and traditional ('de jure') counties.;Ce mode de carte affiche tous les comtés géographiques et traditionnels (dits 'de jure').;;;Este modo de mapa muestra todos los condados geográficos y tradicionales (de iure) de Europa.;;;;;;;;;x
+MAPMODE_KINGDOMS;§YDe Jure Duchies§!;§YDuchés de jure§!;§YDe-jure-Herzogtümer§!;;§YDucados de iure§!;;;;;;;;;x
+MAPMODE_KINGDOMS_DESC;This map mode shows all geographical and traditional ('de jure') duchies.;Ce mode de carte affiche tous les duchés géographiques et traditionnels (dits 'de jure').;Dieser Kartenmodus zeigt alle geografischen und traditionellen (De-jure-)Herzogtümer.;;Este modo de mapa muestra todos los ducados geográficos y tradicionales (de iure) de Europa.;;;;;;;;;x
+MAPMODE_EMPIRES;§YDe Jure Kingdoms§!;§YRoyaumes de jure§!;§YDe-jure-Königreiche§!;;§YReino de iure§!;;;;;;;;;x
+MAPMODE_EMPIRES_DESC;This map mode shows all geographical and traditional ('de jure') kingdoms.;Ce mode de carte affiche tous les royaumes géographiques et traditionnels (dits 'de jure').;Dieser Kartenmodus zeigt alle geografischen und traditionellen (De-jure-)Königreiche.;;Este modo de mapa muestra todos los reinos geográficos y tradicionales (de iure) de Europa.;;;;;;;;;x
+
+HINT_SPLASH_2_INTRO;You are playing a [Culture.GetName] [Religion.GetName] [PrimaryTitle.GetRulerTitle]!;Vous endossez le rôle d'un[GetNoneE] [PrimaryTitle.GetRulerTitle] [GetReligionMascFem] [GetCultureMascFem] !;Ihr spielt als: [Culture.GetName] [Religion.GetName]er [PrimaryTitle.GetRulerTitle];;Estás jugando como un [Culture.GetName] [Religion.GetName] [PrimaryTitle.GetRulerTitle].;;;;;;;;;x
+TRADEREGION_DESC;This province belongs to §YThe $REGION$§!;Cette province appartient à §Y$REGION$§!;Diese Provinz gehört §Y$REGION$§!;;Esta provincia pertenece a §YLa $REGION$§!;;;;;;;;;x
+PROVINCE_HAS_REGION;This province belongs to the following regions:;Cette province appartient aux régions suivantes :;Diese Provinz gehört zu den folgenden Regionen:;;Esta provincia pertenece a las siguientes regiones:;;;;;;;;;x
+PROVINCE_HAS_NO_REGION; This province does not belong to any region; Cette province n'appartient à aucune région;  Diese Provinz gehört keiner bestimmten Region an.;;Esta provincia no pertenece a ninguna región;;;;;;;;;x
+
+DE_JURE_DUCHY_DESC;The §Y$PROVINCE$§W is traditionally considered a part of the §Y$DUCHY$§W. ;§Y$PROVINCE$§W fait traditionnellement partie de §Y$DUCHY$§W.\n ;Die §Y$PROVINCE$§W wird traditionell als Teil des §Y$DUCHY$§W angesehen. ;;La provincia de §Y$PROVINCE$§W se considera, por tradición, parte de §Y$DUCHY$§W.;;;;;;;;;x
+DE_JURE_DUCHY_DESC_NO_HOLDER;Currently, this title is held by no one.;Actuellement, ce titre n'est détenu par personne.;Momentan ist dieses titel in niemandes Besitz.;;Este titulo no tiene propietario en estos momentos.;;;;;;;;;x
+DE_JURE_DUCHY_DESC_HOLDER_1;\n§Y$DUKE$§W is the current count, and also de facto controller of §Y$PROVINCE$§W.;\n§Y$DUKE$§W est le comte actuel et contrôle, de facto, la province de §Y$PROVINCE$§W.;\n§Y$DUKE$§W ist der derzeitige Graf und kontrolliert auch de facto §Y$PROVINCE$§W.;;\n§Y$DUKE$§W es el conde actual y dirigente de facto de §Y$PROVINCE$§W.;;;;;;;;;x
+DE_JURE_DUCHY_DESC_HOLDER_2;§Y$DUKE$§W is the current count, who will strive to regain actual control of §Y$PROVINCE$§W.;§Y$DUKE$§W est le comte actuel et se battra pour reprendre le contrôle de la province de §Y$PROVINCE$§W.;§Y$DUKE$§W ist der derzeitige Graf, der sich bemüht, die Kontrolle über §Y$PROVINCE$§W wiederzuerlangen.;;§Y$DUKE$§W es el conde actual, que intentará retomar el control de §Y$PROVINCE$§W.;;;;;;;;;x
+
+DE_JURE_KINGDOM_DESC;The §Y$PROVINCE$§W is traditionally considered a part of the §Y$KINGDOM$§W. ;§Y$PROVINCE$§W fait traditionnellement partie de §Y$KINGDOM$§W.\n ;§Y$PROVINCE$§W wird traditionell als Teil des §Y$KINGDOM$§W angesehen. ;;La provincia de §Y$PROVINCE$§W se considera, por tradición, parte de §Y$KINGDOM$§W.;;;;;;;;;x
+DE_JURE_KINGDOM_DESC_NO_HOLDER;There is no current holder.;Actuellement, il n'y a pas de détenteur du titre.;Derzeit gibt es keinen Herzog;;No hay ningún duque actualmente.;;;;;;;;;x
+DE_JURE_KINGDOM_DESC_HOLDER_1;§Y$KING$§W is the current duke, and also de facto controller of §Y$PROVINCE$§W.;§Y$KING$§W est le duc actuel et contrôle, de facto, la province de §Y$PROVINCE$§W.;§Y$KING$§W ist der derzeitige Herzog und kontrolliert auch de facto §Y$PROVINCE$§W.;;§Y$KING$§W es el duque actual y dirigente de facto de §Y$PROVINCE$§W.;;;;;;;;;x
+DE_JURE_KINGDOM_DESC_HOLDER_2;§Y$KING$§W is the current duke, and, while not in de facto control of §Y$PROVINCE$§W, still has the authority to pass Laws that affect it.;§Y$KING$§W est le duc actuel et, sans contrôler de facto la province de §Y$PROVINCE$§W, peut y faire voter des lois.;§Y$KING$§W ist der derzeitige Herzog, und obwohl er de facto §Y$PROVINCE$§W nicht kontrolliert, so hat er doch die Autorität, Gesetze zu erlassen, die sie beeinflussen.;;§Y$KING$§W es el duque actual y, aunque no es soberano de facto de la provincia de §Y$PROVINCE$§W, tiene autoridad para aplicar leyes en ella.;;;;;;;;;x
+
+PROVINCE_NO_HOSPITAL_LEVEL;§RNo Hospital§! in this province!;§RPas d'hôpital§! dans cette province !;§RKein Hospital§! in dieser Grafschaft;;¡§RSin Hospital§! en esta provincia!;;;;;;;;;x
+PROVINCE_NO_HOSPITAL_LEVEL_DESC;With no §YHospital§! in the county, it has no protection against disease or depopulation. Hospitals are built via the Extended Province View.;Sans §Yhôpital§! dans cette province, il n'y a pas de protection contre les maladies ou la dépopulation. Un hôpital peut être établi via la vue province étendue.;Ohne ein §YHospital§! in der Grafschaft gibt es keinen Schutz gegen Krankheiten oder Bevölkerungsverlust.;;Sin ningún §YHospital§! en el condado, no tienes ninguna protección contra la enfermedad o la despoblación.;;;;;;;;;x
+PROVINCE_HOSPITAL_ICON_EXTEND;§GClick to open the Extended Province View.§!;§GCliquer pour afficher la vue province étendue.§!;§GZum Öffnen der Erweiterten Provinz-Ansicht klicken.§!;;§GHaz clic para abrir la vista ampliada de la provincia.§!;;;;;;;;;x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
