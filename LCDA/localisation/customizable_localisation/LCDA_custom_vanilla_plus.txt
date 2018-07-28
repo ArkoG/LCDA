@@ -1,0 +1,46 @@
+#LCDA // CUSTOM LOCALISATION KEYS
+
+defined_text = {
+	name = GetCultureMascFem
+	use_first_valid = yes
+
+	text = {
+		localisation_key = String_FR_Culture_alemanique_Masc
+		trigger = { is_female = no culture = arpitan }
+	}
+	text = {
+		localisation_key = String_FR_Culture_arpitan_Masc
+		trigger = { is_female = no culture = arpitan }
+	}
+	text = {
+		localisation_key = String_FR_Culture_alemanique_Fem
+		trigger = { is_female = yes culture = alemanique }
+	}
+	text = {
+		localisation_key = String_FR_Culture_arpitan_Fem
+		trigger = { is_female = yes culture = alemanique }
+	}
+}
+
+#####
+defined_text = {
+	name = GetCultureMascPl
+	use_first_valid = yes
+	
+	text = {
+		localisation_key = String_FR_Culture_alemanique_PlMasc
+		trigger = { is_female = no culture = arpitan }
+	}
+	text = {
+		localisation_key = String_FR_Culture_arpitan_PlMasc
+		trigger = { is_female = no culture = arpitan }
+	}
+	text = {
+		localisation_key = String_FR_Culture_alemanique_PlFem
+		trigger = { is_female = yes culture = alemanique }
+	}
+	text = {
+		localisation_key = String_FR_Culture_arpitan_PlFem
+		trigger = { is_female = yes culture = alemanique }
+	}
+}
