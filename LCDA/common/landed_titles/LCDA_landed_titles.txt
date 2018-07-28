@@ -311,9 +311,9 @@ e_alps = {
 				color2={ 255 255 255 }
 				
 				culture = arpitan			
-					title = "VICOMTE"
-					foa = "VICOMTE_FOA"
-					title_prefix = "VICOMTE_OF"
+					#title = "VICOMTE"
+					#foa = "VICOMTE_FOA"
+					#title_prefix = "VICOMTE_OF"
 			
 				b_novalaise1 = {}
 				b_novalaise2 = {}
