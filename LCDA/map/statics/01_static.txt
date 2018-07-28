@@ -1,0 +1,18 @@
+	object = {
+		type = "Landmark_Episco_GE"
+		position = { 787.000 23.000 1509.000 }
+		rotation = { 500.0 500.000 500.000 }
+		scale = 1.5
+	}
+	object = {
+		type = "Landmark_Episco_LA"
+		position = { 845.000 23.500 1575.000 }
+		rotation = { 250.000 250.000 253.142 }
+		scale = 1.5
+	}
+		object = {
+		type = "Landmark_Episco_VI"
+		position = { 607.000 21.500 1370.000 }
+		rotation = { 50.000 53.142 50.000 }
+		scale = 1.5
+	}

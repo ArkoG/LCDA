@@ -1,0 +1,21 @@
+objectTypes = {
+		
+	EMFXActorType = {
+		name = "Landmark_Episco_GE"
+		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
+		scale = 1.0f
+		use_animation = no
+	}
+	EMFXActorType = {
+		name = "Landmark_Episco_LA"
+		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
+		scale = 1.0f
+		use_animation = no
+	}
+	EMFXActorType = {
+		name = "Landmark_Episco_VI"
+		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
+		scale = 1.0f
+		use_animation = no
+	}
+}
