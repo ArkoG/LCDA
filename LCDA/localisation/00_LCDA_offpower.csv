@@ -1,4 +1,4 @@
-#;;OFFPOWER;;;;;;;;;;;;x
+#;;OFFPOWER;new stuff;;;;;;;;;;;x
 TXT_GRACE_HRE;Imperial grace;Grâce impériale;Gunst;;Gracia;;;;;;;;;x
 TXT_GRACE_HRE_desc;\nImperial grace is gained by §YPaying Tribute§! to the current Emperor, you can use accumulated Grace to §GAsk for Boons§!. Any Grace you have accumulated will be passed on to your heir during succession.\n§RAll Grace is lost should the Dynasty change in the Empire!§!;\nLa Grâce impériale est obtenue en §Yoffrant des cadeaux§! à l'Empereur actuel. Vous pouvez l'utiliser ensuite pour demander une §Gfaveur§!. Toute la Grâce accumulée sera héritée à la succession.\n§RToute Grâce serait perdue si la dynastie à la tête de l'Empire venait à changer !§!;;;\nSe gana gracia §Yofreciendo regalos§! al Emperador actual. Se puede usar la gracia acumulada solicitando §GFavores§! Toda la gracia acumulada pasara a nuestro heredero en la sucesión.\n§R¡Si hay un cambio de dinastía en el Imperio, se perderá toda la gracia!§!;;;;;;;;;x
 
@@ -6,15 +6,6 @@ HRE_OFFMAP_forced;Holy Roman Empire;Saint-Empire romain;Heiliges Römisches Reich
 
 hre_hre_full;Holy Roman Empire;Saint-Empire romain;Heiliges Römisches Reich;;Sacro Imperio;;;;;;;;;x
 hre_hre;Holy Roman Empire;Saint-Empire romain;Heiliges Römisches Reich;;Sacro Imperio;;;;;;;;;x
-#e_china;Holy Roman Empire;Saint-Empire romain;Heiliges Römisches Reich;;Sacro Imperio;;;;;;;;;x
-#title_china_emperor;Emperor;Empereur;Kaiser;;Emperador;;;;;;;;;x
-#GetLongChineseEmperorName_string;[This.GetOnlyDynastyName] [This.GetBirthName], [This.GetTitle] [This.GetFirstName] of the [This.PrimaryTitle.GetFullName];[This.GetOnlyDynastyName] [This.GetBirthName], [This.GetTitle] [This.GetFirstName] du [This.PrimaryTitle.GetFullName];[This.GetOnlyDynastyName] [This.GetBirthName], [This.GetTitle] [This.GetFirstName] von [This.PrimaryTitle.GetFullName];;[This.GetOnlyDynastyName] [This.GetBirthName], [This.GetTitle] [This.GetFirstName] del [This.PrimaryTitle.GetFullName];;;;;;;;;x
-#GetMediumChineseEmperorName_string;[This.GetTitle] [This.GetFirstName] of the [This.PrimaryTitle.GetFullName];[This.GetTitle] [This.GetFirstName] du [This.PrimaryTitle.GetFullName];[This.GetTitle] [This.GetFirstName] von [This.PrimaryTitle.GetFullName];;[This.GetTitle] [This.GetFirstName] del [This.PrimaryTitle.GetFullName];;;;;;;;;x
-#GetShortChineseEmperorName_string;[This.GetTitle] of the [This.PrimaryTitle.GetFullName];[This.GetTitle] du [This.PrimaryTitle.GetFullName];[This.GetTitle] von [This.PrimaryTitle.GetFullName];;[This.GetTitle] del [This.PrimaryTitle.GetFullName];;;;;;;;;x
-OFFMAP_VIEW_BUTTON_INSTANT;$OFFMAP_SHORT$\nOpen interaction with §Y$OFFMAP_SHORT$§!.;§Y$OFFMAP_SHORT$§!\nOuvrir l'écran d'interaction avec le §Y$OFFMAP_SHORT$§!.;$OFFMAP|Y$\nInteraktion mit §Y$OFFMAP_SHORT$-China§! öffnen.;;$OFFMAP|Y$\n¡Interacción abierta con §Y$OFFMAP_SHORT$ China§!.;;;;;;;;;x
-
-EMPEROR_LIKES_LABEL;The Emperor likes;L'Empereur apprécie;Der Kaiser mag;;Al Emperador le gustan;;;;;;;;;x
-EMPEROR_DISLIKES_LABEL;The Emperor dislikes;L'Empereur méprise;Der Kaiser mag keine;;Al Emperador le disgustan;;;;;;;;;x
 
 hre_imperium_high;High Imperium;Imperium élevé;;;;;;;;;;;;x
 hre_imperium_low;Low Imperium;Imperium faible;;;;;;;;;;;;x
@@ -30,28 +21,9 @@ hre_stability_golden_age_desc;;Le [Root.GetName] est entré dans une période d'ap
 hre_stability_stable_desc;The [Root.GetName] is experiencing a period of internal stability, and trade is flourishing. Without any large-scale disasters or powerful enemies prosperity is able to spread, and the imperial military might stands ready to defend both its own wealth and its loyal vassals.;Le [Root.GetName] connaît une période de stabilité interne, et le commerce se développe. Sans catastrophes ni ennemis puissants, la prospérité peut se propager, et la puissance militaire de l'Empire est prête à défendre à la fois sa propre richesse et ses vassaux loyaux.;[Root.GetName] erlebt eine Zeit der inneren Stabilität und der Handel mit dem Osten ist rentabel. ;;El [Root.GetName] experimenta un periodo de estabilidad interna y el comercio es rentable. Sin grandes desastres ni enemigos poderosos, la prosperidad se extienda y el poder militar del imperio está listo para defender tanto sus propias riquezas como las de sus fieles tributarios.;;;;;;;;;x
 hre_stability_chatastrophe_desc;;Rien ne va plus, tout fout le camp !;;;;;;;;;;;;x
 
-#china_china;The Empire;L'Empire; ;; ;;;;;;;;;x
-#china_china_full;Holy Roman Empire;Saint-Empire romain;Heiliges Römisches Reich;;Sacro Imperio;;;;;;;;;x
-
-OFFMAP_POLICY;Power: $POLICY|Y$;Pouvoir : $POLICY|Y$;;;;;;;;;;;;x
-OFFMAP_STATUS;Status: $STATUS|Y$;Statut : $STATUS|Y$;Status: $STATUS|Y$;;Estatus: $STATUS|Y$;;;;;;;;;x
-
-OFFMAP_POLICY_TRIGGER_NOT;Does NOT have the power degree $POLICY|Y$;N'a pas un degré de pouvoir '$POLICY|Y$';;;;;;;;;;;;x
-OFFMAP_POLICY_TRIGGER;Has the $POLICY|Y$ power degree;A un degré de pouvoir '$POLICY|Y$';;;;;;;;;;;;x
-OFFMAP_PREV_POLICY_TRIGGER_NOT;Did NOT have $POLICY|Y$ as its previous power degree;N'a pas eu '$POLICY|Y$' comme degré de pouvoir précédent;;;;;;;;;;;;x
-OFFMAP_PREV_POLICY_TRIGGER;Had $POLICY|Y$ as its previous power degree;A eu '$POLICY|Y$' comme degré de pouvoir précédent;;;;;;;;;;;;x
-OFFMAP_POLICY_FLAG_TRIGGER_NOT;Current power degree does NOT have the $FLAG|Y$ flag;Le degré de pouvoir actuel n'a pas le marqueur '$FLAG|Y$';;;;;;;;;;;;x
-OFFMAP_POLICY_FLAG_TRIGGER;Current power degree has the $FLAG|Y$ flag;Le degrée de pouvoir actuel a le marqueur '$FLAG|Y$';;;;;;;;;;;;x
-OFFMAP_PREV_POLICY_FLAG_TRIGGER_NOT;Previous power degree does NOT have the $FLAG|Y$ flag;Le degré de pouvoir précédent n'avait pas le marqueur : '$FLAG|Y$';;;;;;;;;;;;x
-OFFMAP_PREV_POLICY_FLAG_TRIGGER;Previous power degree has the $FLAG|Y$ flag;Le degré de pouvoir précédent avait le marqueur '$FLAG|Y$';;;;;;;;;;;;x
-OFFMAP_SET_POLICY;Power degree changes to $POLICY|Y$;Changement de degré de pouvoir pour $POLICY|Y$;;;;;;;;;;;;x
-DAYS_SINCE_POLICY_CHANGE_TRIGGER;Days since last power degree change is $COMPARISON|Y$ $VALUE|Y$;Jours après le dernier changement de degré de pouvoir $COMPARISON|Y$ $VALUE|Y$;;;;;;;;;;;;x
-
 DEATH_WENT_TO_HRE_NO_KILLER;left their old life behind to travel to the Chinese Empire;a abandonné son ancienne vie pour se rendre dans une cour lointaine;ließ das alte Leben zurück und reiste ins Kaiserreich China;;dejó su vida atrás para viajar al Imperio chino;;;;;;;;;x
 DEATH_WENT_TO_HRE;left their old life behind to travel to the Chinese Empire, on the order of $KILLER$;a abandonné son ancienne vie pour se rendre dans une cour lointaine, sur ordre de $KILLER$;ließ das alte Leben zurück und reiste ins Kaiserreich China auf Befehl von $KILLER$;;dejó su vida atrás para viajar al Imperio chino por orden de $KILLER$;;;;;;;;;x
 DEATH_DATE_HRE;Went to China: $DATE|Y$ at age $AGE|Y$;Arrivée en Chine: $DATE|Y$ à l'âge de $AGE|Y$;Ging am $DATE|Y$ im Alter von $AGE|Y$ nach China.;;Fue a China:  $DATE|Y$ con $AGE|Y$;;;;;;;;;x
-DEATH_IN_CHINA_NO_KILLER;died abroad;est mort[GetNoneE] à l'étranger;;;;;;;;;;;;x
-DEATH_IN_CHINA;died abroad at the hands of $KILLER$;a été tué[Root.GetNoneE] à l'étranger par $KILLER$;;;;;;;;;;;;x
 
 likes_cities;cities;les cités;;;;;;;;;;;;x
 likes_feudal;nobles;la noblesse;;;;;;;;;;;;x

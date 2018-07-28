@@ -1,0 +1,27 @@
+#;;OFFPOWER;replace vanilla;;;;;;;;;;;x
+OFFMAP_VIEW_BUTTON_INSTANT;§Y$OFFMAP_SHORT$§!\n;§Y$OFFMAP_SHORT$§!\n;§Y$OFFMAP|Y$§!\n;;§Y$OFFMAP|Y$§!\n;;;;;;;;;x
+OFFMAP_VIEW_BUTTON_DELAYED;§GLeft Click§! to open interaction screen.\n§GRight Click§! to open Map Mode.;§GClic gauche§! pour ouvrir l'écran d'interactions.\n§GClic droit§! pour ouvrir le mode Carte.;§GLinksclick§! um den Interaktionsbildschirm zu öffnen.\n§GRechtsklick§!, um den Kartenmodus.;;§GClic izquierdo§! para abrir la pantalla de interacción.\n§GClic derecho§! para abrir el modo de la mapa.;;;;;;;;;x
+
+OFFMAP_GRACE_TOOLTIP;This is your current §Y[Root.GetCurrency]§! with the §Y[Root.Ruler.GetOnlyDynastyName] Dynasty§!!;Voici votre §Y[Root.GetCurrency]§! avec la dynastie des §Y[Root.Ruler.GetOnlyDynastyName]§! !;Das ist Eure momentane §Y[Root.GetCurrency]§! mit der §Y[Root.Ruler.GetOnlyDynastyName]-Dynastie§!!;;Esta es tu §Y[Root.GetCurrency]§! actual con la §Ydinastía [Root.Ruler.GetOnlyDynastyName]§!;;;;;;;;;x
+
+EMPEROR_LIKES_LABEL;The Emperor likes;L'Empereur apprécie;Der Kaiser mag;;Al Emperador le gustan;;;;;;;;;x
+EMPEROR_DISLIKES_LABEL;The Emperor dislikes;L'Empereur méprise;Der Kaiser mag keine;;Al Emperador le disgustan;;;;;;;;;x
+OFFMAP_LIKES_AND_DISLIKES_DESC;§LChinese Emperors have varying interests and tastes. This has a big impact on all actions when trying to gain the Emperor's Grace. The Emperor takes note both of your own qualities (e.g. Culture) and those of your specific offering (e.g. a Concubine)...§!;§LLes empereurs chinois ont des intérêts et des goûts variés, ce qui compte beaucoup lorsqu'il s'agit d'obtenir la Grâce de l'Empereur. L'empereur prend en compte vos propres caractéristiques (par exemple la culture) et celles de votre offre (par exemple une concubine)...§!;§LChinesische Kaiser haben unterschiedliche Interessen und Geschmäcke. Das hat einen großen Einfluss auf alle Handlungen die man durchführt, um die Gunst des Kaisers zu gewinnen. Der Kaiser nimmt Kenntnis von sowohl Euren eigenen Eigenschaften (z.B. Kultur), als auch denen eines bestimmten Angebots (z.B. Konkubinen)...§!;;Los §Lemperadores chinos tienen diversos gustos e intereses. Esto tiene un gran impacto en todas las acciones cuando se quiere ganar la gracia del emperador. El Emperador se fija tanto en tus cualidades propias (p.ej. cultura) y las de tu ofrenda específica (p.ej. una concubina)…§!;;;;;;;;;x
+
+
+OFFMAP_POLICY;Power: $POLICY|Y$;Pouvoir : $POLICY|Y$;;;;;;;;;;;;x
+OFFMAP_STATUS;Status: $STATUS|Y$;Statut : $STATUS|Y$;Status: $STATUS|Y$;;Estatus: $STATUS|Y$;;;;;;;;;x
+
+OFFMAP_POLICY_TRIGGER_NOT;Does NOT have the power degree $POLICY|Y$;N'a pas un degré de pouvoir '$POLICY|Y$';;;;;;;;;;;;x
+OFFMAP_POLICY_TRIGGER;Has the $POLICY|Y$ power degree;A un degré de pouvoir '$POLICY|Y$';;;;;;;;;;;;x
+OFFMAP_PREV_POLICY_TRIGGER_NOT;Did NOT have $POLICY|Y$ as its previous power degree;N'a pas eu '$POLICY|Y$' comme degré de pouvoir précédent;;;;;;;;;;;;x
+OFFMAP_PREV_POLICY_TRIGGER;Had $POLICY|Y$ as its previous power degree;A eu '$POLICY|Y$' comme degré de pouvoir précédent;;;;;;;;;;;;x
+OFFMAP_POLICY_FLAG_TRIGGER_NOT;Current power degree does NOT have the $FLAG|Y$ flag;Le degré de pouvoir actuel n'a pas le marqueur '$FLAG|Y$';;;;;;;;;;;;x
+OFFMAP_POLICY_FLAG_TRIGGER;Current power degree has the $FLAG|Y$ flag;Le degrée de pouvoir actuel a le marqueur '$FLAG|Y$';;;;;;;;;;;;x
+OFFMAP_PREV_POLICY_FLAG_TRIGGER_NOT;Previous power degree does NOT have the $FLAG|Y$ flag;Le degré de pouvoir précédent n'avait pas le marqueur : '$FLAG|Y$';;;;;;;;;;;;x
+OFFMAP_PREV_POLICY_FLAG_TRIGGER;Previous power degree has the $FLAG|Y$ flag;Le degré de pouvoir précédent avait le marqueur '$FLAG|Y$';;;;;;;;;;;;x
+OFFMAP_SET_POLICY;Power degree changes to $POLICY|Y$;Changement de degré de pouvoir pour $POLICY|Y$;;;;;;;;;;;;x
+DAYS_SINCE_POLICY_CHANGE_TRIGGER;Days since last power degree change is $COMPARISON|Y$ $VALUE|Y$;Jours après le dernier changement de degré de pouvoir $COMPARISON|Y$ $VALUE|Y$;;;;;;;;;;;;x
+
+DEATH_IN_CHINA_NO_KILLER;died abroad;est mort[GetNoneE] à l'étranger;;;;;;;;;;;;x
+DEATH_IN_CHINA;died abroad at the hands of $KILLER$;a été tué[Root.GetNoneE] à l'étranger par $KILLER$;;;;;;;;;;;;x
