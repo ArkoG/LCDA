@@ -45,8 +45,8 @@ objectTypes = {
 	
 	EMFXActorType = {
 		name = "tradepost_port"
-		actorfile = "gfx\models\Settlements\Western\Western_City01.xac"
-		scale = 1.5f
+		actorfile = "gfx\models\Settlements\Western\Western_City03.xac"
+		scale = 1.6f
 		use_animation = no
 		cull_distance = 500.0f		
 	}
