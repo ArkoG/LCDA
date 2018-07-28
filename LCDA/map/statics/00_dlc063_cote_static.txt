@@ -1,0 +1,46 @@
+
+    
+	 object = {
+		 type = "cote_palace_of_aachen"
+		position = { 911.000 28.500 1488.000 }
+		rotation = { 250.000 0.000 50.000 }
+		scale = 1.6
+	}
+   
+    object = {
+        type = "cote_petra"
+        position = { -100.000 -100.000 -100.000 }
+        rotation = { 0.000 0.000 0.000 }
+        scale = 0.0
+    }
+
+    
+    object = {
+        type = "cote_visby_ringmur"
+        position = { -100.000 -100.000 -100.000 }
+        rotation = { 0.000 0.000 0.000 }
+        scale = 0.0
+    }
+
+
+    object = { # rotation doesn't work
+        type = "cote_hadrianswall"
+        position = { -100.000 -100.000 -100.000 }
+        rotation = { 0.500 0.000 0.000 }
+        scale = 0.0
+    }
+
+
+    object = {
+        type = cote_giza_pyramids
+        position = { -100.000 -100.000 -100.000 }
+        rotation = { 0.000 0.000 0.000 }
+        scale = 0.0
+    }
+    object = {
+        type = cote_khajuraho
+        position = { -100.000 -100.000 -100.000 }
+        rotation = { 0.000 0.000 0.000 }
+        scale = 0.0
+    }   
+        
