@@ -37,3 +37,11 @@ germainmeridional_group;;Germanique Méridional;;;;;;;;;;;;x
 bavarois;;Bavarois;;;;;;;;;;;;x
 souabe;;Souabe;;;;;;;;;;;;x
 tyrolien;;Tyrolien;;;;;;;;;;;;x
+String_FR_Culture_alemanique_Fem;_;alémanique;;;;;;;;;;;;x
+String_FR_Culture_alemanique_Masc;_;alémanique;;;;;;;;;;;;x
+String_FR_Culture_alemanique_PlFem;_;alémaniques;;;;;;;;;;;;x
+String_FR_Culture_alemanique_PlMasc;_;alémaniques;;;;;;;;;;;;x
+String_FR_Culture_arpitan_Fem;_;arpitane;;;;;;;;;;;;x
+String_FR_Culture_arpitan_Masc;_;arpitan;;;;;;;;;;;;x
+String_FR_Culture_arpitan_PlFem;_;arpitanes;;;;;;;;;;;;x
+String_FR_Culture_arpitan_PlMasc;_;arpitans;;;;;;;;;;;;x
