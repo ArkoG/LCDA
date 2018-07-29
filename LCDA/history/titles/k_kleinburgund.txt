@@ -1,8 +1,9 @@
 1000.1.1 ={ 
 	holder=0 #give it to the rector
+	liege = e_kleinburgund
 }
 1024.7.13={ #e_hre vanilla
-	law = succ_feudal_elective
+	law = succ_feudal_elective #might bring some rotation between dynasties
 	law = agnatic_succession
 	#law = investiture_law_1
 }
@@ -12,5 +13,4 @@
 1070.4.14		 ={ holder=5139}#Baldewin fils de
 1081.10.11    ={ holder=5140}#Henrike frère de
 1097.9.17		 ={ holder=0}
-
 

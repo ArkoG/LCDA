@@ -7,7 +7,7 @@ offmap_hre = {
 	currency_reset_on_dynasty_change = yes
 	holder_title = title_empereur			# minor title used to identify a character as holder of this offmap power
 #	governor_title = k_kleinburgund
-	governor_title = e_kleinburgund
+	governor_title = k_kleinburgund
 #	governor_title = e_hre
 	tier = emperor
 	non_aggression_modifier = peace_deal_with_china
@@ -170,11 +170,11 @@ offmap_hre = {
 				}
 			}
 		}
-		vassal_of_WP = {
+		vassal_of_HRE = {
 			value = 2
 			FROM = {
 				liege = {
-					has_landed_title = e_kleinburgund
+					has_landed_title = k_kleinburgund
 					#has_landed_title = e_hre
 					}
 			}
@@ -304,14 +304,14 @@ offmap_hre = {
 		OR = {
 			top_liege = {
 				suzerain = {
-					has_landed_title = e_kleinburgund
+					has_landed_title = k_kleinburgund
 				}
 			}
 			any_neighbor_independent_ruler = {
 				OR = {
-					has_landed_title = e_kleinburgund
+					has_landed_title = k_kleinburgund
 					suzerain = {
-						has_landed_title = e_kleinburgund
+						has_landed_title = k_kleinburgund
 					}
 				}
 			}

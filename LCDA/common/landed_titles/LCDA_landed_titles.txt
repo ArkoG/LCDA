@@ -1,4 +1,14 @@
-e_kleinburgund = {                    
+e_alps = {
+		color={ 200 200 200 }
+		color2={ 200 200 200 }
+			
+		capital = 16 #Montmélian	
+		
+		allow = { always = no }
+		#decision only
+}
+
+k_kleinburgund = {   #rectorate for the offmap power, always titular. cannot hold a k_title if a e_title itself             
 	color={ 130 30 130 }
 	color2={ 0 0 0 }
 	
@@ -16,13 +26,41 @@ e_kleinburgund = {
 	dynasty_title_names = no
 	used_for_dynasty_names = no
 	
-	tier=king
+	#tier=king
 	
 	title = "RECTOR"
 	foa = "king_foa"
 	title_female = "RECTOR_fem" 
+}
 
-	k_transjurane = {
+e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one    
+
+
+#alternate setup keeping DJ both burgundies (Provence vs Transjurane), for size purpose, then have the unified one is titular
+	color={ 130 30 130 }
+	color2={ 0 0 0 }
+	
+	capital = 63 #Zollikoffen Berthoud
+	
+	culture = german
+	religion =  catholic
+	
+	#landless = yes	
+	#primary = yes
+	independent = yes
+	#can_be_claimed = no
+	#can_be_usurped = no
+	
+	dynasty_title_names = no
+	used_for_dynasty_names = no
+	
+	tier=king
+	
+	#title = "RECTOR"
+	#foa = "king_foa"
+	#title_female = "RECTOR_fem" 
+
+	k_transjurane = { #ducal transjurane, different from e_transjurane (Rodolphian kingdom, titular as it is off period)
 			color={ 170 0 50 }
 			color2={ 255 255 255 }
 			
@@ -136,16 +174,10 @@ e_kleinburgund = {
 			}
 		}
 	}
-}
 
 
-e_alps = {
-		color={ 200 200 200 }
-		color2={ 200 200 200 }
-			
-		capital = 16 #Montmélian	
-		
-		allow = { always = no }
+
+
 
 
 	k_savoie = {

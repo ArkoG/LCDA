@@ -35,8 +35,10 @@ e_alps;Alpine crown;La Couronne des Alpes;;;;;;;;;;;;x
 e_alps_adj;alpine;alpine;;;;;;;;;;;;x
 k_kleinburgund;Regnum Burgundia;;;;;;;;;;;;;x
 k_kleinburgund_adj;Burgundian;bourguignonne;Burgunder;;;;;;;;;;;x
-e_kleinburgund;Regnum Burgundia;;;;;;;;;;;;;x
-e_kleinburgund_adj;Burgundian;bourguignonne;Burgunder;;;;;;;;;;;x
+#e_kleinburgund;Regnum Burgundia;;;;;;;;;;;;;x
+#e_kleinburgund_adj;Burgundian;bourguignonne;Burgunder;;;;;;;;;;;x
+e_burgundy;Regnum Burgundia;;;;;;;;;;;;;x
+e_burgundy_adj;Burgundian;bourguignonne;Burgunder;;;;;;;;;;;x
 #;;DUCHE DE SAVOIE;;;;;;;;;;;;x
 k_savoie;Savoie;Savoie;;;;;;;;;;;;x
 k_savoie_adj;;savoisienne;;;;;;;;;;;;x

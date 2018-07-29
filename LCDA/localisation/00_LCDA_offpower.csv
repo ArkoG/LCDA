@@ -30,3 +30,5 @@ likes_feudal;nobles;la noblesse;;;;;;;;;;;;x
 likes_theocracies;religious;les religieux;;;;;;;;;;;;x
 likes_others_gov;nomads and tribes;les nomades et tribaux;;;;;;;;;;;;;x
 likes_pious;pious people;les personnes pieuses;;;;;;;;;;;;x
+
+vassal_of_HRE;Is a vassal of the empire;Est vassal de l'Empire;;;es vasallo del Emperio;;;;;;;;;x
