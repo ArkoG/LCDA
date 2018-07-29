@@ -19,6 +19,8 @@ technology = {
 		
 		d_bugey
 		
+		d_bargengau
+		d_oberaargau
 	}
 
 	1000 = {

@@ -29,6 +29,8 @@ western_alps = {
 northern_alps = {
 	duchies = {
 		d_basvalais
+		d_oberaargau
+		d_bargengau
 	}
 }
 
