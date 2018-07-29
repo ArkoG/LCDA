@@ -1,6 +1,6 @@
 1000.1.1 ={ 
 	holder=0 
-	liege = k_transjurane
+	liege = k_kleinburgund
 }
 1019.1.1		 ={ holder=5076}#Dietpold
 1071.7.26		 ={ holder=5078}#Adolf fils de

@@ -1,6 +1,6 @@
 1000.1.1 ={ 
 	holder=0
-	liege = k_transjurane
+	liege = k_kleinburgund
 }
 1020.1.1		 ={ holder=5094}#Baldewin
 1070.7.15		 ={ holder=5095}#Johann fils de

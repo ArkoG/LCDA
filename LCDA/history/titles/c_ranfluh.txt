@@ -1,6 +1,6 @@
 1000.1.1 ={ 
 	holder=0
-	liege = k_transjurane
+	liege = k_kleinburgund
 }
 1020.1.1		 ={ holder=5056}#Guntram
 1050.8.16		 ={ holder=5057}#Reinhard fils de
