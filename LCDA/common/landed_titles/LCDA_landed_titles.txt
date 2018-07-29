@@ -1,9 +1,11 @@
-k_kleinburgund = {                    
-	color={ 20 120 20 }
+e_kleinburgund = {                    
+	color={ 130 30 130 }
 	color2={ 0 0 0 }
-
-	religion = german
-	culture = catholic
+	
+	capital = 63 #Zollikoffen Berthoud
+	
+	culture = german
+	religion =  catholic
 	
 	landless = yes	
 	primary = yes
@@ -19,14 +21,131 @@ k_kleinburgund = {
 	title = "RECTOR"
 	foa = "king_foa"
 	title_female = "RECTOR_fem" 
+
+	k_transjurane = {
+			color={ 170 0 50 }
+			color2={ 255 255 255 }
+			
+			capital = 63 #Zollikoffen Berthoud
+
+			german = "Kleinburgund"
+			souabe = "Kleinburgund"
+			
+		d_bargengau = {
+			color={ 110 20 110 }
+			color2={ 172 4 10 }
+			
+			capital = 62 #nidau	
+			
+			c_nidau = { #62
+				color={ 130 0 130 }
+				color2={ 255 255 255 }
+			
+				b_nidau1 = {}
+				b_nidau2 = {}
+				b_nidau3 = {}
+				b_nidau4 = {}
+				b_nidau5 = {}
+				b_nidau6 = {}
+			}
+			c_sternberg = { #61 Sternberg
+				color={ 90 40 90 }
+				color2={ 0 86 148 }
+			
+				b_sternberg1 = {}
+				b_sternberg2 = {}
+				b_sternberg3 = {}
+				b_sternberg4 = {}
+				b_sternberg5 = {}
+				b_sternberg6 = {}
+			}
+			c_seftingen = { #60 Seftingen
+				color={ 190 90 40 }
+				color2={ 0 86 148 }
+			
+				b_seftingen1 = {}
+				b_seftingen2 = {}
+				b_seftingen3 = {}
+				b_seftingen4 = {}
+				b_seftingen5 = {}
+				b_seftingen6 = {}
+			}
+		}
+		d_oberaargau = {
+			color={ 20 110 20 }
+			color2={ 172 4 10 }
+			
+			capital = 63 #Zollikoffen Berthoud 
+			
+			c_zollikofen = { #63
+				color={ 30 130 0 }
+				color2={ 255 255 255 }
+			
+				b_zollikofen1 = { arpitan = "Buron"}
+				b_zollikofen2 = {}
+				b_zollikofen3 = {}
+				b_zollikofen4 = {}
+				b_zollikofen5 = {}
+				b_zollikofen6 = {}
+			}
+			c_murgeten = { #64 
+				color={ 190 40 90 }
+				color2={ 0 86 148 }
+			
+				b_murgeten1 = {}
+				b_murgeten2 = {}
+				b_murgeten3 = {}
+				b_murgeten4 = {}
+				b_murgeten5 = {}
+				b_murgeten6 = {}
+			}
+			c_ranfluh = { #65 Ranflüh
+				color={ 90 10 190 }
+				color2={ 0 86 148 }
+			
+				b_ranfluh1 = {}
+				b_ranfluh2 = {}
+				b_ranfluh3 = {}
+				b_ranfluh4 = {}
+				b_ranfluh5 = {}
+				b_ranfluh6 = {}
+			}
+			c_konolflingen = { #66 Konolflingen
+				color={ 90 140 90 }
+				color2={ 0 86 148 }
+			
+				b_konolflingen1 = {}
+				b_konolflingen2 = {}
+				b_konolflingen3 = {}
+				b_konolflingen4 = {}
+				b_konolflingen5 = {}
+				b_konolflingen6 = {}
+			}			
+			c_thun = { #67 Thun
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+
+				arpitan = "Thoune"
+				
+				b_thun1 = { arpitan = "Thoune" }
+				b_thun2 = {}
+				b_thun3 = {}
+				b_thun4 = {}
+				b_thun5 = {}
+				b_thun6 = {}
+			}
+		}
+	}
 }
+
 
 e_alps = {
 		color={ 200 200 200 }
 		color2={ 200 200 200 }
 			
 		capital = 16 #Montmélian	
-
+		
+		allow = { always = no }
 
 
 	k_savoie = {
@@ -68,42 +187,10 @@ e_alps = {
 				color={ 172 4 10 }
 				color2={ 250 188 0 }
 			
-				dignity = 9
+				dignity = 9 #doesn't work on c & d level
 				
 				holy_site = catholic
 				holy_site = orthodox
-				holy_site = aztec
-				holy_site = aztec_reformed
-				holy_site = hellenic_pagan
-				holy_site = pagan
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
-				holy_site = slavic_pagan
-				holy_site = slavic_pagan_reformed
-				holy_site = baltic_pagan
-				holy_site = baltic_pagan_reformed				
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed				
-				holy_site = norse_pagan
-				holy_site = norse_pagan_reformed				
-				holy_site = zoroastrian # The Great Fire of Adur Burzen-Mehr
-				holy_site = yazidi
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
-				holy_site = jewish
-				holy_site = samaritan
-				holy_site = karaite
-				holy_site = nestorian
-				holy_site = shiite
-				holy_site = sunni				
-				holy_site = ibadi
-				holy_site = miaphysite
-				holy_site = monophysite
-				holy_site = west_african_pagan
-				holy_site = west_african_pagan_reformed
-				holy_site = buddhist
-				holy_site = hindu
-				holy_site = jain
 				
 				b_geneve1 = {pentarchy = yes}
 				b_geneve2 = {}
@@ -126,38 +213,6 @@ e_alps = {
 				
 				holy_site = catholic
 				holy_site = orthodox
-				holy_site = aztec
-				holy_site = aztec_reformed
-				holy_site = hellenic_pagan
-				holy_site = pagan
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
-				holy_site = slavic_pagan
-				holy_site = slavic_pagan_reformed
-				holy_site = baltic_pagan
-				holy_site = baltic_pagan_reformed				
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed				
-				holy_site = norse_pagan
-				holy_site = norse_pagan_reformed				
-				holy_site = zoroastrian # The Great Fire of Adur Burzen-Mehr
-				holy_site = yazidi
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
-				holy_site = jewish
-				holy_site = samaritan
-				holy_site = karaite
-				holy_site = nestorian
-				holy_site = shiite
-				holy_site = sunni				
-				holy_site = ibadi
-				holy_site = miaphysite
-				holy_site = monophysite
-				holy_site = west_african_pagan
-				holy_site = west_african_pagan_reformed
-				holy_site = buddhist
-				holy_site = hindu
-				holy_site = jain
 				
 				b_saintmaurice1 = {pentarchy = yes}
 				b_saintmaurice2 = {  }
@@ -385,38 +440,6 @@ e_alps = {
 				
 				holy_site = catholic
 				holy_site = orthodox
-				holy_site = aztec
-				holy_site = aztec_reformed
-				holy_site = hellenic_pagan
-				holy_site = pagan
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
-				holy_site = slavic_pagan
-				holy_site = slavic_pagan_reformed
-				holy_site = baltic_pagan
-				holy_site = baltic_pagan_reformed				
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed				
-				holy_site = norse_pagan
-				holy_site = norse_pagan_reformed				
-				holy_site = zoroastrian # The Great Fire of Adur Burzen-Mehr
-				holy_site = yazidi
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
-				holy_site = jewish
-				holy_site = samaritan
-				holy_site = karaite
-				holy_site = nestorian
-				holy_site = shiite
-				holy_site = sunni				
-				holy_site = ibadi
-				holy_site = miaphysite
-				holy_site = monophysite
-				holy_site = west_african_pagan
-				holy_site = west_african_pagan_reformed
-				holy_site = buddhist
-				holy_site = hindu
-				holy_site = jain
 				
 				b_maurienne1 = {}
 				b_maurienne2 = {  }
@@ -750,38 +773,6 @@ e_alps = {
 				
 				holy_site = catholic
 				holy_site = orthodox
-				holy_site = aztec
-				holy_site = aztec_reformed
-				holy_site = hellenic_pagan
-				holy_site = pagan
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
-				holy_site = slavic_pagan
-				holy_site = slavic_pagan_reformed
-				holy_site = baltic_pagan
-				holy_site = baltic_pagan_reformed				
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed				
-				holy_site = norse_pagan
-				holy_site = norse_pagan_reformed				
-				holy_site = zoroastrian # The Great Fire of Adur Burzen-Mehr
-				holy_site = yazidi
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
-				holy_site = jewish
-				holy_site = samaritan
-				holy_site = karaite
-				holy_site = nestorian
-				holy_site = shiite
-				holy_site = sunni				
-				holy_site = ibadi
-				holy_site = miaphysite
-				holy_site = monophysite
-				holy_site = west_african_pagan
-				holy_site = west_african_pagan_reformed
-				holy_site = buddhist
-				holy_site = hindu
-				holy_site = jain
 							
 				b_vienne1 = {}
 				b_vienne2 = {}
@@ -814,38 +805,6 @@ e_alps = {
 			
 				holy_site = catholic
 				holy_site = orthodox
-				holy_site = aztec
-				holy_site = aztec_reformed
-				holy_site = hellenic_pagan
-				holy_site = pagan
-				holy_site = finnish_pagan
-				holy_site = finnish_pagan_reformed
-				holy_site = slavic_pagan
-				holy_site = slavic_pagan_reformed
-				holy_site = baltic_pagan
-				holy_site = baltic_pagan_reformed				
-				holy_site = tengri_pagan
-				holy_site = tengri_pagan_reformed				
-				holy_site = norse_pagan
-				holy_site = norse_pagan_reformed				
-				holy_site = zoroastrian # The Great Fire of Adur Burzen-Mehr
-				holy_site = yazidi
-				holy_site = zun_pagan
-				holy_site = zun_pagan_reformed
-				holy_site = jewish
-				holy_site = samaritan
-				holy_site = karaite
-				holy_site = nestorian
-				holy_site = shiite
-				holy_site = sunni				
-				holy_site = ibadi
-				holy_site = miaphysite
-				holy_site = monophysite
-				holy_site = west_african_pagan
-				holy_site = west_african_pagan_reformed
-				holy_site = buddhist
-				holy_site = hindu
-				holy_site = jain
 				
 				b_grenoble1 = {}
 				b_grenoble2 = {}
