@@ -33,8 +33,10 @@ custom_archdiocese_tarentaise;;Diocèse métropolitain de Tarentaise;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;x
 e_alps;Alpine crown;La Couronne des Alpes;;;;;;;;;;;;x
 e_alps_adj;alpine;alpine;;;;;;;;;;;;x
-k_kleinburgund;Burgundy;Bourgogne;Burgund;;;;;;;;;;;x
+k_kleinburgund;Regnum Burgundia;;;;;;;;;;;;;x
 k_kleinburgund_adj;Burgundian;bourguignonne;Burgunder;;;;;;;;;;;x
+e_kleinburgund;Regnum Burgundia;;;;;;;;;;;;;x
+e_kleinburgund_adj;Burgundian;bourguignonne;Burgunder;;;;;;;;;;;x
 #;;DUCHE DE SAVOIE;;;;;;;;;;;;x
 k_savoie;Savoie;Savoie;;;;;;;;;;;;x
 k_savoie_adj;;savoisienne;;;;;;;;;;;;x
@@ -531,6 +533,48 @@ b_saintoyand6;;;;;;;;;;;;;;x
 b_saintoyand7;;;;;;;;;;;;;;x
 
 #;;COMTE D'EMBRUNOIS;;;;;;;;;;;;x
+
+k_transjurane;Transjurania;;;;;;;;;;;;;x
+k_transjurane_adj;transjurian;transjurane;;;;;;;;;;;;x
+
+d_bargengau;Bargengau;;;;;;;;;;;;;x
+d_bargengau_adj;bargengauer;;;;;;;;;;;;;x
+PROV60;Seftingen;;;;;;;;;;;;;x
+c_seftingen_adj;seftingener;;;;;;;;;;;;;x
+PROV61;Sternberg;;;;;;;;;;;;;x
+c_sternberg_adj;sternberger;;;;;;;;;;;;;x
+PROV62;Nidau;;;;;;;;;;;;;x
+c_nidau_adj;nidauer;;;;;;;;;;;;;x
+b_nidau1;Nidau;;;;;;;;;;;;;x
+b_nidau2;Bargen;;;;;;;;;;;;;x
+
+d_oberaargau;Ober-Aargau;;;;;;;;;;;;;x
+d_oberaargau_adj;oberargauer;;;;;;;;;;;;;x
+PROV63;Zollikofen;;;;;;;;;;;;;x
+c_zollikofen_adj;Zollikofener;;;;;;;;;;;;;x
+
+b_zollikofen1;Berthoud;;;;;;;;;;;;x
+b_zollikofen2;Aarberg;;;;;;;;;;;;x
+b_zollikofen3;;;;;;;;;;;;;x
+b_zollikofen4;Büren;;;;;;;;;;;;x
+b_zollikofen5;Burgdorf;;;;;;;;;;;;x
+b_zollikofen6;;;;;;;;;;;;;;x
+
+PROV64;Murgeten;;;;;;;;;;;;;x
+c_murgeten_adj;murgentener;;;;;;;;;;;;;x
+
+b_murgeten1;Landshut;;;;;;;;;;;;x
+
+PROV65;Ranflüh;;;;;;;;;;;;;x
+c_ranfluh_adj;ranfluher;;;;;;;;;;;;;x
+
+b_ranfluh1;Signau;;;;;;;;;;;;x
+
+PROV66;Konolflingen;;;;;;;;;;;;;x
+c_konolflingen_adj;konoflingener;;;;;;;;;;;;;x
+PROV67;Thun;;;;;;;;;;;;;x
+c_thun_adj;thuner;;;;;;;;;;;;;x
+
 #;;MERCS;;;;;;;;;;;;x
 d_merc_01;;La Bande de Granier;;;;;;;;;;;;x
 d_merc_02;;La Troupe Iserane;;;;;;;;;;;;x
