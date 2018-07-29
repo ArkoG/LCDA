@@ -1,0 +1,20 @@
+#This is file is WIP...
+
+750.1.1 = {
+#	holder = 244001 # GUO Xin (under Tang)
+	government = confucian_bureaucracy
+}
+
+#1234.1.1 = {
+#	holder = 244013 # Fictional char (under Ögedei Khan, but too soon? Ögedei comes into power in 1234.2.10, see next entry)
+#}
+1234.2.10 = {
+#	holder = 244013 #  # Fictional Mongol char (under Ögedei Khan)
+	name = "yuan_china"
+}
+#1264.12.10 = {
+#	holder = 244014 # Fictional Mongol char (under Kublai Khan)
+#}
+#1334.1.1 = {
+#	holder = 244015 # Fictional Mongol char
+#}
