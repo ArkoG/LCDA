@@ -1,0 +1,9 @@
+1000.1.1 ={ 
+	holder=0
+	liege = k_transjurane
+}
+1020.1.1		 ={ holder=5094}#Baldewin
+1070.7.15		 ={ holder=5095}#Johann fils de
+1087.5.28		 ={ holder=5103}#Rudger fils de
+1092.2.11		 ={ holder=5113}#Alberade fille de second frère de
+1099.8.7		 ={ holder=0}

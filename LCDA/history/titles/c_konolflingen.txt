@@ -1,0 +1,9 @@
+1000.1.1 ={ 
+	holder=0 
+	liege = k_transjurane
+}
+1019.1.1		 ={ holder=5076}#Dietpold
+1071.7.26		 ={ holder=5078}#Adolf fils de
+1084.5.1		 ={ holder=5086}#Udo fils de
+1110.3.18		 ={ holder=5087}#Lambert frère de
+1132.6.7		 ={ holder=0}

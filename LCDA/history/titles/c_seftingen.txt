@@ -1,0 +1,11 @@
+1000.1.1 ={ 
+	holder=0
+	liege = d_bargengau
+}
+1019.1.1		 ={ holder=5001}#Lutbert
+1071.11.11	 ={ holder=5002}#Otto fils de
+1073.3.20		 ={ holder=5005}#Nikolaus fils de
+1093.2.14		 ={ holder=5011}#Walther fils de
+1114.8.28		 ={ holder=5015}
+1119.9.18		 ={ holder=5017}
+1150.5.14		 ={ holder=0}

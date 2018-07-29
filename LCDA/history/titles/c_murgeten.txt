@@ -1,0 +1,9 @@
+1000.1.1 ={ 
+	holder=0
+	liege = k_transjurane
+}
+1020.1.1		 ={ holder=5037}#Hermann
+1063.10.10	 ={ holder=5042}#Giselbert petit fils de
+1075.4.28		 ={ holder=5052}#Ehrenfried fils de
+1111.8.7		 ={ holder=5051}#Barbara soeur ainee de
+1117.6.11		 ={ holder=0}
