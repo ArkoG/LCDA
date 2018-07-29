@@ -1445,6 +1445,8 @@ e_china_west_governor = { #placeholder for the Chinese Empire Western Governor
 	# Cannot be vassalized
 	independent = yes
 
+	culture = han
+	religion = taoist
 	# Cannot be held as a secondary title
 	primary = yes
 	
