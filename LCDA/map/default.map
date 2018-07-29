@@ -20,9 +20,10 @@ sea_zones = { 1018 1019 } #Bourget, annecy
 sea_zones = { 1021 1024 } #rivers
 sea_zones = { 1025 1026 } #Neuch. Genf
 sea_zones = { 1030 1032 } #rivers
+sea_zones = { 1036 1039 } #Biel Morat Thun Brienz
 
 ocean_region = {	# European Ocean
-	sea_zones = { 1 2 3 4}
+	sea_zones = { 1 2 3 4 5 }
 }
 
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
