@@ -95,6 +95,7 @@ temple_barony_of_christian;Church land;Temporel religieux de;;;;;;;;;;;;x
 abbaye_duchy_of_christian;Territorial Abbey of;Abbaye territoriale de;;;;;;;;;;;;x
 abbaye_county_of_christian;Abbey of;Abbaye de;;;;;;;;;;;;x
 abbaye_barony_of_christian;Priory of;Prieuré de;;;;;;;;;;;;x
+abbaye_barony_of_christian;Priory of;Prieuré de;;;;;;;;;;;;x
 
 #PLURIELS_ENTITES_DE;;;;;;;;;;;;;;x
 empires;Kingdoms;Royaumes;;;;;;;;;;;;x
@@ -158,6 +159,7 @@ PROVINCE_NO_HOSPITAL_LEVEL;§RNo Hospital§! in this province!;§RPas d'hôpital§! d
 PROVINCE_NO_HOSPITAL_LEVEL_DESC;With no §YHospital§! in the county, it has no protection against disease or depopulation. Hospitals are built via the Extended Province View.;Sans §Yhôpital§! dans cette province, il n'y a pas de protection contre les maladies ou la dépopulation. Un hôpital peut être établi via la vue province étendue.;Ohne ein §YHospital§! in der Grafschaft gibt es keinen Schutz gegen Krankheiten oder Bevölkerungsverlust.;;Sin ningún §YHospital§! en el condado, no tienes ninguna protección contra la enfermedad o la despoblación.;;;;;;;;;x
 PROVINCE_HOSPITAL_ICON_EXTEND;§GClick to open the Extended Province View.§!;§GCliquer pour afficher la vue province étendue.§!;§GZum Öffnen der Erweiterten Provinz-Ansicht klicken.§!;;§GHaz clic para abrir la vista ampliada de la provincia.§!;;;;;;;;;x
 
+gov_hereditary_despotic_monarchy;Hereditary Despotic [PrimaryTitle.GetTier];Fief féodal;[PrimaryTitle.GetTier] (Despotisch und mit Erbfolge);;[PrimaryTitle.GetTier] despótico hereditario ;;;;;;;;;x
 
 
 
