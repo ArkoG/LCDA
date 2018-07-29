@@ -1,0 +1,30 @@
+# County Title
+title = c_nidau
+
+# Settlements
+max_settlements = 4
+
+b_nidau1 = castle #
+b_nidau2 = temple #
+b_nidau3 = city #
+
+#notes
+
+#b_nidau4 = castle #
+#b_nidau5 = city #
+#b_nidau6 = temple #
+
+
+# Misc
+culture = alemanique
+religion = catholic
+terrain = farmlands
+
+# History
+# 999.9.9  = {	remove_settlement = b_tag } 
+# 999.9.9  = {	b_tag = temple	}
+# 999.9.9  = {	capital = b_tag	}
+# 999.9.9  = {	max_settlements = 5		}
+# 999.9.9  = {	b_tag = building_nam	}
+# 999.9.9  = { culture = alemanique }
+# 999.9.9  = { religion = catholic}

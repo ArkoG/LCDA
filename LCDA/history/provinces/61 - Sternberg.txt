@@ -1,0 +1,30 @@
+# County Title
+title = c_sternberg
+
+# Settlements
+max_settlements = 4
+
+b_sternberg1 = castle #
+b_sternberg2 = temple #
+b_sternberg3 = city #
+
+#notes
+
+#b_sternberg4 = castle #
+#b_sternberg5 = city #
+#b_sternberg6 = temple #
+
+
+# Misc
+culture = alemanique
+religion = catholic
+terrain = hills
+
+# History
+# 999.9.9  = {	remove_settlement = b_tag } 
+# 999.9.9  = {	b_tag = temple	}
+# 999.9.9  = {	capital = b_tag	}
+# 999.9.9  = {	max_settlements = 5		}
+# 999.9.9  = {	b_tag = building_nam	}
+# 999.9.9  = { culture = alemanique }
+# 999.9.9  = { religion = catholic}

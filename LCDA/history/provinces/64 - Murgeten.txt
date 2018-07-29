@@ -1,0 +1,30 @@
+# County Title
+title = c_murgeten
+
+# Settlements
+max_settlements = 4
+
+b_murgeten1 = castle #Landshut
+b_murgeten2 = temple #
+b_murgeten3 = city #
+
+#notes
+
+#b_murgeten4 = castle #
+#b_murgeten5 = city #
+#b_murgeten6 = temple #
+
+
+# Misc
+culture = alemanique
+religion = catholic
+terrain = forest
+
+# History
+# 999.9.9  = {	remove_settlement = b_tag } 
+# 999.9.9  = {	b_tag = temple	}
+# 999.9.9  = {	capital = b_tag	}
+# 999.9.9  = {	max_settlements = 5		}
+# 999.9.9  = {	b_tag = building_nam	}
+# 999.9.9  = { culture = alemanique }
+# 999.9.9  = { religion = catholic}

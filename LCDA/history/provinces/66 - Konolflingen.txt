@@ -1,0 +1,30 @@
+# County Title
+title = c_konolflingen
+
+# Settlements
+max_settlements = 4
+
+b_konolflingen1 = castle #
+b_konolflingen2 = temple #
+b_konolflingen3 = city #
+
+#notes
+
+#b_konolflingen4 = castle #
+#b_konolflingen5 = city #
+#b_konolflingen6 = temple #
+
+
+# Misc
+culture = alemanique
+religion = catholic
+terrain = hills
+
+# History
+# 999.9.9  = {	remove_settlement = b_tag } 
+# 999.9.9  = {	b_tag = temple	}
+# 999.9.9  = {	capital = b_tag	}
+# 999.9.9  = {	max_settlements = 5		}
+# 999.9.9  = {	b_tag = building_nam	}
+# 999.9.9  = { culture = alemanique }
+# 999.9.9  = { religion = catholic}

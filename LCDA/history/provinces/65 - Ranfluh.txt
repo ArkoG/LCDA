@@ -1,0 +1,30 @@
+# County Title
+title = c_ranfluh
+
+# Settlements
+max_settlements = 4
+
+b_ranfluh1 = castle #Signau
+b_ranfluh2 = temple #
+b_ranfluh3 = city #
+
+#notes
+
+#b_ranfluh4 = castle #
+#b_ranfluh5 = city #
+#b_ranfluh6 = temple #
+
+
+# Misc
+culture = alemanique
+religion = catholic
+terrain = mountain
+
+# History
+# 999.9.9  = {	remove_settlement = b_tag } 
+# 999.9.9  = {	b_tag = temple	}
+# 999.9.9  = {	capital = b_tag	}
+# 999.9.9  = {	max_settlements = 5		}
+# 999.9.9  = {	b_tag = building_nam	}
+# 999.9.9  = { culture = alemanique }
+# 999.9.9  = { religion = catholic}

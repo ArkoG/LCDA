@@ -1,0 +1,31 @@
+# County Title
+title = c_zollikofen
+
+# Settlements
+max_settlements = 6
+
+b_zollikofen1 = castle #Burgdorf
+b_zollikofen2 = castle #aarberg
+b_zollikofen3 = temple #
+
+
+#notes
+
+#b_zollikofen4 = castle #Büren
+#b_zollikofen5 = city #Burgdorf
+#b_zollikofen6 = temple #
+
+
+# Misc
+culture = alemanique
+religion = catholic
+terrain = plains
+
+# History
+1350.1.1  = {	b_zollikofen4 = castle } 
+1350.1.1  = {	b_zollikofen5 = city } 
+# 999.9.9  = {	capital = b_tag	}
+# 999.9.9  = {	max_settlements = 5		}
+# 999.9.9  = {	b_tag = building_nam	}
+# 999.9.9  = { culture = arpitan }
+# 999.9.9  = { religion = catholic}
