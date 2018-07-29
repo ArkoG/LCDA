@@ -1,0 +1,13 @@
+###LCDA 
+##local DYNASTIES
+#range 5001//
+
+
+5001 = { name = "von Seftingen"	culture = alemanique }
+5002 = { name = "von Sternberg"	culture = alemanique }
+5003 = { name = "von Murgeten"	culture = alemanique }
+5004 = { name = "von Signau"	culture = alemanique }
+5005 = { name = "von Konolflingen"	culture = alemanique }
+5006 = { name = "von Thun"	culture = alemanique }
+5007 = { name = "von Ufgau"	culture = alemanique } #non landed
+5008 = { name = "von Aargau"	culture = souabe }
