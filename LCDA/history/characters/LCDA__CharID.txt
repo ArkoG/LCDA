@@ -5,6 +5,8 @@
 #range 100//200 #abbés de St Maurice évêques etc.
 #range 1000//99999 #religieux
 
+#range 5001 //HRE placeholders
+
 #range 100000//100033 #Faucigny DYN 300102
 #range 100018//100018 #Compey DYN 300115
 #range 100034//100038 #Genève DYN 300101
