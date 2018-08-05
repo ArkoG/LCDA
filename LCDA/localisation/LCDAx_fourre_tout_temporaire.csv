@@ -126,8 +126,8 @@ DYN12_DESC;;---;;;;;;;;;;;;x
 DYN13_DESC;;---;;;;;;;;;;;;x
 DYN14_DESC;;---;;;;;;;;;;;;x
 DYN15_DESC;;---;;;;;;;;;;;;x
-THE;the; ;der;;el;;;;;;;;;x
-CAP_THE;The; ;Der;;;;;;;;;;;x
+#THE;the; ;der;;el;;;;;;;;;x
+#CAP_THE;The; ;Der;;;;;;;;;;;x
 ARMY;Army;Armée sans commandant;Armee;;Ejército;;;;;;;;;x
 FLEET;Fleet;Flotte sans commandant;Flotte;;Flota;;;;;;;;;x
 ARMY_NAME;Army of $NAME$;Armée de $NAME$;Armee von $NAME$;;Ejército de $NAME$;;;;;;;;;x
@@ -146,9 +146,19 @@ TECH_DEM_INC_COUNTS;§G+$AMOUNT$§! Demesne size for Counts;Taille du domaine seig
 TECH_DEM_INC_BARONS;§G+$AMOUNT$§! Demesne size for Barons;Taille du domaine des châtelains §G+$AMOUNT$§!;§G+$AMOUNT$§! Herrschaftsgebietsgröße für Barone;;§G+$AMOUNT$§! Tamaño de dominio para Barones;;;;;;;;;x
 #BUILD_NEW_SETTLEMENT;Build a new Holding;Détacher un nouveau fief;Neues Besitztum bauen;;Construir una nueva propiedad;;;;;;;;;x
 obj_become_king_title;Become King of [This.Capital.Kingdom.GetName];Devenir duc de [This.Capital.Kingdom.GetName];Werdet König von [This.Capital.Kingdom.GetName];;Convertirse en Rey de [This.Capital.Kingdom.GetName];;;;;;;;;x
-obj_become_king_desc;[This.GetTitledFirstName] wants to become King of [This.Capital.Kingdom.GetName]. If pagan, it allows [This.GetObjectPronoun] the unlimited use of the Subjugation Casus Belli within the kingdom.;[This.GetTitledFirstName] désire devenir duc de [This.Capital.Kingdom.GetName]. ;[This.GetTitledFirstName] möchte König von [This.Capital.Kingdom.GetName] werden. Bei heidnischer Herrschaft erlaubt dies [This.GetObjectPronoun] die unbegrenzte Verwendung des Kriegsgrunds Unterwerfung in diesem Königreich.;; [This.GetTitledFirstName] quiere convertirse en Rey de [This.Capital.Kingdom.GetName]. Si es pagano, permite a [This.GetObjectPronoun] el uso ilimitado de la Casus Belli Subyugación dentro del reino.;;;;;;;;;x
-RULER_HAS_BECOME_KING_AMBITION;With the ambition to become king of §Y[PrimaryTitle.GetName]§!, §Y[GetTitovledFirstName]§! is not allowed to move the capital outside the de jure kingdom.;Avec l'ambition de devenir duc de §Y[PrimaryTitle.GetName]§!, §Y[GetTitledFirstName]§! n'est pas autorisé à déplacer la capitale à l'extérieur du royaume de jure.;Mit der Ambition, König von §Y[PrimaryTitle.GetName]§! zu werden, darf §Y[GetTitledFirstName]§! die Hauptstadt nicht außerhalb des de jure Königreichs verlegen..;;Con la ambición de convertirse en Rey de §Y[PrimaryTitle.GetName]§!, a §Y[GetTitledFirstName]§! no se le permite mover su capital fuera del Reino de jure.;;;;;;;;;x
+obj_become_king_desc;[This.GetTitledFirstName] wants to become duke of [This.Capital.Kingdom.GetName]. If pagan, it allows [This.GetObjectPronoun] the unlimited use of the Subjugation Casus Belli within the kingdom.;[This.GetTitledFirstName] désire devenir duc de [This.Capital.Kingdom.GetName]. ;[This.GetTitledFirstName] möchte König von [This.Capital.Kingdom.GetName] werden. Bei heidnischer Herrschaft erlaubt dies [This.GetObjectPronoun] die unbegrenzte Verwendung des Kriegsgrunds Unterwerfung in diesem Königreich.;; [This.GetTitledFirstName] quiere convertirse en Rey de [This.Capital.Kingdom.GetName]. Si es pagano, permite a [This.GetObjectPronoun] el uso ilimitado de la Casus Belli Subyugación dentro del reino.;;;;;;;;;x
+RULER_HAS_BECOME_KING_AMBITION;With the ambition to become duke of §Y[PrimaryTitle.GetName]§!, §Y[GetTitovledFirstName]§! is not allowed to move the capital outside the de jure kingdom.;Avec l'ambition de devenir duc de §Y[PrimaryTitle.GetName]§!, §Y[GetTitledFirstName]§! n'est pas autorisé à déplacer la capitale à l'extérieur du royaume de jure.;Mit der Ambition, König von §Y[PrimaryTitle.GetName]§! zu werden, darf §Y[GetTitledFirstName]§! die Hauptstadt nicht außerhalb des de jure Königreichs verlegen..;;Con la ambición de convertirse en Rey de §Y[PrimaryTitle.GetName]§!, a §Y[GetTitledFirstName]§! no se le permite mover su capital fuera del Reino de jure.;;;;;;;;;x
 abbaye_government;Monastic order;Ordre monastique;;;;;;;;;;;;x
 abbaye_government_desc;Theocracies, like minor republics, are unplayable. Rulers are appointed or elected from among the ecclesiarchy, and there is no dynastic persistence between generations of rulers.;Diriger un pouvoir temporel religieux, à l'instar des républiques mineures, n'est pas jouable. Les seigneurs sont nommés ou élus parmi l'ecclésiarchie et il n'y a aucune persistance dynastique entre les générations.;Theokratien sind so wie die kleineren Republiken nicht spielbar. Zum Herrscher werden Geistliche bestimmt und es gibt keine dynastische Kontinuität innerhalb der Folge der Herrscher.;;Las teocracias, como las repúblicas menores, tampoco son jugables. Los gobernantes son designados o elegidos entre la jerarquía eclesial y no hay ninguna persistencia dinástica entre las generaciones de gobernantes;;;;;;;;;x
 theocracy_government;Theocracy;Temporel religieux;Theokratie;;teocracia;;;;;;;;;x
 theocracy_government_desc;Theocracies, like minor republics, are unplayable. Rulers are appointed or elected from among the ecclesiarchy, and there is no dynastic persistence between generations of rulers.;Diriger un pouvoir temporel religieux, à l'instar des républiques mineures, n'est pas jouable. Les seigneurs sont nommés ou élus parmi l'ecclésiarchie et il n'y a aucune persistance dynastique entre les générations.;Theokratien sind so wie die kleineren Republiken nicht spielbar. Zum Herrscher werden Geistliche bestimmt und es gibt keine dynastische Kontinuität innerhalb der Folge der Herrscher.;;Las teocracias, como las repúblicas menores, tampoco son jugables. Los gobernantes son designados o elegidos entre la jerarquía eclesial y no hay ninguna persistencia dinástica entre las generaciones de gobernantes;;;;;;;;;x
+
+#PASS
+pass_trient;Trient pass ;Col du Trient;;;;;;;;;;;;x
+pass_montcenis;Mont-Cenis pass;Col du Mont-Cenis;;;;;;;;;;;;x
+pass_montjoux;Mont-Joux pass;Col de Mont-Joux;;;;;;;;;;;;x
+
+
+
+
+
