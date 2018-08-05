@@ -109,4 +109,27 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\shield_crown_strip_small_LCDA.tga"
 		noOfFrames = 6
 	}	
+	
+	#from province.gfx
+	spriteType = {
+		name = "GFX_icon_route"
+		texturefile = "gfx\\interface\\province_route_icon_LCDA.tga"
+		noOfFrames = 2
+	}
+}
+
+objectTypes = {
+	arrowType = {
+		name = "tradeArrowEnding"
+		size = 4.0
+		textureFile = "gfx\\mapitems\\trade_arrow_ending_LCDA.dds"
+		bodytexture = "gfx\\mapitems\\trade_arrow_ending_LCDA.dds"
+		color = { 0.0 1.0 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		endAt = 1.0f
+		height = 6.0
+		type = 1
+		heading = 1.0f
+		effect = "gfx/FX/arrow.lua"
+	}
 }
