@@ -1,0 +1,55 @@
+pass_trient = {
+	wealth = 1			# Total base wealth of silk route
+	trade_post_display_trigger = { 
+		is_pass = yes
+		#province_id = 9
+		}
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		local_tax_modifier = 0.10 #=wealth*trade_route_value*1+local_tax_modifier
+		trade_route_value = 1 #can be changed through events
+		local_movement_speed = -0.20
+		tech_growth_modifier = 0.10
+		icon = 4
+	}
+	
+	# xxx province
+	start = { 9 }
+	#start = { 7 8} #this gives two indep roads, each pat lists only one ID
+	#path = { 9 10 } #path is a requirement, this can be used if pass province are deleted
+	path = { 9 } 
+}
+
+pass_montcenis = {
+	wealth = 1			# Total base wealth of silk route
+	trade_post_display_trigger = { is_pass = yes }
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		local_tax_modifier = 0.1
+		trade_route_value = 1
+		local_movement_speed = -0.20
+		tech_growth_modifier = 0.10
+		icon = 4
+	}
+	
+	# xxx province
+	start = { 21 }
+	path = { 21 }
+}
+
+pass_montjoux = {
+	wealth = 1			# Total base wealth of silk route
+	trade_post_display_trigger = { is_pass = yes }
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		local_tax_modifier = 0.1
+		trade_route_value = 1
+		local_movement_speed = -0.20
+		tech_growth_modifier = 0.10
+		icon = 4
+	}
+	
+	# xxx province
+	start = { 29 }
+	path = { 29 }
+}
