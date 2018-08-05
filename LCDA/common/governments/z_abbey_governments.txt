@@ -39,10 +39,14 @@ theocracy_governments = {
 		can_create_kingdoms = no
 		have_gender_laws = no
 		can_be_granted_kingdoms_and_empires_by_other_government = no
-
+		
+		can_inherit = no
+		builds_with_piety = yes
+		aggression = 0.25
+		
 		can_build_tribal = no
 		
 		capital_move_delay = 600
 	}
-	
+
 }
