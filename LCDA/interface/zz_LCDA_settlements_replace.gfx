@@ -50,6 +50,20 @@ objectTypes = {
 		use_animation = no
 		cull_distance = 500.0f		
 	}
+	EMFXActorType = {
+		name = "tradepost_camp"
+		actorfile = "gfx\models\Settlements\Western\Western_City03.xac"
+		scale = 1.6f
+		use_animation = no
+		cull_distance = 500.0f		
+	}
+	pdxmesh = {
+		name = "tradepost_camp"
+		file = "gfx\models\Settlements\Trade\tradepost.mesh"
+		
+		scale = 0.0f
+		cull_distance = 500.0f
+	}
 
 
 }
