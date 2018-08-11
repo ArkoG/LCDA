@@ -1,0 +1,64 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ # forts do not have any buildings - for modding purposes only
+
+fort = {	
+	LCDA_forts_L1 = {
+		desc = LCDA_forts_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 75
+		build_time = 12
+		fort_level = 0.5
+		tax_income = -0.1
+		knights = 1
+		pikemen = 5
+		ai_creation_factor = 80
+		
+		extra_tech_building_start = 10.0
+	}
+	LCDA_forts_L2 = {
+		desc = LCDA_forts_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = LCDA_forts_L1
+		gold_cost = 150
+		build_time = 365
+		fort_level = 0.5
+		tax_income = -0.2
+		knights = 2
+		pikemen = 5		
+		ai_creation_factor = 79
+		
+		extra_tech_building_start = 10.0
+	}
+	LCDA_forts_L3 = {
+		desc = LCDA_forts_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		upgrades_from = LCDA_forts_L2
+		gold_cost = 250
+		build_time = 365
+		fort_level = 1.0
+		tax_income = -0.2
+		knights = 2
+		pikemen = 10
+		
+		ai_creation_factor = 78
+		
+		extra_tech_building_start = 10.0
+	}
+	LCDA_forts_L4 = {
+		desc = LCDA_forts_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		upgrades_from = LCDA_forts_L3
+		prestige_cost = 150
+		build_time = 365
+		fort_level = 1.0
+		tax_income = -0.6
+		knights = 5
+		pikemen = 10
+		
+		ai_creation_factor = 77
+		
+		extra_tech_building_start = 10.0
+	}
+}
