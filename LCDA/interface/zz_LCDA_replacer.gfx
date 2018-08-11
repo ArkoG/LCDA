@@ -116,6 +116,11 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\province_route_icon_LCDA.tga"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_province_diplostatus_icon_strip"
+		texturefile = "gfx\\interface\\province_diplostatus_icon_strip.tga"
+		noOfFrames = 12
+	}
 }
 
 objectTypes = {
