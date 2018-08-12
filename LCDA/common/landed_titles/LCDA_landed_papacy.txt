@@ -1,0 +1,22 @@
+e_roma = { 
+	k_roma = {
+			color={ 220 220 220 }
+			color2={ 255 255 255 }
+			
+			capital = 333 #
+		
+		d_roma = {
+			color={ 220 220 220 }
+			color2={ 255 255 255 }
+			
+			capital = 333 #	
+			
+			c_roma = { #333
+				color={ 220 220 220 }
+				color2={ 255 255 255 }
+			
+				b_roma = {}
+			}
+		}
+	}
+}

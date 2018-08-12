@@ -1,0 +1,14 @@
+# 333 - Roma
+
+# County Title
+title = c_roma
+
+# Settlements
+max_settlements = 1
+b_roma = temple
+
+# Misc
+culture = italian
+religion = catholic
+
+# History

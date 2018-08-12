@@ -1,0 +1,4 @@
+#Liste des Papes
+
+#999.1.1= { government = theocracy_government }
+1032.1.1={ holder = 100200 }
