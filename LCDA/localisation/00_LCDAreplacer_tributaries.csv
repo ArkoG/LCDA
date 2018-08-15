@@ -1,13 +1,13 @@
 #;;TRIBUTARY;replace vanilla;;;;;;;;;;;x
 TRIBUTARY_BURGRECHT_NAME;;Combourgeois;;;;;;;;;;;;x
-TRIBUTARY_BURGRECHT_PLURAL;;Combourgeois;.;;;;;;;;;;x
-SUZERAIN_BURGRECHT_NAME;;Suzerain combourgeois.;;;;;;;;;;;x
-TRIBUTARY_BURGRECHT_TRIBUTE;;Combourgeoisie;.;;;;;;;;;;x
+TRIBUTARY_BURGRECHT_PLURAL;;Combourgeois;;;;;;;;;;;x
+SUZERAIN_BURGRECHT_NAME;;Suzerain combourgeois;;;;;;;;;;;x
+TRIBUTARY_BURGRECHT_TRIBUTE;;Combourgeoisie;;;;;;;;;;;x
 
-SUZERAIN_RELATIONSHIP;;§Y$SUZERAIN$§! dirige l'alliance dont §Y$TRIBUTARY$§! fait partie.;;;;;;;;;;;;x
-TRIBUTARY_RELATIONSHIP;;$TYPE|Y$ (alliance dirigée par §Y$SUZERAIN$§!);;;;;;;;;;;;x
+#SUZERAIN_RELATIONSHIP;;§Y$SUZERAIN$§! dirige l'alliance dont §Y$TRIBUTARY$§! fait partie.;;;;;;;;;;;;x
+#TRIBUTARY_RELATIONSHIP;;$TYPE|Y$ (alliance dirigée par §Y$SUZERAIN$§!);;;;;;;;;;;;x
 
 TRIBUTARY_CONFEDERE_NAME;;Etat confédéré;;;;;;;;;;;;x
-TRIBUTARY_CONFEDERE_PLURAL;;Etats confédérés;.;;;;;;;;;;x
+TRIBUTARY_CONFEDERE_PLURAL;;Etats confédérés;;;;;;;;;;;x
 SUZERAIN_CONFEDERE_NAME;;Etat confédéré;;;;;;;;;;;x
-TRIBUTARY_CONFEDERE_TRIBUTE;;Confédération;.;;;;;;;;;;x
+TRIBUTARY_CONFEDERE_TRIBUTE;;Confédération;;;;;;;;;;;x
