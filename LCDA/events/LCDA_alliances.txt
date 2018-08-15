@@ -1,0 +1,128 @@
+#################################
+#         LCDA  par Arko         #
+#################################
+
+
+namespace = LCDA
+
+
+## Tributary holder change
+# Suzerain dies, inform tributary
+character_event = {
+    id = LCDA.2
+    is_triggered_only = yes
+    hide_window = yes
+    only_rulers = yes
+
+    trigger = {
+	FROMFROM = {
+        any_tributary = {
+            #ai = no
+            is_tributary = { type = burgrecht }
+        }
+		}
+    }
+
+    immediate = {
+		save_event_target_as = suzerain_combourgeois_succession
+		FROMFROM = {
+        any_tributary = {
+            limit = {
+                #ai = no
+                is_tributary = { type = burgrecht }
+            }
+	        character_event = { id = LCDA.3 }
+        }
+		}
+
+    }
+}
+#my suzerain died
+character_event = { #current tributary
+    id = LCDA.3
+    desc = LCDA.3_DESC
+    picture = GFX_evt_bandits
+    is_triggered_only = yes
+    notification = yes
+ 
+ option = { 
+		name = "LCDA.3A" #		
+		ai_chance = { factor =0 }
+	}
+ option = {
+		name = "LCDA.3B" #	
+		ai_chance = { factor =100 }
+		make_tributary = { 
+			who = event_target:suzerain_combourgeois_succession
+			tributary_type = burgrecht
+		}
+		event_target:suzerain_combourgeois_succession = { clear_event_target = suzerain_combourgeois_succession }
+	}
+}
+
+#tributary dies
+character_event = { #tributary heir
+    id = LCDA.4
+    desc = LCDA.5_DESC
+    picture = GFX_evt_bandits	
+    is_triggered_only = yes
+#    hide_window = yes
+    only_rulers = yes
+
+    trigger = {
+	FROMFROM = {
+         is_tributary = { type = burgrecht }
+		 }
+    }
+    immediate = {
+		FROMFROM = {
+			suzerain = { 
+				character_event = { id = LCDA.5 }
+				save_event_target_as = suzerain_combourgeois_succession
+			}
+		}
+		save_event_target_as = suzerain_combourgeois_heir
+		}
+	option = {}
+}
+
+#	 option = {
+	#		name = "LCDA.5A" #		
+#			ai_chance = { factor =0 }
+#		}
+#	 option = {
+#			name = "LCDA.5B" #	
+#			ai_chance = { factor =100 }
+#			make_tributary = {
+#				who = event_target:suzerain_combourgeois_succession
+#				tributary_type = burgrecht
+#			}
+	#		event_target:suzerain_combourgeois_succession = { clear_event_target = suzerain_combourgeois_succession }
+#		}
+ #}
+
+#my tributary died
+character_event = {
+    id = LCDA.5
+    desc = LCDA.5_DESC
+    picture = GFX_evt_bandits
+    is_triggered_only = yes
+    notification = yes
+ 
+	option = {
+		name = "LCDA.5A" #		
+		ai_chance = { factor =0 }
+	}
+	 option = {
+		name = "LCDA.5B" #	
+		ai_chance = { factor =100 }
+		#FROM = { 
+			make_tributary = {
+				who = event_target:suzerain_combourgeois_succession
+				tributary_type = burgrecht
+			}
+		#}
+		event_target:suzerain_combourgeois_heir = { clear_event_target = suzerain_combourgeois_heir }
+		event_target:suzerain_combourgeois_succession = { clear_event_target = suzerain_combourgeois_succession }
+	}
+}

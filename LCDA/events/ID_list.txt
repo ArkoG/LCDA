@@ -1,0 +1,15 @@
+################################################
+#  LCDA an alpine large-scale map MOD for CK2 by Arko #
+################################################
+
+#List ID des events.
+#namespace = LCDA
+
+# Cf [COMMENTE] pour les events qui ne sont pas disponibles car commentés
+# Cf [NON INCLUS] pour les fichiers d'events non inclus dans la version courante
+
+###LCDA_alliances.txt
+#id = LCDA.2 #burgrecht succession, suzerain dies 1/2
+#id = LCDA.3 #burgrecht succession, suzerain dies 2/2
+#id = LCDA.2 #burgrecht succession, tributary dies 1/2
+#id = LCDA.2 #burgrecht succession, tributary dies 2/2

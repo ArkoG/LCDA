@@ -1,0 +1,36 @@
+#character
+on_startup = {
+	events = {
+
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder = {
+	events = {
+
+
+	}
+}
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_inheritance = {
+	events = {
+	LCDA.2
+	LCDA.4
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_usurpation = {
+	events = {
+
+	}
+}
+# Triggered before succession is dealt with (character still has their relevant flags and titles)
+# ROOT is the dead character
+on_death = {
+	events = {
+		LCDA.2
+		LCDA.4
+	}
+}
