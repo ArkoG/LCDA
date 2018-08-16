@@ -5,8 +5,8 @@ burgrecht = {
 	tributary_plural = TRIBUTARY_BURGRECHT_PLURAL
 	suzerain_name = SUZERAIN_BURGRECHT_NAME
 	tribute_name = TRIBUTARY_BURGRECHT_TRIBUTE
-	breaks_at_suzerain_death = yes
-	breaks_at_tributary_death = yes
+	breaks_at_suzerain_death = no#=yes is dealt through event on holder change
+	breaks_at_tributary_death = no #=yes is dealt through event on holder change
 	suzerain_must_defend = yes
 	tributary_must_defend = yes
 	tributaries_can_infight = yes
@@ -26,7 +26,7 @@ burgrecht = {
 		value = 0.15
 	}
 	prestige_to_tributary = {
-		value = 0.10
+		value = 0.05
 	}
 	piety_to_suzerain = {
 		value = 0

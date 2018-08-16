@@ -5,58 +5,153 @@
 
 namespace = LCDA
 
+character_event = { #
+    id = LCDA.1
+	desc = LCDA.1_DESC
+    picture = GFX_evt_bandits
 
-## Tributary holder change
-# Suzerain dies, inform tributary
-character_event = {
-    id = LCDA.2
     is_triggered_only = yes
-    hide_window = yes
+    #hide_window = yes
     only_rulers = yes
 
     trigger = {
-	FROMFROM = {
-        any_tributary = {
-            #ai = no
-            is_tributary = { type = burgrecht }
-        }
+		#has_landed_title = c_thoire
+		has_landed_title = d_genevois
+	}
+
+	immediate = {
+		any_character  = { 
+			limit = {
+				has_landed_title = c_thoire
+			}
+			save_event_target_as = wanabee_combourgeois
 		}
+	}
+	
+
+	option = {
+		name = "LCDA.1B" #staying (renew tributary)
+		ai_chance = { factor =100 }
+		THIS = {
+			make_tributary = {
+				who = event_target:wanabee_combourgeois
+				tributary_type = confederation
+			}
+		}
+		event_target:wanabee_combourgeois = { character_event = { id = LCDA.11 }} #inform tributary
+		#clr_character_flag = tributary_combourgeois_heir
+		#clear_event_target = wanabee_combourgeois
+	}
+}
+
+#my tributary died and didn't renewed his pact
+character_event = {
+    id = LCDA.11
+    desc = LCDA.11_DESC
+    picture = GFX_evt_bandits
+    is_triggered_only = yes
+    #notification = yes
+ 
+	option = {
+		name = "LCDA.11A" #	
+		clear_event_target = wanabee_combourgeois		
+	}
+}
+
+## Tributary holder change
+# Suzerain dies, inform tributary
+character_event = { #the suzerain successor
+    id = LCDA.2
+	desc = LCDA.2_DESC
+    picture = GFX_evt_bandits
+
+    is_triggered_only = yes
+    #hide_window = yes
+    only_rulers = yes
+
+    trigger = {
+		FROMFROM = { #the old suzerain had tributaries
+			any_tributary = {
+				is_tributary = { 
+					type = burgrecht
+					suzerain = PREV
+				}
+			}
+		}
+		#FROMFROM = {
+		#	any_heir_title = { 
     }
 
-    immediate = {
-		save_event_target_as = suzerain_combourgeois_succession
-		FROMFROM = {
-        any_tributary = {
-            limit = {
-                #ai = no
-                is_tributary = { type = burgrecht }
-            }
-	        character_event = { id = LCDA.3 }
-        }
+	immediate = {
+		FROMFROM = { #ping tributaries of ex ruler
+			any_tributary = {
+				limit = {
+					is_tributary = { 
+						type = burgrecht
+						suzerain = PREV
+					}
+				}
+				save_event_target_as = tributary_combourgeois_heir
+			}
+		}
+		save_event_target_as = suzerain_combourgeois_succession #mark me as potential new suzerain
+	}
+	
+    option = {
+		name = "LCDA.2A" #
+		#event_target:suzerain_combourgeois_succession = { character_event = { id = LCDA.7 }}
+		#primary_title = { set_title_flag = titre_combourgeois_suzareain }
+		FROMFROM = { #ping tributaries of ex ruler
+			any_tributary = {
+				limit = {
+					is_tributary = { 
+						type = burgrecht
+						suzerain = PREV
+					}
+#					has_character_flag = tributary_combourgeois_heir
+				}
+	#		any_independent_ruler = {
+	#			limit = { 
+	#				has_character_flag = tributary_combourgeois_heir
+	#				}
+				character_event = { id = LCDA.3 }
+			}
 		}
 
     }
 }
-#my suzerain died
+
+#my suzerain died, what do i decide ?
 character_event = { #current tributary
     id = LCDA.3
     desc = LCDA.3_DESC
     picture = GFX_evt_bandits
-    is_triggered_only = yes
-    notification = yes
  
- option = { 
-		name = "LCDA.3A" #		
-		ai_chance = { factor =0 }
+	is_triggered_only = yes
+    #notification = yes
+
+	trigger = {  
+		#FROM = { primary_title = { has_title_flag = titre_combourgeois_suzerain }}
 	}
- option = {
-		name = "LCDA.3B" #	
+	
+	option = {
+		name = "LCDA.3A" #leaving
+		ai_chance = { factor =0 }
+		FROM = { character_event = { id = LCDA.31 }} #inform new NON-suzerain
+		clr_character_flag = tributary_combourgeois_heir
+	}
+	option = {
+		name = "LCDA.3B" #staying (renew tributary)
 		ai_chance = { factor =100 }
-		make_tributary = { 
-			who = event_target:suzerain_combourgeois_succession
-			tributary_type = burgrecht
+		FROM = {
+			make_tributary = {
+				who = ROOT
+				tributary_type = burgrecht
+			}
 		}
-		event_target:suzerain_combourgeois_succession = { clear_event_target = suzerain_combourgeois_succession }
+		FROM = { character_event = { id = LCDA.32 }} #inform new suzerain
+		clr_character_flag = tributary_combourgeois_heir
+		#clear_event_target = suzerain_combourgeois_succession
 	}
 }
 
@@ -66,63 +161,97 @@ character_event = { #tributary heir
     desc = LCDA.5_DESC
     picture = GFX_evt_bandits	
     is_triggered_only = yes
-#    hide_window = yes
+   # hide_window = yes
     only_rulers = yes
 
     trigger = {
-	FROMFROM = {
-         is_tributary = { type = burgrecht }
+		FROMFROM = {
+			is_tributary = { type = burgrecht }
 		 }
     }
+
     immediate = {
 		FROMFROM = {
 			suzerain = { 
-				character_event = { id = LCDA.5 }
+				#character_event = { id = LCDA.5 }
 				save_event_target_as = suzerain_combourgeois_succession
 			}
 		}
 		save_event_target_as = suzerain_combourgeois_heir
+	}
+
+	option = {
+		name = "LCDA.4A" #	
+		ai_chance = { factor =0 }
+		event_target:suzerain_combourgeois_succession = { character_event = { id = LCDA.5 }}
+	}
+	option = {
+		name = "LCDA.4B" #	renewing alliance
+		ai_chance = { factor =100 }
+		event_target:suzerain_combourgeois_succession = {
+			make_tributary = {
+				who = ROOT
+				tributary_type = burgrecht
+			}
+			character_event = { id = LCDA.6 }
 		}
-	option = {}
+		clear_event_target = suzerain_combourgeois_heir
+	}
 }
 
-#	 option = {
-	#		name = "LCDA.5A" #		
-#			ai_chance = { factor =0 }
-#		}
-#	 option = {
-#			name = "LCDA.5B" #	
-#			ai_chance = { factor =100 }
-#			make_tributary = {
-#				who = event_target:suzerain_combourgeois_succession
-#				tributary_type = burgrecht
-#			}
-	#		event_target:suzerain_combourgeois_succession = { clear_event_target = suzerain_combourgeois_succession }
-#		}
- #}
 
-#my tributary died
+#my tributary died and didn't renewed his pact
 character_event = {
     id = LCDA.5
     desc = LCDA.5_DESC
     picture = GFX_evt_bandits
     is_triggered_only = yes
-    notification = yes
+    #notification = yes
  
 	option = {
 		name = "LCDA.5A" #		
-		ai_chance = { factor =0 }
+		#FROM = { clear_event_target = suzerain_combourgeois_heir }
+		clear_event_target = suzerain_combourgeois_succession
 	}
-	 option = {
-		name = "LCDA.5B" #	
-		ai_chance = { factor =100 }
-		#FROM = { 
-			make_tributary = {
-				who = event_target:suzerain_combourgeois_succession
-				tributary_type = burgrecht
-			}
-		#}
-		event_target:suzerain_combourgeois_heir = { clear_event_target = suzerain_combourgeois_heir }
-		event_target:suzerain_combourgeois_succession = { clear_event_target = suzerain_combourgeois_succession }
+}
+#my tributary died, pact renewed
+character_event = {
+    id = LCDA.6
+    desc = LCDA.6_DESC
+    picture = GFX_evt_bandits
+    is_triggered_only = yes
+    #notification = yes
+ 
+	option = {
+		name = "LCDA.6A" #		
+		#FROM = { clear_event_target = suzerain_combourgeois_heir }
+		clear_event_target = suzerain_combourgeois_succession
+	}
+}
+
+#my predecessor tributary didn't renew his pact
+character_event = {
+    id = LCDA.31
+    desc = LCDA.31_DESC
+    picture = GFX_evt_bandits
+    is_triggered_only = yes
+    #notification = yes
+ 
+	option = {
+		name = "LCDA.31A" #		
+		clear_event_target = suzerain_combourgeois_succession
+	}
+}
+#my predecessor tributary did renew his pact
+character_event = {
+    id = LCDA.32
+    desc = LCDA.32_DESC
+    picture = GFX_evt_bandits
+    is_triggered_only = yes
+    #notification = yes
+ 
+	option = {
+		name = "LCDA.31A" #		
+		clear_event_target = suzerain_combourgeois_succession
 	}
 }

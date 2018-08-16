@@ -16,3 +16,21 @@ LCDA.0004;;;;;;;;;;;;;;x
 DESCLCDA.0004;;banalité niveau 1;;;;;;;;;;;;x
 LCDA.0005;;;;;;;;;;;;;;x
 DESCLCDA.0005;;banalité niveau 2;;;;;;;;;;;;x
+
+LCDA.3_DESC;;Avec la mort [FromFromFrom.Get_du_Title][FromFromFrom.GetBestName], nous pouvons nous libérer de votre alliance de combourgeoisie.;;;;;;;;;;;;x
+LCDA.3A;;Enfin !;;;;;;;;;;;;x
+LCDA.3B;;Renouvelons notre alliance;;;;;;;;;;;;x
+
+LCDA.4_desc;;Notre prédécesseur [FromFrom.Get_du_Title][FromFrom.GetBestName] était en combourgeoise avec XXX, allons nous poursuivre cette alliance ?;;;;;;;;;;;;x
+LCDA.4A;;Hors de question;;;;;;;;;;;;x
+LCDA.4B;;Renouvelons notre alliance;;;;;;;;;;;;x
+
+LCDA.5_DESC;;[From.Get_du_Title][From.GetBestName], successeur de notre allié [FromFromFrom.Get_du_Title][FromFromFrom.GetBestName]n'a pas souhaité renouveller notre alliance de combourgeoisie.;;;;;;;;;;;;x
+LCDA.5A;;PTDM !;;;;;;;;;;;;x
+LCDA.6_DESC;;[From.Get_du_Title][From.GetBestName], successeur de notre allié [FromFromFrom.Get_du_Title][FromFromFrom.GetBestName] a décidé de renouveller notre alliance de combourgeoisie.;;;;;;;;;;;;x
+LCDA.6A;;Excellent !;;;;;;;;;;;;x
+
+LCDA.31_DESC;;[Root.GetBestName], l'ancien allié de mon prédécesseur n'a pas souhaité renouveller notre alliance de combourgeoisie.;;;;;;;;;;;;x
+LCDA.31A;;PTDM !;;;;;;;;;;;;x
+LCDA.32_DESC;;[Root.GetBestName], l'allié de mon prédécesseur a renouvellé notre alliance de combourgeoisie.;;;;;;;;;;;;x
+LCDA.32A;;Excellent !;;;;;;;;;;;;x
