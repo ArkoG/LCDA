@@ -158,7 +158,14 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_konolflingen4 = {}
 				b_konolflingen5 = {}
 				b_konolflingen6 = {}
-			}			
+			}
+		}
+		d_thun = {
+			color={ 100 110 20 }
+			color2={ 172 4 10 }
+			
+			capital = 67 #Zollikoffen Berthoud 
+
 			c_thun = { #67 Thun
 				color={ 190 140 90 }
 				color2={ 0 86 148 }
@@ -171,6 +178,161 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_thun4 = {}
 				b_thun5 = {}
 				b_thun6 = {}
+			}
+			c_strattligen = { #71 Strattligen
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+				
+				b_strattligen1 = {}
+				b_strattligen2 = {}
+				b_strattligen3 = {}
+				b_strattligen4 = {}
+				b_strattligen5 = {}
+				b_strattligen6 = {}
+			}
+			c_spiez = { #72 Spiez
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+				
+				b_spiez1 = {}
+				b_spiez2 = {}
+				b_spiez3 = {}
+				b_spiez4 = {}
+				b_spiez5 = {}
+				b_spiez6 = {}
+			}
+			c_reichenbach = { #73 Reichenbach
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+				
+				b_reichenbach1 = {}
+				b_reichenbach2 = {}
+				b_reichenbach3 = {}
+				b_reichenbach4 = {}
+				b_reichenbach5 = {}
+				b_reichenbach6 = {}
+			}
+			c_frutigen = { #74 Frutigen
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+				
+				b_frutigen1 = {}
+				b_frutigen2 = {}
+				b_frutigen3 = {}
+				b_frutigen4 = {}
+				b_frutigen5 = {}
+				b_frutigen6 = {}
+			}
+		}
+		d_simmental = {
+			color={ 100 110 20 }
+			color2={ 172 4 10 }
+			
+			capital = 68 #Oberwil
+
+			c_niedersimmental = { #69 Niedersimmental
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+
+				b_niedersimmental1 = {}
+				b_niedersimmental2 = {}
+				b_niedersimmental3 = {}
+				b_niedersimmental4 = {}
+				b_niedersimmental5 = {}
+				b_niedersimmental6 = {}
+			}
+			c_obersimmental = { #70 Obersimmental
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+
+				b_obersimmental1 = {}
+				b_obersimmental2 = {}
+				b_obersimmental3 = {}
+				b_obersimmental4 = {}
+				b_obersimmental5 = {}
+				b_obersimmental6 = {}
+			}
+			c_diemtigal = { #68 Diemtigal
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+
+				b_diemtigal1 = {}
+				b_diemtigal2 = {}
+				b_diemtigal3 = {}
+				b_diemtigal4 = {}
+				b_diemtigal5 = {}
+				b_diemtigal6 = {}
+			}
+		}
+		#out of Transjurania later
+		d_interlaken = {
+			color={ 100 110 20 }
+			color2={ 172 4 10 }
+			
+			capital = 75 #Interlaken
+
+			c_interlaken = { #75 Interlaken
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+
+				b_interlaken1 = {}
+				b_interlaken2 = {}
+				b_interlaken3 = {}
+				b_interlaken4 = {}
+				b_interlaken5 = {}
+				b_interlaken6 = {}
+			}
+			c_unspunnen = { #76 Unspunnen
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+
+				b_unspunnen1 = {}
+				b_unspunnen2 = {}
+				b_unspunnen3 = {}
+				b_unspunnen4 = {}
+				b_unspunnen5 = {}
+				b_unspunnen6 = {}
+			}
+			c_lutschental = { #77 Lutschental
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+
+				b_lutschental1 = {}
+				b_lutschental2 = {}
+				b_lutschental3 = {}
+				b_lutschental4 = {}
+				b_lutschental5 = {}
+				b_lutschental6 = {}
+			}
+			c_ringenberg = { #78 Ringenberg /Brienz
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+
+				b_ringenberg1 = {}
+				b_ringenberg2 = {}
+				b_ringenberg3 = {}
+				b_ringenberg4 = {}
+				b_ringenberg5 = {}
+				b_ringenberg6 = {}
+			}
+		}	
+		#out of Transjurania later
+		d_oberhasli = { #Haslital (geographic without side valleys)
+			color={ 100 110 20 }
+			color2={ 172 4 10 }
+			
+			capital = 79 #Meiringen
+
+			c_meiringen = { # 79 #Meiringen
+				color={ 190 140 90 }
+				color2={ 0 86 148 }
+
+				b_meiringen1 = {}
+				b_meiringen2 = {}
+				b_meiringen3 = {}
+				b_meiringen4 = {}
+				b_meiringen5 = {}
+				b_meiringen6 = {}
 			}
 		}
 	}
