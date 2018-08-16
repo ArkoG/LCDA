@@ -1,0 +1,13 @@
+spriteTypes = {
+     frameAnimatedSpriteType = {
+          name = "GFX_test"     
+          texturefile = "gfx\\interface\\test_anime.dds"        
+         noOfFrames = 15          /*this is the number of frames in your image
+         animation_rate_fps = 10
+         looping = yes
+         play_on_show = yes
+     }
+}
+
+
+
