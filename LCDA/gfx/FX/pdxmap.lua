@@ -368,7 +368,7 @@ float4 main( VS_OUTPUT_TERRAIN Input ) : COLOR
 		
 	float3 TerrainColor = tex2D( TerrainColorTint, Input.uv2 ).rgb;
 	
-	sample.rgb = GetOverlay( sample.rgb, TerrainColor, 0.75f );
+	sample.rgb = GetOverlay( sample.rgb, TerrainColor, 0.50f );
 
 	float4 vFoWColor = GetFoWColor( Input.prepos, FoWTexture);
 	sample.rgb = ApplySnow( sample.rgb, Input.prepos, normal, vFoWColor, FoWDiffuse );
