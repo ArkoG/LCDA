@@ -124,7 +124,7 @@ Defines = { } -- Comma separated defines ie. "USE_SIMPLE_LIGHTS", "GUI"
 
 DeclareShared( [[
 
-static const float3 GREYIFY = float3( 0.412671, 1.415160, 0.142169 );
+static const float3 GREYIFY = float3( 0.312671, 1.115160, 0.102169 );
 static const float TERRAINTILEFREQ = 128.0f;
 static const float NUM_TILES = 4.0f;
 static const float TEXELS_PER_TILE = 512.0f;
@@ -368,7 +368,7 @@ float4 main( VS_OUTPUT_TERRAIN Input ) : COLOR
 		
 	float3 TerrainColor = tex2D( TerrainColorTint, Input.uv2 ).rgb;
 	
-	sample.rgb = GetOverlay( sample.rgb, TerrainColor, 0.50f );
+	sample.rgb = GetOverlay( sample.rgb, TerrainColor, 0.4f );
 
 	float4 vFoWColor = GetFoWColor( Input.prepos, FoWTexture);
 	sample.rgb = ApplySnow( sample.rgb, Input.prepos, normal, vFoWColor, FoWDiffuse );
