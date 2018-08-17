@@ -124,7 +124,7 @@ Defines = { } -- Comma separated defines ie. "USE_SIMPLE_LIGHTS", "GUI"
 
 DeclareShared( [[
 
-static const float3 GREYIFY = float3( 0.212671, 0.715160, 0.072169 );
+static const float3 GREYIFY = float3( 0.412671, 1.415160, 0.142169 );
 static const float TERRAINTILEFREQ = 128.0f;
 static const float NUM_TILES = 4.0f;
 static const float TEXELS_PER_TILE = 512.0f;
