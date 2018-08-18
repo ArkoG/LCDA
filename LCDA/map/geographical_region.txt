@@ -31,6 +31,10 @@ northern_alps = {
 		d_basvalais
 		d_oberaargau
 		d_bargengau
+		d_thun
+		d_simmental
+		d_interlaken
+		d_oberhasli
 	}
 }
 
