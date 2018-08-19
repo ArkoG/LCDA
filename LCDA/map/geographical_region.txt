@@ -374,8 +374,11 @@ custom_eastern_access = {
 
 ### LCDA ###
 ## DIOCESES
-custom_diocese_geneva = { #to besancon
-duchies = { d_equestres d_chablais d_faucigny d_genevois } #see what belongs to Lyon vS Besancon
+custom_diocese_sion = { #no archidiocese assigned yet
+duchies = { d_chablais } #chablais seems to be split between Sion vs Geneva
+}
+custom_diocese_geneva = { #to besancon/vienne/sion
+duchies = { d_equestres d_faucigny d_genevois } #see what belongs to Lyon vS Besancon
 }
 custom_diocese_grenoble = {
 duchies = { d_savoie_propre d_graisivaudan}
@@ -403,7 +406,7 @@ custom_archdiocese_lyon = {
 regions = { custom_diocese_lyon }
 }
 custom_archdiocese_vienne = {
-regions = { custom_diocese_vienne custom_diocese_grenoble }
+regions = { custom_diocese_vienne custom_diocese_grenoble custom_diocese_geneva }
 }
 custom_archdiocese_tarentaise = {
 regions = { custom_diocese_tarentaise custom_diocese_sion custom_diocese_aoste }
