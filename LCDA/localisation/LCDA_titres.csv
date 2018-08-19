@@ -17,6 +17,7 @@ western_alps;Western Alps;Alpes occidentales;;;;;;;;;;;;x
 northern_alps;Northern Alps;Alpes septentrionales;;;;;;;;;;;;x
 southern_alps;Southern Alps;Aples méridionales;;;;;;;;;;;;x
 ## DIOCESES
+custom_diocese_sion;;Diocèse de Sion;;;;;;;;;;;;x
 custom_diocese_geneva;;Diocèse de Genève;;;;;;;;;;;;x
 custom_diocese_grenoble;;Diocèse de Grenoble;;;;;;;;;;;;x
 custom_diocese_maurienne;;Diocèse de Maurienne;;;;;;;;;;;;x
@@ -140,7 +141,7 @@ b_montjoie4;Flumet;;;;;;;;;;;;;x
 b_montjoie5;Passy;Passy;;;;;;;;;;;;x
 b_montjoie6;Chamonix;Chamonix;;;;;;;;;;;;x
 #;;COMTE DE GENEVOIS;;;;;;;;;;;;x
-d_genevois;;Genevois;;;;;;;;;;;;x
+d_genevois;;Genève;;;;;;;;;;;;x
 d_genevois_adj;;genevoise;;;;;;;;;;;;x
 #;;seigneurie d'ANNECY;;;;;;;;;;;;x
 c_annecy;Annecy;Annecy;;;;;;;;;;;;x
