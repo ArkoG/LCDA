@@ -590,6 +590,20 @@ c_konolflingen_adj;konoflingener;;;;;;;;;;;;;x
 PROV67;Thun;;;;;;;;;;;;;x
 c_thun_adj;thuner;;;;;;;;;;;;;x
 
+PROV333;Roma;;;;;;;;;;;;;x
+c_roma_adj;roman;;;;;;;;;;;;;x
+e_roma;Roma;;;;;;;;;;;;;x
+e_roma_adj;roman;;;;;;;;;;;;;x
+k_roma;Roma;;;;;;;;;;;;;x
+k_roma_adj;roman;;;;;;;;;;;;;x
+d_roma;Roma;;;;;;;;;;;;;x
+d_roma_adj;roman;;;;;;;;;;;;;x
+b_roma;Roma;;;;;;;;;;;;;x
+
+PROV334;Corsica;;;;;;;;;;;;;x
+c_roma_adj;corsican;;;;;;;;;;;;;x
+b_corse1;Ajaccio;;;;;;;;;;;;;x
+
 #;;MERCS;;;;;;;;;;;;x
 d_merc_01;;La Bande de Granier;;;;;;;;;;;;x
 d_merc_02;;La Troupe Iserane;;;;;;;;;;;;x
