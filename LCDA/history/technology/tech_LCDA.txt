@@ -21,6 +21,10 @@ technology = {
 		
 		d_bargengau
 		d_oberaargau
+		d_thun
+		d_simmental
+		d_interlaken
+		d_oberhasli
 	}
 
 	1000 = {
