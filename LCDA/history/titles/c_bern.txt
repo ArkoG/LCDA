@@ -2,6 +2,7 @@
 	name = COUNTY_BUMPLIZ #
 	adjective =  COUNTY_BUMPLIZ_ADJ
 	effect = { set_coa = c_bumpliz }
+	#location = { name = COUNTY_BUMPLIZ }
 }
 
 1000.1.1 ={ 
@@ -20,4 +21,5 @@
 	reset_name = yes
 	reset_adjective = yes
 	effect = { reset_coa = THIS }
+	#location = { reset_name = yes }
 }
