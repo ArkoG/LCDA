@@ -1,19 +1,67 @@
 objectTypes = {
 		
 	EMFXActorType = {
-		name = "Landmark_Episco_GE"
+		name = "Landmark_Episco_GENF"
 		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
 		scale = 1.0f
 		use_animation = no
 	}
 	EMFXActorType = {
-		name = "Landmark_Episco_LA"
+		name = "Landmark_Episco_LAU"
 		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
 		scale = 1.0f
 		use_animation = no
 	}
 	EMFXActorType = {
-		name = "Landmark_Episco_VI"
+		name = "Landmark_Episco_VIEN"
+		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
+		scale = 1.0f
+		use_animation = no
+	}	
+	EMFXActorType = {
+		name = "Landmark_Episco_SION"
+		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
+		scale = 1.0f
+		use_animation = no
+	}
+	EMFXActorType = {
+		name = "Landmark_Episco_COMO"
+		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
+		scale = 1.0f
+		use_animation = no
+	}
+	EMFXActorType = {
+		name = "Landmark_Episco_KZ"
+		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
+		scale = 1.0f
+		use_animation = no
+	}
+	EMFXActorType = {
+		name = "Landmark_Episco_BELLEY"
+		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
+		scale = 1.0f
+		use_animation = no
+	}
+	EMFXActorType = {
+		name = "Landmark_Episco_TAR"
+		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
+		scale = 1.0f
+		use_animation = no
+	}
+	EMFXActorType = {
+		name = "Landmark_Episco_MAU"
+		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
+		scale = 1.0f
+		use_animation = no
+	}
+	EMFXActorType = {
+		name = "Landmark_Episco_GRE"
+		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
+		scale = 1.0f
+		use_animation = no
+	}
+	EMFXActorType = {
+		name = "Landmark_Episco_AO"
 		actorfile = "gfx\models\Settlements\Western\Western_Church_03.xac"
 		scale = 1.0f
 		use_animation = no
