@@ -107,11 +107,11 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_laupen2 = {}
 				b_laupen3 = {}
 				b_laupen4 = {}
-				b_laupen5 = {}
+				b_laupen5 = { arpitan = "Loyes"}
 				b_laupen6 = {}
 			}
 			c_bern = { #80 Bern
-				color={ 120 120 90 }
+				color={ 160 100 0 }
 				color2={ 0 86 148 }
 
 				arpitan = "Berne"
