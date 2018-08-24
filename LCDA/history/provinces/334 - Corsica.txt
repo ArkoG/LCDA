@@ -1,0 +1,14 @@
+# 334 - Corsica
+
+# County Title
+title = c_corse
+
+# Settlements
+max_settlements = 1
+b_corse = temple
+
+# Misc
+culture = italian
+religion = catholic
+
+# History

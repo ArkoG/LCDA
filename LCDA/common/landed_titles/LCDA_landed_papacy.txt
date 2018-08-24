@@ -17,6 +17,12 @@ e_roma = {
 			
 				b_roma = {}
 			}
+			c_corse = { #334 corse ###test
+				color={ 190 90 40 }
+				color2={ 0 86 148 }
+			
+				b_corse = {}
+			}
 		}
 	}
 }
