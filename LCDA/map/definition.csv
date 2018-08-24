@@ -80,6 +80,7 @@ province;red;green;blue;x;x
 79;168;24;167;Meiringen;x
 80;0;189;185;Bern;x
 333;126;147;194;Roma;x
+334;168;150;67;Corsica;x
 1018;85;54;6;Lac du Bourget;x 
 1019;84;165;181;Lac d'annecy;x
 1020;168;186;57;Isère;x
@@ -90,11 +91,11 @@ province;red;green;blue;x;x
 1025;168;201;187;Lac de neuchatel;x
 1026;0;204;60;Lac Leman;x
 1027;42;207;188;Cote d Azur;x
-1028;84;210;61;BSM commerce;x
-1029;126;0;189;Moutiers commerce;x
-1030;168;3;62;Drac;x
+1028;84;210;61;Mediterrannee;x
+1029;126;0;189;Golfe du Lion;x
+1030;168;3;62;Ligurienne;x
 1031;0;6;190;Arc;x
-1032;42;9;63;Arve;x
+1032;42;9;63;Tyrrhenienne;x
 1033;84;12;191;Golfe de Hammamet;x
 1034;126;15;64;Malta Channel;x
 1035;168;18;192;Gulf of Sidra;x
@@ -102,7 +103,7 @@ province;red;green;blue;x;x
 1037;85;129;146;Lac de bienne;x
 1038;127;132;19;Lac de thoune;x
 1039;169;135;147;Lac de brienz;x
-1040;1;138;20;;x
+1040;1;138;20;Ligurienne;x
 1041;43;141;148;;x
 1042;85;144;21;;x
 1043;127;147;149;;x

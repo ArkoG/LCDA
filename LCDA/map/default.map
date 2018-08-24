@@ -17,27 +17,26 @@ seasons = "seasons.txt"
 
 # European Seas #major rivers must be listed there aswell
 sea_zones = { 1018 1019 } #Bourget, annecy
-sea_zones = { 1022 1025 } #rivers
-sea_zones = { 1025 1026 } #Neuch. Genf
-sea_zones = { 1030 1032 } #rivers
+sea_zones = { 1022 1026 } #Neuch. Genf
+sea_zones = { 1027 1032 } #seas
 sea_zones = { 1036 1039 } #Biel Morat Thun Brienz
 
 ocean_region = {	# European Ocean
-	sea_zones = { 1 2 3 4  5 }
+	sea_zones = { 1 2 3 4  }
 }
 
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
 tree = { 3 4 7 10 }
 
 major_rivers = { 
-1020 #Isère
+#1020 #Isère
 #1021 #Doria aoste #to defunc
 1022 #Ain #to defunc
 1023 #Rhone cisjuran
 1024 #haut rhone
-1030 #Drac #to defunc
-1031 #Arc
-1032 #Arve #to defunc
+#1030 #Drac #to defunc
+#1031 #Arc
+#1032 #Arve #to defunc
 
 #1026 #Léman
 
