@@ -59,7 +59,7 @@ province;red;green;blue;x;x
 58;0;128;64;Belley;x
 59;43;126;18;Saint Oyand;x
 60;0;180;30;Seftingen;x
-61;42;183;158;Sternberg;x
+61;42;183;158;Laupen;x
 62;84;186;31;Nidau;x
 63;126;189;159;Zollikofen;x
 64;168;192;32;Murgeten;x
@@ -78,6 +78,7 @@ province;red;green;blue;x;x
 77;84;18;166;Lutschental;x
 78;126;21;39;Ringenberg;x
 79;168;24;167;Meiringen;x
+80;0;189;185;Bern;x
 333;126;147;194;Roma;x
 1018;85;54;6;Lac du Bourget;x 
 1019;84;165;181;Lac d'annecy;x

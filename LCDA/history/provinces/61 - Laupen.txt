@@ -1,18 +1,18 @@
 # County Title
-title = c_sternberg
+title = c_laupen
 
 # Settlements
 max_settlements = 4
 
-b_sternberg1 = castle #
-b_sternberg2 = temple #
-b_sternberg3 = city #
+b_laupen1 = castle #
+#b_laupen2 = temple #
+b_laupen3 = castle #Gummenen
 
 #notes
 
-#b_sternberg4 = castle #
-#b_sternberg5 = city #
-#b_sternberg6 = temple #
+#b_laupen4 = city #Laupen, franchises en 1275
+#b_laupen5 = city #
+#b_laupen6 = temple #
 
 
 # Misc
@@ -28,3 +28,7 @@ terrain = hills
 # 999.9.9  = {	b_tag = building_nam	}
 # 999.9.9  = { culture = alemanique }
 # 999.9.9  = { religion = catholic}
+
+1218.1.1 = { name = "Sternberg" }
+1275.1.1 = { b_laupen5 = city }
+1300.1.1 = { name = "Laupen" }

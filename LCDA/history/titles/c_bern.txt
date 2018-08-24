@@ -1,3 +1,9 @@
+999.1.1 = {
+	name = COUNTY_BUMPLIZ #
+	adjective =  COUNTY_BUMPLIZ_ADJ
+	effect = { set_coa = c_bumpliz }
+}
+
 1000.1.1 ={ 
 	holder=0
 	liege = d_bargengau
@@ -8,3 +14,10 @@
 1108.8.1		 ={ holder=5033}#Guntram fils de
 1099.7.21		 ={ holder=5034}#Dietpol frère de
 1110.3.1		 ={ holder=0}
+
+
+1191.1.1 = { #Bern foundation
+	reset_name = yes
+	reset_adjective = yes
+	effect = { reset_coa = THIS }
+}

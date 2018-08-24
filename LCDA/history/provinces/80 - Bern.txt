@@ -1,0 +1,43 @@
+# County Title
+title = c_bern
+
+# Settlements
+max_settlements = 5
+
+b_bern2 = castle #bumpliz
+b_bern3 = temple #koniz
+
+
+#notes
+
+#b_bern1 =city #
+#b_bern4 = castle #
+#b_bern5 = city #
+#b_bern6 = temple #
+
+
+# Misc
+culture = alemanique
+religion = catholic
+terrain = hills
+
+# History
+# 999.9.9  = {	remove_settlement = b_tag } 
+# 999.9.9  = {	b_tag = temple	}
+# 999.9.9  = {	capital = b_tag	}
+# 999.9.9  = {	max_settlements = 5		}
+# 999.9.9  = {	b_tag = building_nam	}
+# 999.9.9  = { culture = alemanique }
+# 999.9.9  = { religion = catholic}
+
+999.1.1 = { name = "Bümpliz" }
+1191.1.1 = { 
+	remove_settlement = b_bern2
+	b_bern1 = city
+	capital = b_bern1
+}
+1191.1.1 = { name = "Bern" }
+1226.1.1 = {
+	remove_settlement = b_bern3 #chanoines saint augustin
+	b_bern3 = castle #teutonic order
+}

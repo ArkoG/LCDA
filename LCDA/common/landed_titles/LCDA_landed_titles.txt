@@ -8,6 +8,17 @@ e_alps = {
 		#decision only
 }
 
+c_sternberg = { #for COA only
+	color={ 90 40 90 }
+	color2={ 0 86 148 }
+	allow = { always = no }
+}
+c_bumpliz = { #for COA only
+	color={ 40 120 90 }
+	color2={ 0 86 148 }
+	allow = { always = no }
+}
+
 k_kleinburgund = {   #rectorate for the offmap power, always titular. cannot hold a k_title if a e_title itself             
 	color={ 130 30 130 }
 	color2={ 0 0 0 }
@@ -86,17 +97,33 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_nidau5 = {}
 				b_nidau6 = {}
 			}
-			c_sternberg = { #61 Sternberg
+			c_laupen = { #61 laupen
 				color={ 90 40 90 }
 				color2={ 0 86 148 }
+
+				arpitan = "Loyes"
 			
-				b_sternberg1 = {}
-				b_sternberg2 = {}
-				b_sternberg3 = {}
-				b_sternberg4 = {}
-				b_sternberg5 = {}
-				b_sternberg6 = {}
+				b_laupen1 = { arpitan = "Loyes"}
+				b_laupen2 = {}
+				b_laupen3 = {}
+				b_laupen4 = {}
+				b_laupen5 = {}
+				b_laupen6 = {}
 			}
+			c_bern = { #80 Bern
+				color={ 120 120 90 }
+				color2={ 0 86 148 }
+
+				arpitan = "Berne"
+				
+				b_bern1 = { arpitan = "Berne" }
+				b_bern2 = {}
+				b_bern3 = {}
+				b_bern4 = {}
+				b_bern5 = {}
+				b_bern6 = {}
+			}
+
 			c_seftingen = { #60 Seftingen
 				color={ 190 90 40 }
 				color2={ 0 86 148 }
@@ -606,19 +633,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_conflans5 = {}
 				b_conflans6 = {}
 			}
-			c_beaufort = { #18
-				color={ 0 90 150 }
-				color2={ 255 255 255 }
-			
-				dignity = 4
-			
-				b_beaufort1 = {}
-				b_beaufort2 = {}
-				b_beaufort3 = {}
-				b_beaufort4 = {}
-				b_beaufort5 = {}
-				b_beaufort6 = {}
-			}
+
 		}
 		d_maurienne = {
 			color={ 0 86 148 }
@@ -700,6 +715,19 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_bourgsaintmaurice4 = {}
 				b_bourgsaintmaurice5 = {}
 				b_bourgsaintmaurice6 = {}
+			}
+			c_beaufort = { #18
+				color={ 0 90 150 }
+				color2={ 255 255 255 }
+			
+				dignity = 4
+			
+				b_beaufort1 = {}
+				b_beaufort2 = {}
+				b_beaufort3 = {}
+				b_beaufort4 = {}
+				b_beaufort5 = {}
+				b_beaufort6 = {}
 			}
 			#allow = {	is_feudal = yes	}
 		}
