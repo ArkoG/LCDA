@@ -1,5 +1,6 @@
 objectTypes = {
-	EMFXActorType = {
+###LCDA no sea ports
+	EMFXActorType = { 
 		name = "westerngfx_port"
 		actorfile = "gfx\models\Settlements\Western\Western_Port.xac"
 		scale = 0.0f
@@ -22,7 +23,7 @@ objectTypes = {
 		use_animation = no
 		cull_distance = 300.0f
 	}
-	
+###LCDA trade posts only shows a flag	
 	EMFXActorType = {
 		name = "westerngfx_tradepost_flag"
 		actorfile = "gfx\models\Settlements\Western\Republic_flag.xac"
@@ -42,7 +43,7 @@ objectTypes = {
 		
 		idle   = "gfx\models\Settlements\Western\Flag_anim.xsm"
 	}
-	
+###LCDA coast trade posts show a city hall
 	EMFXActorType = {
 		name = "tradepost_port"
 		actorfile = "gfx\models\Settlements\Western\Western_City03.xac"
@@ -57,6 +58,7 @@ objectTypes = {
 		use_animation = no
 		cull_distance = 500.0f		
 	}
+###LCDA land tradepost are not rendered
 	pdxmesh = {
 		name = "tradepost_camp"
 		file = "gfx\models\Settlements\Trade\tradepost.mesh"
@@ -64,6 +66,20 @@ objectTypes = {
 		scale = 0.0f
 		cull_distance = 500.0f
 	}
-
-
+}
+spriteTypes = {
+	### Land Trade Posts
+	
+	spriteType = {
+		name = "GFX_settlement_trade_post_land"
+		texturefile = "gfx\\interface\\trade_post_land_large_frame_LCDA.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_trade_post_land"
+		texturefile = "gfx\\interface\\trade_post_land_LCDA.dds"
+		noOfFrames = 3
+		clicksound = generic_click_02
+	}
 }
