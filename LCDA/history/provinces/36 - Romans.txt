@@ -12,7 +12,7 @@ b_romans2 = temple # abbaye bénédictine, Romans
 #b_romans3 = city #Romans incendié en 1134 par le comte d'Albon
 
 #b_romans4 = castle #Clérieux
-#b_romans5 = temple #Saint-Barnard
+b_romans5 = temple #Saint-Barnard
 #b_romans6 = city #saint marcellin 1083 attesté village #privilèges en 1333 (implantation de juifs et lombards + péages #ou 1343
 
 
