@@ -25,6 +25,8 @@ technology = {
 		d_simmental
 		d_interlaken
 		d_oberhasli
+		
+		d_roma
 	}
 
 	1000 = {
