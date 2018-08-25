@@ -1,18 +1,18 @@
 -- Format for overwriting define values:
 --
 -- NDefines.NDiplomacy.DEMESNE_BASE_MAX_SIZE = 2.0
-	NDefines.NFrontend.CAMERA_LOOKAT_X = 1500.0 			-- Rotation point in main menu
+	NDefines.NFrontend.CAMERA_LOOKAT_X = 700.0 			-- Rotation point in main menu
 	NDefines.NFrontend.CAMERA_LOOKAT_Y = 0.0
 	NDefines.NFrontend.CAMERA_LOOKAT_Z = 1500.0
 	NDefines.NFrontend.CAMERA_LOOKAT_SETTINGS_X = 1150.0  -- Rotation point in settings
 	NDefines.NFrontend.CAMERA_LOOKAT_SETTINGS_Y = 0.0		-- Y is height
 	NDefines.NFrontend.CAMERA_LOOKAT_SETTINGS_Z = 1200.0
-	NDefines.NFrontend.CAMERA_START_X = 2000.0				-- Initial position in main menu
+	NDefines.NFrontend.CAMERA_START_X = 600.0				-- Initial position in main menu
 	NDefines.NFrontend.CAMERA_START_Y = 100.0				-- Y is height
-	NDefines.NFrontend.CAMERA_START_Z = 2000.0
-	NDefines.NFrontend.CAMERA_END_X = 2700.0				-- Move to position in main menu
+	NDefines.NFrontend.CAMERA_START_Z = 1900.0
+	NDefines.NFrontend.CAMERA_END_X = 1300.0				-- Move to position in main menu
 	NDefines.NFrontend.CAMERA_END_Y = 400.0
-	NDefines.NFrontend.CAMERA_END_Z = 2700.0
+	NDefines.NFrontend.CAMERA_END_Z = 2600.0
 	NDefines.NFrontend.TIME_FROZEN = 1.0  				-- Time before initial animation starts (some delay here so it should NOT be 0 then the animation starts before you can see it)
 	NDefines.NFrontend.GUI_MOVE_SPEED = 800				-- How fast sliding gui objects move ( pixels/s )
 	NDefines.NFrontend.MAX_ZOOM_LEVEL = 2500				-- How far out the player can zoom. Warning: At very high zoom levels the ground will no longer render
