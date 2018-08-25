@@ -4,7 +4,7 @@
 		 type = "cote_palace_of_aachen" #SAint maurice, altitude 414m
 		position = { 1757.000 23.000 2067.000 }
 		rotation = { 250.000 0.000 50.000 }
-		scale = 1.6
+		scale = 1.7
 	}
    
     object = {

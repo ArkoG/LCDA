@@ -2,65 +2,65 @@
 		type = "Landmark_Episco_GENF"
 		position = { 1494.000 23.300 2070.000 } #X Z Y
 		rotation = { 500.0 500.000 500.000 }
-		scale = 1.1
+		scale = 1.0
 	}
 	object = {
 		type = "Landmark_Episco_LAU"
 		position = { 1627.000 23.600 2197.000 }
 		rotation = { 250.000 250.000 253.142 }
-		scale = 1.1
+		scale = 1.0
 	}
 	object = {
 		type = "Landmark_Episco_VIEN"
 		position = { 1078.000 21.000 1790.000 }
 		rotation = { 50.000 53.142 50.000 }
-		scale = 1.1
+		scale = 1.0
 	}
 	object = {
 		type = "Landmark_Episco_SION"
 		position = { 1877.000 23.500 2088.000 }
 		rotation = { 50.000 53.142 50.000 }
-		scale = 1.1
+		scale = 1.0
 	}
 	object = {
 		type = "Landmark_Episco_COMO"
 		position = { 2401.000 22.000 1915.000 }
 		rotation = { 50.000 53.142 50.000 }
-		scale = 1.1
+		scale = 1.0
 	}
 	object = {
 		type = "Landmark_Episco_KZ"
 		position = { 2427.000 23.000 2637.000 }
 		rotation = { 50.000 53.142 50.000 }
-		scale = 1.1
+		scale = 1.0
 	}
 	object = {
 		type = "Landmark_Episco_BELLEY"
 		position = { 1366.000 22.500 1931.000 }
 		rotation = { 50.000 53.142 50.000 }
-		scale = 1.1
+		scale = 1.0
 	}
 	object = {
 		type = "Landmark_Episco_TAR"
 		position = { 1612.000 24.500 1799.000 }
 		rotation = { 50.000 53.142 50.000 }
-		scale = 1.1
+		scale = 1.0
 	}
 	object = {
 		type = "Landmark_Episco_MAU"
 		position = { 1588.000 25.000 1699.000 }
 		rotation = { 50.000 53.142 50.000 }
-		scale = 1.1
+		scale = 1.0
 	}
 	object = {
 		type = "Landmark_Episco_GRE"
 		position = { 1363.000 21.500 1677.000 }
 		rotation = { 50.000 53.142 50.000 }
-		scale = 1.1
+		scale = 1.0
 	}
 	object = {
 		type = "Landmark_Episco_AO"
 		position = { 1870.000 23.500 1894.000 }
 		rotation = { 50.000 53.142 50.000 }
-		scale = 1.1
+		scale = 1.0
 	}
