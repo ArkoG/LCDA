@@ -1,11 +1,11 @@
 # La Couronne Des Alpes (LCDA)
->## A historical and small scale map mod for Crusader Kings 2 
+>## A historical and large scale map mod for Crusader Kings 2 
 
 ![alt tag](http://forum.reseau-js.com/uploads/monthly_2017_08/logo_LCDA_forum.png.1bc2c0fee218fa0da0a2bdcb676b7ac5.png)
 
 ## The MOD
 
-This mod has a small scale and detailled map of the region of the Alps. It aims to re-focus the gameplay into the characters instead of world-conquest that base game is very prone to. 
+This mod has a large scale and detailled map of the region of the Alps. It aims to re-focus the gameplay into the characters instead of world-conquest that base game is very prone to. 
 A lot of the gameplay mechanics reside in the "Les 3 Tours" mod that I am developing aside. "La Couronne Des Alpes" will of course come with its own specific mechanics and its detailled historical setup. 
 
 ## The reasons why
@@ -27,8 +27,8 @@ L3T is actually partly derived from LCDA and represents a big part of its gamepl
 ## Main features
 
 THE SETTING
-- a small scale map focused around the Alps
-- historical starting setup from 1032-XXXX period
+- a large scale map focused around the Alps
+- historical starting setup from 1032 to undetermined yet period
 
 THE MECHANICS
 - playable inland republic
