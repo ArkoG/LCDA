@@ -35,6 +35,14 @@ terrain = hills
 	remove_settlement = b_bern2
 	b_bern1 = city
 	capital = b_bern1
+	b_bern1 = ct_wall_1
+	b_bern1 = ct_wall_2
+	b_bern1 = ct_wall_q_1
+	b_bern1 = ct_training_grounds_1
+	b_bern1 = ct_barracks_1 #light infantry archer
+	b_bern1 = ct_guard_1 #pikemen
+	b_bern1 = ct_marketplace_1
+	b_bern1 = ct_eglise_L1
 }
 1191.1.1 = { name = "Bern" }
 1226.1.1 = {
