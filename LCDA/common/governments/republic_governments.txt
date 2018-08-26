@@ -86,7 +86,7 @@ republic_governments = {
 		capital_move_delay = 600
 	}
 	
-	republic_government = {
+	republic_government_urban = {
 		preferred_holdings = { CITY }
 		allowed_holdings = { 
 			#TRADE_POST #LCDA
@@ -106,8 +106,8 @@ republic_governments = {
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
-		frame_suffix = "_republic"
-		title_prefix = "city_"
+		frame_suffix = "_republic_urban"
+		title_prefix = "republic_urban_"
 		potential = {
 			NAND = {
 				controls_religion = yes
@@ -127,7 +127,126 @@ republic_governments = {
 		
 		capital_move_delay = 600
 	}
-	
+	republic_government_rural = {
+		preferred_holdings = { CITY }
+		allowed_holdings = { 
+			#TRADE_POST #LCDA
+			CITY
+			CASTLE
+			FAMILY_PALACE #LCDA
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+		}
+		accepts_liege_governments = { # Accepts other republics
+			merchant_republic_government
+			feudal_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_republic_rural"
+		title_prefix = "republic_rural_"
+		potential = {
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = muslim }
+				NOT = { religion = norse_pagan_reformed }
+			}
+			NOT = { is_government_potential = merchant_republic_government }
+		}
+		
+		color = { 125 209 130 }
+		merchant_republic = yes  #LCDA
+		
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		
+		can_build_tribal = no
+		
+		capital_move_delay = 600
+	}
+	republic_government_confederation = {
+		preferred_holdings = { CITY }
+		allowed_holdings = { 
+			#TRADE_POST #LCDA
+			CITY
+			CASTLE
+			FAMILY_PALACE #LCDA
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+		}
+		accepts_liege_governments = { # Accepts other republics
+			merchant_republic_government
+			feudal_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_republic_confederation"
+		title_prefix = "republic_confederation_"
+		potential = {
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = muslim }
+				NOT = { religion = norse_pagan_reformed }
+			}
+			NOT = { is_government_potential = merchant_republic_government }
+		}
+		
+		color = { 125 209 130 }
+		merchant_republic = yes  #LCDA
+		
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		
+		can_build_tribal = no
+		
+		capital_move_delay = 600
+	}
+	republic_government_escarton = {
+		preferred_holdings = { CITY }
+		allowed_holdings = { 
+			#TRADE_POST #LCDA
+			CITY
+			CASTLE
+			FAMILY_PALACE #LCDA
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+		}
+		accepts_liege_governments = { # Accepts other republics
+			merchant_republic_government
+			feudal_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_republic_escarton"
+		title_prefix = "republic_escarton_"
+		potential = {
+			NAND = {
+				controls_religion = yes
+				NOT = { religion_group = muslim }
+				NOT = { religion = norse_pagan_reformed }
+			}
+			NOT = { is_government_potential = merchant_republic_government }
+		}
+		
+		color = { 125 209 130 }
+		merchant_republic = yes  #LCDA
+		
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		
+		can_build_tribal = no
+		
+		capital_move_delay = 600
+	}	
 	confucian_bureaucracy = {
 		offmap_power = offmap_china
 		preferred_holdings = { CASTLE CITY }
