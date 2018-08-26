@@ -31,11 +31,37 @@ thalasso_duke;Doge;Doge;;;;;;;;;;;;x
 thalasso_count;Patrician;Patrice;;;;;;;;;;;;x
 thalasso_baron;Patrician;Patricien;;;;;;;;;;;;x
 
+#playable republic d_level
 city_emperor;Grand Prince;Grand Prince;;;;;;;;;;;;x
 city_king;Magistrate;Magistrat;;;;;;;;;;;;x
 city_duke;Burgmaster;Bourgmestre;;;;;;;;;;;;x
 city_count;Lord Mayor;Maire;;;;;;;;;;;;x
 city_baron;Mayor;Syndic;;;;;;;;;;;;x
+
+#non playable at lower ranks
+republic_urban_emperor;Grand Prince;Grand Prince;;;;;;;;;;;;x
+republic_urban_king;Magistrate;Magistrat;;;;;;;;;;;;x
+republic_urban_duke;Burgmaster;Bourgmestre;;;;;;;;;;;;x
+republic_urban_count;Mayor;Maire;;;;;;;;;;;;x
+republic_urban_baron;Syndic;Syndic;;;;;;;;;;;;x
+
+republic_rural_emperor;Grand Prince;Grand Prince;;;;;;;;;;;;x
+republic_rural_king;Magistrate;Magistrat;;;;;;;;;;;;x
+republic_rural_duke;Gouvernor;Gouverneur;;;;;;;;;;;;x
+republic_rural_count;Mayor;Maire;;;;;;;;;;;;x
+republic_rural_baron;Syndic;Syndic;;;;;;;;;;;;x
+
+republic_confederation_emperor;Grand Prince;Grand Prince;;;;;;;;;;;;x
+republic_confederation_king;Council President;Président du Conseil;;;;;;;;;;;;x
+republic_confederation_duke;Gouvernor;Gouverneur;;;;;;;;;;;;x
+republic_confederation_count;Avoyer;Avoyer;;;;;;;;;;;;x
+republic_confederation_baron;Mayor;Syndic;;;;;;;;;;;;x
+
+republic_escarton_emperor;Grand Consul;Grand Consul;;;;;;;;;;;;x
+republic_escarton_king;Consul;Consul;;;;;;;;;;;;x
+republic_escarton_duke;Consul;Consul;;;;;;;;;;;;x
+republic_escarton_count;Consul;Consul;;;;;;;;;;;;x
+republic_escarton_baron;Consul;Consul;;;;;;;;;;;;x
 
 #FOA;;;;;;;;;;;;;;x
 RECTOR;Rector;Recteur;;;;;;;;;;;;x
@@ -54,10 +80,34 @@ thalasso_duke_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
 thalasso_count_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
 thalasso_baron_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
 city_emperor_foa;Your Highness;Votre Altesse;;;;;;;;;;;;x
-city_king_foa;Your Serene Grace;Votre Altesse Sérénissime;;;;;;;;;;;;x
+city_king_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
 city_duke_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
 city_count_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
 city_baron_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
+
+republic_urban_emperor_foa;Your Highness;Votre Altesse;;;;;;;;;;;;x
+republic_urban_king_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
+republic_urban_duke_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
+republic_urban_count_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
+republic_urban_baron_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
+
+republic_rural_emperor_foa;Your Highness;Votre Altesse;;;;;;;;;;;;x
+republic_rural_king_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
+republic_rural_duke_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
+republic_rural_count_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
+republic_rural_baron_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
+
+republic_confederation_emperor_foa;Your Highness;Votre Altesse;;;;;;;;;;;;x
+republic_confederation_king_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
+republic_confederation_duke_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
+republic_confederation_count_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
+republic_confederation_baron_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
+
+republic_escarton_emperor_foa;Your Highness;Votre Altesse;;;;;;;;;;;;x
+republic_escarton_king_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
+republic_escarton_duke_foa;Your Grace;Votre Grâce;;;;;;;;;;;;x
+republic_escarton_count_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
+republic_escarton_baron_foa;Your honor;Votre Honneur;;;;;;;;;;;;x
 
 temple_king_foa;Your Holiness;Votre Sainteté;;;;;;;;;;;;x
 temple_duke_foa;Your Eminence;Votre Éminence;;;;;;;;;;;;x
@@ -84,6 +134,30 @@ city_kingdom_of;Republic of;République de;;;;;;;;;;;;x
 city_duchy_of;City-State of;Cité-État de;;;;;;;;;;;;x
 city_county_of;City of;Cité de;;;;;;;;;;;;x
 city_barony_of;Municipality of;Commune de;;;;;;;;;;;;x
+
+republic_urban_empire_of;Principality of;Principauté de;;;;;;;;;;;;x
+republic_urban_kingdom_of;Republic of;République de;;;;;;;;;;;;x
+republic_urban_duchy_of;City-State of;Cité-État de;;;;;;;;;;;;x
+republic_urban_county_of;City of;Cité de;;;;;;;;;;;;x
+republic_urban_barony_of;Municipality of;Commune de;;;;;;;;;;;;x
+
+republic_rural_empire_of;Principality of;Principauté de;;;;;;;;;;;;x
+republic_rural_kingdom_of;Republic of;République de;;;;;;;;;;;;x
+republic_rural_duchy_of;State of;État de;;;;;;;;;;;;x
+republic_rural_county_of;Community of;Communauté de;;;;;;;;;;;;x
+republic_rural_barony_of;Municipality of;Commune de;;;;;;;;;;;;x
+
+republic_confederation_empire_of;Confederacy of;Confédération de;;;;;;;;;;;;x
+republic_confederation_kingdom_of;Confederacy of;Confédération de;;;;;;;;;;;;x
+republic_confederation_duchy_of;Canton of;Canton de;;;;;;;;;;;;x
+republic_confederation_county_of;Provost of;Prévôté de;;;;;;;;;;;;x
+republic_confederation_barony_of;Municipality of;Commune de;;;;;;;;;;;;x
+
+republic_escarton_empire_of;Republic of;République de;;;;;;;;;;;;x
+republic_escarton_kingdom_of;Republic of;République de;;;;;;;;;;;;x
+republic_escarton_duchy_of;Principality of;Principauté de;;;;;;;;;;;;x
+republic_escarton_county_of;Escarton of;Escarton de;;;;;;;;;;;;x
+republic_escarton_barony_of;Municipality of;Commune de;;;;;;;;;;;;x
 
 temple_kingdom_of_christian;Prince-Archbishopric of;Archevêché Princier de;;;;;;;;;;;;x
 temple_duchy_of_christian;Prince-Bishopric of;Évêché Princier de;;;;;;;;;;;;x

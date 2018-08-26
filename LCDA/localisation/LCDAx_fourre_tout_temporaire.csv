@@ -65,8 +65,8 @@ title_trainee_du_royaume_desc;;Votre déplaisir à l'endroit de cette femme est te
 
 #;;BOOKMARKS;;;;;;;;;;;;x
 #;;BM names and desc;;;;;;;;;;;;x
-BM_1032_ERA;The End of the Rodolphians;La fin d'un royaume;;;;;;;;;;;;x
-BM_1032_ERA_INFO;;Mort sans descendance, le dernier Roi de Bourgogne, Rodolphe III, dit le Pieux, lègue les droits sur son royaume à l'Empereur Konrad II. Après avoir affronté quelques velléités soulevées par cette succession, l'Empereur récupère le pouvoir. Pouvoir très relatif et plutôt lâche sur la région, qui permet à chacun une relative indépendance de fait. \nVoilà une situation fort favorable à l'émergence de nouvelles puissances telles que les comtes de Savoie, les comtes d'Albon-Viennois, ou tout simplement VOUS Monseigneur ! \n \n A vous de jouer.;;;;;;;;;;;;x
+BM_1032_ERA;The End of a kingdom;La fin d'un royaume;;;;;;;;;;;;x
+BM_1032_ERA_INFO;;Mort sans descendance, le dernier Roi de Bourgogne, Rodolphe III, dit le Pieux, lègue les droits sur son royaume à l'Empereur Konrad II. Après avoir affronté quelques velléités soulevées par cette succession, l'Empereur récupère le pouvoir. Pouvoir très relatif et plutôt lâche sur la région, qui permet à chacun une relative indépendance de fait. \nVoilà une situation fort favorable à l'émergence de nouvelles puissances telles que les comtes de Savoie, les comtes d'Albon-Viennois, ou tout simplement TOI Monseigneur ! \n \n A toi de jouer.;;;;;;;;;;;;x
 BM_1309_ERA;Republic of Geneva;La République de Genève;;;;;;;;;;;;x
 BM_1309_ERA_INFO;;Acquisition des droits et d'autonomie des citoyens de la cité genevoise.;;;;;;;;;;;;x
 #;;ERA char_name (regnal) + char_desc;;;;;;;;;;;;x
@@ -134,7 +134,7 @@ ARMY_NAME;Army of $NAME$;Armée de $NAME$;Armee von $NAME$;;Ejército de $NAME$;;;
 FLEET_NAME;$NAME$ Fleet; Flotte de $NAME$;$NAME$ Flotte;;Flota de $NAME$;;;;;;;;;x
 CONFIRM_DISBAND_NO_RET;\nNo Retinues will be disbanded.;\n;\nEs wird kein Gefolge aufgelöst.;;\nNo se disolverá ningún séquito.;;;;;;;;;;;x
 CONFIRM_DISBAND_RET;\nAll Retinue troops will stand down.;\n;\nAlle Gefolge-Truppen werden ihre Waffen niederlegen.;;\nTodas las tropas de los séquitos se retirarán.;;;;;;;;;;;x
-THE_REPUBLIC;The Republic;Grand Conseil;Die Republik;;La República;;;;;;;;;x
+THE_REPUBLIC;Great Council;Grand Conseil;;;;;;;;;;;;x
 COURT_MENU;Council;Conseillers;Rat;;Consejo;;;;;;;;;x
 COUNCIL_VIEW;Council;Conseillers;Rat;;Consejo;;;;;;;;;x
 DONT_HAVE_THE_PROVINCE_MODIFIER;Don't have the province modifier ;La province ne possède PAS ;Hat nicht den Provinzmodifikator;;No tiene el modificador de provincia ;Non ha il modificatore di provincia ;;;;;;;;x
@@ -148,17 +148,36 @@ TECH_DEM_INC_BARONS;§G+$AMOUNT$§! Demesne size for Barons;Taille du domaine des 
 obj_become_king_title;Become King of [This.Capital.Kingdom.GetName];Devenir duc de [This.Capital.Kingdom.GetName];Werdet König von [This.Capital.Kingdom.GetName];;Convertirse en Rey de [This.Capital.Kingdom.GetName];;;;;;;;;x
 obj_become_king_desc;[This.GetTitledFirstName] wants to become duke of [This.Capital.Kingdom.GetName]. If pagan, it allows [This.GetObjectPronoun] the unlimited use of the Subjugation Casus Belli within the kingdom.;[This.GetTitledFirstName] désire devenir duc de [This.Capital.Kingdom.GetName]. ;[This.GetTitledFirstName] möchte König von [This.Capital.Kingdom.GetName] werden. Bei heidnischer Herrschaft erlaubt dies [This.GetObjectPronoun] die unbegrenzte Verwendung des Kriegsgrunds Unterwerfung in diesem Königreich.;; [This.GetTitledFirstName] quiere convertirse en Rey de [This.Capital.Kingdom.GetName]. Si es pagano, permite a [This.GetObjectPronoun] el uso ilimitado de la Casus Belli Subyugación dentro del reino.;;;;;;;;;x
 RULER_HAS_BECOME_KING_AMBITION;With the ambition to become duke of §Y[PrimaryTitle.GetName]§!, §Y[GetTitovledFirstName]§! is not allowed to move the capital outside the de jure kingdom.;Avec l'ambition de devenir duc de §Y[PrimaryTitle.GetName]§!, §Y[GetTitledFirstName]§! n'est pas autorisé à déplacer la capitale à l'extérieur du royaume de jure.;Mit der Ambition, König von §Y[PrimaryTitle.GetName]§! zu werden, darf §Y[GetTitledFirstName]§! die Hauptstadt nicht außerhalb des de jure Königreichs verlegen..;;Con la ambición de convertirse en Rey de §Y[PrimaryTitle.GetName]§!, a §Y[GetTitledFirstName]§! no se le permite mover su capital fuera del Reino de jure.;;;;;;;;;x
+
+#GOV
 abbaye_government;Monastic order;Ordre monastique;;;;;;;;;;;;x
 abbaye_government_desc;Theocracies, like minor republics, are unplayable. Rulers are appointed or elected from among the ecclesiarchy, and there is no dynastic persistence between generations of rulers.;Diriger un pouvoir temporel religieux, à l'instar des républiques mineures, n'est pas jouable. Les seigneurs sont nommés ou élus parmi l'ecclésiarchie et il n'y a aucune persistance dynastique entre les générations.;Theokratien sind so wie die kleineren Republiken nicht spielbar. Zum Herrscher werden Geistliche bestimmt und es gibt keine dynastische Kontinuität innerhalb der Folge der Herrscher.;;Las teocracias, como las repúblicas menores, tampoco son jugables. Los gobernantes son designados o elegidos entre la jerarquía eclesial y no hay ninguna persistencia dinástica entre las generaciones de gobernantes;;;;;;;;;x
 theocracy_government;Theocracy;Temporel religieux;Theokratie;;teocracia;;;;;;;;;x
 theocracy_government_desc;Theocracies, like minor republics, are unplayable. Rulers are appointed or elected from among the ecclesiarchy, and there is no dynastic persistence between generations of rulers.;Diriger un pouvoir temporel religieux, à l'instar des républiques mineures, n'est pas jouable. Les seigneurs sont nommés ou élus parmi l'ecclésiarchie et il n'y a aucune persistance dynastique entre les générations.;Theokratien sind so wie die kleineren Republiken nicht spielbar. Zum Herrscher werden Geistliche bestimmt und es gibt keine dynastische Kontinuität innerhalb der Folge der Herrscher.;;Las teocracias, como las repúblicas menores, tampoco son jugables. Los gobernantes son designados o elegidos entre la jerarquía eclesial y no hay ninguna persistencia dinástica entre las generaciones de gobernantes;;;;;;;;;x
+
+merchant_republic_government;Republic;République;Republik;;República;;;;;;;;;x
+merchant_republic_government_desc;;Jouer le Bourgmestre, Magistrat ou Gouverneur d'une République est semblable à l'expérience qu'offre un seigneur féodal : vous cherchez toujours à posséder davantage de propriétés et vous devez avoir un héritier pour votre famille. Cependant, la gouvernance de votre république tourne entre les cinq factions de pouvoirs majeurs par le biais d'élections spéciales. Les pouvoirs à l'oeuvre varient d'une république ou cité à une autre, il peut s'agir d'aristocrates, de guildes, le peuple ou de marchands. Les villes gouvernées par des baillis.;;;;;;;;;;;;x
+String_FR_GovernmentFem_merchant_republic_government;_;républicaine;;;;;;;;;;;;x
+String_FR_GovernmentLeLaCap_merchant_republic_government;_;La République;;;;;;;;;;;;x
+IS_MERCHANT_REPUBLIC;Is aRepublic;Est une république;Ist eine Republik;;Es una República;;;;;;;;;x
+ISNT_MERCHANT_REPUBLIC;Is NOT a Republic;N'est pas une république;Ist KEINE Republik;;NO es una República;;;;;;;;;x
+
+republic_government_urban;Urban Republic;République urbaine;;;;;;;;;;;;x
+republic_government_urban_desc;The leaders of regular republics are randomly chosen from among the citizenry. This kind of republic is not playable until it reaches countyship level.;Les chefs des républiques traditionnelles sont choisis au sein de la population. Ce type de république n'est pas jouable tant que celle-ci n'a pas atteint le niveau équivalant à un comté;;;;;;;;;;;;x
+republic_government_rural;Free people;Comunauté libre;;;;;;;;;;;;x
+republic_government_rural_desc;The leaders of regular republics are randomly chosen from among the citizenry. This kind of republic is not playable until it reaches countyship tier.;Les chefs des républiques traditionnelles sont choisis au sein de la population. Ce type de république n'est pas jouable tant que celle-ci n'a pas atteint le niveau équivalant à un comté;;;;;;;;;;;;x
+republic_government_confederation;Confederation;Confédération;;;;;;;;;;;;x
+republic_government_confederation_desc;The leaders of regular republics are randomly chosen from among the citizenry. This kind of republic is not playable until it reaches countyship tier.;Les chefs des républiques traditionnelles sont choisis au sein de la population. Ce type de république n'est pas jouable tant que celle-ci n'a pas atteint le niveau équivalant à un comté;;;;;;;;;;;;x
+republic_government_escarton;Principauté;Principauté;;;;;;;;;;;;x
+republic_government_escarton_desc;The leaders of regular republics are randomly chosen from among the citizenry. This kind of republic is not playable until it reaches countyship tier.;Les chefs des républiques traditionnelles sont choisis au sein de la population. Ce type de république n'est pas jouable tant que celle-ci n'a pas atteint le niveau équivalant à un comté;;;;;;;;;;;;x
+
 
 #PASS
 pass_trient;Trient pass ;Col du Trient;;;;;;;;;;;;x
 pass_montcenis;Mont-Cenis pass;Col du Mont-Cenis;;;;;;;;;;;;x
 pass_montjoux;Mont-Joux pass;Col de Mont-Joux;;;;;;;;;;;;x
 
-
+LCDA_pass_TP_desc;The province needs to be a pass to develop a trade post here.;La province doit se situer sur un col pour y développer un comptoir de commerce.;;;;;;;;;;;;x
 
 
 
