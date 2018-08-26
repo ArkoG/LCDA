@@ -1,0 +1,45 @@
+castle = {
+	trigger = {
+	}
+}
+
+city = {
+	trigger = {
+	}
+}
+
+temple = {
+	trigger = {
+	}
+}
+
+trade_post = {
+	trigger = {
+		LCDA_pass_trade_post_trigger = yes
+	}
+}
+
+family_palace = {
+	trigger = {
+	}
+}
+
+tribal = {
+	trigger = {
+	}
+}
+
+nomad = {
+	trigger = {
+	}
+}
+
+fort = {
+	trigger = {
+	}
+}
+
+hospital = {
+	trigger = {
+	}
+}
