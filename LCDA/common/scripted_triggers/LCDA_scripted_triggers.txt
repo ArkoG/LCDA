@@ -25,15 +25,30 @@ likes_pious = {
 	has_impious_trait_trigger = no
 }
 
-LCDA_pass_trade_post_trigger = {
+
+#pass and trade posts
+is_pass = {
 	custom_tooltip = {
 		text = LCDA_pass_TP_desc
-		#hidden_tooltip = {
 			OR = {
 				province_id = 9
 				province_id = 29
 				province_id = 21
 			}
-		#}
+	}
+}
+
+#Hardcode
+is_LCDA_hard_monastery = {
+	has_global_flag = running_LCDA
+	OR = {
+	 	title = b_abondance4 #Valdranses
+		title = b_saintmaurice2 #saint Maurice d'Agaune
+	}
+}
+is_LCDA_hard_episcopat = {
+	has_global_flag = running_LCDA
+	OR = {
+		#title = b_thonon2
 	}
 }
