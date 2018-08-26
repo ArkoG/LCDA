@@ -1,7 +1,7 @@
 pass_trient = {
 	wealth = 1			# Total base wealth of silk route
 	trade_post_display_trigger = { 
-		is_pass = yes
+		is_pass = yes #in L3T because pass attribution is made there
 		#province_id = 9
 		}
 
@@ -14,10 +14,10 @@ pass_trient = {
 	}
 	
 	# xxx province
-	start = { 9 }
+	start = { 10 }
 	#start = { 7 8} #this gives two indep roads, each pat lists only one ID
 	#path = { 9 10 } #path is a requirement, this can be used if pass province are deleted
-	path = { 9 } 
+	path = {  10 9 28 } 
 }
 
 pass_montcenis = {
@@ -50,6 +50,6 @@ pass_montjoux = {
 	}
 	
 	# xxx province
-	start = { 29 }
-	path = { 29 }
+	start = { 28 }
+	path = { 28 29 25 }
 }

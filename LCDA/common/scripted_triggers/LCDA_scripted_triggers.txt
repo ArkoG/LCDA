@@ -24,3 +24,16 @@ likes_pious = {
 	has_pious_trait_trigger = yes
 	has_impious_trait_trigger = no
 }
+
+LCDA_pass_trade_post_trigger = {
+	custom_tooltip = {
+		text = LCDA_pass_TP_desc
+		#hidden_tooltip = {
+			OR = {
+				province_id = 9
+				province_id = 29
+				province_id = 21
+			}
+		#}
+	}
+}
