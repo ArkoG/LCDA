@@ -73,35 +73,38 @@ def copytree(src, dst, symlinks=False, ignore=None):
     if errors:
         raise shutil.Error, errors
 
+def main():
+    LCDA_DIR = os.path.join('..', 'LCDA')
+    ARKOpack_Armoiries_DIR = os.path.join('..', '..', 'ARKOpack', 'ARKOpack_Armoiries')
+    ARKOpack_Interface_DIR = os.path.join('..', '..', 'ARKOpack', 'ARKOpack_Interface')
+    L3T_DIR = os.path.join('..', '..', 'L3T', 'L3T')
+    OUTPUT_DIR = os.path.join('..', 'LCDA_L3T_ARKOpack')
 
-LCDA_DIR = os.path.join('..', 'LCDA')
-ARKOpack_Armoiries_DIR = os.path.join('..', '..', 'ARKOpack', 'ARKOpack_Armoiries')
-ARKOpack_Interface_DIR = os.path.join('..', '..', 'ARKOpack', 'ARKOpack_Interface')
-L3T_DIR = os.path.join('..', '..', 'L3T', 'L3T')
-OUTPUT_DIR = os.path.join('..', 'LCDA_L3T_ARKOpack')
+    # Delete the output if it already exists and create it again
+    shutil.rmtree(OUTPUT_DIR) if os.path.isdir(OUTPUT_DIR) else None
+    os.makedirs(OUTPUT_DIR)
 
-# Delete the output if it already exists and create it again
-shutil.rmtree(OUTPUT_DIR) if os.path.isdir(OUTPUT_DIR) else None
-os.makedirs(OUTPUT_DIR)
+    # TODO manage git branches
 
-# TODO manage git branches
+    if not os.path.isdir(L3T_DIR):
+        print('L3T mod directory not found')
+    else:
+        copytree(L3T_DIR, OUTPUT_DIR)
 
-if not os.path.isdir(L3T_DIR):
-    print('L3T mod directory not found')
-else:
-    copytree(L3T_DIR, OUTPUT_DIR)
+    if not os.path.isdir(LCDA_DIR):
+        print('LCDA mod directory not found')
+    else:
+        copytree(LCDA_DIR, OUTPUT_DIR)
 
-if not os.path.isdir(LCDA_DIR):
-    print('LCDA mod directory not found')
-else:
-    copytree(LCDA_DIR, OUTPUT_DIR)
+    if not os.path.isdir(ARKOpack_Armoiries_DIR):
+        print('ARKOpack Armoiries mod directory not found')
+    else:
+        copytree(ARKOpack_Armoiries_DIR, OUTPUT_DIR)
 
-if not os.path.isdir(ARKOpack_Armoiries_DIR):
-    print('ARKOpack Armoiries mod directory not found')
-else:
-    copytree(ARKOpack_Armoiries_DIR, OUTPUT_DIR)
+    if not os.path.isdir(ARKOpack_Interface_DIR):
+        print('ARKOpack Interface mod directory not found')
+    else:
+        copytree(ARKOpack_Interface_DIR, OUTPUT_DIR)
 
-if not os.path.isdir(ARKOpack_Interface_DIR):
-    print('ARKOpack Interface mod directory not found')
-else:
-    copytree(ARKOpack_Interface_DIR, OUTPUT_DIR)
+if __name__ == '__main__':
+    main()
