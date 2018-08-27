@@ -52,3 +52,17 @@ is_LCDA_hard_episcopat = {
 		#title = b_thonon2
 	}
 }
+is_LCDA_hard_regula1 = {
+	has_global_flag = running_LCDA
+	OR = {
+	 	#title = b_abondance4 #Valdranses
+		#title = b_saintmaurice2 #saint Maurice d'Agaune
+	}
+}
+is_LCDA_hard_regula2 = {
+	has_global_flag = running_LCDA
+	OR = {
+	 	#title = b_abondance4 #Valdranses
+		#title = b_saintmaurice2 #saint Maurice d'Agaune
+	}
+}
