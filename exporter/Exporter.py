@@ -86,16 +86,6 @@ def main():
 
     # TODO manage git branches
 
-    if not os.path.isdir(L3T_DIR):
-        print('L3T mod directory not found')
-    else:
-        copytree(L3T_DIR, OUTPUT_DIR)
-
-    if not os.path.isdir(LCDA_DIR):
-        print('LCDA mod directory not found')
-    else:
-        copytree(LCDA_DIR, OUTPUT_DIR)
-
     if not os.path.isdir(ARKOpack_Armoiries_DIR):
         print('ARKOpack Armoiries mod directory not found')
     else:
@@ -105,6 +95,16 @@ def main():
         print('ARKOpack Interface mod directory not found')
     else:
         copytree(ARKOpack_Interface_DIR, OUTPUT_DIR)
+
+    if not os.path.isdir(L3T_DIR):
+        print('L3T mod directory not found')
+    else:
+        copytree(L3T_DIR, OUTPUT_DIR)
+
+    if not os.path.isdir(LCDA_DIR):
+        print('LCDA mod directory not found')
+    else:
+        copytree(LCDA_DIR, OUTPUT_DIR)
 
 if __name__ == '__main__':
     main()
