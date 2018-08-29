@@ -1,9 +1,13 @@
-1001.1.1={
-liege="d_genevois"
-law = succ_primogeniture
-law = cognatic_succession
-effect = { set_title_flag = needs_elision }
+1000.1.1 ={ 
+	holder=0
+	liege = d_genevois
+	law = cognatic_succession
+	effect = { set_title_flag = needs_elision }
 }
-1001.1.1={	holder=100034	}
-1023.1.1={	holder=100036	}
-1080.1.1={	holder=0	}
+1019.1.1		 ={ holder=6001}#Lutbert
+1071.11.11	 ={ holder=6002}#Otto fils de
+1073.3.20		 ={ holder=6005}#Nikolaus fils de
+1093.2.14		 ={ holder=6011}#Walther fils de
+1114.8.28		 ={ holder=6015}
+1119.9.18		 ={ holder=6017}
+1150.5.14		 ={ holder=0}

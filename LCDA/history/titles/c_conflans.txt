@@ -1,1 +1,9 @@
-1000.1.1 = { liege=d_savoie_propre }
+1000.1.1 ={ 
+	holder=0
+	liege = 0
+}
+1020.1.1		 ={ holder=6094}#Baldewin
+1070.7.15		 ={ holder=6095}#Johann fils de
+1087.5.28		 ={ holder=6103}#Rudger fils de
+1092.2.11		 ={ holder=6113}#Alberade fille de second frère de
+1099.8.7		 ={ holder=0}

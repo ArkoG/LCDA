@@ -1,1 +1,9 @@
-1000.1.1 = { liege=d_savoie_propre }
+1000.1.1 ={ 
+	holder=0
+	liege = d_aoste
+}
+1020.1.1		 ={ holder=6237}#Hermann
+1063.10.10	 ={ holder=6242}#Giselbert petit fils de
+1075.4.28		 ={ holder=6252}#Ehrenfried fils de
+1111.8.7		 ={ holder=6251}#Barbara soeur ainee de
+1117.6.11		 ={ holder=0}

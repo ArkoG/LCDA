@@ -1,4 +1,10 @@
-999.9.9 = {
+1000.1.1 ={ 
 	holder=0
+	liege = 0
 }
-1236.11.15 = {} #premier détenteur Édouard de Savoie (le Libéral). date d'un acte donc peut être antérieur.
+1020.1.1		 ={ holder=6218}#Konrad
+1058.8.15		 ={ holder=6224}#Folkmar petit fils de
+1095.5.12		 ={ holder=6227}#Stefan frÃ¨re de
+1108.8.1		 ={ holder=6233}#Guntram fils de
+1099.7.21		 ={ holder=6234}#Dietpol frÃ¨re de
+1110.3.1		 ={ holder=0}

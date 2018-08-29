@@ -1,1 +1,9 @@
-999.1.1 = { liege=0 }
+1000.1.1 ={ 
+	holder=0
+	liege = 0
+}
+1020.1.1		 ={ holder=6037}#Hermann
+1063.10.10	 ={ holder=6042}#Giselbert petit fils de
+1075.4.28		 ={ holder=6052}#Ehrenfried fils de
+1111.8.7		 ={ holder=6051}#Barbara soeur ainee de
+1117.6.11		 ={ holder=0}

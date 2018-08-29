@@ -1,1 +1,9 @@
-999.1.1 = { liege=0 }
+1000.1.1 ={ 
+	holder=0
+	liege = d_salmorenc
+}
+1020.1.1		 ={ holder=6056}#Guntram
+1050.8.16		 ={ holder=6057}#Reinhard fils de
+1081.2.28		 ={ holder=6064}#Gottfried fils de
+1090.10.5		 ={ holder=6073}#Mathias fils de Siegmund
+1109.10.30	 ={ holder=0}

@@ -1,3 +1,9 @@
-1030.1.1 ={	liege=d_maurienne_ecl	}
-1030.1.1 ={	holder=107	} #Theobaldus
-1060.1.1 ={	holder=0	}
+1000.1.1 ={ 
+	holder=0  #give it to the rector
+	liege=d_maurienne_ecl
+}
+1020.1.1		 ={ holder=6327}#Thietmar
+1051.5.26		 ={ holder=6331}#Heinrich fils de
+1065.6.14		 ={ holder=6333}#Berengar fils de Herbert fils ainé de Thietmar
+1070.4.14		 ={ holder=6340}#Henrike second fils de
+1097.9.17		 ={ holder=0}

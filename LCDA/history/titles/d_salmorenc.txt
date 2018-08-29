@@ -1,6 +1,6 @@
 1000.1.1 ={ 
 	holder=0  #give it to the rector
-	liege = d_salmorenc
+	liege = 0
 }
 1020.1.1		 ={ holder=6127}#Thietmar
 1051.5.26		 ={ holder=6131}#Heinrich fils de

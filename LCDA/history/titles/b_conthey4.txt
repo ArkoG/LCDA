@@ -1,0 +1,9 @@
+1000.1.1 ={ 
+	holder=0
+	liege = c_conthey
+}
+1019.1.1		 ={ holder=6276}#Dietpold
+1071.7.26		 ={ holder=6278}#Adolf fils de
+1084.5.1		 ={ holder=6286}#Udo fils de
+1110.3.18		 ={ holder=6287}#Lambert frère de
+1132.6.7		 ={ holder=0}
