@@ -1,4 +1,4 @@
-# 26 - ChÄtillon
+# 26 - Châtillon
 
 # County Title
 title = c_chatillon
@@ -9,7 +9,7 @@ max_settlements = 6
 
 b_chatillon1 = castle
 b_chatillon2 = temple
-b_chatillon3 = city
+#b_chatillon3 = city #Gressoney
 
 #b_chatillon4 = castle
 #b_chatillon5 = temple
@@ -24,3 +24,4 @@ religion = catholic
 
 #999.9.9 = {	b_chatillon = ca_tpinit_1	}
 
+1250.1.1 = {	b_chatillon3 = city	} #Gressoney walser au 13éme siècle

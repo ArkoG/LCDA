@@ -6,12 +6,14 @@ title = c_beaufort
 # Settlements
 max_settlements = 3
 
+
 b_beaufort1 = castle #Beaufort
 b_beaufort2 = castle #Beaufort Vanches (chateau vieux)
 #b_beaufort3 = castle #Beaufort les Outards (maison forte) 1246
+b_beaufort5 = temple #Hauteluce
 
 #b_beaufort4 = castle
-#b_beaufort5 = temple
+
 #b_beaufort6 = city
 
 
@@ -23,9 +25,9 @@ terrain = mountain
 # History
 
 
- 999.9.9 = {	b_beaufort1 = castle	}
- 999.9.9 = { 	capital = b_beaufort1	}
- 999.9.9 = {	b_beaufort2 = castle	}
+ #999.9.9 = {	b_beaufort1 = castle	}
+ #999.9.9 = { 	capital = b_beaufort1	}
+ #999.9.9 = {	b_beaufort2 = castle	}
 #1135.1.1 = {	remove_settlement = b_beaufort1 }
 #1135.1.1 = {	remove_settlement = b_beaufort2 }
 #1135.1.1 = {	b_beaufort1 = castle	}

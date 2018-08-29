@@ -9,10 +9,10 @@ max_settlements = 6
 
 b_aoste1 = castle
 b_aoste2 = temple
-b_aoste3 = city
+#b_aoste3 = city
 
-#b_aoste4 = castle #Challant http://fr.wikipedia.org/wiki/Maison_de_Challant  //  château de Villa l'actuel Château de Ville
-#b_aoste5 = temple
+b_aoste4 = castle #Challant http://fr.wikipedia.org/wiki/Maison_de_Challant  //  château de Villa l'actuel Château de Ville
+#b_aoste5 = castle
 #b_aoste6 = city
 
 
@@ -27,3 +27,4 @@ religion = catholic
 #La principale famille féodale est la Maison de Challant d’où sont issus les vicomtes d’Aoste dès le début du XIe siècle. Ebal Ier de Challant renonce à ce titre en 1295 au profit de la Maison de savoie.
 #http://fr.wikipedia.org/wiki/Histoire_de_la_Vall%C3%A9e_d%27Aoste#Le_Moyen_.C3.82ge
 
+1182.1.1 = {	b_aoste3 = city	}
