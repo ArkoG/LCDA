@@ -77,7 +77,7 @@ b_geneve6;Versoix;Versoix;;;;;;;;;;;;x
 d_chablais;Chablais;Chablais;;;;;;;;;;;;x
 d_chablais_adj;captulensian;chablaissienne;;;;;;;;;;;;x
 #;;seigneurie de SAINT-MAURICE;;;;;;;;;;;;x		
-PROV27;Saint-Maurice;Saint-Maurice;;;;;;;;;;;;x
+PROV27;Agaune;Agaune;;;;;;;;;;;;x
 c_saintmaurice_adj;;;;;;;;;;;;;;x
 b_saintmaurice1;Evionnaz;Evionnaz;;;;;;;;;;;;x
 b_saintmaurice2;Saint-Maurice;Saint-Maurice;;;;;;;;;;;;x
@@ -145,7 +145,7 @@ b_trient6;;Argentière;;;;;;;;;;;;x
 #;;seigneurie de VALMONJOIE;;;;;;;;;;;;x
 PROV10;Montjoie;Montjoie;;;;;;;;;;;;x
 c_montjoie_adj;;;;;;;;;;;;;;x
-b_montjoie1;Montjoie;Montjoie;;;;;;;;;;;;x
+b_montjoie1;Contamines;Contamines;;;;;;;;;;;;x
 b_montjoie2;Saint-Gervais;Saint-Gervais;;;;;;;;;;;;x
 b_montjoie3;Sallanches;Sallanches;;;;;;;;;;;;x
 b_montjoie4;Flumet;;;;;;;;;;;;;x
@@ -230,38 +230,38 @@ b_beaufort1;;Beaufort;;;;;;;;;;;;x
 b_beaufort2;;Vanches;;;;;;;;;;;;x
 b_beaufort3;;Outards;;;;;;;;;;;;x
 b_beaufort4;;Queige;;;;;;;;;;;;x
-b_beaufort5;;Arêches;;;;;;;;;;;;x
+b_beaufort5;;Hauteluce;;;;;;;;;;;;x
 b_beaufort6;;La Gittaz;;;;;;;;;;;;x
 #;;COMTE DE MAURIENNE;;;;;;;;;;;;x
 d_maurienne;;Maurienne;;;;;;;;;;;;x
 d_maurienne_adj;;;;;;;;;;;;;;x
-#;;seigneurie de MAURIENNE;;;;;;;;;;;;x
-PROV19;Maurienne;Maurienne;;;;;;;;;;;;x
+#;;seigneurie de Aiguebelle;;;;;;;;;;;;x
+PROV19;Aiguebelle;Aiguebelle;;;;;;;;;;;;x
+c_aiguebelle_adj;;;;;;;;;;;;;;x
+b_aiguebelle1;;Charbonnières;;;;;;;;;;;;x
+b_aiguebelle2;Hermillon;;;;;;;;;;;;;x
+b_aiguebelle3;;Aiguebelle;;;;;;;;;;;;x
+b_aiguebelle4;La Chambre;;;;;;;;;;;;;x
+b_aiguebelle5;Cuines;;;;;;;;;;;;;x
+b_aiguebelle6;;;;;;;;;;;;;;x
+#;;seigneurie de MAurienne;;;;;;;;;;;;x
+PROV20;Maurienne;Maurienne;;;;;;;;;;;;x
 c_maurienne_adj;;;;;;;;;;;;;;x
-b_maurienne1;;Charbonnières;;;;;;;;;;;;x
-b_maurienne2;;Saint-Jean;;;;;;;;;;;;x
-b_maurienne3;;Aiguebelle;;;;;;;;;;;;x
-b_maurienne4;;Hermillon;;;;;;;;;;;;x
-b_maurienne5;;Saint-Michel;;;;;;;;;;;;x
+b_maurienne1;Saint-Jean;;;;;;;;;;;;;x
+b_maurienne2;Saint-Michel;;;;;;;;;;;;;x
+b_maurienne3;;;;;;;;;;;;;;x
+b_maurienne4;;;;;;;;;;;;;;x
+b_maurienne5;;;;;;;;;;;;;;x
 b_maurienne6;;;;;;;;;;;;;;x
-#;;seigneurie de MODANE;;;;;;;;;;;;x
-PROV20;Modane;Modane;;;;;;;;;;;;x
+#;;seigneurie de Modane;;;;;;;;;;;;x
+PROV21;Modane;Modane;;;;;;;;;;;;x
 c_modane_adj;;;;;;;;;;;;;;x
-b_modane1;;;;;;;;;;;;;;x
-b_modane2;;;;;;;;;;;;;;x
-b_modane3;;;;;;;;;;;;;;x
+b_modane1;Modane;Modane;;;;;;;;;;;;x
+b_modane2;Saint-André;;;;;;;;;;;;;x
+b_modane3;Mont-Cenis;;;;;;;;;;;;;x
 b_modane4;;;;;;;;;;;;;;x
-b_modane5;;;;;;;;;;;;;;x
+b_modane5;Novalaise;;;;;;;;;;;;;x
 b_modane6;;;;;;;;;;;;;;x
-#;;seigneurie de MONT-CENIS;;;;;;;;;;;;x
-PROV21;Mont-Cenis;Mont-Cenis;;;;;;;;;;;;x
-c_montcenis_adj;;;;;;;;;;;;;;x
-b_montcenis1;;;;;;;;;;;;;;x
-b_montcenis2;;Mont-Cenis;;;;;;;;;;;;x
-b_montcenis3;;;;;;;;;;;;;;x
-b_montcenis4;;;;;;;;;;;;;;x
-b_montcenis5;;;;;;;;;;;;;;x
-b_montcenis6;;;;;;;;;;;;;;x
 #;;COMTE DE TARENTAISE;;;;;;;;;;;;x
 d_tarentaise;;Tarentaise;;;;;;;;;;;;x
 d_tarentaise_adj;;tarine;;;;;;;;;;;;x
@@ -275,7 +275,7 @@ b_moutiers4;;;;;;;;;;;;;;x
 b_moutiers5;;;;;;;;;;;;;;x
 b_moutiers6;;;;;;;;;;;;;;x
 #;;seigneurie de BOURG-ST-MAURICE;;;;;;;;;;;;x
-PROV23;Bourg-Saint-Maurice;Bourg-Saint-Maurice;;;;;;;;;;;;x
+PROV23;Saint-Maurice;Saint-Maurice;;;;;;;;;;;;x
 c_bourgsaintmaurice_adj;;;;;;;;;;;;;;x
 b_bourgsaintmaurice1;;Saint-Maurice;;;;;;;;;;;;x
 b_bourgsaintmaurice2;;Bourg-Saint-Maurice;;;;;;;;;;;;x
@@ -330,7 +330,7 @@ PROV25;Aoste;Aoste;;;;;;;;;;;;x
 c_aoste_adj;;;;;;;;;;;;;;x
 b_aoste1;;Aoste;;;;;;;;;;;;x
 b_aoste2;;Aoste;;;;;;;;;;;;x
-b_aoste3;;;;;;;;;;;;;;x
+b_aoste3;Challant;;;;;;;;;;;;;x
 b_aoste4;;;;;;;;;;;;;;x
 b_aoste5;;;;;;;;;;;;;;x
 b_aoste6;;;;;;;;;;;;;;x
@@ -339,7 +339,7 @@ PROV26;Châtillon;Châtillon;;;;;;;;;;;;x
 c_chatillon_adj;;;;;;;;;;;;;;x
 b_chatillon1;;Châtillon;;;;;;;;;;;;x
 b_chatillon2;;;;;;;;;;;;;;x
-b_chatillon3;;;;;;;;;;;;;;x
+b_chatillon3;Gressoney;;;;;;;;;;;;;x
 b_chatillon4;;;;;;;;;;;;;;x
 b_chatillon5;;;;;;;;;;;;;;x
 b_chatillon6;;;;;;;;;;;;;;x
@@ -566,13 +566,16 @@ b_saintoyand7;;;;;;;;;;;;;;x
 
 #;;COMTE D'EMBRUNOIS;;;;;;;;;;;;x
 
+#;;DUCHE TRANSJURANE;;;;;;;;;;;;x
 k_transjurane;Transjurania;;;;;;;;;;;;;x
 k_transjurane_adj;transjurian;transjurane;;;;;;;;;;;;x
-
+#;;COMTE DE BARGEN;;;;;;;;;;;;x
 d_bargengau;Bargengau;;;;;;;;;;;;;x
 d_bargengau_adj;bargengauer;;;;;;;;;;;;;x
+#;;seigneurie  SEFTINGEN;;;;;;;;;;;;x
 PROV60;Seftingen;;;;;;;;;;;;;x
 c_seftingen_adj;seftingener;;;;;;;;;;;;;x
+#;;seigneurie  BERN;;;;;;;;;;;;x
 PROV80;Bern;;;;;;;;;;;;;x
 c_bern_adj;berner;;;;;;;;;;;;;x
 b_bern1;Bern;;;;;;;;;;;;;x
@@ -580,6 +583,7 @@ b_bern2;Bümpliz;;;;;;;;;;;;;x
 b_bern3;Köniz;;;;;;;;;;;;;x
 COUNTY_BUMPLIZ;Bümpliz;;;;;;;;;;;;;x
 COUNTY_BUMPLIZ_ADJ;bümplizer;;;;;;;;;;;;;x
+#;;seigneurie  LAUPEN;;;;;;;;;;;;x
 PROV61;Laupen;;;;;;;;;;;;;x
 c_laupen_adj;laupener;;;;;;;;;;;;;x
 b_laupen1;Laupen;;;;;;;;;;;;;x
@@ -587,6 +591,7 @@ b_laupen1;Laupen;;;;;;;;;;;;;x
 b_laupen3;Gümmenen;;;;;;;;;;;;;x
 COUNTY_STERNBERG;Sternberg;;;;;;;;;;;;;x
 COUNTY_STERNBERG_ADJ;sternberger;;;;;;;;;;;;;x
+#;;seigneurie  NIDAU;;;;;;;;;;;;x
 PROV62;Nidau;;;;;;;;;;;;;x
 c_nidau_adj;nidauer;;;;;;;;;;;;;x
 b_nidau1;Nidau;;;;;;;;;;;;;x
@@ -596,7 +601,6 @@ d_oberaargau;Ober-Aargau;;;;;;;;;;;;;x
 d_oberaargau_adj;oberargauer;;;;;;;;;;;;;x
 PROV63;Zollikofen;;;;;;;;;;;;;x
 c_zollikofen_adj;Zollikofener;;;;;;;;;;;;;x
-
 b_zollikofen1;Berthoud;;;;;;;;;;;;x
 b_zollikofen2;Aarberg;;;;;;;;;;;;x
 b_zollikofen3;;;;;;;;;;;;;x
@@ -606,18 +610,144 @@ b_zollikofen6;;;;;;;;;;;;;;x
 
 PROV64;Murgeten;;;;;;;;;;;;;x
 c_murgeten_adj;murgentener;;;;;;;;;;;;;x
-
 b_murgeten1;Landshut;;;;;;;;;;;;x
 
 PROV65;Ranflüh;;;;;;;;;;;;;x
 c_ranfluh_adj;ranfluher;;;;;;;;;;;;;x
-
 b_ranfluh1;Signau;;;;;;;;;;;;x
 
 PROV66;Konolflingen;;;;;;;;;;;;;x
 c_konolflingen_adj;konoflingener;;;;;;;;;;;;;x
+
+
+
+d_thun;Thun;;;;;;;;;;;;;x
+d_thun_adj;thuner;;;;;;;;;;;;;x
+
 PROV67;Thun;;;;;;;;;;;;;x
 c_thun_adj;thuner;;;;;;;;;;;;;x
+b_thun1;Thun;;;;;;;;;;;;;x
+b_thun2;;;;;;;;;;;;;;x
+b_thun3;;;;;;;;;;;;;;x
+b_thun4;;;;;;;;;;;;;;x
+b_thun5;;;;;;;;;;;;;;x
+b_thun6;;;;;;;;;;;;;;x
+
+PROV71;Strättligen;;;;;;;;;;;;;x
+c_strattligen_adj;;;;;;;;;;;;;;x
+b_strattligen1;;;;;;;;;;;;;;x
+b_strattligen2;;;;;;;;;;;;;;x
+b_strattligen3;;;;;;;;;;;;;;x
+b_strattligen4;;;;;;;;;;;;;;x
+b_strattligen5;;;;;;;;;;;;;;x
+b_strattligen6;;;;;;;;;;;;;;x
+
+PROV72;Spiez;;;;;;;;;;;;;x
+c_spiez_adj;;;;;;;;;;;;;;x
+b_spiez1;;;;;;;;;;;;;;x
+b_spiez2;;;;;;;;;;;;;;x
+b_spiez3;;;;;;;;;;;;;;x
+b_spiez4;;;;;;;;;;;;;;x
+b_spiez5;;;;;;;;;;;;;;x
+b_spiez6;;;;;;;;;;;;;;x
+
+PROV73;Reichenbach;;;;;;;;;;;;;x
+c_reichenbach_adj;;;;;;;;;;;;;;x
+b_reichenbach1;;;;;;;;;;;;;;x
+b_reichenbach2;;;;;;;;;;;;;;x
+b_reichenbach3;;;;;;;;;;;;;;x
+b_reichenbach4;;;;;;;;;;;;;;x
+b_reichenbach5;;;;;;;;;;;;;;x
+b_reichenbach6;;;;;;;;;;;;;;x
+
+PROV74;Frutigen;;;;;;;;;;;;;x
+c_frutigen_adj;;;;;;;;;;;;;;x
+b_frutigen1;;;;;;;;;;;;;;x
+b_frutigen2;;;;;;;;;;;;;;x
+b_frutigen3;;;;;;;;;;;;;;x
+b_frutigen4;;;;;;;;;;;;;;x
+b_frutigen5;;;;;;;;;;;;;;x
+b_frutigen6;;;;;;;;;;;;;;x
+
+d_simmental;Simmental;;;;;;;;;;;;;x
+d_simmental_adj;;;;;;;;;;;;;;x
+
+PROV69;Niedersimmental;;;;;;;;;;;;;x
+c_niedersimmental_adj;;;;;;;;;;;;;;x
+b_niedersimmental1;Oberwil;;;;;;;;;;;;;x
+b_niedersimmental2;;;;;;;;;;;;;;x
+b_niedersimmental3;;;;;;;;;;;;;;x
+b_niedersimmental4;;;;;;;;;;;;;;x
+b_niedersimmental5;;;;;;;;;;;;;;x
+b_niedersimmental6;;;;;;;;;;;;;;x
+
+PROV70;Obersimmental;;;;;;;;;;;;;x
+c_obersimmental_adj;;;;;;;;;;;;;;x
+b_obersimmental1;;;;;;;;;;;;;;x
+b_obersimmental2;;;;;;;;;;;;;;x
+b_obersimmental3;;;;;;;;;;;;;;x
+b_obersimmental4;;;;;;;;;;;;;;x
+b_obersimmental5;;;;;;;;;;;;;;x
+b_obersimmental6;;;;;;;;;;;;;;x
+
+PROV68;Diemtigal;;;;;;;;;;;;;x
+c_diemtigal_adj;;;;;;;;;;;;;;x
+b_diemtigal1;Diemtigal;;;;;;;;;;;;;x
+b_diemtigal2;;;;;;;;;;;;;;x
+b_diemtigal3;;;;;;;;;;;;;;x
+b_diemtigal4;;;;;;;;;;;;;;x
+b_diemtigal5;;;;;;;;;;;;;;x
+b_diemtigal6;;;;;;;;;;;;;;x
+
+d_interlaken;Interlaken;;;;;;;;;;;;;x
+d_interlaken_adj;;;;;;;;;;;;;;x
+
+PROV75;Interlaken;;;;;;;;;;;;;x
+c_interlaken_adj;;;;;;;;;;;;;;x
+b_interlaken1;Interlaken;;;;;;;;;;;;;x
+b_interlaken2;;;;;;;;;;;;;;x
+b_interlaken3;;;;;;;;;;;;;;x
+b_interlaken4;;;;;;;;;;;;;;x
+b_interlaken5;;;;;;;;;;;;;;x
+b_interlaken6;;;;;;;;;;;;;;x
+
+PROV76;Unspunnen;;;;;;;;;;;;;x
+c_unspunnen_adj;;;;;;;;;;;;;;x
+b_unspunnen1;;;;;;;;;;;;;;x
+b_unspunnen2;;;;;;;;;;;;;;x
+b_unspunnen3;;;;;;;;;;;;;;x
+b_unspunnen4;;;;;;;;;;;;;;x
+b_unspunnen5;;;;;;;;;;;;;;x
+b_unspunnen6;;;;;;;;;;;;;;x
+
+PROV77;Lütschental;;;;;;;;;;;;;x
+c_lutschental_adj;;;;;;;;;;;;;;x
+b_lutschental1;;;;;;;;;;;;;;x
+b_lutschental2;;;;;;;;;;;;;;x
+b_lutschental3;;;;;;;;;;;;;;x
+b_lutschental4;;;;;;;;;;;;;;x
+b_lutschental5;;;;;;;;;;;;;;x
+b_lutschental6;;;;;;;;;;;;;;x
+
+PROV78;Ringenberg;;;;;;;;;;;;;x
+c_ringenberg_adj;;;;;;;;;;;;;;x
+b_ringenberg1;;;;;;;;;;;;;;x
+b_ringenberg2;;;;;;;;;;;;;;x
+b_ringenberg3;;;;;;;;;;;;;;x
+b_ringenberg4;;;;;;;;;;;;;;x
+b_ringenberg5;;;;;;;;;;;;;;x
+b_ringenberg6;;;;;;;;;;;;;;x
+
+d_oberhasli;Oberhasli;;;;;;;;;;;;;x
+d_oberhasli_adj;;;;;;;;;;;;;;x
+PROV79;Meiringen;;;;;;;;;;;;;x
+c_meiringen_adj;;;;;;;;;;;;;;x
+b_meiringen1;Meiringen;;;;;;;;;;;;;x
+b_meiringen2;;;;;;;;;;;;;;x
+b_meiringen3;;;;;;;;;;;;;;x
+b_meiringen4;;;;;;;;;;;;;;x
+b_meiringen5;;;;;;;;;;;;;;x
+b_meiringen6;;;;;;;;;;;;;;x
 
 PROV333;Roma;;;;;;;;;;;;;x
 c_roma_adj;roman;;;;;;;;;;;;;x
