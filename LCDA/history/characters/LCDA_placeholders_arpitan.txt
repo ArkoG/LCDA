@@ -714,7 +714,7 @@
 	1093.3.30={ death=yes }
 }
 6066={
-	name="ValÃ¨re"
+	name="Valière"
 	dynasty=6004
 	#dna="jbkpcogfchi"
 	culture=arpitan religion=catholic
@@ -1060,7 +1060,7 @@
 	1063.6.11={ death=yes }
 }
 6098={
-	name="SolÃ¨ne"
+	name="Solène"
 	female=yes
 	dynasty=6006
 	#dna="denmfdoihen"
@@ -1396,7 +1396,7 @@
 	1071.2.7={ death=yes }
 }
 6129={
-	name="HÃ©ribert"
+	name="Héribert"
 	dynasty=6008
 	#dna="lckeoogenlj"
 	culture=arpitan religion=catholic
