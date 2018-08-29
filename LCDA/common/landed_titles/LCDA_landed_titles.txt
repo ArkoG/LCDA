@@ -255,7 +255,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 			color={ 100 110 20 }
 			color2={ 172 4 10 }
 			
-			capital = 68 #Oberwil
+			capital = 69 #Oberwil
 
 			c_niedersimmental = { #69 Niedersimmental
 				color={ 190 140 90 }
@@ -639,9 +639,9 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 			color={ 0 86 148 }
 			color2={ 172 4 10 }
 			
-			capital = 19 #Saint Jean de Maurienne	
+			capital = 20 #Saint Jean de Maurienne	
 					
-			c_maurienne = { #19
+			c_aiguebelle = { #19
 				color={ 172 4 10 }
 				color2={ 255 255 255 }
 				
@@ -650,39 +650,36 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				holy_site = catholic
 				holy_site = orthodox
 				
+				b_aiguebelle1 = {}
+				b_aiguebelle2 = {  }
+				b_aiguebelle3 = {}
+				b_aiguebelle4 = {}
+				b_aiguebelle5 = {}
+				b_aiguebelle6 = {}
+			}
+			c_maurienne = { #20
+				color={ 0 86 148 }
+				color2={ 250 188 0 }
+			
 				b_maurienne1 = {}
-				b_maurienne2 = {  }
+				b_maurienne2 = {}
 				b_maurienne3 = {}
 				b_maurienne4 = {}
 				b_maurienne5 = {}
 				b_maurienne6 = {}
 			}
-			c_modane = { #20
-				color={ 0 86 148 }
-				color2={ 250 188 0 }
-			
+			c_modane = { #21
+				color={ 172 4 10 }
+				color2={ 255 255 255 }
+				
+				culture = arpitan			
+						
 				b_modane1 = {}
 				b_modane2 = {}
 				b_modane3 = {}
 				b_modane4 = {}
 				b_modane5 = {}
 				b_modane6 = {}
-			}
-			c_montcenis = { #21
-				color={ 172 4 10 }
-				color2={ 255 255 255 }
-				
-				culture = arpitan			
-					title = "PORTIER"
-					foa = "PORTIER_FOA"
-					title_prefix = "PORTIER_OF"	
-						
-				b_montcenis1 = {}
-				b_montcenis2 = {}
-				b_montcenis3 = {}
-				b_montcenis4 = {}
-				b_montcenis5 = {}
-				b_montcenis6 = {}
 			}
 			#allow = {	is_feudal = yes		}
 		}
