@@ -14,7 +14,7 @@ b_montjoie1 = castle #Montjoie
 #b_montjoie3 = city #Sallanches #franchises en 1310
 
 #b_montjoie4 = castle #flumet fortifié au 12eme/13eme
-#b_montjoie5 = temple #libre
+#b_montjoie5 =city #vallorcine
 #b_montjoie6 = city #libre
 
 
@@ -35,3 +35,5 @@ religion = catholic
 1120.1.1 = { b_montjoie4 = castle }
 #1120.1.1 = {	b_montjoie4 = FORT }
 1120.1.1 = { 	max_settlements = 5 }
+1264.5.14 = { b_montjoie5 = city } #donation de Chamonix aux walsers Vallorcine+finhaut. 19 avril 1285 Walser Petrus
+#1264.5.14 = { b_montjoie5 = RURALE } #donation de Chamonix aux walsers Vallorcine+finhaut. 
