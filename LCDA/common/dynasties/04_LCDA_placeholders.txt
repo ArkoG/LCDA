@@ -11,3 +11,25 @@
 5006 = { name = "von Thun"	culture = alemanique }
 5007 = { name = "von Ufgau"	culture = alemanique } #non landed
 5008 = { name = "von Aargau"	culture = souabe }
+
+#range 6001//
+
+6001 = { name = "d'Albens"	culture = arpitan }
+6002 = { name = "de Bourget"	culture = arpitan }
+6003 = { name = "de Pontcharra"	culture = arpitan } #Graisvaudan
+6004 = { name = "de Voreppe"	culture = arpitan } #Voirons
+6005 = { name = "de Ternier"	culture = arpitan } #Seyssel
+6006 = { name = "de Conflans"	culture = arpitan }
+6007 = { name = "de Seyssel"	culture = arpitan } #non landed
+6008 = { name = "de Moirans"	culture = arpitan }
+
+#range 6909//
+
+6909 = { name = "de courmayeur"	culture = arpitan }
+6910 = { name = "d'Aoste"	culture = arpitan }
+6911= { name = "de Challant"	culture = arpitan } #*Chatillon en Aoste
+6912 = { name = "d'Ardon"	culture = arpitan } #Conthey
+6913 = { name = "de La Tour"	culture = arpitan } #b_conthey4 Saillon
+6914 = { name = "d'Ollon"	culture = arpitan } #Aigle
+6915 = { name = "d'Arvier"	culture = arpitan } #non landed en Aoste
+6916 = { name = "de Termignon"	culture = arpitan } #Modane

@@ -1,1524 +1,1524 @@
 ###LCDA 
-##placeholders HRE
-#range 5001//...
+##placeholders Arpitan
+#range 6201//...
 
-#5001
-5001={
-	name=Lutbert
-	dynasty=5001
+#6209
+6201={
+	name="Érrard"
+	dynasty=6909
 	#dna="mbcngpehjjm"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=6 stewardship=5 intrigue=4 learning=8
 	add_trait=detached_priest add_trait=gregarious add_trait=wroth add_trait=lunatic 
 	999.2.4={ birth=yes }
 	1071.11.11={ death=yes }
 }
-5002={
-	name=Otto
-	dynasty=5001
+6202={
+	name="Aimery"
+	dynasty=6909
 	#dna="nemjhpnljaj"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=4 stewardship=4 intrigue=5 learning=5
 	add_trait=naive_appeaser add_trait=zealous add_trait=arbitrary add_trait=diligent add_trait=stressed 
-	father=5001	#Lutbert
+	father=6201	#Érrard
 	1012.10.25={ birth=yes }
 	1073.3.20={ death=yes }
 }
-5003={
-	name=Wilhelmina
+6203={
+	name="Echive"
 	female=yes
-	dynasty=5001
+	dynasty=6909
 	#dna="kacngacmobc"
-	culture=alemanique religion=catholic
-	father=5001	#Lutbert
+	culture=arpitan religion=catholic
+	father=6201	#Érrard
 	1021.5.23={ birth=yes }
 	1089.7.25={ death=yes }
 }
-5004={
-	name=Giselbert
-	dynasty=5001
+6204={
+	name="Sigismond"
+	dynasty=6909
 	#dna="mbgjgiehjdk"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=4 diplomacy=6 stewardship=4 intrigue=8 learning=8
 	add_trait=scholarly_theologian add_trait=just add_trait=cruel add_trait=wroth add_trait=slothful 
 	add_trait=depressed add_trait=ugly 
-	father=5001	#Lutbert
+	father=6201	#Érrard
 	1029.6.7={ birth=yes }
 	1102.3.20={ death=yes }
 }
-5005={
-	name=Nikolaus
-	dynasty=5001
+6205={
+	name="Jaufré"
+	dynasty=6909
 	#dna="hemjhpfcjah"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=4 stewardship=8 intrigue=6 learning=4
 	add_trait=indulgent_wastrel add_trait=zealous add_trait=deceitful add_trait=ambitious add_trait=craven 
-	father=5002	#Otto
+	father=6202	#Aimery
 	1019.9.12={ birth=yes }
 	1093.2.14={ death=yes }
 }
-5006={
-	name=Ruprecht
-	dynasty=5001
+6206={
+	name="Géraud"
+	dynasty=6909
 	#dna="ifmdbbnlgaa"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=5 stewardship=5 intrigue=5 learning=8
 	add_trait=grey_eminence add_trait=deceitful add_trait=wroth add_trait=slothful add_trait=envious 
 	add_trait=harelip 
-	father=5002	#Otto
+	father=6202	#Aimery
 	1028.4.20={ birth=yes }
 	1084.1.25={ death=yes }
 }
-5007={
-	name=Giselbert
-	dynasty=5001
+6207={
+	name="Sigismond"
+	dynasty=6909
 	#dna="nemjpcolpbn"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=7 stewardship=6 intrigue=8 learning=8
 	add_trait=martial_cleric add_trait=envious add_trait=arbitrary add_trait=deceitful add_trait=brave 
-	father=5002	#Otto
+	father=6202	#Aimery
 	1033.8.14={ birth=yes }
 	1091.8.20={ death=yes }
 }
-5008={
-	name=Guntram
-	dynasty=5001
+6208={
+	name="Vuillielme"
+	dynasty=6909
 	#dna="iidfjbfcjbh"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=7 stewardship=4 intrigue=8 learning=7
 	add_trait=charismatic_negotiator add_trait=greedy add_trait=brave add_trait=wroth add_trait=envious 
 	add_trait=cruel 
-	father=5005	#Nikolaus
+	father=6205	#Jaufré
 	1020.7.15={ birth=yes }
 	1086.3.3={ death=yes }
 }
-5009={
-	name=Barbara
+6209={
+	name="Arsinde"
 	female=yes
-	dynasty=5001
+	dynasty=6909
 	#dna="hemcpdfmjdh"
-	culture=alemanique religion=catholic
-	father=5005	#Nikolaus
+	culture=arpitan religion=catholic
+	father=6205	#Jaufré
 	1027.7.22={ birth=yes }
 	1076.11.28={ death=yes }
 }
-5010={
-	name=Walther
-	dynasty=5001
+6210={
+	name="Guichard"
+	dynasty=6909
 	#dna="bbmjmdmcjah"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=4 stewardship=7 intrigue=7 learning=4
 	add_trait=grey_eminence add_trait=cruel add_trait=craven add_trait=cynical add_trait=ambitious 
 	add_trait=paranoid add_trait=gregarious add_trait=depressed 
-	father=5005	#Nikolaus
+	father=6205	#Jaufré
 	1034.11.22={ birth=yes }
 	1089.7.9={ death=yes }
 }
-5011={
-	name=Walther
-	dynasty=5001
+6211={
+	name="Guichard"
+	dynasty=6909
 	#dna="hcojhjacglh"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=8 stewardship=6 intrigue=4 learning=6
 	add_trait=midas_touched add_trait=impaler add_trait=ambitious add_trait=just add_trait=honest 
-	father=5005	#Nikolaus
+	father=6205	#Jaufré
 	1038.6.27={ birth=yes }
 	1114.8.28={ death=yes }
 }
-5012={
-	name=Oda
+6212={
+	name="Adalmode"
 	female=yes
-	dynasty=5001
+	dynasty=6909
 	#dna="hkmfdgfcdag"
-	culture=alemanique religion=catholic
-	father=5005	#Nikolaus
+	culture=arpitan religion=catholic
+	father=6205	#Jaufré
 	1041.9.3={ birth=yes }
 	1098.3.6={ death=yes }
 }
-5013={
-	name=Adelheid
+6213={
+	name="Adelaide"
 	female=yes
-	dynasty=5001
+	dynasty=6909
 	#dna="gilljffgjbh"
-	culture=alemanique religion=catholic
-	father=5008	#Guntram
+	culture=arpitan religion=catholic
+	father=6208	#Vuillielme
 	1034.3.27={ birth=yes }
 	1108.1.18={ death=yes }
 }
-5014={
-	name=Ezzo
-	dynasty=5001
+6214={
+	name="Ebbon"
+	dynasty=6909
 	#dna="iiokbifclbh"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=6 stewardship=4 intrigue=6 learning=7
 	add_trait=charismatic_negotiator add_trait=cruel add_trait=humble add_trait=content add_trait=fair 
-	father=5008	#Guntram
+	father=6208	#Vuillielme
 	1040.11.5={ birth=yes }
 	1095.6.14={ death=yes }
 }
-5015={
-	name=Berthold
-	dynasty=5001
+6215={
+	name="Bertrand"
+	dynasty=6909
 	#dna="dihkpifchjh"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=4 stewardship=8 intrigue=4 learning=8
 	add_trait=flamboyant_schemer add_trait=wroth add_trait=cruel add_trait=greedy add_trait=craven 
-	father=5014	#Ezzo
+	father=6214	#Ebbon
 	1050.8.5={ birth=yes }
 	1119.9.18={ death=yes }
 }
-5016={
-	name=Gunhilda
+6216={
+	name="Béatrix"
 	female=yes
-	dynasty=5001
+	dynasty=6909
 	#dna="iiikbekplii"
-	culture=alemanique religion=catholic
-	father=5014	#Ezzo
+	culture=arpitan religion=catholic
+	father=6214	#Ebbon
 	1059.3.6={ birth=yes }
 	1129.5.3={ death=yes }
 }
-5017={
-	name=Berchte
+6217={
+	name="Blanche"
 	female=yes
-	dynasty=5001
+	dynasty=6909
 	#dna="iimeaicolbh"
-	culture=alemanique religion=catholic
-	father=5014	#Ezzo
+	culture=arpitan religion=catholic
+	father=6214	#Ebbon
 	1070.7.11={ birth=yes }
 	1120.5.14={ death=yes }
 }
 
-##5002
-5018={
-	name=Konrad
-	dynasty=5002
+##6202
+6218={
+	name="Charles"
+	dynasty=6910
 	#dna="fkojonnkbck"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=8 stewardship=5 intrigue=8 learning=6
 	add_trait=flamboyant_schemer add_trait=charitable add_trait=shy add_trait=paranoid 
 	1000.12.6={ birth=yes }
 	1058.8.15={ death=yes }
 }
-5019={
-	name=Baldewin
-	dynasty=5002
+6219={
+	name="Bernard"
+	dynasty=6910
 	#dna="fnibankjeck"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=7 stewardship=6 intrigue=4 learning=6
 	add_trait=mastermind_theologian add_trait=kind add_trait=craven add_trait=honest add_trait=shy 
-	father=5018	#Konrad
+	father=6218	#Charles
 	1006.6.20={ birth=yes }
 	1048.10.4={ death=yes }
 }
-5020={
-	name=Heike
+6220={
+	name="Anne"
 	female=yes
-	dynasty=5002
+	dynasty=6910
 	#dna="fmdjgnnkbfg"
-	culture=alemanique religion=catholic
-	father=5018	#Konrad
+	culture=arpitan religion=catholic
+	father=6218	#Charles
 	1017.5.6={ birth=yes }
 	1067.12.28={ death=yes }
 }
-5021={
-	name=Wulfhilde
+6221={
+	name="Adèle"
 	female=yes
-	dynasty=5002
+	dynasty=6910
 	#dna="fnifgnnjbck"
-	culture=alemanique religion=catholic
-	father=5019	#Baldewin
+	culture=arpitan religion=catholic
+	father=6219	#Bernard
 	1014.3.21={ birth=yes }
 	1064.1.19={ death=yes }
 }
-5022={
-	name=Gerlach
-	dynasty=5002
+6222={
+	name="Oddon"
+	dynasty=6910
 	#dna="bdibainmejk"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=5 stewardship=5 intrigue=6 learning=4
 	add_trait=naive_appeaser add_trait=slothful add_trait=zealous add_trait=chaste add_trait=patient 
-	father=5019	#Baldewin
+	father=6219	#Bernard
 	1023.7.24={ birth=yes }
 	1095.7.20={ death=yes }
 }
-5023={
-	name=Konstanze
+6223={
+	name="Helvis"
 	female=yes
-	dynasty=5002
+	dynasty=6910
 	#dna="fcbmdnkoeic"
-	culture=alemanique religion=catholic
-	father=5019	#Baldewin
+	culture=arpitan religion=catholic
+	father=6219	#Bernard
 	1028.2.14={ birth=yes }
 	1085.10.10={ death=yes }
 }
-5024={
-	name=Folkmar
-	dynasty=5002
+6224={
+	name="Herbert"
+	dynasty=6910
 	#dna="fnacankjemn"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=6 stewardship=4 intrigue=6 learning=7
 	add_trait=indulgent_wastrel add_trait=patient add_trait=cynical add_trait=gluttonous add_trait=chaste 
-	father=5019	#Baldewin
+	father=6219	#Bernard
 	1032.11.21={ birth=yes }
 	1095.5.12={ death=yes }
 }
-5025={
-	name=Helga
+6225={
+	name="Douce"
 	female=yes
-	dynasty=5002
+	dynasty=6910
 	#dna="fgibnnmkhcb"
-	culture=alemanique religion=catholic
-	father=5019	#Baldewin
+	culture=arpitan religion=catholic
+	father=6219	#Bernard
 	1038.9.3={ birth=yes }
 	1103.7.5={ death=yes }
 }
-5026={
-	name=Kunigunde
+6226={
+	name="Ottilie"
 	female=yes
-	dynasty=5002
+	dynasty=6910
 	#dna="kdfbnelmnha"
-	culture=alemanique religion=catholic
-	father=5022	#Gerlach
+	culture=arpitan religion=catholic
+	father=6222	#Oddon
 	1031.8.16={ birth=yes }
 	1080.10.17={ death=yes }
 }
-5027={
-	name=Stefan
-	dynasty=5002
+6227={
+	name="Savary"
+	dynasty=6910
 	#dna="bdibfinmejk"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=5 stewardship=6 intrigue=5 learning=6
 	add_trait=grey_eminence add_trait=arbitrary add_trait=wroth add_trait=proud add_trait=cruel 
 	add_trait=zealous add_trait=lustful add_trait=wounded 
-	father=5022	#Gerlach
+	father=6222	#Oddon
 	1037.11.10={ birth=yes }
 	1108.8.1={ death=yes }
 }
-5028={
-	name=Ulrich
-	dynasty=5002
+6228={
+	name="Savary"
+	dynasty=6910
 	#dna="idibjinjejo"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=4 stewardship=4 intrigue=5 learning=6
 	add_trait=flamboyant_schemer add_trait=cynical add_trait=patient add_trait=honest add_trait=just 
 	add_trait=gregarious add_trait=kind add_trait=lunatic 
-	father=5022	#Gerlach
+	father=6222	#Oddon
 	1045.12.25={ birth=yes }
 	1115.9.17={ death=yes }
 }
-5029={
-	name=Isentrude
+6229={
+	name="Éléonore"
 	female=yes
-	dynasty=5002
+	dynasty=6910
 	#dna="fdjbainjedb"
-	culture=alemanique religion=catholic
-	father=5022	#Gerlach
+	culture=arpitan religion=catholic
+	father=6222	#Oddon
 	1052.9.12={ birth=yes }
 	1107.5.19={ death=yes }
 }
-5030={
-	name=Heilwiva
+6230={
+	name="Adelinde"
 	female=yes
-	dynasty=5002
+	dynasty=6910
 	#dna="fckbfnnnefi"
-	culture=alemanique religion=catholic
-	father=5022	#Gerlach
+	culture=arpitan religion=catholic
+	father=6222	#Oddon
 	1060.2.23={ birth=yes }
 	1105.3.31={ death=yes }
 }
-5031={
-	name=Hedwig
+6231={
+	name="Almodis"
 	female=yes
-	dynasty=5002
+	dynasty=6910
 	#dna="apibjanfegd"
-	culture=alemanique religion=catholic
-	father=5022	#Gerlach
+	culture=arpitan religion=catholic
+	father=6222	#Oddon
 	1067.8.10={ birth=yes }
 	1139.12.16={ death=yes }
 }
-5032={
-	name=Gerlach
-	dynasty=5002
+6232={
+	name="Oddon"
+	dynasty=6910
 	#dna="akkkaeimdkk"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=8 stewardship=5 intrigue=7 learning=8
 	add_trait=intricate_webweaver add_trait=poet add_trait=just add_trait=greedy add_trait=cruel 
 	add_trait=trusting 
-	father=5022	#Gerlach
+	father=6222	#Oddon
 	1072.11.14={ birth=yes }
 	1132.10.28={ death=yes }
 }
-5033={
-	name=Guntram
-	dynasty=5002
+6233={
+	name="Vuillielme"
+	dynasty=6910
 	#dna="bdbmbinomik"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=4 stewardship=4 intrigue=4 learning=6
 	add_trait=flamboyant_schemer add_trait=arbitrary add_trait=cruel add_trait=diligent 
-	father=5027	#Stefan
+	father=6227	#Savary
 	1042.5.24={ birth=yes }
 	1099.7.21={ death=yes }
 }
-5034={
-	name=Dietpold
-	dynasty=5002
+6234={
+	name="Gauthier"
+	dynasty=6910
 	#dna="fcgbianmepk"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=7 stewardship=7 intrigue=6 learning=7
 	add_trait=martial_cleric add_trait=chaste add_trait=brave 
-	father=5027	#Stefan
+	father=6227	#Savary
 	1046.2.6={ birth=yes }
 	1110.3.1={ death=yes }
 }
-5035={
-	name=Dietrich
-	dynasty=5002
+6235={
+	name="Jourdain"
+	dynasty=6910
 	#dna="bnnepjamoem"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=4 diplomacy=8 stewardship=5 intrigue=6 learning=7
 	add_trait=flamboyant_schemer add_trait=temperate add_trait=proud add_trait=craven add_trait=content 
-	father=5027	#Stefan
+	father=6227	#Savary
 	1050.8.12={ birth=yes }
 	1108.9.28={ death=yes }
 }
-5036={
-	name=Hesso
-	dynasty=5002
+6236={
+	name="Evrard"
+	dynasty=6910
 	#dna="bdihfipmejk"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=8 stewardship=7 intrigue=7 learning=5
 	add_trait=tough_soldier add_trait=diligent add_trait=envious add_trait=brave add_trait=proud 
 	add_trait=lustful 
-	father=5027	#Stefan
+	father=6227	#Savary
 	1058.12.7={ birth=yes }
 	1107.9.16={ death=yes }
 }
 
-##5003
-5037={
-	name=Hermann
-	dynasty=5003
+##6203
+6237={
+	name="Enguerrand"
+	dynasty=6911
 	#dna="fmnkfippflf"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=7 stewardship=4 intrigue=6 learning=8
 	add_trait=misguided_warrior add_trait=humble add_trait=greedy add_trait=gregarious add_trait=temperate 
 	1000.2.1={ birth=yes }
 	1063.10.10={ death=yes }
 }
-5038={
-	name=Berthold
-	dynasty=5003
+6238={
+	name="Bertrand"
+	dynasty=6911
 	#dna="kfdkffpoflf"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=5 stewardship=7 intrigue=4 learning=5
 	add_trait=midas_touched add_trait=poet add_trait=ambitious add_trait=trusting add_trait=honest 
 	add_trait=charitable add_trait=patient add_trait=ill 
-	father=5037	#Hermann
+	father=6237	#Enguerrand
 	1002.1.21={ birth=yes }
 	1061.8.6={ death=yes }
 }
-5039={
-	name=Winfrida
+6239={
+	name="Thetberge"
 	female=yes
-	dynasty=5003
+	dynasty=6911
 	#dna="fmnkfipbmlf"
-	culture=alemanique religion=catholic
-	father=5037	#Hermann
+	culture=arpitan religion=catholic
+	father=6237	#Enguerrand
 	1007.9.1={ birth=yes }
 	1070.11.24={ death=yes }
 }
-5040={
-	name=Giselbert
-	dynasty=5003
+6240={
+	name="Sigismond"
+	dynasty=6911
 	#dna="ffnldippflf"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=4 stewardship=4 intrigue=7 learning=6
 	add_trait=grey_eminence add_trait=patient add_trait=trusting add_trait=envious add_trait=humble 
 	add_trait=depressed add_trait=hunchback 
-	father=5037	#Hermann
+	father=6237	#Enguerrand
 	1013.7.3={ birth=yes }
 	1085.5.29={ death=yes }
 }
-5041={
-	name=Mathias
-	dynasty=5003
+6241={
+	name="Mathieu"
+	dynasty=6911
 	#dna="mplldimmklf"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=5 stewardship=8 intrigue=6 learning=7
 	add_trait=tough_soldier add_trait=cynical add_trait=honest add_trait=greedy add_trait=temperate 
-	father=5037	#Hermann
+	father=6237	#Enguerrand
 	1023.3.10={ birth=yes }
 	1092.3.2={ death=yes }
 }
-5042={
-	name=Giselbert
-	dynasty=5003
+6242={
+	name="Sigismond"
+	dynasty=6911
 	#dna="afdkphgdfpf"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=4 stewardship=4 intrigue=6 learning=8
 	add_trait=skilled_tactician add_trait=deceitful add_trait=arbitrary add_trait=proud 
-	father=5038	#Berthold
+	father=6238	#Bertrand
 	1006.8.2={ birth=yes }
 	1075.4.28={ death=yes }
 }
-5043={
-	name=Burchard
-	dynasty=5003
+6243={
+	name="Burchard"
+	dynasty=6911
 	#dna="dfdlfflofof"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=4 diplomacy=4 stewardship=8 intrigue=7 learning=6
 	add_trait=martial_cleric add_trait=paranoid add_trait=diligent add_trait=cruel add_trait=chaste 
 	add_trait=wounded add_trait=stutter 
-	father=5038	#Berthold
+	father=6238	#Bertrand
 	1013.4.7={ birth=yes }
 	1046.3.11={ death=yes }
 }
-5044={
-	name=Engeltraud
+6244={
+	name="Ermengarde"
 	female=yes
-	dynasty=5003
+	dynasty=6911
 	#dna="ofnffedoflc"
-	culture=alemanique religion=catholic
-	father=5038	#Berthold
+	culture=arpitan religion=catholic
+	father=6238	#Bertrand
 	1018.8.22={ birth=yes }
 	1079.2.22={ death=yes }
 }
-5045={
-	name=Walther
-	dynasty=5003
+6245={
+	name="Guichard"
+	dynasty=6911
 	#dna="kfohfldokkn"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=4 stewardship=6 intrigue=7 learning=8
 	add_trait=midas_touched add_trait=hunter add_trait=patient add_trait=brave add_trait=gluttonous 
 	add_trait=kind add_trait=ill 
-	father=5038	#Berthold
+	father=6238	#Bertrand
 	1022.5.6={ birth=yes }
 	1092.7.20={ death=yes }
 }
-5046={
-	name=Guntram
-	dynasty=5003
+6246={
+	name="Vuillielme"
+	dynasty=6911
 	#dna="kfbkffpdfdb"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=5 stewardship=7 intrigue=6 learning=6
 	add_trait=midas_touched add_trait=hunter add_trait=patient add_trait=gregarious add_trait=ambitious 
 	add_trait=diligent add_trait=craven add_trait=deceitful 
-	father=5038	#Berthold
+	father=6238	#Bertrand
 	1027.5.9={ birth=yes }
 	1073.4.18={ death=yes }
 }
-5047={
-	name=Lothar
-	dynasty=5003
+6247={
+	name="Lothier"
+	dynasty=6911
 	#dna="aadkphgdfpf"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=7 stewardship=7 intrigue=6 learning=7
 	add_trait=martial_cleric add_trait=hedonist add_trait=kind add_trait=cynical add_trait=cruel 
-	father=5042	#Giselbert
+	father=6242	#Sigismond
 	1018.10.1={ birth=yes }
 	1060.6.5={ death=yes }
 }
-5048={
-	name=Amalberga
+6248={
+	name="Amalberge"
 	female=yes
-	dynasty=5003
+	dynasty=6911
 	#dna="afklpngalpo"
-	culture=alemanique religion=catholic
-	father=5042	#Giselbert
+	culture=arpitan religion=catholic
+	father=6242	#Sigismond
 	1025.1.17={ birth=yes }
 	1075.1.29={ death=yes }
 }
-5049={
-	name=Amalie
+6249={
+	name="Amalia"
 	female=yes
-	dynasty=5003
+	dynasty=6911
 	#dna="oddjihgfffk"
-	culture=alemanique religion=catholic
-	father=5042	#Giselbert
+	culture=arpitan religion=catholic
+	father=6242	#Sigismond
 	1032.3.8={ birth=yes }
 	1099.9.30={ death=yes }
 }
-5050={
-	name=Berta
+6250={
+	name="Berthe"
 	female=yes
-	dynasty=5003
+	dynasty=6911
 	#dna="ailcjpgdckf"
-	culture=alemanique religion=catholic
-	father=5042	#Giselbert
+	culture=arpitan religion=catholic
+	father=6242	#Sigismond
 	1038.5.24={ birth=yes }
 	1087.10.9={ death=yes }
 }
-5051={
-	name=Barbara
+6251={
+	name="Arsinde"
 	female=yes
-	dynasty=5003
+	dynasty=6911
 	#dna="ffjkhggdppf"
-	culture=alemanique religion=catholic
-	father=5042	#Giselbert
+	culture=arpitan religion=catholic
+	father=6242	#Sigismond
 	1044.2.12={ birth=yes }
 	1117.6.11={ death=yes }
 }
-5052={
-	name=Ehrenfried
-	dynasty=5003
+6252={
+	name="Simon"
+	dynasty=6911
 	#dna="afocphgdfie"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=7 stewardship=8 intrigue=8 learning=7
 	add_trait=indulgent_wastrel add_trait=wroth add_trait=brave add_trait=cruel 
-	father=5042	#Giselbert
+	father=6242	#Sigismond
 	1050.9.19={ birth=yes }
 	1111.8.7={ death=yes }
 }
-5053={
-	name=Mathias
-	dynasty=5003
+6253={
+	name="Mathieu"
+	dynasty=6911
 	#dna="afdkcdipfpp"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=6 stewardship=5 intrigue=7 learning=6
 	add_trait=detached_priest add_trait=ambitious add_trait=cruel add_trait=craven add_trait=slothful 
-	father=5042	#Giselbert
+	father=6242	#Sigismond
 	1057.4.27={ birth=yes }
 	1091.5.27={ death=yes }
 }
-5054={
-	name=Poppo
-	dynasty=5003
+6254={
+	name="Thomas"
+	dynasty=6911
 	#dna="afdlphgofpf"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=4 stewardship=8 intrigue=6 learning=8
 	add_trait=flamboyant_schemer add_trait=honest add_trait=gregarious add_trait=chaste 
-	father=5047	#Lothar
+	father=6247	#Lothier
 	1030.4.18={ birth=yes }
 	1077.11.27={ death=yes }
 }
-5055={
-	name=Gerberga
+6255={
+	name="Gerberge"
 	female=yes
-	dynasty=5003
+	dynasty=6911
 	#dna="aadbmkgdfio"
-	culture=alemanique religion=catholic
-	father=5047	#Lothar
+	culture=arpitan religion=catholic
+	father=6247	#Lothier
 	1035.3.16={ birth=yes }
 	1085.5.13={ death=yes }
 }
-##5004
-5056={
-	name=Guntram
-	dynasty=5004
+##6204
+6256={
+	name="Vuillielme"
+	dynasty=6912
 	#dna="ciheehdfnec"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=8 stewardship=6 intrigue=5 learning=6
 	add_trait=charismatic_negotiator add_trait=content add_trait=craven add_trait=arbitrary add_trait=kind 
 	add_trait=quick 
 	1000.4.3={ birth=yes }
 	1050.8.16={ death=yes }
 }
-5057={
-	name=Reinhard
-	dynasty=5004
+6257={
+	name="Ramus"
+	dynasty=6912
 	#dna="cbeecaafceb"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=4 diplomacy=8 stewardship=4 intrigue=7 learning=6
 	add_trait=grey_eminence add_trait=humble add_trait=ambitious add_trait=cynical add_trait=honest 
 	add_trait=drunkard 
-	father=5056	#Guntram
+	father=6256	#Vuillielme
 	1009.10.22={ birth=yes }
 	1081.2.28={ death=yes }
 }
-5058={
-	name=Gerlach
-	dynasty=5004
+6258={
+	name="Oddon"
+	dynasty=6912
 	#dna="cihnedddcee"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=4 stewardship=6 intrigue=4 learning=6
 	add_trait=intricate_webweaver add_trait=proud add_trait=lustful add_trait=cruel add_trait=diligent 
-	father=5056	#Guntram
+	father=6256	#Vuillielme
 	1014.10.19={ birth=yes }
 	1081.11.12={ death=yes }
 }
-5059={
-	name=Hartwig
-	dynasty=5004
+6259={
+	name="Henri"
+	dynasty=6912
 	#dna="cihgekbfcjc"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=7 stewardship=5 intrigue=8 learning=8
 	add_trait=charismatic_negotiator add_trait=honest add_trait=brave add_trait=gregarious add_trait=gluttonous 
-	father=5056	#Guntram
+	father=6256	#Vuillielme
 	1020.9.13={ birth=yes }
 	1109.5.2={ death=yes }
 }
-5060={
-	name=Gottschalk
-	dynasty=5004
+6260={
+	name="Gilles"
+	dynasty=6912
 	#dna="olhejhdbnec"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=7 stewardship=4 intrigue=7 learning=7
 	add_trait=mastermind_theologian add_trait=gregarious add_trait=just add_trait=cruel add_trait=possessed 
-	father=5056	#Guntram
+	father=6256	#Vuillielme
 	1027.5.13={ birth=yes }
 	1093.10.11={ death=yes }
 }
-5061={
-	name=Albrecht
-	dynasty=5004
+6261={
+	name="Aldebert"
+	dynasty=6912
 	#dna="bnnfehlinec"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=8 stewardship=6 intrigue=8 learning=6
 	add_trait=detached_priest add_trait=hedonist add_trait=ambitious add_trait=craven add_trait=cynical 
 	add_trait=shy 
-	father=5056	#Guntram
+	father=6256	#Vuillielme
 	1033.11.20={ birth=yes }
 	1078.11.28={ death=yes }
 }
-5062={
-	name=Ehrenfried
-	dynasty=5004
+6262={
+	name="Simon"
+	dynasty=6912
 	#dna="cihnehdfajc"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=6 stewardship=7 intrigue=4 learning=5
 	add_trait=grey_eminence add_trait=mystic add_trait=cruel add_trait=arbitrary 
-	father=5056	#Guntram
+	father=6256	#Vuillielme
 	1037.7.1={ birth=yes }
 	1091.7.20={ death=yes }
 }
-5063={
-	name=Winfrida
+6263={
+	name="Thetberge"
 	female=yes
-	dynasty=5004
+	dynasty=6912
 	#dna="hohebkofhec"
-	culture=alemanique religion=catholic
-	father=5056	#Guntram
+	culture=arpitan religion=catholic
+	father=6256	#Vuillielme
 	1042.4.19={ birth=yes }
 	1107.6.15={ death=yes }
 }
-5064={
-	name=Gottfried
-	dynasty=5004
+6264={
+	name="Geoffroy"
+	dynasty=6912
 	#dna="djepcadjjeb"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=5 stewardship=8 intrigue=8 learning=6
 	add_trait=charismatic_negotiator add_trait=kind add_trait=gregarious add_trait=deceitful 
-	father=5057	#Reinhard
+	father=6257	#Ramus
 	1010.9.22={ birth=yes }
 	1090.10.5={ death=yes }
 }
-5065={
-	name=Markward
-	dynasty=5004
+6265={
+	name="Marchand"
+	dynasty=6912
 	#dna="cmnacoafceb"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=5 stewardship=7 intrigue=4 learning=4
 	add_trait=misguided_warrior add_trait=hunter add_trait=shy add_trait=slothful 
-	father=5057	#Reinhard
+	father=6257	#Ramus
 	1015.2.1={ birth=yes }
 	1093.3.30={ death=yes }
 }
-5066={
-	name=Werner
-	dynasty=5004
+6266={
+	name="Valeran"
+	dynasty=6912
 	#dna="jbkpcogfchi"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=4 diplomacy=8 stewardship=7 intrigue=7 learning=4
 	add_trait=flamboyant_schemer add_trait=gluttonous add_trait=paranoid add_trait=brave add_trait=deceitful 
-	father=5057	#Reinhard
+	father=6257	#Ramus
 	1023.11.12={ birth=yes }
 	1088.4.2={ death=yes }
 }
-5067={
-	name=Werner
-	dynasty=5004
+6267={
+	name="Valeran"
+	dynasty=6912
 	#dna="cbnbcalfcpb"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=4 stewardship=5 intrigue=5 learning=7
 	add_trait=intricate_webweaver add_trait=cruel add_trait=brave add_trait=arbitrary 
-	father=5057	#Reinhard
+	father=6257	#Ramus
 	1029.11.21={ birth=yes }
 	1085.8.6={ death=yes }
 }
-5068={
-	name=Benedicta
+6268={
+	name="Bénédicte"
 	female=yes
-	dynasty=5004
+	dynasty=6912
 	#dna="dlbhaedjjmb"
-	culture=alemanique religion=catholic
-	father=5064	#Gottfried
+	culture=arpitan religion=catholic
+	father=6264	#Geoffroy
 	1017.3.13={ birth=yes }
 	1082.4.3={ death=yes }
 }
-5069={
-	name=Helga
+6269={
+	name="Douce"
 	female=yes
-	dynasty=5004
+	dynasty=6912
 	#dna="djephajekjb"
-	culture=alemanique religion=catholic
-	father=5064	#Gottfried
+	culture=arpitan religion=catholic
+	father=6264	#Geoffroy
 	1027.3.10={ birth=yes }
 	1086.11.7={ death=yes }
 }
-5070={
-	name=Siegmund
-	dynasty=5004
+6270={
+	name="Sigismond"
+	dynasty=6912
 	#dna="pjejjadgjcb"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=7 stewardship=8 intrigue=8 learning=8
 	add_trait=skilled_tactician add_trait=gardener add_trait=ambitious add_trait=gluttonous add_trait=cruel 
-	father=5064	#Gottfried
+	father=6264	#Geoffroy
 	1031.12.23={ birth=yes }
 	1084.4.3={ death=yes }
 }
-5071={
-	name=Romilda
+6271={
+	name="Gisèle"
 	female=yes
-	dynasty=5004
+	dynasty=6912
 	#dna="jajpcfdpceb"
-	culture=alemanique religion=catholic
-	father=5064	#Gottfried
+	culture=arpitan religion=catholic
+	father=6264	#Geoffroy
 	1036.5.26={ birth=yes }
 	1093.6.18={ death=yes }
 }
-5072={
-	name=Klara
+6272={
+	name="Clara"
 	female=yes
-	dynasty=5004
+	dynasty=6912
 	#dna="pjapdilggcb"
-	culture=alemanique religion=catholic
-	father=5070	#Siegmund
+	culture=arpitan religion=catholic
+	father=6270	#Sigismond
 	1040.7.5={ birth=yes }
 	1094.8.10={ death=yes }
 }
-5073={
-	name=Mathias
-	dynasty=5004
+6273={
+	name="Mathieu"
+	dynasty=6912
 	#dna="plefeeggiab"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=5 stewardship=4 intrigue=4 learning=7
 	add_trait=grey_eminence add_trait=celibate add_trait=greedy add_trait=kind add_trait=shy 
 	add_trait=temperate 
-	father=5070	#Siegmund
+	father=6270	#Sigismond
 	1045.5.18={ birth=yes }
 	1109.10.30={ death=yes }
 }
-5074={
-	name=Folkhard
-	dynasty=5004
+6274={
+	name="Ogier"
+	dynasty=6912
 	#dna="cjejjldbjlb"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=7 stewardship=7 intrigue=8 learning=7
 	add_trait=thrifty_clerk add_trait=patient add_trait=craven add_trait=greedy add_trait=shy 
 	add_trait=cruel add_trait=stressed 
-	father=5070	#Siegmund
+	father=6270	#Sigismond
 	1054.10.5={ birth=yes }
 	1121.6.26={ death=yes }
 }
-5075={
-	name=Cothilda
+6275={
+	name="Cothilde"
 	female=yes
-	dynasty=5004
+	dynasty=6912
 	#dna="ljejjbkglmb"
-	culture=alemanique religion=catholic
-	father=5070	#Siegmund
+	culture=arpitan religion=catholic
+	father=6270	#Sigismond
 	1062.8.4={ birth=yes }
 	1132.7.4={ death=yes }
 }
-##5005
-5076={
-	name=Dietpold
-	dynasty=5005
+##6205
+6276={
+	name="Gauthier"
+	dynasty=6913
 	#dna="jpagcfmejel"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=6 stewardship=5 intrigue=7 learning=4
 	add_trait=grey_eminence add_trait=diligent add_trait=greedy add_trait=cruel add_trait=chaste 
 	add_trait=stressed 
 	999.8.14={ birth=yes }
 	1071.7.26={ death=yes }
 }
-5077={
-	name=Richwara
+6277={
+	name="Tiburge"
 	female=yes
-	dynasty=5005
+	dynasty=6913
 	#dna="jnggflmejap"
-	culture=alemanique religion=catholic
-	father=5076	#Dietpold
+	culture=arpitan religion=catholic
+	father=6276	#Gauthier
 	1007.6.25={ birth=yes }
 	1064.9.19={ death=yes }
 }
-5078={
-	name=Adolf
-	dynasty=5005
+6278={
+	name="Arnault"
+	dynasty=6913
 	#dna="jcpgofmmgeo"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=6 stewardship=7 intrigue=6 learning=7
 	add_trait=elusive_shadow add_trait=arbitrary add_trait=cynical add_trait=kind add_trait=craven 
-	father=5076	#Dietpold
+	father=6276	#Gauthier
 	1015.7.14={ birth=yes }
 	1084.5.1={ death=yes }
 }
-5079={
-	name=Thomas
-	dynasty=5005
+6279={
+	name="Thomas"
+	dynasty=6913
 	#dna="ebagcfmkjjl"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=8 stewardship=6 intrigue=7 learning=4
 	add_trait=detached_priest add_trait=diligent add_trait=arbitrary add_trait=charitable add_trait=lustful 
 	add_trait=shy add_trait=kind 
-	father=5076	#Dietpold
+	father=6276	#Gauthier
 	1025.1.18={ birth=yes }
 	1084.11.6={ death=yes }
 }
-5080={
-	name=Henrike
+6280={
+	name="Henri"
 	female=yes
-	dynasty=5005
+	dynasty=6913
 	#dna="laagjdmeegb"
-	culture=alemanique religion=catholic
-	father=5076	#Dietpold
+	culture=arpitan religion=catholic
+	father=6276	#Gauthier
 	1035.10.12={ birth=yes }
 	1091.8.16={ death=yes }
 }
-5081={
-	name=Wilhelmina
+6281={
+	name="Echive"
 	female=yes
-	dynasty=5005
+	dynasty=6913
 	#dna="jbpglfnmdep"
-	culture=alemanique religion=catholic
-	father=5078	#Adolf
+	culture=arpitan religion=catholic
+	father=6278	#Arnault
 	1018.7.23={ birth=yes }
 	1065.11.4={ death=yes }
 }
-5082={
-	name=Hedwig
+6282={
+	name="Almodis"
 	female=yes
-	dynasty=5005
+	dynasty=6913
 	#dna="glngfomleeo"
-	culture=alemanique religion=catholic
-	father=5078	#Adolf
+	culture=arpitan religion=catholic
+	father=6278	#Arnault
 	1024.8.23={ birth=yes }
 	1111.4.9={ death=yes }
 }
-5083={
-	name=Eginolf
-	dynasty=5005
+6283={
+	name="Emeric"
+	dynasty=6913
 	#dna="jfdgofemgeh"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=6 stewardship=6 intrigue=5 learning=7
 	add_trait=intricate_webweaver add_trait=hedonist add_trait=honest add_trait=gregarious add_trait=arbitrary 
 	add_trait=cruel 
-	father=5078	#Adolf
+	father=6278	#Arnault
 	1030.6.20={ birth=yes }
 	1077.2.6={ death=yes }
 }
-5084={
-	name=Franz
-	dynasty=5005
+6284={
+	name="Gaucher"
+	dynasty=6913
 	#dna="papgomhmleh"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=5 stewardship=6 intrigue=8 learning=8
 	add_trait=charismatic_negotiator add_trait=craven add_trait=cruel add_trait=humble add_trait=charitable 
-	father=5078	#Adolf
+	father=6278	#Arnault
 	1039.7.23={ birth=yes }
 	1080.2.27={ death=yes }
 }
-5085={
-	name=Walpurga
+6285={
+	name="Valence"
 	female=yes
-	dynasty=5005
+	dynasty=6913
 	#dna="jhpgnfmmmen"
-	culture=alemanique religion=catholic
-	father=5078	#Adolf
+	culture=arpitan religion=catholic
+	father=6278	#Arnault
 	1046.8.17={ birth=yes }
 	1116.3.4={ death=yes }
 }
-5086={
-	name=Udo
-	dynasty=5005
+6286={
+	name="Hugues"
+	dynasty=6913
 	#dna="ldlgpfdjheo"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=5 stewardship=5 intrigue=5 learning=6
 	add_trait=skilled_tactician add_trait=cruel add_trait=chaste add_trait=charitable 
-	father=5078	#Adolf
+	father=6278	#Arnault
 	1052.6.15={ birth=yes }
 	1110.3.18={ death=yes }
 }
-5087={
-	name=Lambert
-	dynasty=5005
+6287={
+	name="Humbert"
+	dynasty=6913
 	#dna="jnpgofmpgeo"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=4 diplomacy=8 stewardship=5 intrigue=4 learning=8
 	add_trait=indulgent_wastrel add_trait=gluttonous add_trait=craven add_trait=lustful add_trait=ambitious 
-	father=5078	#Adolf
+	father=6278	#Arnault
 	1060.10.15={ birth=yes }
 	1132.6.7={ death=yes }
 }
-5088={
-	name=Romilda
+6288={
+	name="Gisèle"
 	female=yes
-	dynasty=5005
+	dynasty=6913
 	#dna="lngghfegkbd"
-	culture=alemanique religion=catholic
-	father=5083	#Eginolf
+	culture=arpitan religion=catholic
+	father=6283	#Emeric
 	1039.11.19={ birth=yes }
 	1098.11.30={ death=yes }
 }
-5089={
-	name=Lothar
-	dynasty=5005
+6289={
+	name="Lothier"
+	dynasty=6913
 	#dna="pcjpofkmhoi"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=6 stewardship=6 intrigue=5 learning=6
 	add_trait=midas_touched add_trait=zealous add_trait=proud add_trait=just 
-	father=5083	#Eginolf
+	father=6283	#Emeric
 	1045.10.1={ birth=yes }
 	1095.11.21={ death=yes }
 }
-5090={
-	name=Eberhard
-	dynasty=5005
+6290={
+	name="Bohemond"
+	dynasty=6913
 	#dna="jfdgiffkoem"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=4 diplomacy=7 stewardship=6 intrigue=4 learning=8
 	add_trait=scholarly_theologian add_trait=brave add_trait=cruel add_trait=zealous add_trait=humble 
-	father=5083	#Eginolf
+	father=6283	#Emeric
 	1054.6.16={ birth=yes }
 	1099.4.14={ death=yes }
 }
-5091={
-	name=Guntram
-	dynasty=5005
+6291={
+	name="Vuillielme"
+	dynasty=6913
 	#dna="pignofimhki"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=7 stewardship=5 intrigue=5 learning=6
 	add_trait=misguided_warrior add_trait=mystic add_trait=kind add_trait=zealous add_trait=proud 
 	add_trait=clubfooted 
-	father=5089	#Lothar
+	father=6289	#Lothier
 	1050.4.20={ birth=yes }
 	1105.10.2={ death=yes }
 }
-5092={
-	name=Jutte
+6292={
+	name="Jeanne"
 	female=yes
-	dynasty=5005
+	dynasty=6913
 	#dna="opjoobkmhof"
-	culture=alemanique religion=catholic
-	father=5089	#Lothar
+	culture=arpitan religion=catholic
+	father=6289	#Lothier
 	1060.1.15={ birth=yes }
 	1111.12.15={ death=yes }
 }
-5093={
-	name=Baldemar
-	dynasty=5005
+6293={
+	name="Bartolomeus"
+	dynasty=6913
 	#dna="kjifoeamhpi"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=6 stewardship=8 intrigue=5 learning=4
 	add_trait=mastermind_theologian add_trait=gluttonous add_trait=lustful add_trait=slothful add_trait=deceitful 
 	add_trait=wounded 
-	father=5089	#Lothar
+	father=6289	#Lothier
 	1064.1.3={ birth=yes }
 	1122.8.24={ death=yes }
 }
-###5006
-5094={
-	name=Baldewin
-	dynasty=5006
+###6206
+6294={
+	name="Bernard"
+	dynasty=6914
 	#dna="dpcffdohhan"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=5 stewardship=5 intrigue=7 learning=8
 	add_trait=midas_touched add_trait=temperate add_trait=chaste add_trait=diligent add_trait=paranoid 
 	add_trait=honest add_trait=zealous 
 	999.11.13={ birth=yes }
 	1070.7.15={ death=yes }
 }
-5095={
-	name=Johann
-	dynasty=5006
+6295={
+	name="Jean"
+	dynasty=6914
 	#dna="dmffacohcad"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=4 diplomacy=7 stewardship=6 intrigue=8 learning=6
 	add_trait=grey_eminence add_trait=hedonist add_trait=shy add_trait=craven 
-	father=5094	#Baldewin
+	father=6294	#Bernard
 	1004.7.12={ birth=yes }
 	1087.5.28={ death=yes }
 }
-5096={
-	name=Ursula
+6296={
+	name="Yolande"
 	female=yes
-	dynasty=5006
+	dynasty=6914
 	#dna="dpcffknhhej"
-	culture=alemanique religion=catholic
-	father=5094	#Baldewin
+	culture=arpitan religion=catholic
+	father=6294	#Bernard
 	1010.11.7={ birth=yes }
 	1065.10.1={ death=yes }
 }
-5097={
-	name=Osterhild
+6297={
+	name="Sarrazine"
 	female=yes
-	dynasty=5006
+	dynasty=6914
 	#dna="fpcfadbhhal"
-	culture=alemanique religion=catholic
-	father=5094	#Baldewin
+	culture=arpitan religion=catholic
+	father=6294	#Bernard
 	1015.6.7={ birth=yes }
 	1063.6.11={ death=yes }
 }
-5098={
-	name=Osterhilda
+6298={
+	name="Solena"
 	female=yes
-	dynasty=5006
+	dynasty=6914
 	#dna="denmfdoihen"
-	culture=alemanique religion=catholic
-	father=5094	#Baldewin
+	culture=arpitan religion=catholic
+	father=6294	#Bernard
 	1023.8.19={ birth=yes }
 	1088.5.19={ death=yes }
 }
-5099={
-	name=Dietrich
-	dynasty=5006
+6299={
+	name="Jourdain"
+	dynasty=6914
 	#dna="kpfffdhahan"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=4 stewardship=8 intrigue=5 learning=6
 	add_trait=naive_appeaser add_trait=humble add_trait=cruel add_trait=gregarious add_trait=honest 
-	father=5094	#Baldewin
+	father=6294	#Bernard
 	1027.3.27={ birth=yes }
 	1085.12.9={ death=yes }
 }
-5100={
-	name=Engeltraud
+6300={
+	name="Ermengarde"
 	female=yes
-	dynasty=5006
+	dynasty=6914
 	#dna="epcffkeghin"
-	culture=alemanique religion=catholic
-	father=5094	#Baldewin
+	culture=arpitan religion=catholic
+	father=6294	#Bernard
 	1032.2.10={ birth=yes }
 	1090.3.18={ death=yes }
 }
-5101={
-	name=Meinhard
-	dynasty=5006
+6301={
+	name="Julian"
+	dynasty=6914
 	#dna="bmflcfhecad"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=5 stewardship=8 intrigue=6 learning=5
 	add_trait=detached_priest add_trait=lustful add_trait=honest add_trait=slothful 
-	father=5095	#Johann
+	father=6295	#Jean
 	1008.6.24={ birth=yes }
 	1080.2.10={ death=yes }
 }
-5102={
-	name=Adelinde
+6302={
+	name="Adelinde"
 	female=yes
-	dynasty=5006
+	dynasty=6914
 	#dna="fmfpcpokdai"
-	culture=alemanique religion=catholic
-	father=5095	#Johann
+	culture=arpitan religion=catholic
+	father=6295	#Jean
 	1015.8.15={ birth=yes }
 	1064.5.16={ death=yes }
 }
-5103={
-	name=Rudger
-	dynasty=5006
+6303={
+	name="Roger"
+	dynasty=6914
 	#dna="diebimahgad"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=4 stewardship=5 intrigue=8 learning=6
 	add_trait=misguided_warrior add_trait=craven add_trait=arbitrary add_trait=greedy add_trait=diligent 
 	add_trait=gregarious add_trait=humble 
-	father=5095	#Johann
+	father=6295	#Jean
 	1023.8.3={ birth=yes }
 	1092.2.11={ death=yes }
 }
-5104={
-	name=Otto
-	dynasty=5006
+6304={
+	name="Aimery"
+	dynasty=6914
 	#dna="bmafamdhapd"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=4 stewardship=5 intrigue=4 learning=5
 	add_trait=scholarly_theologian add_trait=celibate add_trait=wroth add_trait=cruel add_trait=ambitious 
 	add_trait=shy add_trait=envious 
-	father=5095	#Johann
+	father=6295	#Jean
 	1033.12.19={ birth=yes }
 	1079.3.31={ death=yes }
 }
-5105={
-	name=Wenzel
-	dynasty=5006
+6305={
+	name="Yves"
+	dynasty=6914
 	#dna="bbkbbfhecbm"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=7 stewardship=7 intrigue=4 learning=4
 	add_trait=intricate_webweaver add_trait=arbitrary add_trait=kind add_trait=cynical add_trait=paranoid 
-	father=5101	#Meinhard
-	1008.1.1={ birth=yes }
+	father=6301	#Julian
+	1028.1.1={ birth=yes }
 	1068.8.21={ death=yes }
 }
-5106={
-	name=Meinhard
-	dynasty=5006
+6306={
+	name="Julian"
+	dynasty=6914
 	#dna="jgflpghpned"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=6 stewardship=7 intrigue=8 learning=7
 	add_trait=scholarly_theologian add_trait=gluttonous add_trait=arbitrary add_trait=paranoid 
-	father=5101	#Meinhard
+	father=6301	#Julian
 	1013.7.12={ birth=yes }
 	1070.10.29={ death=yes }
 }
-5107={
-	name=Ludolf
-	dynasty=5006
+6307={
+	name="Hugues"
+	dynasty=6914
 	#dna="bjfonfhkfed"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=7 stewardship=7 intrigue=6 learning=8
 	add_trait=martial_cleric add_trait=just add_trait=shy add_trait=cynical add_trait=honest 
-	father=5101	#Meinhard
+	father=6301	#Julian
 	1021.11.26={ birth=yes }
 	1068.3.20={ death=yes }
 }
-5108={
-	name=Eufemia
+6308={
+	name="Eustachie"
 	female=yes
-	dynasty=5006
+	dynasty=6914
 	#dna="bpfekfhepcg"
-	culture=alemanique religion=catholic
-	father=5101	#Meinhard
+	culture=arpitan religion=catholic
+	father=6301	#Julian
 	1024.5.5={ birth=yes }
 	1098.10.7={ death=yes }
 }
-5109={
-	name=Hartmann
-	dynasty=5006
+6309={
+	name="Henri"
+	dynasty=6914
 	#dna="fkilcipecab"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=4 diplomacy=8 stewardship=5 intrigue=5 learning=5
 	add_trait=midas_touched add_trait=temperate add_trait=greedy add_trait=cruel add_trait=ugly 
-	father=5101	#Meinhard
+	father=6301	#Julian
 	1030.3.19={ birth=yes }
 	1097.9.27={ death=yes }
 }
-5110={
-	name=Berthold
-	dynasty=5006
+6310={
+	name="Bertrand"
+	dynasty=6914
 	#dna="bnalcfhpcpp"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=6 stewardship=7 intrigue=4 learning=8
 	add_trait=thrifty_clerk add_trait=arbitrary add_trait=cynical add_trait=gregarious add_trait=lustful 
 	add_trait=lunatic 
-	father=5101	#Meinhard
+	father=6301	#Julian
 	1038.2.15={ birth=yes }
 	1091.8.31={ death=yes }
 }
-5111={
-	name=Ulrike
+6311={
+	name="Raymonde"
 	female=yes
-	dynasty=5006
+	dynasty=6914
 	#dna="omglcfhiifo"
-	culture=alemanique religion=catholic
-	father=5101	#Meinhard
+	culture=arpitan religion=catholic
+	father=6301	#Julian
 	1046.4.19={ birth=yes }
 	1117.4.14={ death=yes }
 }
-5112={
-	name=Siegmund
-	dynasty=5006
+6312={
+	name="Sigismond"
+	dynasty=6914
 	#dna="bikmcnhecbm"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=6 stewardship=4 intrigue=8 learning=6
 	add_trait=misguided_warrior add_trait=poet add_trait=just add_trait=zealous add_trait=gluttonous 
 	add_trait=humble add_trait=craven 
-	father=5105	#Wenzel
-	1020.2.20={ birth=yes }
+	father=6305	#Yves
+	1045.2.20={ birth=yes }
 	1075.5.16={ death=yes }
 }
-5113={
-	name=Alberade
+6313={
+	name="Alberade"
 	female=yes
-	dynasty=5006
+	dynasty=6914
 	#dna="bbkbbjhecbn"
-	culture=alemanique religion=catholic
-	father=5105	#Wenzel
-	1031.6.1={ birth=yes }
+	culture=arpitan religion=catholic
+	father=6305	#Yves
+	1051.6.1={ birth=yes }
 	1099.8.7={ death=yes }
 }
-5114={
-	name=Helga
+6314={
+	name="Douce"
 	female=yes
-	dynasty=5006
+	dynasty=6914
 	#dna="bmkbffhicjm"
-	culture=alemanique religion=catholic
-	father=5105	#Wenzel
+	culture=arpitan religion=catholic
+	father=6305	#Yves
 	1040.6.23={ birth=yes }
 	1106.1.13={ death=yes }
 }
-5115={
-	name=Poppo
-	dynasty=5006
+6315={
+	name="Thomas"
+	dynasty=6914
 	#dna="ibkhkfhgclp"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=5 stewardship=5 intrigue=4 learning=4
 	add_trait=charismatic_negotiator add_trait=celibate add_trait=patient add_trait=lustful add_trait=cruel 
 	add_trait=content add_trait=slothful 
-	father=5105	#Wenzel
+	father=6305	#Yves
 	1049.7.6={ birth=yes }
 	1085.8.26={ death=yes }
 }
-##5007
-5116={
-	name=Martin
-	dynasty=5007
+##6207
+6316={
+	name="Martin"
+	dynasty=6915
 	#dna="egakcefddpf"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=7 stewardship=6 intrigue=6 learning=8
 	add_trait=charismatic_negotiator add_trait=envious add_trait=arbitrary add_trait=diligent add_trait=cruel 
 	999.6.2={ birth=yes }
 	1071.9.18={ death=yes }
 }
-5117={
-	name=Meinhard
-	dynasty=5007
+6317={
+	name="Julian"
+	dynasty=6915
 	#dna="egakceaokme"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=8 stewardship=8 intrigue=6 learning=6
 	add_trait=elusive_shadow add_trait=cruel add_trait=paranoid add_trait=wroth add_trait=temperate 
-	father=5116	#Martin
+	father=6316	#Martin
 	1012.2.24={ birth=yes }
 	1079.6.7={ death=yes }
 }
-5118={
-	name=Inge
+6318={
+	name="Hodierne"
 	female=yes
-	dynasty=5007
+	dynasty=6915
 	#dna="nhakcffdmik"
-	culture=alemanique religion=catholic
-	father=5116	#Martin
+	culture=arpitan religion=catholic
+	father=6316	#Martin
 	1015.10.2={ birth=yes }
 	1077.3.22={ death=yes }
 }
-5119={
-	name=Amalberga
+6319={
+	name="Amalberge"
 	female=yes
-	dynasty=5007
+	dynasty=6915
 	#dna="igkkllfbddg"
-	culture=alemanique religion=catholic
-	father=5116	#Martin
+	culture=arpitan religion=catholic
+	father=6316	#Martin
 	1024.7.19={ birth=yes }
 	1081.2.6={ death=yes }
 }
-5120={
-	name=Gudrun
+6320={
+	name="Gisèle"
 	female=yes
-	dynasty=5007
+	dynasty=6915
 	#dna="ekacpgaddmf"
-	culture=alemanique religion=catholic
-	father=5116	#Martin
+	culture=arpitan religion=catholic
+	father=6316	#Martin
 	1032.10.12={ birth=yes }
 	1080.7.6={ death=yes }
 }
-5121={
-	name=Ekbert
-	dynasty=5007
+6321={
+	name="Pierre"
+	dynasty=6915
 	#dna="egepboaokme"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=5 stewardship=7 intrigue=6 learning=8
 	add_trait=midas_touched add_trait=ambitious add_trait=gluttonous add_trait=paranoid add_trait=greedy 
 	add_trait=slothful 
-	father=5117	#Meinhard
+	father=6317	#Julian
 	1018.2.5={ birth=yes }
 	1079.7.30={ death=yes }
 }
-5122={
-	name=Frida
+6322={
+	name="Aurengarde"
 	female=yes
-	dynasty=5007
+	dynasty=6915
 	#dna="ogokeeaoiae"
-	culture=alemanique religion=catholic
-	father=5117	#Meinhard
+	culture=arpitan religion=catholic
+	father=6317	#Julian
 	1027.12.21={ birth=yes }
 	1058.11.2={ death=yes }
 }
-5123={
-	name=Wolfgang
-	dynasty=5007
+6323={
+	name="Ponce"
+	dynasty=6915
 	#dna="gaaicpjlkmd"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=6 stewardship=4 intrigue=4 learning=6
 	add_trait=naive_appeaser add_trait=wroth add_trait=just 
-	father=5117	#Meinhard
+	father=6317	#Julian
 	1037.8.20={ birth=yes }
 	1094.10.24={ death=yes }
 }
-5124={
-	name=Lutbert
-	dynasty=5007
+6324={
+	name="Evrard"
+	dynasty=6915
 	#dna="egepcodhcjf"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=7 stewardship=5 intrigue=4 learning=8
 	add_trait=grey_eminence add_trait=gluttonous add_trait=greedy add_trait=patient add_trait=honest 
-	father=5121	#Ekbert
+	father=6321	#Pierre
 	1027.6.13={ birth=yes }
 	1090.6.8={ death=yes }
 }
-5125={
-	name=Simon
-	dynasty=5007
+6325={
+	name="Simon"
+	dynasty=6915
 	#dna="ibbmeccobme"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=7 stewardship=5 intrigue=7 learning=7
 	add_trait=detached_priest add_trait=just add_trait=charitable add_trait=deceitful add_trait=gluttonous 
-	father=5121	#Ekbert
+	father=6321	#Pierre
 	1033.7.27={ birth=yes }
 	1079.4.30={ death=yes }
 }
-5126={
-	name=Giselbert
-	dynasty=5007
+6326={
+	name="Sigismond"
+	dynasty=6915
 	#dna="eopnbkboeme"
-	culture=alemanique religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=6 stewardship=5 intrigue=4 learning=4
 	add_trait=misguided_warrior add_trait=hunter add_trait=slothful add_trait=cruel add_trait=paranoid 
 	add_trait=temperate 
-	father=5121	#Ekbert
+	father=6321	#Pierre
 	1042.6.16={ birth=yes }
 	1105.4.9={ death=yes }
 }
-##5008 von Aargau // Recteurs
-5127={
-	name=Thietmar
-	dynasty=5008
+##6208 von Aargau // Recteurs
+6327={
+	name="Thibault"
+	dynasty=6916
 	#dna="lhkaodndnlb"
-	culture=souabe religion=catholic
+	culture=arpitan religion=catholic
 	martial=5 diplomacy=6 stewardship=6 intrigue=7 learning=4
 	add_trait=midas_touched add_trait=proud add_trait=greedy add_trait=patient add_trait=just 
 	999.3.4={ birth=yes }
 	1051.5.26={ death=yes }
 }
-5128={
-	name=Hildeburg
+6328={
+	name="Ildégarde"
 	female=yes
-	dynasty=5008
+	dynasty=6916
 	#dna="llkkodjdeea"
-	culture=souabe religion=catholic
-	father=5127	#Thietmar
+	culture=arpitan religion=catholic
+	father=6327	#Thibault
 	999.6.17={ birth=yes }
 	1071.2.7={ death=yes }
 }
-5129={
-	name=Herbert
-	dynasty=5008
+6329={
+	name="Héribert"
+	dynasty=6916
 	#dna="lckeoogenlj"
-	culture=souabe religion=catholic
+	culture=arpitan religion=catholic
 	martial=4 diplomacy=8 stewardship=8 intrigue=5 learning=6
 	add_trait=tough_soldier add_trait=zealous add_trait=diligent add_trait=just add_trait=charitable 
 	add_trait=brave 
-	father=5127	#Thietmar
+	father=6327	#Thibault
 	1003.2.14={ birth=yes }
 	1050.4.9={ death=yes }
 }
-5130={
-	name=Wilhelmina
+6330={
+	name="Echive"
 	female=yes
-	dynasty=5008
+	dynasty=6916
 	#dna="lhddodfdnbb"
-	culture=souabe religion=catholic
-	father=5127	#Thietmar
+	culture=arpitan religion=catholic
+	father=6327	#Thibault
 	1008.2.27={ birth=yes }
 	1069.4.24={ death=yes }
 }
-5131={
-	name=Heinrich
-	dynasty=5008
+6331={
+	name="Richard"
+	dynasty=6916
 	#dna="lhkambnonen"
-	culture=souabe religion=catholic
+	culture=arpitan religion=catholic
 	martial=6 diplomacy=8 stewardship=4 intrigue=7 learning=5
 	add_trait=elusive_shadow add_trait=hunter add_trait=proud add_trait=slothful add_trait=cruel 
 	add_trait=arbitrary add_trait=brave add_trait=harelip 
-	father=5127	#Thietmar
+	father=6327	#Thibault
 	1012.10.5={ birth=yes }
 	1065.6.14={ death=yes }
 }
-5132={
-	name=Gerberga
+6332={
+	name="Gerberge"
 	female=yes
-	dynasty=5008
+	dynasty=6916
 	#dna="hhkhokndigg"
-	culture=souabe religion=catholic
-	father=5127	#Thietmar
+	culture=arpitan religion=catholic
+	father=6327	#Thibault
 	1020.2.25={ birth=yes }
 	1084.8.20={ death=yes }
 }
-5133={
-	name=Berengar
-	dynasty=5008
+6333={
+	name="Bérenger"
+	dynasty=6916
 	#dna="mcdeoolenjj"
-	culture=souabe religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=7 stewardship=7 intrigue=6 learning=8
 	add_trait=detached_priest add_trait=cruel add_trait=gluttonous add_trait=arbitrary add_trait=paranoid 
-	father=5129	#Herbert
+	father=6329	#Herbert
 	1009.5.20={ birth=yes }
 	1070.4.14={ death=yes }
 }
-5134={
-	name=Romilda
+6334={
+	name="Gisèle"
 	female=yes
-	dynasty=5008
+	dynasty=6916
 	#dna="lckalogenpj"
-	culture=souabe religion=catholic
-	father=5129	#Herbert
+	culture=arpitan religion=catholic
+	father=6329	#Herbert
 	1016.9.27={ birth=yes }
 	1066.9.10={ death=yes }
 }
-5135={
-	name=Irmeltrud
+6335={
+	name="Alix"
 	female=yes
-	dynasty=5008
+	dynasty=6916
 	#dna="cekedfhbnjj"
-	culture=souabe religion=catholic
-	father=5129	#Herbert
+	culture=arpitan religion=catholic
+	father=6329	#Herbert
 	1020.6.12={ birth=yes }
 	1063.5.31={ death=yes }
 }
-5136={
-	name=Hildegard
+6336={
+	name="Emma"
 	female=yes
-	dynasty=5008
+	dynasty=6916
 	#dna="ackeoohejlj"
-	culture=souabe religion=catholic
-	father=5129	#Herbert
+	culture=arpitan religion=catholic
+	father=6329	#Herbert
 	1027.7.7={ birth=yes }
 	1088.9.18={ death=yes }
 }
-5137={
-	name=Jutte
+6337={
+	name="Jeanne"
 	female=yes
-	dynasty=5008
+	dynasty=6916
 	#dna="lckeaogeplj"
-	culture=souabe religion=catholic
-	father=5129	#Herbert
+	culture=arpitan religion=catholic
+	father=6329	#Herbert
 	1032.7.12={ birth=yes }
 	1086.8.9={ death=yes }
 }
-5138={
-	name=Hartmann
-	dynasty=5008
+6338={
+	name="Henri"
+	dynasty=6916
 	#dna="imkepogpnjl"
-	culture=souabe religion=catholic
+	culture=arpitan religion=catholic
 	martial=7 diplomacy=7 stewardship=4 intrigue=7 learning=7
 	add_trait=misguided_warrior add_trait=duelist add_trait=deceitful add_trait=patient 
-	father=5129	#Herbert
+	father=6329	#Herbert
 	1038.6.26={ birth=yes }
 	1092.5.10={ death=yes }
 }
-5139={
-	name=Baldewin
-	dynasty=5008
+6339={
+	name="Bernard"
+	dynasty=6916
 	#dna="mcdopoleojj"
-	culture=souabe religion=catholic
+	culture=arpitan religion=catholic
 	martial=8 diplomacy=5 stewardship=8 intrigue=5 learning=5
 	add_trait=misguided_warrior add_trait=patient add_trait=envious add_trait=just add_trait=humble 
-	father=5133	#Berengar
+	father=6333	#Berengar
 	1017.6.27={ birth=yes }
 	1081.10.11={ death=yes }
 }
-5140={
-	name=Henrike
+6340={
+	name="Henri"
 	female=yes
-	dynasty=5008
+	dynasty=6916
 	#dna="mlicdlgekjg"
-	culture=souabe religion=catholic
-	father=5133	#Berengar
+	culture=arpitan religion=catholic
+	father=6333	#Berengar
 	1026.6.27={ birth=yes }
 	1097.9.17={ death=yes }
 }
