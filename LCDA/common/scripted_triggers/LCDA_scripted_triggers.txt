@@ -44,25 +44,45 @@ is_LCDA_hard_monastery = {
 	OR = {
 	 	title = b_abondance4 #Valdranses
 		title = b_saintmaurice2 #saint Maurice d'Agaune
+		title = b_thonon2 #Filly
+		title = b_romans2 #Saint bernard
+		title = b_abondance5 #Abondance
+		title = b_giffre2 #Sixt
+		title = b_abondance2 #Aulps
+		title = b_modane5 #Novalaise (Suse)
 	}
 }
 is_LCDA_hard_episcopat = {
 	has_global_flag = running_LCDA
 	OR = {
-		#title = b_thonon2
+		title = b_aoste2
 	}
 }
-is_LCDA_hard_regula1 = {
+is_LCDA_hard_regula1 = { #bénédictins
 	has_global_flag = running_LCDA
 	OR = {
-	 	#title = b_abondance4 #Valdranses
+	 	title = b_romans2 #Saint bernard
 		#title = b_saintmaurice2 #saint Maurice d'Agaune
+		title = b_modane5 #Novalaise (Suse)
 	}
 }
-is_LCDA_hard_regula2 = {
+is_LCDA_hard_regula2 = { #augustiniens
 	has_global_flag = running_LCDA
 	OR = {
-	 	#title = b_abondance4 #Valdranses
+	 	title = b_thonon2 #Filly
+		title = b_abondance4 #Valdranses
+		title = b_abondance5 #Abondance
+		title = b_giffre2 #Sixt
 		#title = b_saintmaurice2 #saint Maurice d'Agaune
+		title = b_abondance2 #Aulps
+	}
+}
+is_LCDA_hard_rurale = {
+	has_global_flag = running_LCDA
+	OR = {
+	 	title = b_montjoie5 #Vallorcine
+		title = b_abondance3 #test case
+		title = b_chatillon3 #Gressoney
+
 	}
 }
