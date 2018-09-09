@@ -45,25 +45,37 @@ is_LCDA_hard_monastery = {
 	 	title = b_abondance4 #Valdranses
 		title = b_saintmaurice2 #saint Maurice d'Agaune
 		title = b_thonon2 #Filly
-		title = b_romans2 #Saint bernard
+	 	title = b_romans2 #Romans
+		title = b_romans5 #Saint bernard
 		title = b_abondance5 #Abondance
 		title = b_giffre2 #Sixt
 		title = b_abondance2 #Aulps
 		title = b_modane5 #Novalaise (Suse)
+		title = b_montjoie2 #Chamonix
+		title = b_saintoyand1 #Saint Claude
+		title = b_saintoyand2 #Saint lupicin
+		title = b_nantua1 #Nantua
 	}
 }
 is_LCDA_hard_episcopat = {
 	has_global_flag = running_LCDA
 	OR = {
 		title = b_aoste2
+		title = b_geneve2
+		title = b_vienne2
 	}
 }
-is_LCDA_hard_regula1 = { #bénédictins
+is_LCDA_hard_regula1 = { #bénédictins/Cluny
 	has_global_flag = running_LCDA
 	OR = {
-	 	title = b_romans2 #Saint bernard
+	 	title = b_romans2 #Romans
+		title = b_romans5 #Saint bernard
 		#title = b_saintmaurice2 #saint Maurice d'Agaune
 		title = b_modane5 #Novalaise (Suse)
+		title = b_montjoie2 #Chamonix
+		title = b_saintoyand1 #Saint Claude
+		title = b_saintoyand2 #Saint lupicin
+		title = b_nantua1 #Nantua
 	}
 }
 is_LCDA_hard_regula2 = { #augustiniens
@@ -80,6 +92,7 @@ is_LCDA_hard_regula2 = { #augustiniens
 is_LCDA_hard_rurale = {
 	has_global_flag = running_LCDA
 	OR = {
+		title = b_montjoie6 #Chamonix
 	 	title = b_montjoie5 #Vallorcine
 		title = b_abondance3 #test case
 		title = b_chatillon3 #Gressoney
