@@ -382,7 +382,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 			capital = 1 #Nyon	
 			
 			c_nyon = { #1
-				color={ 172 4 10 }
+				color={ 200 125 0 }
 				color2={ 255 255 255 }
 			
 				b_nyon1 = {}
@@ -394,7 +394,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_cluny = {}	#temp pour event		
 			}
 			c_gex = { #2
-				color={ 250 188 0 }
+				color={ 200 0 125 }
 				color2={ 0 86 148 }
 			
 				b_gex1 = {}
@@ -405,7 +405,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_gex6 = {}
 			}
 			c_geneve = { #3
-				color={ 172 4 10 }
+				color={ 200 125 125 }
 				color2={ 250 188 0 }
 			
 				dignity = 9 #doesn't work on c & d level
@@ -429,7 +429,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 			capital = 4 #Thonon	
 			
 			c_saintmaurice = { #27
-				color={ 172 4 10 }
+				color={ 125 250 0 }
 				color2={ 255 255 255 }
 				
 				holy_site = catholic
@@ -443,7 +443,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_saintmaurice6 = {}
 			}
 			c_thonon = { #4
-				color={ 172 4 10 }
+				color={ 0 250 125 }
 				color2={ 255 255 255 }
 				
 				b_thonon1 = {pentarchy = yes}
@@ -454,7 +454,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_thonon6 = {}
 			}
 			c_abondance = { #5
-				color={ 250 188 0 }
+				color={ 125 250 125 }
 				color2={ 0 86 148 }
 				
 				b_abondance1 = {pentarchy = yes}
@@ -465,7 +465,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_abondance6 = {}
 			}
 			c_aigle = { #6
-				color={ 172 4 10 }
+				color={ 125 200 0 }
 				color2={ 250 188 0 }
 			
 				b_aigle1 = {}
@@ -498,7 +498,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_faucigny6 = {}
 			}
 			c_giffre = { #8
-				color={ 250 188 0 }
+				color={ 0 200 125 }
 				color2={ 0 86 148 }
 			
 				b_giffre1 = {}
@@ -509,7 +509,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_giffre6 = {}
 			}
 			c_trient = { #9
-				color={ 172 4 10 }
+				color={ 125 200 125 }
 				color2={ 250 188 0 }
 				
 				culture = arpitan			
@@ -525,7 +525,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_trient6 = {}
 			}
 			c_montjoie = { #10
-				color={ 172 4 10 }
+				color={ 200 75 0 }
 				color2={ 250 188 0 }
 
 				b_montjoie1 = {}
@@ -534,6 +534,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_montjoie4 = {}
 				b_montjoie5 = {}
 				b_montjoie6 = {}
+				b_montjoie7 = {}
 			}
 		}
 		d_genevois = {
@@ -543,7 +544,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 			capital = 11 #Annecy	
 			
 			c_annecy = { #11
-				color={ 172 4 10 }
+				color={ 200 0 75 }
 				color2={ 255 255 255 }
 			
 				b_annecy1 = {}
@@ -554,7 +555,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_annecy6 = {}
 			}
 			c_seyssel = { #12
-				color={ 0 86 148 }
+				color={ 75 0 200 }
 				color2={ 250 188 0 }
 			
 				b_seyssel1 = {}
@@ -565,7 +566,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_seyssel6 = {}
 			}
 			c_albens = { #13
-				color={ 172 4 10 }
+				color={ 0 75 200 }
 				color2={ 255 255 255 }
 			
 				b_albens1 = {}
@@ -583,7 +584,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 			capital = 16 #Montmélian	
 			
 			c_novalaise = { #14
-				color={ 0 86 148 }
+				color={ 75 200 75 }
 				color2={ 255 255 255 }
 				
 				culture = arpitan			
@@ -599,7 +600,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_novalaise6 = {}
 			}
 			c_bourget = { #15
-				color={ 0 86 148 }
+				color={ 75 250 75}
 				color2={ 250 188 0 }
 			
 				b_bourget1 = {}
@@ -610,7 +611,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				#b_bourget6 = {}
 			}
 			c_montmelian = { #16
-				color={ 172 4 10 }
+				color={ 75 200 0 }
 				color2={ 255 255 255 }
 
 				dignity = 10
@@ -623,7 +624,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_montmelian6 = {}
 			}
 			c_conflans = { #17
-				color={ 172 4 10 }
+				color={ 0 200 75 }
 				color2={ 255 255 255 }
 			
 				b_conflans1 = {}
@@ -642,7 +643,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 			capital = 20 #Saint Jean de Maurienne	
 					
 			c_aiguebelle = { #19
-				color={ 172 4 10 }
+				color={ 75 150 75 }
 				color2={ 255 255 255 }
 				
 				dignity = 5
@@ -651,14 +652,14 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				holy_site = orthodox
 				
 				b_aiguebelle1 = {}
-				b_aiguebelle2 = {  }
+				b_aiguebelle2 = {}
 				b_aiguebelle3 = {}
 				b_aiguebelle4 = {}
 				b_aiguebelle5 = {}
 				b_aiguebelle6 = {}
 			}
 			c_maurienne = { #20
-				color={ 0 86 148 }
+				color={ 75 150 0 }
 				color2={ 250 188 0 }
 			
 				b_maurienne1 = {}
@@ -669,11 +670,10 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_maurienne6 = {}
 			}
 			c_modane = { #21
-				color={ 172 4 10 }
+				color={ 0 150 75 }
 				color2={ 255 255 255 }
 				
-				culture = arpitan			
-						
+		
 				b_modane1 = {}
 				b_modane2 = {}
 				b_modane3 = {}
@@ -681,16 +681,15 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_modane5 = {}
 				b_modane6 = {}
 			}
-			#allow = {	is_feudal = yes		}
 		}
 		d_tarentaise = {
-			color={ 172	4 10 }
+			color={ 200	200 220 }
 			color2={ 255 255 255 }
 			
 			capital = 22 #Moutiers	
 			
 			c_moutiers = { #22
-				color={ 0 86 148 }
+				color={ 150 0 75 }
 				color2={ 250 188 0 }
 
 				dignity = 5
@@ -703,7 +702,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_moutiers6 = {}
 			}
 			c_bourgsaintmaurice = { #23
-				color={ 172 4 10 }
+				color={ 150 75 0 }
 				color2={ 255 255 255 }
 			
 				b_bourgsaintmaurice1 = {}
@@ -714,7 +713,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 				b_bourgsaintmaurice6 = {}
 			}
 			c_beaufort = { #18
-				color={ 0 90 150 }
+				color={ 0 75 150 }
 				color2={ 255 255 255 }
 			
 				dignity = 4
@@ -735,7 +734,7 @@ e_burgundy = {   #carolingian kingdom of burgundy then rodolphian one
 			capital = 28 #Martigny	
 			
 			c_martigny = { #28
-				color={ 0 86 148 }
+				color={ 75 0 150 }
 				color2={ 250 188 0 }
 			
 				b_martigny1 = {}
