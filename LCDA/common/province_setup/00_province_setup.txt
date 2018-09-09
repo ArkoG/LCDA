@@ -89,17 +89,17 @@
    terrain=hills
 }
 19 = {
-   title=c_maurienne
+   title=c_aiguebelle
    max_settlements=6
    terrain=hills
 }
 20 = {
-   title=c_modane
+   title=c_maurienne
    max_settlements=6
    terrain=hills
 }
 21 = {
-   title=c_montcenis
+   title=c_modane
    max_settlements=6
    terrain=plains
 }
