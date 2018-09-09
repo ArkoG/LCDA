@@ -145,12 +145,13 @@ b_trient6;;Argentière;;;;;;;;;;;;x
 #;;seigneurie de VALMONJOIE;;;;;;;;;;;;x
 PROV10;Montjoie;Montjoie;;;;;;;;;;;;x
 c_montjoie_adj;;;;;;;;;;;;;;x
-b_montjoie1;Contamines;Contamines;;;;;;;;;;;;x
-b_montjoie2;Saint-Gervais;Saint-Gervais;;;;;;;;;;;;x
+b_montjoie1;Charousse;Charousse;;;;;;;;;;;;x
+b_montjoie2;Chamonix;Chamonix;;;;;;;;;;;;x
 b_montjoie3;Sallanches;Sallanches;;;;;;;;;;;;x
 b_montjoie4;Flumet;;;;;;;;;;;;;x
-b_montjoie5;Passy;Passy;;;;;;;;;;;;x
-b_montjoie6;Chamonix;Chamonix;;;;;;;;;;;;x
+b_montjoie5;Vallorcine;;;;;;;;;;;;;x
+b_montjoie6;Vaudagne;;;;;;;;;;;;;x
+b_montjoie7;Contamines;;;;;;;;;;;;;x
 #;;COMTE DE GENEVOIS;;;;;;;;;;;;x
 d_genevois;;Genève;;;;;;;;;;;;x
 d_genevois_adj;;genevoise;;;;;;;;;;;;x
