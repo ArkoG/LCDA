@@ -9,7 +9,7 @@ theocracy_governments = {
 			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
-			TRIBAL
+			#TRIBAL
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -40,7 +40,10 @@ theocracy_governments = {
 		have_gender_laws = no
 		can_be_granted_kingdoms_and_empires_by_other_government = no
 		can_inherit = no
+		
 		can_build_tribal = no
+		can_build_city = no
+		
 		aggression = 0.5		
 		capital_move_delay = 600
 	}

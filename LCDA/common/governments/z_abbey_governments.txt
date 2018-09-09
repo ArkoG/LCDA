@@ -4,12 +4,12 @@ theocracy_governments = {
 		preferred_holdings = { TEMPLE }
 		allowed_holdings = {
 			TEMPLE
-			#CASTLE
+			CASTLE
 			FORT
 			HOSPITAL
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
-			TRIBAL
+			#TRIBAL
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -41,10 +41,11 @@ theocracy_governments = {
 		can_be_granted_kingdoms_and_empires_by_other_government = no
 		
 		can_inherit = no
-		builds_with_piety = yes
+		#builds_with_piety = yes
 		aggression = 0.25
 		
 		can_build_tribal = no
+		can_build_city = no
 		
 		capital_move_delay = 600
 	}
