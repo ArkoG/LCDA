@@ -1,0 +1,10 @@
+#Charousse
+1001.1.1={
+liege=c_annecy
+law = succ_primogeniture
+law = cognatic_succession
+}
+
+1001.1.1={	holder=100034	}
+1023.1.1={	holder=100036	}
+1080.1.1={	holder=0	}

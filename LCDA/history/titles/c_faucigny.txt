@@ -3,6 +3,7 @@
 law = succ_primogeniture
 liege=d_genevois
 law = cognatic_succession
+
 }
 1020.1.1= 	{ holder=100000 } #Aymerard
 1055.1.1= 	{ holder=100001 } #Louis Ier
