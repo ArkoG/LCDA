@@ -173,11 +173,14 @@ republic_government_escarton_desc;The leaders of regular republics are randomly 
 
 
 #PASS
-pass_trient;Trient pass ;Col du Trient;;;;;;;;;;;;x
+pass_trient;Trient pass;Col du Trient;;;;;;;;;;;;x
 pass_montcenis;Mont-Cenis pass;Col du Mont-Cenis;;;;;;;;;;;;x
 pass_montjoux;Mont-Joux pass;Col de Mont-Joux;;;;;;;;;;;;x
 
 LCDA_pass_TP_desc;The province needs to be a pass to develop a trade post here.;La province doit se situer sur un col pour y développer un comptoir de commerce.;;;;;;;;;;;;x
 
-
+#ARTIFACTS
+donation_chamonix;Chamonix Donation;Donation de Chamonix;;;;;;;;;;;;x
+donation_chamonix_desc;Made by us, Aymon, Count of Geneva, in concession to the Lord for our souls and those of our parents, let us give all of Chamonix with its lands, forests, mountain pastures, hunts, plaids and banns so that the monks who serve God may possess all this, made in the presence of our peers and knight Albert de Goumens and priest Engelevand.;Fait par nous, Aymon, Comte de Genève, en concession au Seigneur pour nos âmes et celles de nos parents, donnons tout Chamonix avec ses terres, forêts, alpages, chasses, plaids et bans afin que les moines qui servent Dieu possèdent tout cela. Fait devant les témoins nos pairs et le chevalier Albert de Goumens et le prêtre Engelevand.;;;;;;;;;;;;x
+slot_charter;Rights and Titles;Droits et Titres;;;;;;;;;;;;x
 

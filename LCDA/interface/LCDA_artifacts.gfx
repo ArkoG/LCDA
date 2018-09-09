@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_donation"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\donation.dds"
+	}
+	spriteType = {
+		name = "GFX_donation_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\donation_small.dds"
+	}
+	spriteType = {
+		name = "GFX_charter"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\charter.dds"
+	}
+	spriteType = {
+		name = "GFX_charter_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\charter_small.dds"
+	}
+}

@@ -1,0 +1,49 @@
+###SLOTS
+slots = {
+	slot_charter = 1
+}
+
+#terminology :
+#donation is to religious
+#charter is to city (franchise)
+
+#########################################
+###donations
+##HISTORICAL
+
+donation_chamonix = {
+	picture = "GFX_donation"	
+	#PM desc = name_desc
+	quality = 3
+	slot = slot_charter
+	flags = { charter }
+	
+	stacking = no
+	active = {
+		is_adult = yes
+		is_theocracy = yes
+		religion_group = christian
+		has_landed_title = b_montjoie2
+	}
+	indestructible = yes
+	allowed_gift = {
+		always = no
+	}	
+	#effects
+	monthly_character_prestige = 0.05
+	church_opinion = 10
+	castle_opinion = 10
+	
+}
+
+##GENERIC
+#
+
+
+#########################################
+###charters
+##HISTORICAL
+#
+
+##GENERIC
+#

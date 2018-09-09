@@ -1,0 +1,24 @@
+#LCDA chartes
+
+donation_chamonix= {
+    max_amount = 1 #unique
+    #spawn_date = -1.1.1 #related as unknown creation date
+	spawn_date = 1090.5.17
+	
+	spawn_chance = { value = 100 } #100% de chances de spawn
+    
+    weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			primary_title = {
+				title = b_montjoie2
+			}
+		}
+	}
+    artifacts = {
+        donation_chamonix = {
+            value = 1
+        }
+    }
+}
