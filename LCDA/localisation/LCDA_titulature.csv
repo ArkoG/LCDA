@@ -234,6 +234,7 @@ PROVINCE_NO_HOSPITAL_LEVEL_DESC;With no §YHospital§! in the county, it has no pr
 PROVINCE_HOSPITAL_ICON_EXTEND;§GClick to open the Extended Province View.§!;§GCliquer pour afficher la vue province étendue.§!;§GZum Öffnen der Erweiterten Provinz-Ansicht klicken.§!;;§GHaz clic para abrir la vista ampliada de la provincia.§!;;;;;;;;;x
 
 gov_hereditary_despotic_monarchy;Hereditary Despotic [PrimaryTitle.GetTier];Fief féodal;[PrimaryTitle.GetTier] (Despotisch und mit Erbfolge);;[PrimaryTitle.GetTier] despótico hereditario ;;;;;;;;;x
+COUNT_TECH_POINTS;Barons do not generate technology points;Les barons ne génèrent pas de points de technologie;;;;;;;;;;;;x
 
 
 
