@@ -461,7 +461,7 @@ city = {
 }
 
 temple = {
-	tax_income = 4 #LCDA (previously 8)
+	tax_income = 5 #LCDA (previously 8)
 	heavy_infantry = 45
 	light_infantry = 45
 	archers = 40
@@ -500,7 +500,7 @@ tribal = {
 	archers = 20
 	levy_reinforce_rate = 1.5
 	land_organisation = 0.2
-	build_cost_modifier = 25 # cost per empty holding slot
+	build_cost_modifier = 25000 # cost per empty holding slot
 	build_time_modifier = 365
 }
 
