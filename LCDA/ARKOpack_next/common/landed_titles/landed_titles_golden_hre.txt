@@ -1,9 +1,0 @@
-e_germany = {
-	color={ 250 210 0 }
-}
-e_hre = {
-	color={ 250 210 0 }
-}
-k_france = {
-	color={ 0 90 160 }
-}
